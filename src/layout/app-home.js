@@ -26,18 +26,18 @@ class AppHome extends HTMLElement {
             <app-payments></app-payments>
             <app-destinations-grid
                 titlesText='[
-                {"id": "title1", "title": "¿Aún no sabes a dónde viajar?", "text": "Conoce nuestros destinos ETN Turistar y elige tu lugar favorito"}
+                {"id": "title1", "title": "¿Aún no sabes a dónde viajar?", "text": "Conoce nuestros destinos Autovías La Línea y elige tu lugar favorito"}
                 ]'
                 destinations='[
-                {"id": "destination1", "title": "Aguascalientes", "content": "Descubre la calidez y tradición de Aguascalientes.", "image": "./src/assets/img/destinos-img/aguascalientes.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination1", "title": "Ciudad de México", "content": "Sumérgete en la esencia vibrante y cultural de la Ciudad de México.", "image": "./src/assets/img/destinos-img/aguascalientes.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination2", "title": "Culiacán", "content": "Explora la cultura y gastronomía de Culiacán.", "image": "./src/assets/img/destinos-img/culiacan.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
+                {"id": "destination2", "title": "Colima", "content": "Explora la serenidad y riqueza natural de Colima.", "image": "./src/assets/img/destinos-img/culiacan.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination3", "title": "Guadalajara", "content": "Vive la esencia del mariachi y el tequila en Guadalajara.", "image": "./src/assets/img/destinos-img/guadalajara.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination3", "title": "Guadalajara", "content": "Déjate envolver por la energía y el sabor vibrante de Guadalajara.", "image": "./src/assets/img/destinos-img/guadalajara.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
                 
-                {"id": "destination5", "title": "León", "content": "Conoce la capital del calzado y su rica historia.", "image": "./src/assets/img/destinos-img/leon.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination5", "title": "Morelia", "content": "Descubre el encanto colonial y la riqueza histórica de Morelia.", "image": "./src/assets/img/destinos-img/leon.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination4", "title": "Guanajuato", "content": "Déjate cautivar por la magia colonial de Guanajuato.", "image": "./src/assets/img/destinos-img/guanajuato.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
+                {"id": "destination4", "title": "Zitácuaro", "content": "Adéntrate en la naturaleza exuberante y el espíritu acogedor de Zitácuaro.", "image": "./src/assets/img/destinos-img/guanajuato.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
                 ]'
             >
             </app-destinations-grid>
@@ -67,7 +67,7 @@ class AppHome extends HTMLElement {
             <app-other-services
                 title-data-src="../src/data/other-services-general-titles.json"
                 cards-data-src="../src/data/other-services-general-cards.json"
-            >
+        >
             </app-other-services>
             <app-blog></app-blog>
         `;
