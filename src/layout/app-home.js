@@ -46,7 +46,7 @@ class AppHome extends HTMLElement {
             
             <app-destinations-grid
                 titlesText='[
-                {"id": "title1", "title": "Destinos Autovias", "text": "Para los amantes de destinos cálidos"}
+                {"id": "title1", "title": "Destinos Autovías La Línea", "text": "Para los amantes de destinos cálidos"}
                 ]'
                 destinations='[
                 {"id": "destination1", "title": "Uruapan", "content": "Déjate llevar por la magia natural de Uruapan.", "image": "./src/assets/img/destinos-img/Uruapan.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
