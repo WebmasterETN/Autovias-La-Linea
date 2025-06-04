@@ -29,31 +29,31 @@ class AppHome extends HTMLElement {
                 {"id": "title1", "title": "¿Aún no sabes a dónde viajar?", "text": "Conoce nuestros destinos Autovías La Línea y elige tu lugar favorito"}
                 ]'
                 destinations='[
-                {"id": "destination1", "title": "Ciudad de México", "content": "Sumérgete en la esencia vibrante y cultural de la Ciudad de México.", "image": "./src/assets/img/destinos-img/aguascalientes.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination1", "title": "Ciudad de México", "content": "Sumérgete en la esencia vibrante y cultural de la Ciudad de México.", "image": "./src/assets/img/destinos-img/ciudad-de-mexico.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination2", "title": "Colima", "content": "Explora la serenidad y riqueza natural de Colima.", "image": "./src/assets/img/destinos-img/culiacan.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
+                {"id": "destination2", "title": "Colima", "content": "Explora la serenidad y riqueza natural de Colima.", "image": "./src/assets/img/destinos-img/Colima.webp", "corner": "./src/assets/img/assets/destinos-img/etn-corner-img.svg"},
         
                 {"id": "destination3", "title": "Guadalajara", "content": "Déjate envolver por la energía y el sabor vibrante de Guadalajara.", "image": "./src/assets/img/destinos-img/guadalajara.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
                 
-                {"id": "destination5", "title": "Morelia", "content": "Descubre el encanto colonial y la riqueza histórica de Morelia.", "image": "./src/assets/img/destinos-img/leon.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination5", "title": "Morelia", "content": "Descubre el encanto colonial y la riqueza histórica de Morelia.", "image": "./src/assets/img/destinos-img/Morelia.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
         
-                {"id": "destination4", "title": "Zitácuaro", "content": "Adéntrate en la naturaleza exuberante y el espíritu acogedor de Zitácuaro.", "image": "./src/assets/img/destinos-img/guanajuato.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
+                {"id": "destination4", "title": "Zitácuaro", "content": "Descubre la esencia natural y cultural de Zitácuaro.", "image": "./src/assets/img/destinos-img/Zitacuaro.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
                 ]'
             >
             </app-destinations-grid>
             <app-list-destinations></app-list-destinations>
-            <app-tickets-sales-locations></app-tickets-sales-locations>
+
             
             <app-destinations-grid
                 titlesText='[
-                {"id": "title1", "title": "Destinos Costa Line", "text": "Para los amantes de destinos cálidos"}
+                {"id": "title1", "title": "Destinos Autovias", "text": "Para los amantes de destinos cálidos"}
                 ]'
                 destinations='[
-                {"id": "destination1", "title": "Acapulco", "content": "Relájate en las playas doradas de Acapulco.", "image": "./src/assets/img/destinos-img/acapulco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination2", "title": "Chilpancingo", "content": "Explora la historia y cultura de Chilpancingo.", "image": "./src/assets/img/destinos-img/chilpancingo.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination3", "title": "Cuernavaca", "content": "Disfruta del eterno clima primaveral de Cuernavaca.", "image": "./src/assets/img/destinos-img/cuernavaca.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination4", "title": "Taxco", "content": "Déjate sorprender por la magia colonial de Taxco.", "image": "./src/assets/img/destinos-img/taxco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
-                {"id": "destination5", "title": "Ixtapa", "content": "Sumérgete en las playas paradisíacas de Ixtapa.", "image": "./src/assets/img/destinos-img/ixtapa.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
+                {"id": "destination1", "title": "Uruapan", "content": "Déjate llevar por la magia natural de Uruapan.", "image": "./src/assets/img/destinos-img/Uruapan.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination2", "title": "Ixtapa", "content": "Descubre la esencia tropical de Ixtapa, Guerrero.", "image": "./src/assets/img/destinos-img/Ixtapan.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination3", "title": "Atlacomulco", "content": "Explora la esencia histórica y natural de Atlacomulco.", "image": "./src/assets/img/destinos-img/Atlacomulco.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination4", "title": "Querétaro", "content": "Déjate sorprender por la historia y el encanto de Querétaro.", "image": "./src/assets/img/destinos-img/Queretaro.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"},
+                {"id": "destination5", "title": "Estado de México", "content": "Descubre los maravillosos lugares del Estado de México.", "image": "./src/assets/img/destinos-img/Toluca.webp", "corner": "./src/assets/img/destinos-img/etn-corner-img.svg"}
                 ]'
             >
             </app-destinations-grid>

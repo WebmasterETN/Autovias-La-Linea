@@ -1,20 +1,20 @@
 [
   {
-    "href": "https://www.etn.com.mx/doters",
-    "imageSrc": "../src/assets/img/programs/Mosaico_Doters_ETN.webp",
-    "imageAlt": "Flayer de puntos Doters",
-    "title": "Puntos Doters"
+    "href": "https://www.autovias.com.mx/doters",
+    "imageSrc": "../src/assets/img/programs/mosaico_Puntos_Doters_Autovias.webp",
+    "imageAlt": "Enlace a puntos Doters",
+    "title": "Puntos Doters Autovías La Línea"
   },
   {
-    "href": "https://etn.com.mx/descuento-autobus-5-mas-10-etn.html",
-    "imageSrc": "../src/assets/img/programs/mosaico-web-5-10-2025.webp",
-    "imageAlt": "Flayer de descuentos ida y regreso de 5-10-2025",
+    "href": "https://www.autovias.com.mx/",
+    "imageSrc": "../src/assets/img/programs/Mosaico_Compra_en_Internet_5_mas_10_Autovias.webp",
+    "imageAlt": "Enlace a descuentos 5% ida y 10% regreso",
     "title": "Descuentos ida y regreso 5% más 10%"
   },
   {
-    "href": "https://etn.com.mx/viajero-anticipado",
-    "imageSrc": "../src/assets/img/programs/mosaico-viajero-anticipado.webp",
-    "imageAlt": "Flayer de descuentos viajero anticipado",
-    "title": "Descuentos viajero anticipado"
+    "href": "https://etn.com.mx/viajero-protegido.html",
+    "imageSrc": "../src/assets/img/services/mosaico-viajero-protegido.webp",
+    "imageAlt": "Flayer del servicio de Viajero Protegido",
+    "title": "Seguro viajero protegido"
   }
 ]

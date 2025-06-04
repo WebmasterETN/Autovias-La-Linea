@@ -3,7 +3,7 @@ class AppListDestinations extends HTMLElement {
     this.innerHTML = `
       <div class="main-container">
         <h2 class="accordion-title">
-          Destinos con ETN Turistar
+          Destinos con Autovías La Línea
           <button id="accordion-button" aria-expanded="false" aria-controls="accordion-panel" aria-label="Botón para expandir o contraer la seccion del acordeón de destinos" class="accordion-button" type="button"></button>
         </h2>
         <section id="accordion-panel" class="destinations-list panel" aria-labelledby="accordion-button">

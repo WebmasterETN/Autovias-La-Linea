@@ -12,9 +12,9 @@
     "title": "Seguro viajero protegido"
   },
   {
-    "href": "https://etn.com.mx/pack",
-    "imageSrc": "../src/assets/img/services/multienlace-etn.webp",
-    "imageAlt": "Flayer del servicio de Multienlace",
-    "title": "Servicio de paqueteria multienlace"
+    "href": "https://www.autovias.com.mx/paqueteria.html",
+    "imageSrc": "../src/assets/img/programs/mosaico-multienlace-autovias.webp",
+    "imageAlt": "Enlace de servicios de paquetería a Pack Multienlace",
+    "title": "Servicio Pack Multienlace"
   }
 ]
