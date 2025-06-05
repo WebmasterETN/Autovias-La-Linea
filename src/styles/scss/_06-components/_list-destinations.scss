@@ -1,14 +1,15 @@
 @import "../main.scss";
 .destinations-list {
-  display: flex;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(4, auto);
   margin-top: 35px;
-  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
 
   // Region Column Styles
   .region_column {
-    width: 25%;
+    min-width: 346px;
     margin-bottom: 35px;
 
     h3 {
@@ -26,7 +27,22 @@
         width: 100%;
       }
     }
+    .region_column__list-cities {
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-rows: repeat(7, auto);
+      gap: 0 32px;
+      padding-left: 40px;
 
+      li {
+        min-width: 346px;
+        box-sizing: border-box;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      width: 100% !important;
+    }
     ul {
       padding-left: 40px;
       li {
