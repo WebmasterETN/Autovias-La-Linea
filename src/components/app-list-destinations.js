@@ -430,6 +430,136 @@ class AppListDestinations extends HTMLElement {
                   >Boletos de Autobús a Jerahuaro (Michoacán)</a
                 >
               </li>
+              <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Las Cañas (Michoacán))"
+                  title="Boletos de Autobús a Las Cañas (Michoacán)"
+                  >Boletos de Autobús a Las Cañas (Michoacán)</a
+                >
+              </li>
+                <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a La Huacana (Michoacán))"
+                  title="Boletos de Autobús a La Huacana (Michoacán)"
+                  >Boletos de Autobús a La Huacana (Michoacán)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a La Huacana (Michoacán))"
+                  title="Boletos de Autobús a La Huacana (Michoacán)"
+                  >Boletos de Autobús a La Huacana (Michoacán)</a
+                >
+              </li>
+               <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Los Reyes (Michoacán))"
+                  title="Boletos de Autobús a Los Reyes (Michoacán)"
+                  >Boletos de Autobús a Los Reyes (Michoacán)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Nueva Italia (Michoacán))"
+                  title="Boletos de Autobús a Nueva Italia (Michoacán)"
+                  >Boletos de Autobús a Nueva Italia (Michoacán)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Placita (Michoacán))"
+                  title="Boletos de Autobús a Placita (Michoacán)"
+                  >Boletos de Autobús a Placita (Michoacán)</a
+                >
+              </li>
+               <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Puruarán (Michoacán))"
+                  title="Boletos de Autobús a Puruarán (Michoacán)"
+                  >Boletos de Autobús a Puruarán (Michoacán)</a
+                >
+              </li>
+               <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Cuatro Caminos (Michoacán))"
+                  title="Boletos de Autobús a Cuatro Caminos (Michoacán)"
+                  >Boletos de Autobús a Cuatro Caminos (Michoacán)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Buenavista (Michoacán))"
+                  title="Boletos de Autobús a Buenavista (Michoacán)"
+                  >Boletos de Autobús a Buenavista (Michoacán)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Apatzingán (Michoacán))"
+                  title="Boletos de Autobús a Apatzingán (Michoacán)"
+                  >Boletos de Autobús a Apatzingán (Michoacán)</a
+                >
+              </li>
+               <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Ciudad Hidalgo (Michoacán))"
+                  title="Boletos de Autobús a Ciudad Hidalgo (Michoacán)"
+                  >Boletos de Autobús a Ciudad Hidalgo (Michoacán)</a
+                >
+              </li>
+               <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Eucareo (Michoacán))"
+                  title="Boletos de Autobús a Eucareo (Michoacán)"
+                  >Boletos de Autobús a Eucareo (Michoacán)</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="region_column__city"
+                  rel="noopener noreferrer"
+                  aria-label="Boletos de Autobús a Tuxpan (Michoacán))"
+                  title="Boletos de Autobús a Tuxpan (Michoacán)"
+                  >Boletos de Autobús a Tuxpan (Michoacán)</a
+                >
+              </li>
             </ul>
           </article>
         </section>
