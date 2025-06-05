@@ -257,7 +257,7 @@ class AppListDestinations extends HTMLElement {
           <article class="region_column" role="region">
             <h3 id="region-sur">
               <img src="./src/assets/img/destinos-img/pin.svg" alt="" width="1" height="1" loading="lazy"/>
-              Sur y Sureste
+              Sur
             </h3>
             <ul class="region_column__list-cities">
               <li>
@@ -380,6 +380,14 @@ class AppListDestinations extends HTMLElement {
                   >Boletos de Autobús a Ixtapa (Michoacán)</a
                 >
               </li>
+            </ul>
+          </article>
+          <article class="region_column" role="region">
+            <h3 id="region-sur">
+              <img src="./src/assets/img/destinos-img/pin.svg" alt="" width="1" height="1" loading="lazy"/>
+              Sureste
+            </h3>
+            <ul class="region_column__list-cities">
               <li>
                 <a
                   href="#"
@@ -460,7 +468,7 @@ class AppListDestinations extends HTMLElement {
                   >Boletos de Autobús a La Huacana (Michoacán)</a
                 >
               </li>
-               <li>
+              <li>
                 <a
                   href="#"
                   class="region_column__city"

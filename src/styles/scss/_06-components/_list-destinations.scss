@@ -1,19 +1,23 @@
 @import "../main.scss";
 .destinations-list {
   display: grid;
-  grid-auto-flow: row;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); // Ajusta el ancho mínimo según tu diseño
+  width: 100%;
+  gap: 15px;
   margin-top: 35px;
   align-items: flex-start;
   justify-content: center;
+
   @media (max-width: 767px) {
     display: block;
   }
 
   // Region Column Styles
   .region_column {
-    min-width: 246px;
-    margin-bottom: 35px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); // Cada lista será una columna
+    gap: 24px;
+    align-items: flex-start;
 
     h3 {
       margin-bottom: 15px;
@@ -31,28 +35,24 @@
       }
     }
     .region_column__list-cities {
-      display: grid;
-      grid-auto-flow: column;
-      grid-template-rows: repeat(7, auto);
-      grid-template-columns: repeat(4, 1fr); // Máximo 4 columnas
-      gap: 0 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
       padding-left: 40px;
-      max-width: calc(4 * 246px + 3 * 32px + 40px); // 4 columnas, 3 gaps, padding
+      width: 100%;
 
       li {
-        min-width: 246px;
-        max-width: 446px;
+        min-width: 340px;
+        width: 100%;
         box-sizing: border-box;
-      }
-
-      
-      @media (max-width: 767px) {
-        display: block;
       }
     }
 
-    @media (max-width: 1024px) {
-      width: 100% !important;
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+      .region_column__list-cities {
+        padding-left: 20px;
+      }
     }
     ul {
       padding-left: 40px;
