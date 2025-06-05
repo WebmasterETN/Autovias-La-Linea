@@ -6,6 +6,9 @@
   margin-top: 35px;
   align-items: flex-start;
   justify-content: center;
+  @media (max-width: 767px) {
+    display: block;
+  }
 
   // Region Column Styles
   .region_column {
@@ -31,12 +34,20 @@
       display: grid;
       grid-auto-flow: column;
       grid-template-rows: repeat(7, auto);
+      grid-template-columns: repeat(4, 1fr); // Máximo 4 columnas
       gap: 0 32px;
       padding-left: 40px;
+      max-width: calc(4 * 246px + 3 * 32px + 40px); // 4 columnas, 3 gaps, padding
 
       li {
         min-width: 246px;
+        max-width: 446px;
         box-sizing: border-box;
+      }
+
+      
+      @media (max-width: 767px) {
+        display: block;
       }
     }
 
