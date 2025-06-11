@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Carnitas",
+      "description": "Las carnitas son un platillo tradicional de México, compuesto por trozos de cerdo cocidos lentamente en manteca, lo que les da su característico sabor y textura: crujientes por fuera y jugosos por dentro. Se preparan en un cazo de cobre, lo que permite una cocción uniforme y potencia su sabor.",
+      "imageSrc": "src/assets/img/platillos/Carnitas.webp",
+      "imageModal":"src/assets/img/platillos/Carnitas_1.webp",
+      "altText": "Carnitas",
+      "linkText": "Ver..."
+      },
+    {
+      "title": "Corundas",
+      "description": "Las corundas son un platillo tradicional mexicano, caracterizado por su forma triangular y su preparación con masa de maíz nixtamalizado. Se envuelven en hojas de maíz y se cocinan al vapor, lo que les da una textura suave y un sabor auténtico.",
+      "imageSrc": "src/assets/img/platillos/corundas.webp",
+      "imageModal":"src/assets/img/platillos/corundas_1.webp",
+      "altText": "- Corundas",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Gaspachos Morelianos",
+      "description": "Los gaspachos morelianos son una mezcla refrescante de mango, jícama y piña picadas, bañadas en jugo de naranja, con chile en polvo, salsa picante y queso Cotija. Su origen se remonta a finales del siglo XX, cuando se buscaba una combinación fresca y picosa. Son un antojo callejero emblemático de Morelia, ideales para quienes disfrutan contrastes de sabores dulces, ácidos y salados.",
+      "imageSrc": "src/assets/img/platillos/gaspachos.webp",
+      "imageModal":"src/assets/img/platillos/Gaspachos_1.webp",
+      "altText": "Cabrito asado",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Chongos Zamoranos",
+      "description": "Los chongos zamoranos son un postre tradicional hecho con leche cuajada, azúcar y canela, originario de la cocina conventual. Su textura suave y su almíbar dulce los hacen irresistibles. Se sirven calientes o fríos y son un legado de la gastronomía mexicana.",
+      "imageSrc": "src/assets/img/platillos/chongos_zamoranos.webp",
+      "imageModal":"src/assets/img/platillos/chongos_zamoranos_1.webp",
+      "altText": "Machaca con Huevo",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Sopa Tarasca",
+      "description": "Es una deliciosa sopa de frijoles con un toque de jitomate, chile pasilla y especias, servida con tiritas de tortilla frita, crema, queso Cotija y aguacate. Su sabor es intenso y reconfortante, ideal para disfrutar en cualquier época del año.",
+      "imageSrc": "src/assets/img/platillos/sopa_tarasca.webp",
+      "imageModal":"src/assets/img/platillos/sopa_tarasca_1.webp",
+      "altText": "Empalmes",
+      "linkText": "Ver..."
+    }
+   
+  ]

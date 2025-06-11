@@ -1,0 +1,49 @@
+[
+    {
+      "id": "casco-antiguo",
+      "text": "Centro Histórico",
+      "className": "card-wide",
+      "backgroundImage": "src/assets/img/destinos-img/centro-historico-de-morelia.webp",
+      "image2":"src/assets/img/destinos-img/1_morelia.webp",
+      "image3":"src/assets/img/destinos-img/2_morelia.webp",
+      "image4":"src/assets/img/destinos-img/3_morelia.webp",
+      "title": "Centro Histórico",
+      "description": "¿Por qué visitarlo? El Centro Histórico de Morelia es un destino imperdible por su arquitectura colonial de cantera rosa, su riqueza cultural y sus monumentos icónicos como la Catedral de Morelia y el Acueducto. Es Patrimonio de la Humanidad y un sitio vibrante con festivales, gastronomía tradicional y un ambiente único. Perfecto para quienes buscan historia, belleza y tradición en un solo lugar."
+    },
+    {
+      "id": "acueducto-morelia",
+      "text": "Acueducto de Morelia",
+      "className": "card-tall",
+      "backgroundImage": "src/assets/img/destinos-img/acueducto_1.webp",
+      "image2":"src/assets/img/destinos-img/acueducto_2.webp",
+      "image3":"src/assets/img/destinos-img/acueducto_3.webp",
+      "image4":"src/assets/img/destinos-img/acueducto_4.webp",
+      "title": "Accueducto de Morelia",
+      "description": "El Acueducto de Morelia es una obra maestra del siglo XVIII con 253 arcos de cantera rosa, símbolo histórico de la ciudad. Su estructura imponente y ubicación en el Centro Histórico lo convierten en un lugar ideal para fotografía, turismo y eventos culturales. Perfecto para quienes disfrutan la arquitectura colonial y el legado histórico de Morelia."
+    },
+    {
+      "id": "callejon-romance",
+      "text": "Callejón del Romance",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/callejon-del-romance.webp",
+      "image2":"src/assets/img/destinos-img/callejon-del-romance-1.webp",
+      "image3":"src/assets/img/destinos-img/callejon-del-romance-2.webp",
+      "image4":"src/assets/img/destinos-img/callejon-del-romance-3.webp",
+      "title": "El Callejón del Romance",
+      "description": "¿Por qué visitarlas? El Callejón del Romance es un rincón colonial con calles adoquinadas, faroles y bugambilias, ideal para paseos románticos. Sus muros exhiben versos poéticos, y la tradición del candado lo hace aún más especial. Su ubicación cercana al Acueducto y la Fuente de las Tarascas lo convierte en un sitio perfecto para disfrutar el encanto de Morelia."
+    },
+    {
+      "id": "museo-acero",
+      "text": "Fuente de las Tarascas",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/fuente_de_las_tarascas.webp",
+      "image2":"src/assets/img/destinos-img/fuente_de_las_tarascas_1.webp",
+      "image3":"src/assets/img/destinos-img/fuente_de_las_tarascas_2.webp",
+      "image4":"src/assets/img/destinos-img/fuente_de_las_tarascas_3.webp",
+      "title": "Fuente de las Tarascas",
+      "description": "La Fuente de las Tarascas es un símbolo de Morelia que representa la cultura purépecha, con tres mujeres indígenas sosteniendo una canasta de frutas. Su ubicación estratégica y su historia la convierten en un punto turístico clave, ideal para fotografía y para apreciar la identidad michoacana."
+    }
+  ]
+
+
+  

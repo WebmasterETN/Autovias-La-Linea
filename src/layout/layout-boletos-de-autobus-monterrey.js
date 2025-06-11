@@ -23,11 +23,11 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section __section__monterrey__destinations">
-                <app-section-title section-title="Viaja a Monterrey en autobús con ETN Turistar"></app-section-title>
-                <p class="__subtitle__destinos">Monterrey</p>
-                <p class="__paragraph">Monterrey, ubicada en el norte de México, es una ciudad vibrante que ofrece una combinación única de belleza natural, riqueza cultural y comodidades modernas. ETN Turistar ofrece un servicio de autobús de lujo desde la Ciudad de México, brindando una experiencia de viaje segura, cómoda y sin estrés. Ya sea que planee una escapada de fin de semana o una estancia prolongada, ETN Turistar le garantiza que su viaje será tan excepcional como su destino.</p>
-                <p class="__subtitle__destinos">¿Que lugares visitar en Monterrey?</p>
-                <p class="__paragraph">Bienvenido a Monterrey, la vibrante capital del estado de Nuevo León, al noreste de México. Conocida como la "Sultán del Norte", Monterrey es una ciudad que combina armoniosamente su rico patrimonio cultural con la vida urbana moderna. Enclavada a los pies de la Sierra Madre Oriental, Monterrey ofrece impresionantes paisajes naturales, como el icónico Cerro de la Silla, y un vibrante entorno urbano.</p>
+                <app-section-title section-title="Viaja a Morelia en autobús con Autovías La Línea"></app-section-title>
+                <p class="__subtitle__destinos">Morelia</p>
+                <p class="__paragraph">Morelia, joya colonial en el corazón de México, deslumbra con su arquitectura de cantera rosa, su gastronomía y su riqueza cultural. Autovías La Línea ofrece un servicio de autobús de lujo desde la Ciudad de México, asegurando un viaje seguro, cómodo y sin estrés. Ya sea una escapada de fin de semana o una estancia prolongada, tu experiencia será tan extraordinaria como el destino.</p>
+                <p class="__subtitle__destinos">¿Que lugares visitar en Morelia?</p>
+                <p class="__paragraph">Bienvenido a Morelia, la majestuosa capital del estado de Michoacán, en el centro de México. Conocida por su arquitectura de cantera rosa y su vibrante vida cultural, Morelia es un destino que fusiona historia y modernidad con un encanto inigualable. Enmarcada por imponentes construcciones coloniales, la ciudad ofrece experiencias inolvidables en lugares como la Catedral de Morelia, el Callejón del Romance, el Acueducto y el Santuario de Guadalupe</p>
              </section>
 
              <section class="__section __section__grid" id="monterrey-grid-section">
@@ -37,7 +37,7 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
              </section>
 
               <section class="__section __section__monterrey__food">
-                <p class="__paragraph__xl">Monterrey, la vibrante capital de Nuevo León, es reconocida por su rico y diverso patrimonio culinario.La gastronomía de la ciudad es una exquisita mezcla de influencias indígenas, españolas y estadounidenses, lo queda como resultado unagama única de sabores y platillos que reflejan su diversidad cultural.</p>
+                <p class="__paragraph__xl">Morelia, la encantadora capital de Michoacán, destaca por su exquisita tradición culinaria. Su gastronomía es una fusión de influencias indígenas y españolas, dando como resultado una riqueza de sabores auténticos. Desde las tradicionales carnitas y uchepos hasta los deliciosos gazpachos morelianos, cada platillo refleja la identidad cultural de la ciudad con una mezcla única de historia y sabor.</p>
                  <article class="container-cards__food">
                     <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
                 </article>
@@ -48,7 +48,7 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
                 <article class="__grid-cards-container__dropdown" id="dropdowns-container">
                     <!-- Contenedor para los dropdowns -->
                 </article>
-             </section>
+            </section>
 
               <section class="__section __section__monterrey__other">
                 <app-section-title section-title="Otros destinos"></app-section-title>
@@ -179,7 +179,7 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
   async loadAndRenderDropdowns() {
     try {
       const response = await fetch(
-        "../src/data/dropdown-preguntas-monterrey.json"
+        "../src/data/dropdown-preguntas-morelia.json"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
