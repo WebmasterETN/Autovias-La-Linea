@@ -4,7 +4,6 @@ import "../components/app-modal-doters.js";
 import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-section-title.js";
-import "../components/app-table-pets.js";
 
 class LayoutTerminosCondiciones extends HTMLElement {
   connectedCallback() {
@@ -26,74 +25,181 @@ class LayoutTerminosCondiciones extends HTMLElement {
             
             <section class="__section">
                 <app-section-title section-title="Términos y Condiciones"></app-section-title>
-                <h3 class="__subtitle">Bienvenido a ETN Turistar</h3>
+                <h3 class="__subtitle">I. TÉRMINOS Y CONDICIONES</h3>
             </section>
 
             <section class="__sections">
                 <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Compra de Boletos</h3>
+                    <h3 class="__subtitle-section">1. POLITICAS GENERALES DE VENTA.</h3>
+                    
+                    <h4 class="__subtitle-subsection">1.1 CANCELACIONES, CAMBIOS Y DEVOLUCIONES.</h4>
                     <ul class="__terms-purchase-list">
                         <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">Puede comprar sus boletos hasta una hora antes de la salida deseada.</p>
+                            <p class="__terms-purchase-text">Los cambios de fecha, hora y destino se regirán conforme lo establecido en el apartado 3 INTERCAMBIOS de estas políticas comerciales.</p>
                         </li>
                         <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Si durante el proceso de compra usted tiene algún problema o duda, contamos con
-                                asistencia personalizada, en el Contact Center marcando al 800 8000 386
-                                (opción 1 y 4) o a través del chat, donde con gusto le atenderemos.
-                            </p>
+                            <p class="__terms-purchase-text">No hay cancelaciones ni devoluciones de boletos por ningún canal de venta realizados con cualquier forma de pago.</p>
                         </li>
                         <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los boletos o pases de abordar son válidos únicamente para la fecha y hora especificadas en los mismos, verifíquese al adquirirlo y consérvelo hasta el final de su recorrido, ya que le da derecho al seguro de viaje y a 25 kilos de equipaje sin costo.
-                            </p>
+                            <p class="__terms-purchase-text">Se recomienda al Cliente verificar sus datos, así como leer cuidadosamente los términos y condiciones de venta, si no está de acuerdo con algún punto de las políticas, no deberá concluir la transacción.</p>
+                        </li>
+                    </ul>
+
+                    <h4 class="__subtitle-subsection">1.2 DESCUENTOS.</h4>
+                    <p class="__terms-purchase-text">Conforme a la normatividad vigente, GHO otorga descuentos a los Clientes que cumplen con los lineamientos establecidos para cada caso conforme a los siguientes lineamientos:</p>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text">a) La oferta de descuentos por cada autobús es limitada, cumpliendo con el mínimo indicado por la Secretaria de Comunicaciones y Transportes.</p>
                         </li>
                         <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Sus boletos son válidos única y exclusivamente para la fecha y hora anotados
-                                en el mismo, verifíquese al adquirirlo.
-                            </p>
+                            <p class="__terms-purchase-text">b) Son beneficiarios de descuento o exentos de cobro los siguientes:</p>
+                            <ul class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item">
+                                    <p class="__terms-purchase-text">Niños entre O y 2 años 11 meses no pagan boleto, debiendo viajar acompañado de un adulto en el mismo asiento que este pagó.</p>
+                                    <ul class="__terms-purchase-list __nested-list-bullet">
+                                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">«Sólo se permitirá un niño de 2 años 11 meses de edad, por adulto, en caso de rebasar este límite, deberá adquirir un asiento adicional al 50% (de uno a dos niños menores de 3 años por asiento adicional).</p></li>
+                                    </ul>
+                                </li>
+                                <li class="__terms-purchase-item">
+                                    <p class="__terms-purchase-text">- Niños entre 3 y 11 años 11 meses de edad, se les aplicará el descuento del 50%, sobre el precio del boleto al 100%. En caso de que el niño no represente su edad, deberá presentar una identificación la cual acredite la edad, puede ser: acta de nacimiento, CURP, pasaporte, credencial vigente de la escuela con fotografía reciente.</p>
+                                </li>
+                                <li class="__terms-purchase-item">
+                                    <p class="__terms-purchase-text">- Los menores de 18 años, sólo podrán viajar con la compañía de un adulto.</p>
+                                    <ul class="__terms-purchase-list __nested-list-bullet">
+                                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">» Aplican CUATRO descuentos por autobús.</p></li>
+                                    </ul>
+                                </li>
+                                <li class="__terms-purchase-item">
+                                    <p class="__terms-purchase-text">» Adolescentes entre 12 y 18 años de edad deberán pagar boleto al 100%. El cliente queda sujeto a disponibilidad de asientos por autobús.</p>
+                                </li>
+                            </ul>
                         </li>
                         <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los viajes perdidos por no abordar el autobús en tiempo y forma no serán reembolsables; los reembolsos que procedan de acuerdo a la ley serán realizados de la misma forma en que se haya efectuado el pago.
-                            </p>
+                            <p class="__terms-purchase-text"><b>INSEN O INAPAM.</b> Se oferta un descuento permanentemente del 50% a Clientes que se acrediten mediante la credencial original y vigente de INSEN o INAPAM de la persona que va a viajar. Quedando sujeto a cuatro asientos por unidad. Aplican las siguientes condiciones:</p>
+                            <ul class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Si el Cliente no presenta la credencial original correspondiente pero la acreditación del descuento es evidente, se permitirá el descuento sólo previa autorización del Gerente Regional.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">« Si el Cliente no presenta la credencial original correspondiente y no es evidente la acreditación se negará el descuento.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">« Si el Cliente presenta copia de la credencial de INAPAM o INSEN debe además presentar original de la identificación oficial (INE, IFE).</p></li>
+                            </ul>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text"><b>Estudiantes.</b> Se ofertan pases de abordar con un 50% de descuento en temporada vacacional conforme al calendario oficial de la SEP, para Clientes que se acrediten como Estudiantes mediante la credencial original y vigente de la institución del sistema nacional de educación, incorporadas a la SEP. Aplican las siguientes condiciones:</p>
+                            <ul class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El descuento será del 50% para estudiantes (6 descuentos por autobús) y se aplicará conforme al periodo vacacional indicado en el Calendario Escolar emitido por la Secretaría de Educación Pública (SEP).</p></li>
+                                <li class="__terms-purchase-item">
+                                    <p class="__terms-purchase-text">- Para adquirir el descuento de estudiante deberás presentar la credencial correspondiente en vigor o en su defecto una constancia expedida por la escuela, misma que deberá contener:</p>
+                                    <ul class="__terms-purchase-list __nested-list-bullet">
+                                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">Nombre, sello de la escuela, fotografía del titular y número de cuenta o matrícula.</p></li>
+                                    </ul>
+                                </li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">+ En caso de no presentar la credencial o documento correspondiente en cualquiera de los puntos de revisión, la empresa estará en su derecho de cobrar la diferencia correspondiente entre el descuento y el 100% del precio del boleto.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- La credencial debe estar, legible, sin tachaduras o enmendaduras que pongan en duda su autenticidad.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Estudiantes extranjeros que estén incorporados en una institución escolar mexicana SEP, recibirán los descuentos en las mismas condiciones que los nacionales.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Estudiantes extranjeros con credenciales de instituciones extranjeras no serán acreedoras al descuento debiendo pagar el boleto al 100%.</p></li>
+                            </ul>
+                        </li>
+                        <li class="__terms-purchase-item">
+                             <p class="__terms-purchase-text">El cliente queda sujeto a disponibilidad de asientos por autobús</p>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text"><b>Maestro.</b> Se ofertan hasta (4 boletos por autobús) con un 25% de descuento en temporada vacacional conforme al calendario oficial de la SEP, para Clientes que se acrediten como Profesores o maestros mediante la credencial original y vigente de la institución del sistema nacional de educación, incorporadas a la SEP. El soporte documental que debe presentar el Cliente es: Credencial de la institución, Credencial del sindicato y/o talón de pagos.</p>
+                             <ul class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Los descuentos se otorgarán a las Instituciones que estén afiliadas a la SEP, así como a las escuelas incorporadas a las mismas.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Los maestros para adquirir su boleto, deberán presentar la credencial correspondiente en vigor o en su defecto, la constancia que expida la escuela a la que pertenezcan, misma que deberá contener nombre y sello de la escuela, nombre y fotografía del titular debiendo mostrarlos nuevamente al abordar el autobús y en cualquier punto de revisión.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En caso de no presentar los documentos, en cualquiera de las revisiones señaladas, la empresa estará en su derecho de cobrar la diferencia correspondiente entre el descuento y el 100% del precio del boleto.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- La credencial debe estar, legible, sin tachaduras o enmendaduras que pongan en duda su autenticidad.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Maestros extranjeros que estén incorporados en una institución escolar mexicana SEP, sí recibirán los descuentos en las mismas condiciones que los nacionales.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Aplican DOS descuentos por autobús.</p></li>
+                            </ul>
+                        </li>
+                        <li class="__terms-purchase-item">
+                            <p class="__terms-purchase-text"><b>Capacidades diferentes.</b> Se ofertan hasta dos asientos por autobús con un descuento permanente del 50% a Clientes que acrediten dicha discapacidad mediante una identificación original expedida por cualquier institución pública y/o privada que tenga facultades bastantes y suficientes para expedir las mismas.</p>
+                        </li>
+                         <li class="__terms-purchase-item">
+                             <p class="__terms-purchase-text">El cliente queda sujeto a disponibilidad de asientos por autobús.</p>
                         </li>
                     </ul>
                 </article>
             </section>
-        
+
             <section class="__sections">
                 <article class="__bg-white">
-                    <h3 class="__subtitle-section">Doters</h3>
+                    <h3 class="__subtitle-section">2. CANALES DE VENTA.</h3>
+                    <h4 class="__subtitle-subsection">2.1 CONTACT CENTER.</h4>
+                    <p class="__terms-purchase-text">Número telefónico de atención al cliente 800 622 2222, donde el Cliente puede adquirir boletos de Autobús con cargo a su tarjeta bancaria de crédito o débito (Excepto American Express) sin costo adicional, a través del Centro Telefónico, siempre y cuando sea el titular de la tarjeta quien se comunique. De lo contrario el Ejecutivo de Ventas Telefónicas brindará la información, pero tendrá que invitar al Cliente a que sea el titular quien llame o adquirir los boletos en taquillas.</p>
                     <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Estos términos y condiciones del servicio regulan la relación entre ETN
-                                Turistar Lujo y las personas que usan sus servicios (“Personas Usuarias”).
-                            </p>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">No hay cargo adicional por servicio de compra de boleto</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">Estar 30 minutos antes de su viaje.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">La compra solo podrá realizarse con:</p>
+                            <ul class="__terms-purchase-list __nested-list-bullet">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Tarjeta de crédito y débito (excepto American Express).</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Solo podrá pagar el viaje el titular de la cuenta y/o tarjeta</p></li>
+                            </ul>
                         </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Las Personas Usuarias aceptan estos términos y condiciones desde el momento
-                                en que se registran en el sitio y usan el servicio adquiriendo boletos de ETN
-                                Turistar.
-                            </p>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">Debiendo mostrar identificación oficial y tarjeta con la que se realizó la compra, al momento del canje del pase y firmar los vouchers correspondientes. El pasajero no podrá viajar si no presenta la documentación completa.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">Si el pasajero pierde la corrida no habrá cambios ni devoluciones.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">Limitándose a un monto máximo de $3,500.00 en dos transacciones por día.</p></li>
+                    </ul>
+
+                    <h4 class="__subtitle-subsection">2.2 TAQUILLA</h4>
+                    <p class="__terms-purchase-text">En taquilla se aceptan las siguientes formas de pago:</p>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text"><b>Efectivo:</b> Solo se acepta moneda nacional.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text"><b>Tarjeta de crédito y débito:</b> La compra solo podrá realizarse con tarjetas de crédito o débito (excepto American Express) debiendo presentar identificación oficial vigente: INE, Pasaporte, Cédula profesional y tarjeta con la que se realiza la compra.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text"><b>Boleto Abierto:</b></p>
+                            <ol type="A" class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Es necesario entregar el boleto abierto para obtener un boleto con fecha y hora.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">El Boleto Abierto tiene una vigencia de 6 meses a partir de la fecha que se adquirió.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Sólo es posible canjear el Boleto Abierto por medio del canal de venta donde se adquirió; es decir; si el cliente adquirió su boleto abierto en taquilla, ÚNICAMENTE podrá confirmarlo en taquilla.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Una vez canjeado el Boleto Abierto por un boleto confirmado, éste no podrá ser susceptible a otro cambio o transferible a otra persona.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">El Boleto Abierto puede ser CONFIRMADO solo UNA vez</p></li>
+                            </ol>
                         </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Cuando debamos hacer cambios importantes en nuestros servicios, publicaremos
-                                las modificaciones con 10 días de anticipación para que las Personas
-                                Usuarias puedan revisarlas y seguir usando el servicio. En ningún caso
-                                afectarán las operaciones que ya hayan finalizado.
-                            </p>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text"><b>- Puntos Doters:</b></p>
+                            <ol type="A" class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Es necesario otorgar el número de membresía y clave para poder hacer válidos los puntos.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Solo podrá pagar el viaje correspondiente al titular de la cuenta.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Si pierde la corrida no habrá cambios ni devoluciones,</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">En casos imputables a la empresa, el boleto será susceptible de cambio.</p></li>
+                            </ol>
                         </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Las Personas Usuarias que no tengan servicios pendientes con ETN Turistar o
-                                con otras Personas Usuarias, podrán finalizar su relación con ETN Turistar
-                                cancelando su cuenta.
-                            </p>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text"><b>- Pago mixto</b></p>
+                            <ol type="A" class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">La compra se podrá realizar con puntos Viaja Más y tarjetas de crédito o débito. (excep- to American Express)</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">La compra se podrá realizar con puntos Viaja Más y pago en efectivo.</p></li>
+                            </ol>
+                        </li>
+                    </ul>
+
+                    <h4 class="__subtitle-subsection">2.3 SITIOS WEB.</h4>
+                    <p class="__terms-purchase-text">El Cliente ingresa a las páginas web <a href="http://www.autovias.com.mx" target="_blank" rel="noopener noreferrer" class="__link-text">http://www.autovias.com.mx</a> y <a href="http://www.lalinea.com.mx" target="_blank" rel="noopener noreferrer" class="__link-text">http://www.lalinea.com.mx</a> en las que puede realizar consultas y contratar su viaje para el servicio Plus con cargo a su tarjeta bancaria de crédito o débito (Excepto American Express), esto le permite obtener su pase con el que aborda directamente en andenes sin hacer fila en taquilla. El cliente podrá realizar compras a través del portal web, bajo los siguientes términos y condiciones:</p>
+                    
+                    <h5 class="__subtitle-subsubsection">2.3.1 CONDICIONES DE COMPRA Y FACTURACIÓN.</h5>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">a) Podrá adquirir boletos de Autobús, con fecha y hora establecida, para el titular y/u otras personas.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">b) No aplican bonificaciones ni intercambios, si el Cliente no ocupa su boleto para viajar por causas ajenas a la empresa, deberá adquirir un nuevo boleto para viajar.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">c) Puede comprar sus boletos hasta una hora treinta minutos antes de la salida deseada.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">d) Los boletos adquiridos son únicos, personales e intransferibles.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">e) Si durante el procedimiento el sistema presentara alguna falla, el cliente deberá comunicarse de inmediato al 800 622 22 22,</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">f) En el caso de no abordar el Autobús en tiempo y forma, será la pérdida del viaje y no se realizará el reembolso ni el canje para otro boleto.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">g) Para abordar su autobús solo requiere presentar su boleto impreso o en su dispositivo móvil y una identificación oficial.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">h) La venta podrá realizarse hasta una hora y media previas al inicio del viaje deseado.</p></li>
+                    </ul>
+                    <p class="__terms-purchase-text">Se aceptan las siguientes formas de pago:</p>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text"><b>Tarjeta de Crédito/Débito nacionales:</b> La compra solo podrá realizarse con tarjetas de crédito (excepto American Express) y con débito solo se aceptan City Banamex, HSBC, Banco Azteca, Bancomer, Banorte / IXE y Santander. Limitándose a los montos máximos establecidos en estas políticas.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text"><b>Boleto Abierto:</b></p>
+                            <ul class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El Boleto Abierto tiene una vigencia de 6 meses a partir de la fecha que se adquirió.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Sólo podrá ser confirmado a través del sitio web y el cliente tendrá hasta máximo 2 horas previas al viaje deseado para confirmarlo (sujeto a disponibilidad).</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Una vez canjeado el Boleto Abierto por un boleto confirmado, con el cual viajará, éste no podrá ser cancelable ni transferible por ningún motivo o canal de venta.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Podrá facturar su boleto una vez concluido el viaje entrando a nuestros sitios web: <a href="http://www.autovias.com.mx" target="_blank" rel="noopener noreferrer" class="__link-text">www.autovias.com.mx</a> <a href="http://www.lalinea.com.mx" target="_blank" rel="noopener noreferrer" class="__link-text">www.lalinea.com.mx</a></p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Posteriormente Ingresar a la opción FACTURA EN LÍNEA y colocar RFC y Correo Electrónico dentro de las casillas. [Dar clic en Solicitar o Emitir factura]</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">En la nueva pestaña que se abrirá deberá corroborar que sus datos fiscales sean correctos, si están incorrectos deberá seleccionar [Modificar Datos]. De estar correctos sus datos deberá ingresar el FOLIO A FACTURAR, FOLIO Y PRECIO TOTAL mismos que encontrará en su boleto de autobús.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Solo se facturan las compras realizadas en efectivo o con tarjeta bancaria (excepto American Express)</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En caso de compra mixta (tarjeta + puntos Viaja Más o efectivo + puntos Viaja Más) solo se facturara el monto pagado en efectivo o tarjeta.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En caso que dicha facturación no pueda realizarse por el proceso antes mencionado, el cliente deberá comunicarse al 800 622 2222 para solicitar su factura, o en su caso vía correo electrónico enviando sus datos fiscales y el pase con el que realizó el viaje a los siguientes correos: <a href="mailto:buzondeatencion@gho.mx" class="__link-text">buzondeatencion@gho.mx</a> y/o <a href="mailto:atencionaclientes@gho.mx" class="__link-text">atencionaclientes@gho.mx</a></p></li>
+                            </ul>
                         </li>
                     </ul>
                 </article>
@@ -101,800 +207,177 @@ class LayoutTerminosCondiciones extends HTMLElement {
             
             <section class="__sections">
                 <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Forma de pagos</h3>
-                    
-                    <h4>Tarjetas Bancarias.</h4>
-
-                    <p>
-                        Se aceptan pagos con tarjetas bancarias (débito y crédito) respaldadas por
-                        Visa, Mastercard y American Express (aplican restricciones).
-                    </p>
-                    
-                    <p>
-                        Pagos Electrónicos con PayPal (aplican restricciones, su uso está regido por
-                        las normativas que tanto PayPal como ETN han establecido para su operación).
-                    </p>
-                    
-                    <p>En compras por INTERNET NO HAY CANCELACIONES NI DEVOLUCIONES</p>
-                
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-white">
-                    <h3 class="__subtitle-section">Pagos referenciados OXXO</h3>
+                    <h3 class="__subtitle-section">3. INTERCAMBIOS</h3>
+                    <p class="__terms-purchase-text">El Cliente tiene derecho a efectuar un solo intercambio bajo las siguientes condiciones:</p>
                     <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Esta referencia no es un comprobante de pago, por lo tanto, en ningún caso puede ser válida para viajar.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                            El pago de las reservaciones de viaje de operaciones sin Tarifa Completa podrá efectuarse 24 hrs. antes de la salida del autobús.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Pasado el tiempo mencionado, sin excepción alguna, la reservación será cancelada automáticamente por el sistema y el asiento será liberado para su venta.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los pagos solo serán recibidos en los horarios de servicio de los establecimientos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Solo se reciben pagos en efectivo y en una sola exhibición.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Una vez efectuado el pago correspondiente, el sistema enviará de forma automática al correo electrónico capturado en el registro previo, la confirmación del viaje con el pase de abordar.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El pago de la reservación de Pago Referenciado OXXO puede efectuarse en cualquiera de las sucursales de Oxxo, presentando en caja el comprobante impreso con el número de referencia para confirmar su boleto. Los pagos solo serán recibidos en los horarios de servicio del establecimiento.
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Tarifa de viajero anticipado</h3>
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Viajero Anticipado aplica tanto para venta en línea (App ETN y sitio web), taquillas, puntos de venta propios ETN, puede realizar la compra con cualquier forma de pago.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                No aplica para canales o puntos de venta externos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En las rutas definidas para Viajero Anticipado no se podrán vender Boletos Abiertos, solo confirmados. Se podrán vender boletos abiertos, pero con una tarifa a precio de adulto.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Las tarifas de Viajero Anticipado no aplican ni son acumulables con otro tipo de descuentos o promociones.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Las tarifas de Viajero Anticipado no aplican ni son acumulables con otro tipo de descuentos o promociones.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Las tarifas de Viajero Anticipado son personales e intransferibles. Para hacerla efectiva, el cliente deberá presentar una identificación oficial antes de abordar el autobús; si no cumple con el requisito deberá pagar la Tarifa Completa.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El periodo para comprar boletos de autobús y obtener la tarifa de Viajero Anticipado es a partir del primer minuto del día siguiente a la consulta y hasta dos meses posteriores, disponible en internet, taquillas y centro telefónico. En caso de NO contar con tarifa anticipada, aplica el descuento del 5% por compra en internet por viaje sencillo y 10% por viaje redondo comprando en línea o bien aplica el 10% por viaje redondo comprando en taquilla.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                La tarifa y los descuentos siempre estarán sujetos a disponibilidad para viajar martes, miércoles y jueves.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                La promoción de 50% de descuento para pasajeros de Viva Aerobús será únicamente sobre la tarifa de adulto.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                La tarifa de Viajero Anticipado no aplica en la compra de boletos con beneficios de INAPAM, menores, estudiantes, maestros y boletos abiertos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Se reubicará sin costo a la próxima salida disponible al pasajero que haya perdido su viaje y llegue a la terminal dentro de los próximos 30 minutos a su hora de salida. Si llega después de los 30 minutos a su hora de salida o requiere salir después u otro día, se cobrará 50% de la tarifa de adulto.
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="__sections-links">
-                <h3 class="__subtitle-section">Ver Rutas participantes:</h3>
-                <a href="https://etn.com.mx/viajero-anticipado/" target="_blank" class="__link" aria-label="enlace para ver Rutas participantes" title="enlace para ver Rutas" role="link" tabindex="0" rel="noopener noreferrer">https://etn.com.mx/viajero-anticipado/</a>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-white">
-                    <h3 class="__subtitle-section">Tiempo mínimo de presentación y abordaje.</h3>
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Al término de su compra deberá imprimir, descargar o guardar su pase de abordar en su dispositivo móvil; con él, tendrá que presentarse directamente en la sala de espera (donde aplique) o en el área de andenes, de preferencia media hora antes de su salida para documentar su equipaje y abordar el autobús sin necesidad de canje.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Además, deberá proporcionar al momento de abordar el autobús el número de operación.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Compras de boletos efectuadas a través del Contact Center deberán en todo momento ser recogidas en taquillas por lo menos 30 minutos antes del abordaje del autobús, con todos los requisitos necesarios. De lo contrario, el pasajero no podrá hacer uso del servicio.
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Boleto electrónico e-ticket</h3>
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Durante el proceso de compra de su boleto en Taquillas, nuestros agentes de ventas le darán la opción de enviarle su boleto electrónico “E-TICKET” a su correo electrónico, el cual es un boleto que se podrá presentar directamente en el andén y le permitirá el abordaje a su unidad solo presentando su identificación oficial.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Este tipo de boleto se rige por todas las consideraciones mencionadas en este apartado de términos y condiciones.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Este tipo de boleto NO aplica para boletos abiertos, ni para boletos comprados por el Centro Telefónico, solo para viajes confirmados sencillos o redondos comprados en Taquilla y Puntos de Venta propios de ETN Turistar.
-                            </p>
-                        </li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">a) Se puede intercambiar el boleto presentándose en la taquilla con al menos una hora de anticipación previo a la salida contratada originalmente.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">b) El boleto no haya sido impreso anteriormente.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">c) Los datos que se pueden modificar son: Fecha, Hora, Origen, Destino, Tipo de servicio. Si el boleto ya fue impreso se realiza el intercambio directamente en taquilla.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">d) Esta operación sólo la puede realizar el titular del boleto y es intransferible.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">e) El intercambio puede realizarse en la misma ruta o para una distinta, en el último caso deberá pagar la diferencia en el supuesto de que el boleto sea de mayor costo y deberá entender que perderá la diferencia cuando el precio sea menor al boleto original.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">f) Los cambios para personas con descuentos (INSEN, menor, estudiantes y maestros, capacidades diferentes) estarán sujetos a disponibilidad de los mismos, de lo contrario habrá que pagar la diferencia del boleto y sólo son sujetos de cambio la fecha y hora del mismo.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">g) Si un Cliente adquiere un NE, al momento de transformarlo en CE, en automático consume su intercambio, por lo cual debe hacerse hincapié en que ya no podrá realizar cambio alguno en lo sucesivo</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">h) Si por cuestiones imputables a la empresa, no se realiza el viaje en tiempo y forma, puede otorgársele al Cliente un intercambio adicional a través del Jefe De Taquilla, previa autorización del Gerente Regional. O bien, puede solicitar la devolución de su dinero a través de la Institución Bancaria que aplique.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">i) Sólo podrá realizarse un intercambio por operación</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">j) El intercambio se realizará previa autorización del Gerente Regional, mediante el Jefe de Taquilla.</p></li>
                     </ul>
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-white">
-                    <h3 class="__subtitle-section">Boleto abierto</h3>
+                    <h3 class="__subtitle-section">4. REPOSICIÓN DE BOLETO EXTRAVIADO</h3>
                     <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Usted podrá adquirir su boleto abierto en viaje sencillo, redondo o con enlace.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Este tipo de boleto cuenta con una vigencia de 6 meses a partir de la fecha de su compra y queda sujeto a disponibilidad de asientos y descuentos por autobús.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los boletos abiertos que no hayan sido utilizados dentro del periodo de vigencia perderán toda validez y no podrán ser usados, cancelados o reembolsados.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                No está permitida la venta de boletos abiertos a pasajeros con descuento de Estudiantes y Profesores.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los boletos abiertos adquiridos por internet solo pueden ser pagados con tarjeta bancaria (débito o crédito) Visa, Mastercard, American Express, Pagos Electrónicos con PayPal y OXXO. (No aplican pagos en efectivo).
-                            </p>
-                        </li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- No hay reposición de boletos extraviados, en virtud de lo cual el cliente perderá su viaje. El cliente podrá gozar de un 50% de descuento en la siguiente corrida disponible (Sujeto a disponibilidad).</p></li>
                     </ul>
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Confirmación de boleto abierto</h3>
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Si su boleto abierto fue adquirido por internet, deberá acceder a nuestro sitio web www.etn.com.mx y en la sección “Boleto Abierto” podrá realizar la confirmación de su viaje con el número de operación y NIT, hasta 90 minutos antes de la salida deseada.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                La confirmación del boleto abierto también se puede solicitar directamente en taquillas, presentando su pase de abordar impreso, preferentemente hasta una hora antes de la salida deseada. También puede hacer su reservación previamente vía telefónica, llamando al 800 8000 386, opción 1 del menú principal.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Todo boleto abierto deberá ser confirmado previamente; de lo contrario, el pasajero no podrá abordar el autobús.
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-white">
-                    <h3 class="__subtitle-section">Cambios y cancelaciones (modificación de itinerario)</h3>
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En este tipo de compra (internet) no hay cancelaciones de boletos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Nuestro servicio de cambios no tiene ningún costo adicional y solo se podrán realizar hasta un máximo de dos cambios por boleto, incluyendo, en el caso de la compra de boleto abierto, la confirmación del mismo. El costo adicional solo aplica en caso de que, para la fecha seleccionada, la tarifa sea mayor.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Cambios en internet: Solo podrá cambiar fechas y horarios. Aplica para aquellas compras que hayan sido realizadas por este medio. Si desea modificar el viaje, deberá acceder al sitio web www.etn.com.mx y en la sección “Modifique su Itinerario” ingresar el número de operación y NIT de su boleto. Solo podrá realizar cambio de fecha y hora. No está permitida la modificación de origen, destino, nombre o tipo de pasajero, y solo podrá aplicarse 90 minutos después de su compra y hasta 90 minutos antes del horario de salida.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Si necesita cambiar más de un boleto con un itinerario diferente, podrá ingresar tantos números de operación como desee, separados por un espacio. Si el viaje incluye boletos de algún menor, el cambio de itinerario deberá realizarse ingresando el número de operación del boleto del menor junto con el de un adulto; de lo contrario, el sistema no permitirá la modificación si se realiza de manera independiente.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Cambios en taquillas: Los cambios de fecha y horario podrán realizarse en las taquillas o puntos de venta de ETN Turistar. No está permitida la modificación de origen, destino, nombre o tipo de pasajero, y solo podrá aplicarse 90 minutos después de su compra y hasta 90 minutos antes del horario de salida. Es indispensable presentar el pase de abordar generado en el portal o el “E-Ticket” enviado a su correo, así como una identificación oficial vigente (solo se aceptarán credencial para votar, cédula profesional, licencia de manejo y pasaporte) para solicitar el cambio correspondiente. Deberá presentarse con un tiempo mínimo de 90 minutos antes de la salida.
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Intercambio de Boletos de Viajero Anticipado:</h3>
-                                        
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Para tarifas de Viajero Anticipado no aplica el cambio de nombre de pasajero.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.etn.com.mx) en la sección “Modifique su Itinerario” o también en taquillas y/o puntos de venta de ETN, presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a 2 cambios por internet y 1 en taquilla.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que la tarifa vigente al momento del cambio de corrida sea mayor a la tarifa pagada de Viajero Anticipado, el cliente deberá pagar la diferencia entre la tarifa pagada y la tarifa vigente al momento del cambio de la corrida original. Dicho pago deberá ser cubierto con la misma forma de pago realizada previamente. Aplica con todas las formas de pago.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de que la tarifa vigente al momento del cambio de corrida sea menor a la tarifa pagada de Viajero Anticipado, no habrá devoluciones.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los asientos están sujetos a disponibilidad. Consúltelos en www.etn.com.mx, App ETN y taquillas. www.etn.com.mx, App ETN y taquillas.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Para dudas y comentarios, comuníquese a nuestro centro de atención a clientes al 800 8000 386.
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-white">
-
-                    <h3 class="__subtitle-section">Tipos de descuentos</h3>
-
-                    <ul class="__terms-purchase-list">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En ETN Turistar se otorgan los siguientes descuentos (sujetos a disponibilidad):
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                3 Menores 50% (Todo el año).
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                3 Menores 50% (Todo el año).
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                3 Estudiantes 50% (Solo temporada vacacional).
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                2 Profesores 25% (Solo temporada vacacional).
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                2 Personas con Discapacidad (PCD) 50% de descuentos todo el año.
-                            </p>
-                        </li>
-                    </ul>
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Restricciones</h3>
-
-                    <p>
-                        Los pasajeros registrados con descuento de INAPAM, deberán mostrar la
-                        credencial expedida por esta institución antes de abordar el autobús para
-                        acreditar el descuento, de no presentarla se le cobrará la diferencia del
-                        costo total del boleto.
-                    </p>
-                    
-                    <p>
-                        Los descuentos de menor solo se aplican si el pasajero tiene entre 3 y 11 años
-                        de edad; los niños de menos de 3 años no pagan boleto, viajan en el mismo
-                        asiento que el adulto y abordarán con la identificación del adulto que los
-                        acompaña. Si el menor representa físicamente una edad mayor de 11 años será
-                        necesario acreditar la edad presentando acta de nacimiento o CURP del menor
-                        de lo contrario deberá pagar el boleto completo.
-                    </p>
-                    
-                    <p>
-                        Los descuentos de Estudiante y de Profesor, solo se otorgan durante los
-                        periodos vacacionales publicados por la Secretaría de Educación Pública y se
-                        aplican si el interesado presenta al momento de la compra, la credencial con
-                        fotografía vigente que lo acredite como Estudiante o Profesor activo, de no
-                        cumplir con las condiciones especificadas o no presentarla al momento de
-                        abordar se le cobrará la diferencia del costo total del boleto.
-                    </p>
-                    
-                    <p>
-                        Estos descuentos solo son aplicables a instituciones educativas que cuenten
-                        con reconocimiento de validez oficial o que estén incorporadas a la SEP.
-                    </p>
-                    
-                    <p>
-                        El descuento de “PCD” (persona con discapacidad) solo se otorgará a aquellos
-                        pasajeros que presenten la credencial vigente que expide el DIF en donde se
-                        especifica la discapacidad del solicitante, de no presentarla al momento de
-                        la compra y/o al abordar el autobús, se cobrará al pasajero la diferencia
-                        del costo total del boleto.
-                    </p>
-                    
-                    <p>
-                        ETN Turistar no se hace responsable por el mal pasajeros que presenten la credencial vigente que expide el DIF en donde se especifica la discapacidad del solicitante, de no presentarla al momento de la compra y/o al abordar el autobús, se cobrará al pasajero la diferencia del costo total del boleto.
-                    </p>
-                    
-                        del costo total del boleto.            
-                    </p>
-
-                    <p>
-                        ETN Turistar no se hace responsable por el mal uso que se haga del pase de
-                        abordar, siendo esto obligación exclusivamente de la persona o pasajero que
-                        lo imprime.
-                    </p>
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-white">
-                    <h3 class="__subtitle-section">Documentación de equipaje</h3>
-
-                    <p>
-                        La documentación de equipaje se podrá realizar hasta media hora antes de la
-                        salida del autobús. Cada pasajero podrá llevar hasta 25 Kilogramos de
-                        equipaje libre de cargo (excepto carga). Entiéndase por equipaje: objetos
-                        de uso personal, ropa, instrumentos musicales, sillas de ruedas,
-                        bicicletas, carriolas, juguetes, herramientas de un arte u oficio, los
-                        cuales deberán ser transportados en maletas, bolsas, cajas, etc. solo se
-                        permite llevar abordo equipaje de mano como: computadoras portátiles,
-                        bolsos pequeños, mochilas y todo artículo que no exceda el tamaño de la
-                        gaveta del autobús. En caso de exceder el limite permitido, se cobrará
-                        por cada kilo excedente el 1% sobre la tarifa base del costo del boleto
-                        (no aplica en tarifas con descuento y/o promociones) .
-                    </p>
-
-                    <p>
-                        La empresa no se hace responsable por equipajes y/o bultos sin talón o
-                        bien bultos y otras pertenencias de mano que el pasajero lleve consigo en
-                        el interior del salón del autobús, en caso de pérdida y/o extravío de
-                        equipaje documentado, se pagará una indemnización hasta por el
-                        equivalente a 20 días de salario mínimo general vigente en la Ciudad de
-                        México.
-                    </p>
-
-                    <p>
-                        Queda prohibida la transportación en el equipaje documentado y de mano lo
-                        siguiente: billetes o anuncios de lotería nacional y extranjera;
-                        materiales y residuos peligrosos, psicotrópicos y estupefacientes, salvo
-                        que su posesión o traslado sea lícita conforme a las disposiciones
-                        legales aplicables; armas de fuego y explosivos; animales o perecederos,
-                        cuando no se cumplan las condiciones de higiene y seguridad adecuadas, de
-                        acuerdo con la normatividad aplicable; dinero o títulos de crédito al
-                        portador o negociables; cualquier otro bien cuyo tránsito requiera de
-                        permiso específico o bien lo restrinja alguna ley en particular, sin que
-                        se cuente con dicho permiso específico, cualquier otro bien que prohíban
-                        las leyes específicas de la materia, así como cualquier otro artículo,
-                        material o cosa que ponga en riesgo a los pasajeros y a su equipaje
-                    </p>
-                </article>
-            </section>
-
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Abordaje de menores solos</h3>
-
-                    <p>
-                        No se aceptarán, por ninguna circunstancia, menores viajando solos que no
-                        hayan alcanzado los 11 años de edad. Todo menor que viaje solo debe
-                        presentar la carta responsiva otorgada por los padres o tutores, donde se
-                        exime de toda responsabilidad a la Empresa. El menor debe tener la edad de
-                        11 a 17 años. (Toda vez que los niños mayores de 11 años cuentan con la
-                        capacidad tanto de hablar, escuchar claramente, así como de reconocer a
-                        los padres o tutores y a las personas que los recogerán y de tener la
-                        lucidez debida a su edad). El Padre o Tutor del menor, debe permanecer en
-                        la central de origen hasta que el autobús salga a su destino.
-                    </p>
-                </article>
-
-            </section>
-            <section class="__sections">
-                <article class="__bg-white">
-                    <h3 class="__subtitle-section">Viaje con mascotas</h3>
-
-                    <p>
-                        En nuestra empresa entendemos lo importantes que son sus mascotas para
-                        usted y sus seres queridos, por este motivo nos esforzamos por extender
-                        nuestro servicio para que puedan acompañarlo en sus viajes, los clientes
-                        de la empresa podrán llevar consigo mascotas siempre y cuando se cumpla con
-                        las políticas establecidas por la organización.
-                    </p>
-
-                    <p>
-                        Unicamente viajarán en las corridas “Petfriendly” (identificadas con el
-                        logotipo) estas corridas que se ofrecen, están sujetas a ciertos destinos
-                        y horarios y sin excepción deberá firmar la carta responsiva
-                        correspondiente que exime de cualquier responsabilidad a la organización de
-                        la integridad de la mascota. <a href="https://etn.com.mx/docpdf/CARTA-RESPONSIVA-ETN.pdf" target="_blank" rel="noopener noreferrer" class="__link-text" aria-label="Descarga de PDF de la carta responsiva" target="_blank">DESCARGA AQUÍ</a> o solicita en
-                        taquilla. Los clientes de la empresa podrán llevar consigo mascotas
-                        (perros y gatos) siempre y cuando se cumpla con las políticas
-                        establecidas por la organización, exceptuando las establecidas por el
-                        gobierno federal en la NOM-059-SEMARNAT-2010.
-                    </p>
-
-                    <p>
-                        <strong>
-                        *ESTÁ PROHIBIDO EL TRASLADO DE MASCOTAS EN EL COMPARTIMIENTO DE
-                        EQUIPAJE PARA UNIDADES DE DOBLE PISO.
-                        </strong>
-                    </p>
-
-                    <p>La empresa tiene definidas tres tipos de mascotas y/o animales de servicio:</p>
-
-                    <ol class="__order-list-row">
-                        <li class="__order-list-item"> 
-                            <p class="__item-text-bold">1) Mascotas Abordo</p>
-                            <p class="__item-text">(Cabina de Pasajeros)</p>
-                        </li>
-                        <li class="__order-list-item">
-                            <p class="__item-text-bold">2) Mascotas Documentadas</p>
-                            <p class="__item-text">(Compartimiento Equipaje)</p>
-                         </li>
-                        <li class="__order-list-item">
-                            <p class="__item-text-bold">3) Animales de Apoyo</p>
-                            <p class="__item-text">(Discapacidad Visual o Emocional)</p>
-                        </li>
-                    </ol>
-                    
-                    <p>*Perros de servicio y/o animales de compañía no tienen costo</p>
-                    <p>*Puntos Doters solamente son acumulables a nombre del pasajero.</p>
-                    <p>*Sujeto a disponibilidad</p>
-                    <p>*No hay cambios ni devoluciones</p>
-                </article>
-            </section>
-               
-            <h3 class="__subtitle-section__center">Descarga y llena tu documento de responsabilidad</h3>
-            <a href="https://etn.com.mx/docpdf/CARTA-RESPONSIVA-ETN.pdf"  class="__link-section__center">Descarga aquí</a>
-
-            <section class="__section __section__pets-info">
-                <h3>Descarga y llena tu documento de responsabilidad</h3>
-                <app-table-pets id="pets-table"></app-table-pets>
-            </section>
-          
-            <h3 class="__subtitle-section__left">Mascotas + Contenedor</h3>
-          
-              <section class="__section __section__pets-info">
-                <h3>Costos</h3>
-                <app-table-pets id="costs-table"></app-table-pets>
-            </section>
-
-            <h3 class="__subtitle-section__left">Si excede el peso maximpo debera cubrir el costo correspondiente</h3>
-
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Políticas Mascotas Abordo Cabina Pasajeros</h3>
-
-                    <p>
-                        Los clientes podrán llevar consigo mascotas en la cabina de pasajeros: solo se
-                        permitirán perros y gatos cumpliendo los siguientes requisitos:
-                    </p>
-                    <ol type="A" class="__order-list-column">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">Las mascotas deberán viajar dentro de un contenedor o transportadora rígida
-                            tipo Kennel o semirrígida que cumpla las siguientes especificaciones:</p>
-                            <ul class="__terms-purchase-list">
-                                <li class="__terms-purchase-item">
-                                    <p class="__terms-purchase-text">
-                                        El peso máximo de la mascota deberá de ser de 15 kg (incluyendo transportadora), las dimensiones máximas de la transportadora son: 71 cm de largo x 52 cm de ancho x 54 cm de alto, solo se permite una mascota por transportadora. Debe contar con espacio suficiente para que tu mascota esté parada, y pueda moverse y girar de forma natural sin tocar las paredes. Nota: si excede de 15 kg de peso, NO PODRÁ VIAJAR.
-                                    </p>
-                                </li>
-                                <li class="__terms-purchase-item">
-                                    <p class="__terms-purchase-text">
-                                        Debe contar con espacio suficiente para que tu mascota esté parada, y pueda moverse y girar de forma natural sin tocar las paredes. Las mascotas de apoyo emocional, apoyo a alguna discapacidad visual o física pueden viajar sin transportadora.
-                                    </p>
-                                </li>
+                    <h3 class="__subtitle-section">5. TRANSPORTE DE EQUIPAJE</h3>
+                     <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El pasajero tendrá que documentar su equipaje en el andén, antes de abordar la unidad, y recibirá el comprobante (boleto de contraseña) que ampare su equipaje, conservando dicho boleto para que al término de su viaje lo presente y le sean entregadas sus pertenencias.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">-Para el caso de que el pasajero olvide recoger su equipaje al término de su viaje, la empresa sin responsabilidad alguna a su cargo, podrá haberlo recuperado y en caso de haberlo hecho el equipaje quedará en resguardo de la empresa por las siguientes 72 (setenta y dos) horas hábiles y solo podrá entregarlo al pasajero contra entrega del boleto de contraseña y boleto que ampare el viaje.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">-Cada pasajero podrá llevar en el portaequipaje del autobús una maleta de hasta 10 kg o su equivalente a 115 cm lineales con rueditas.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Cada pasajero podrá llevar sin costo una maleta adicional en la cajuela de hasta 25 kg o su equivalente a 158 cm lineales con rueditas.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En caso de exceder los 25 kg o 158 cm lineales el pasajero estará obligado a pagar una cuota indicada en Taquilla.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Se emitirá ticket por cargo de equipaje extra.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En caso de pérdida de equipaje no declarado y registrado a bordo del autobús, la empresa no se hará responsable, inclusive el equipaje de mano.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Entiéndase por equipaje objetos de uso personal y ropa.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Sólo se permite llevar abordo equipaje de mano (ejemplo: lap top, bolsos pequeños, y todo artículo que no exceda el tamaño 115 cm lineales.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Queda prohibida la transportación de equipaje en cajuela y/o de mano de los siguientes artículos:</p>
+                            <ul class="__terms-purchase-list __nested-list-bullet">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">* Explosivos</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">* Sustancias tóxicas, peligrosas o nocivas para la salud.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">* Cerillos, fósforos o encendedores y/o cualquier otro artículo inflamable o material que ponga en riesgo a los pasajeros.</p></li>
                             </ul>
                         </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Se deberá presentar cartilla de vacunación con esquema completo de acuerdo a la edad de la mascota, que especifique la fecha de aplicación de la vacuna contra la rabia y la vigencia de la misma. No es necesario la mascota viaje sedada (Consultar a su médico veterinario).
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Solo se permitirá trasladar una mascota por pasajero, limitado a 2 mascotas por autobús identificados con la imagen o sujeto a disponibilidad.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                El pasajero deberá llevar consigo un kit de limpieza consistente: pañal o tapete absorbente, trapo, bolsa para deshechos. Será responsabilidad del dueño limpiar completamente los desechos de su mascota.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                La empresa transportará Animales Domésticos braquicéfalos en la cabina de pasajeros cumpliendo con las dimensiones, peso y documentos requeridos, en todos los casos el cliente deberá llenar la carta responsiva correspondiente que especifique que el viaje de la mascota será bajo entera responsabilidad del pasajero debido a la posibilidad de desarrollar el síndrome respiratorio propio de dichas razas.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                No se permitirá viajar en la cabina de pasajeros a perros de razas catalogadas como peligrosas: Pit Bull Terrier, Staffordshire Bull Terrier, American Staffordshire Terrier, Rottweiler, Dogo Argentino, Fila Brasileiro, Tosa Inu y Akita Inu. O también, dependiendo de su complexión física, musculatura, altura y peso. Solo se permitirá su transportación documentadas en el compartimiento de equipaje.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Se deberá cubrir el monto establecido para el traslado de la mascota de acuerdo a la temporada: Baja el 75% del valor del asiento; Alta el 100% del valor del asiento, ambos tomando de base la tarifa de adulto.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En todos los casos se deberá llenar la carta responsiva correspondiente para poder trasladar la mascota.
-                            </p>
-                        </li>
-                    </ol>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Queda prohibido transportar bebidas alcohólicas en el equipaje de mano.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En el caso de que el equipajero observe malas condiciones en el equipaje (roturas, manchas, entre otras), deberá reportarlo al dueño, recopilando su firma de conformidad en la relación del equipaje.</p></li>
+                    </ul>
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-white">
-                    <h3 class="__subtitle-section">Mascotas Documentadas</h3>
+                    <h3 class="__subtitle-section">6. PAGO DE PÉRDIDA DE EQUIPAJE</h3>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En caso de extravío o pérdida de equipaje por la marca que lo transportó (Empresa), ésta tendrá un máximo de 72 horas para la búsqueda minuciosa en terminales de origen, intermedias o destino final.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Declarado el extravío del equipaje luego de su búsqueda, se pagará al pasajero afectado la cantidad máxima de 15 días de salario mínimo general vigente, de acuerdo al artículo 66, fracción V, de la Ley de Caminos, Puentes y Autotransporte Federal vigente, dicho importe se cubre por pasajero y contra entrega de la o las contraseñas del equipaje, sin responsabilidad alguna por el contenido del equipaje</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El pago en caso de extravío o pérdida de equipaje se harán en un plazo máximo de 30 (treinta) días hábiles posteriores a que se haya declarado el robo.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Cuando el pasajero no presente las contraseñas del equipaje la Empresa no se hará responsable de la pérdida de dichos objetos.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Si el cliente cuenta con la asistencia Bus Protect o BAS Protegido, deberá notificar el incidente dentro de los primeros 30 minutos posteriores al final de su viaje al 800 622 2222, opción 8, opción 1.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Términos y condiciones:</p>
+                            <ol type="1" class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Bus Protect: <a href="http://www.autovias.com.mx" target="_blank" rel="noopener noreferrer" class="__link-text">www.autovias.com.mx</a></p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">BAS Protegido: <a href="http://www.basprotegido.com.mx" target="_blank" rel="noopener noreferrer" class="__link-text">www.basprotegido.com.mx</a></p></li>
+                            </ol>
+                        </li>
+                    </ul>
+                </article>
+            </section>
 
-                    <p>
-                        Se podrán llevar consigo mascotas documentadas en el compartimiento de
-                        equipaje de la unidades de un piso sin cargo adicional si se cumplen con los
-                        siguientes requisitos:
-                    </p>
+            <section class="__sections">
+                <article class="__bg-blue">
+                    <h3 class="__subtitle-section">7. EQUIPAJE FRÁGIL</h3>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- La empresa no se hará responsable por el deterioro o daño sufrido durante el viaje a objetos de cristalería, electrónicos, y otros de naturaleza frágil así como perecederos ya que viajarán bajo la responsabilidad del pasajero.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">La transportación de este tipo de equipaje es bajo estricta responsabilidad del pasajero.</p></li>
+                    </ul>
+                </article>
+            </section>
 
-                    <ol type="A" class="__order-list-column">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Las mascotas deberán viajar dentro de un contenedor o transportadora rígida tipo Kennel que cumpla las siguientes especificaciones:
-                            </p>
-                            <ul class="__terms-purchase-list">
-                                <li class="__terms-purchase-item">
-                                    <p class="__terms-purchase-text">
-                                        El peso máximo de la mascota deberá de ser de 32 kg (incluyendo transportadora), las dimensiones máximas de la transportadora son: 128 cm de largo x 45 cm de ancho x 65 cm de alto. Solo se permite una mascota por transportadora.
-                                    </p>
-                                </li>
-                                <li class="__terms-purchase-item">
-                                    <p class="__terms-purchase-text">
-                                        La transportadora debe contar con espacio suficiente para que tu mascota esté parada, y pueda moverse y girar de forma natural sin tocar las paredes.
-                                    </p>
-                                </li>
-                                <li class="__terms-purchase-item">
-                                    <p class="__terms-purchase-text">
-                                        No debe llevar implementos o accesorios (juguetes, golosinas, premios u otros objetos, elaborados con ingredientes de origen rumiante), de lo contrario, serán retirados para su destrucción.
-                                    </p>
-                                </li>
+            <section class="__sections">
+                <article class="__bg-white">
+                    <h3 class="__subtitle-section">8. TRANSPORTE DE MASCOTAS</h3>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Siempre debe informarse del transporte de mascotas antes de abordar.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Es indispensable que el pasajero viaje en la misma unidad que su mascota.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El traslado no tendrá costo extra si la mascota no sobrepasa los 25 Kg. El cobro se manejará conforme a las tarifas de cobro de exceso de equipaje.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- No se podrán transportar serpientes, arañas, aves, ratones (de diferentes especies), ni cualquier otro animal de los restringidos por la normatividad ecológica vigente.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Pueden transportarse mascotas de tipo doméstico, que no se encuentren en peligro de extinción (conforme lo marca SEMARNAT o PROFEPA).</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En las cajuelas de las unidades que brindan el servicio Directo se puede transportar otro tipo de animales de granja, debidamente amarrados y empacados y bajo riesgo del pasajero que los transporta.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Únicamente puede registrarse UNA mascota por pasajero. Asimismo, sólo pueden viajar DOS mascotas por autobús, las cuales serán aceptadas por orden de llegada.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Las mascotas domésticas permitidas (perros y gatos) deben viajar en la sección de equipaje del autobús, sin importar raza o tamaño, a excepción de los perros guía o de compañía los cuales podrán viajar acompañando al pasajero.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- En el caso de viajar con un perro de compañía el pasajero deberá mostrar la indicación médica a la hora de abordar la unidad.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Todas las mascotas, a excepción de las citadas en la política anterior, deberán transportarse a lo largo de todo el trayecto al interior de una jaula transportadora (kennel) acorde a las características físicas y emocionales de la especie.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Únicamente UNA mascota por jaula.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El contenedor (kennel) deberá ser proporcionada por el pasajero.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Mascota, caja transportadora y contenido no deben exceder los 32 Kg. De lo contrario, se le negará el servicio de transportación.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Requisitos del contenedor para mascotas:</p>
+                            <ol type="A" class="__terms-purchase-list __nested-list">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Tener espacio suficiente para que el animal pueda pararse, girar, sentarse y recostarse de manera natural.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Estar fabricada con madera, metal, plástico rígido o algún otro material similar. PROHIBIDO cartón (no cajas).</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Contar con una rejilla de acceso hecha de metal soldado o fundido.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Ser a prueba de escape. La rejilla debe estar bien asegurada.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Ser a prueba de derrames.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Tener ventilación en dos de sus lados, aparte de la rejilla.</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">Estar limpia, sin olores penetrantes y desagradables. Debe contener arena absorbente o algún material que retenga las heces (NO se permite paja, heno o virutas de madera).</p></li>
+                            </ol>
+                        </li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El pasajero es responsable de la presentación de todos los documentos relacionados con el animal, como certificado de vacunas, de salud o certificados de importación si es necesario y cualquier otro documento que la autoridad correspondiente pueda solicitar en alguna revisión en cualquier punto del viaje.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- No se aceptarán mascotas cuando la temperatura existente o prevista en cualquier punto del itinerario supere los 29.2 C. Por ejemplo, en viajes a la playa o aquellos que superen las CUATRO horas de viaje. Asimismo, no se aceptarán mascotas cuando la temperatura en tierra sea inferior a 7.2C en cualquier punto del viaje. De esta forma, se pretende la máxima seguridad en caso de que se produzcan retrasos, cancelaciones u otras situaciones no programadas. Se han establecido restricciones por temperatura a fin de garantizar que los animales no estén expuestos a temperaturas extremas (altas o bajas), ya sea al interior de las instalaciones de la terminal/taquilla, en la sala de espera o dentro del autobús.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- No aceptamos razas de mascotas con características braquicéfalas o de nariz chata debido a la dificultad que estas presentan para respirar. Por ejemplo:</p>
+                            <ul class="__terms-purchase-list __nested-list-bullet">
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">. Affenpinscher</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">. Bulldog (todas las razas)</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">. Boxer (todas las razas)</p></li>
+                                <li class="__terms-purchase-item"><p class="__terms-purchase-text">- Pit Bull</p></li>
                             </ul>
                         </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En el caso de perros y gatos se deberá presentar Cartilla de vacunación con esquema completo de acuerdo a la edad de la mascota, que especifique la fecha de aplicación de la vacuna contra la rabia y la vigencia de la misma. No es necesario la mascota viaje sedada (Consultar a su médico veterinario).
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En el caso de perros y gatos la mascota deberá tener por lo menos ocho semanas de nacido al momento de realizar el viaje y no requerir de su madre para la alimentación. Al momento del viaje la mascota no debe presentar signos de enfermedades infectocontagiosas, que no presenten heridas recientes o en proceso de cicatrización.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                La empresa no transportará mascotas en el compartimiento de equipaje de las unidades de doble piso, lo anterior con la intención de velar por la vida de la mascota debido a la posibilidad de desarrollar el síndrome respiratorio o cualquier otra afectación.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En estos casos donde la mascota viaje documentada el cliente deberá llenar la carta responsiva correspondiente que especifique que el viaje de la mascota será bajo entera responsabilidad del pasajero excluyendo a la empresa de cualquier responsabilidad de la salud y vida de la mascota trasladada.
-                            </p>
-                        </li>
-                    </ol>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">. El cliente debe firmar carta responsiva en la taquilla de origen.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">La mascota, de preferencia, deberá permanecer sedada durante el viaje, y bajo la responsabilidad del pasajero.</p></li>
+                    </ul>
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Animales de apoyo</h3>
-
-                    <p class="__terms-purchase-text">
-                        Las personas con discapacidad física, visual, auditiva, mental o intelectual tienen derecho a viajar con un animal de servicio sin cargo adicional. Los animales de servicio serán aceptados en la cabina de pasajeros junto con la persona con discapacidad sin cargo extra, siempre y cuando cumplan los siguientes requisitos:
-                    </p>
+                    <h3 class="__subtitle-section">9. POLÍTICAS DE VENTA MULTIEMPRESA.</h3>
+                    <p class="__terms-purchase-text">GHO se deslinda de cualquier responsabilidad respecto a la prestación del servicio de transportación por parte de empresas ajenas a esta y que participan en el convenio de venta multiempresa, los Ejecutivos de Venta y Jefes de Taquilla sólo realizan la función de venta de boletos, por lo que su autoridad y responsabilidad se limita a esta actividad regulada por las políticas convenidas entre GHO y las empresas participantes. Cualquier inconformidad de Clientes debe ser canalizada al área de atención al cliente de la empresa respectiva a la cual se le haya vendido.</p>
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-white">
-                    <h3 class="__subtitle-section">Animales de apoyo emocional</h3>
-
-                    <p class="__terms-purchase-text">
-                        Las mascotas de apoyo emocional deberán cumplir todos los requisitos estipulados para las mascotas abordo.
-                    </p>
-
-                    <ol type="A" class="__order-list-column">
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Presentar documento emitido antes del viaje por el médico tratante (psiquiatra, psicólogo) o institución tratante de la persona con discapacidad emocional que avale la necesidad de un animal de apoyo emocional. Deberá ser presentado en original, firmado y sellado por el médico o institución especialista.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los Animales de Apoyo Emocional deberán portar correa, arnés y placa de identificación.
-                            </p>
-                        </li>
-                        <li>
-                            <p class="__terms-purchase-text">
-                                El limite de peso para poder transportar una mascota de apoyo emocional será de 12 kilogramos.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                En caso de no cumplir con alguno de los requisitos aquí señalados, el Animal de Apoyo Emocional será transportado en calidad de mascota en el compartimiento de carga del autobús, bajo las políticas de las mascotas documentadas.
-                            </p>
-                        </li>
-                    </ol>
+                    <h3 class="__subtitle-section">10. POLÍTICAS DE ABORDAJE</h3>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El servicio podrá ser negado si el pasajero tiene aliento alcohólico o se encuentra en estado de ebriedad.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">- El servicio podrá ser negado si el pasajero se encuentra bajo efectos de estupefacientes</p></li>
+                    </ul>
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Animales de apoyo visual</h3>
-
-                    <p class="__terms-purchase-text">
-                        La empresa permite a los pasajeros con discapacidad visual y/o movilidad reducida estar acompañados durante el viaje de un animal de servicio sin costo, cumpliendo las siguientes políticas:
-                    </p>
-
-                    <ol type="A" class="__order-list-column">
-                        <li class="__terms-purchase-item">
-                            Presentar el documento que avale la condición de Animal de Apoyo Visual:
-                            <ul class="__terms-purchase-list">
-                                <li class="__terms-purchase-item">
-                                    <p class="__terms-purchase-text">
-                                        Identificación del Animal de Servicio emitida por alguna autoridad en materia de sanidad animal y/u organismo reconocido
-                                    </p>
-                                </li>
-                                <li class="__terms-purchase-item">
-                                    <p class="__terms-purchase-text">
-                                        Documento del médico y/o de alguna institución de salud tratante del Pasajero con Discapacidad y/o Movilidad Reducida, o algún otro documento que evidencie que el Pasajero con Discapacidad y/o Movilidad Reducida necesita de un Animal de Servicio para su movilidad y/o acompañamiento.
-                                    </p>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los perros deberán portar collar y correa o arnés en todo momento.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Los perros de apoyo visual deberán utilizar preferente los espacios definidos para su traslado en cabina (Asientos 1,2 y 3 en unidades de un piso; y asientos de planta baja en unidades de dos pisos). Los pasajeros y sus animales de apoyo visual tendrán preferencia en el abordaje para ingresar al autobús antes que los demás pasajeros.
-                            </p>
-                        </li>
-                        <li class="__terms-purchase-item">
-                            <p class="__terms-purchase-text">
-                                Cartilla de vacunación con esquema completo de acuerdo a la edad de la mascota, que especifique la fecha de aplicación de la vacuna contra la rabia y la vigencia de la misma.
-                            </p>
-                        </li>
-                    </ol>
+                    <h3 class="__subtitle-section">11. POLITICAS DE VIAJE.</h3>
+                    <p class="__terms-purchase-text">Viajar en un horario contratado. Al contratar el servicio para viajar en alguna de las corridas que ofertan las marcas de GHO, el Cliente reconoce y acepta las siguientes condiciones:</p>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">a) Presentarse 30 minutos antes de la hora contratada en el andén de la terminal de origen que corresponda para abordar el Autobús asignado al destino.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">b) Entregar el equipaje para su documentación a pie de Autobús, considerando que el equipaje que no cuente con la contraseña respectiva no podrá ser reclamado.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">c) Presentar y conservar durante todo su viaje el boleto respectivo.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">d) El boleto sólo será válido para la fecha y hora señalada en el mismo.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">e) Queda bajo la más estricta responsabilidad del pasajero aceptar alimentos o bebidas de algún otro pasajero durante el trayecto, deslindando de toda responsabilidad a esta empresa.</p></li>
+                    </ul>
                 </article>
             </section>
 
             <section class="__sections">
                 <article class="__bg-white">
-                    <h3 class="__subtitle-section">Comprobación fiscal (facturación electrónica)</h3>
-
-                    <p>
-                        Los pases de abordar emitidos por este tipo de compra no tienen validez
-                        fiscal, en caso de requerir el comprobante fiscal, deberá generarlo desde
-                        nuestro portal web www.etn.com.mx en el apartado de “Facturación
-                        Electrónica” dentro del menú al margen superior derecho, para ello es
-                        necesario el número de operación del boleto o pase de abordar, número de
-                        asiento y los datos fiscales completos.
-                    </p>
-                </article>
-            </section>
-            <section class="__sections">
-                <article class="__bg-blue">
-                    <h3 class="__subtitle-section">Restricciones para facturación</h3>
-
-                    <p>
-                        En el caso de los boletos abiertos, sólo se podrán facturar una vez que
-                        sean utilizados, dentro del lapso de 30 días naturales, contados a partir
-                        de la fecha del viaje. Una vez generada la factura, ya no se podrá hacer
-                        ningún cambio o cancelación en el documento emitido.
-                    </p>
-                </article>
-            </section>
-            <section class="__sections">
-                <article class="__bg-white">
-                    <h3 class="__subtitle-section">Recuperación de factura</h3>
-
-                    <p>
-                        Si durante el proceso de facturación no recibió en su correo electrónico el
-                        archivo PDF y XML de su comprobante fiscal, podrá recuperarlo accediendo a
-                        nuestro portal web www.etn.com.mx en el apartado de "Facturación
-                        Electrónica" debiendo capturar el RFC y correo electrónico. Una vez que
-                        haya ingresado al módulo, deberá seleccionar "Consultar Historial" e
-                        identificar el documento que desee recuperar ya sea reenviándolo nuevamente
-                        a su correo, a una cuenta diferente o bien, imprimir la factura
-                        nuevamente.
-                    </p>
+                    <h3 class="__subtitle-section">12. MOTIVOS POR LOS CUALES SE PUEDE NEGAR EL SERVICIO:</h3>
+                    <ul class="__terms-purchase-list">
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">a) Pasajero en estado inconveniente o que se encuentren bajo la influencia de cualquier tipo de sustancias enervantes.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">b) Pasajero que durante el viaje se encuentre consumiendo cualquier tipo de bebida alcohólica o enervante, caso en el cual se le hará la advertencia y de no acatar la instrucción se procederá a realizar el reporte ante la instancia correspondiente en la primera oportunidad.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">c) Pasajero que porte armas aun con permiso expedido por SEDENA, señalando expresamente que bajo ninguna circunstancia podrá viajar dicha arma junto con su cargador ni municiones.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">d) Queda expresamente señalado que se negará el servicio al pasajero que porte explosivos, sustancias peligrosas y/o drogas o cualquier otro elemento que constituya un riesgo.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">e) Pasajero que muestre algún tipo de agresión física o intento de ello a colaboradores de la empresa u otros pasajeros.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">f) Pasajero que se encuentre realizando actos de vandalismo en instalaciones o equipos de la empresa.</p></li>
+                        <li class="__terms-purchase-item"><p class="__terms-purchase-text">g) Pasajero que se encuentre cometiendo faltas a la moral en las instalaciones y/o autobuses de GHO.</p></li>
+                    </ul>
                 </article>
             </section>
         `;
-    this.loadAndSetPetsTableData("#pets-table", "../src/data/table-pets.json");
-    this.loadAndSetPetsTableData("#costs-table","../src/data/table-pets-2.json");
-  }
-   async loadAndSetPetsTableData(tableElementSelector, jsonPath) {
-    const tableElement = this.querySelector(tableElementSelector);
-    const response = await fetch(jsonPath);
-    const data = await response.json();
-    tableElement.setTableData(data);
-  }
-}
-customElements.define("layout-terminos-condiciones", LayoutTerminosCondiciones);
+   }
+ }
+ customElements.define("layout-terminos-condiciones", LayoutTerminosCondiciones);

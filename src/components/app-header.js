@@ -18,12 +18,12 @@ class AppHeader extends HTMLElement {
                       <li class="submenu">
                         <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
                         <ul>
-                              <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                              <li><a href="https://etn.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
+                              <li><a href="https://venta.www.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
+                              <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
                           </ul>
                       </li>
-                      <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
-                      <li><a href="https://viaje.etn.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
+                      <li><a href="https://venta.www.autovias.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
+                      <li><a href="https://viaje.www.autovias.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
                       <li class="submenu">
                           <a href="#" role="button" aria-label="Mas opciones" tabindex="0" aria-haspopup="true" aria-expanded="false">Mas<span class="icon-arrow-down"></span></a>
                           <ul class="submenu__media-items"> 
@@ -40,8 +40,8 @@ class AppHeader extends HTMLElement {
                               <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
                               <li><a href="../index.html" tabindex="0">Agencias</a></li>
                               <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                              <li><a href="https://etn.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                              <li><a href="https://etn.com.mx/blog/" tabindex="0">Blog</a></li>
+                              <li><a href="https://www.autovias.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
+                              <li><a href="https://www.autovias.com.mx/blog/" tabindex="0">Blog</a></li>
                               <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                           </ul>
                       </li>
@@ -71,12 +71,12 @@ class AppHeader extends HTMLElement {
                   <li class="submenu__media-queries">
                       <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
                       <ul>
-                          <li><a href="https://venta.etn.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                          <li><a href="https://etn.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
+                          <li><a href="https://venta.www.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
+                          <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
                       </ul>
                   </li>
-                  <li><a href="https://venta.etn.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li>
-                  <li><a href="https://viaje.etn.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li>
+                  <li><a href="https://venta.www.autovias.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li>
+                  <li><a href="https://viaje.www.autovias.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li>
                   <li class="submenu__media-queries">
                       <a href="#" aria-label="Mas opciones" aria-haspopup="true" aria-expanded="false">Mas <span class="icon-arrow-down"></span></a>
                       <ul>
@@ -92,8 +92,8 @@ class AppHeader extends HTMLElement {
                           <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
                           <li><a href="../index.html" tabindex="0">Agencias</a></li>
                           <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                          <li><a href="https://etn.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                          <li><a href="https://etn.com.mx/blog/" tabindex="0">Blog</a></li>
+                          <li><a href="https://www.autovias.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
+                          <li><a href="https://www.autovias.com.mx/blog/" tabindex="0">Blog</a></li>
                           <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                       </ul>
                   </li>

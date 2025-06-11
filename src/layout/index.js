@@ -14,6 +14,7 @@ import "./layout-salidas-charters.js?v=1.0.0";
 import "./layout-servicios-a-bordo.js?v=1.0.0";
 import "./layout-pago-oxxo.js?v=1.0.0";
 import "./layout-terminos-condiciones.js?v=1.0.0";
+import "./layout-aviso-de-privacidad.js?v=1.0.0";
 import "./layout-atencion-a-clientes.js?v=1.0.0";
 import "./layout-terminos-buen-fin.js?v=1.0.0";
 import "./layout-terminos-hot-travel.js?v=1.0.0";
