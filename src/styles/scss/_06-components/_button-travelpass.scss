@@ -1,12 +1,37 @@
-#login-icon {
-  display: flex;
+// Estilos del botón
+
+.btn-travelpass-active {
+  display: block;
+  @include media ("lg") {
+    display: none;
+  }
+}
+.btn-travelpass {
+  border-radius: 0.625rem;
+  justify-content: center;
   align-items: center;
+  align-content: center;
+  width: auto;
+  height: 2.2rem;
+  border-radius: 0.625rem;
+  border: 0.125rem solid #15395a;
+  padding: 0.150rem;
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+
+  @include media("lg") {
+    margin-top: 0 !important;
+    border-radius: 0.625rem;
+    height: 3.5rem;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
-#login-icon a { /* Estilo para el 'a' dentro de #login-icon */
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 700;
-}
+
 #user-name,
 #user-balance {
   margin: 10px 0;

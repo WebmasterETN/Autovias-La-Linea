@@ -1,11 +1,6 @@
 class AppButtonTravelpass extends HTMLElement {
-  connectecCallback() {
+  connectedCallback() {
     this.innerHTML = `
-      <button id="login-icon">
-        <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión">
-          <img src="../assets/img/gho-img/logos/logo-travel-pass.png" alt="Inicia sesión en Travel Pass" title="Travel Pass Ingreso" width="100" height="32" style="cursor: pointer; max-width: 70%; height: auto; aspect-ratio: auto;">
-        </a>
-      </button>
       
       <!-- Modal de inicio de sesión con selector de marca -->
       <div id="modalTravelPass" class="ModalTravelPs">
