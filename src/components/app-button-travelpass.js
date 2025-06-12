@@ -1,16 +1,17 @@
 class AppButtonTravelpass extends HTMLElement {
   connectecCallback() {
     this.innerHTML = `
-      
-      <li id="login-icon"><a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión">
-          <img src="https://autovias.com.mx/gho-img/logos/logo-travel-pass.png" alt="Inicia sesión en Travel Pass" title="Travel Pass Ingreso" width="100" height="32" style="cursor: pointer; max-width: 70%; height: auto; aspect-ratio: auto;"></a>
-      </li>
+      <button id="login-icon">
+        <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión">
+          <img src="../assets/img/gho-img/logos/logo-travel-pass.png" alt="Inicia sesión en Travel Pass" title="Travel Pass Ingreso" width="100" height="32" style="cursor: pointer; max-width: 70%; height: auto; aspect-ratio: auto;">
+        </a>
+      </button>
       
       <!-- Modal de inicio de sesión con selector de marca -->
       <div id="modalTravelPass" class="ModalTravelPs">
           <div class="modal-content">
               <div class="modal-header">
-                  <img src="https://autovias.com.mx/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Travel Pass Formulario" width="100" height="32" class="modal-logo">
+                  <img src="../assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Travel Pass Formulario" width="100" height="32" class="modal-logo">
                   <span class="close" id="close-login-modal">&times;</span>
               </div>
               <h2 class="titulo-2 center">Inicia sesión</h2>
@@ -45,7 +46,7 @@ class AppButtonTravelpass extends HTMLElement {
       <div id="modalTravelPassLogueado" class="ModalTravelPs">
           <div class="modal-content">
               <div class="modal-header">
-                  <img src="https://autovias.com.mx/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Logo Travel Pass" width="100" height="32" class="modal-logo">
+                  <img src="../assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Logo Travel Pass" width="100" height="32" class="modal-logo">
                   <span class="close" id="close-profile-modal">&times;</span>
               </div>
               <div class="modalContenido">

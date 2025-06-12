@@ -1,3 +1,5 @@
+import "./app-button-travelpass.js";
+
 class AppHeader extends HTMLElement {
   connectedCallback() {
     const logoData = JSON.parse(this.getAttribute("logo"));
@@ -47,6 +49,7 @@ class AppHeader extends HTMLElement {
                       </li>
                       </ul>
           </nav>
+            <app-button-travelpass></app-button-travelpass>
             <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
                 <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
             </button>
@@ -62,6 +65,9 @@ class AppHeader extends HTMLElement {
           
           <div id="dropdown-menu" class="show">
               <ul>
+                  <li>
+                      <app-button-travelpass></app-button-travelpass>
+                  </li>
                   <li>
                       <button id="openDotersModalMovil" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
                           <img src="../../src/assets/img/logos/doters.svg" loading="lazy" alt="Doters Logo">

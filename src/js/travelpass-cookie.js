@@ -55,8 +55,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // Actualizar ícono de login
     function updateLoginIcon(profileData) {
         loginIcon.innerHTML = profileData ? 
-            `<a href="#" id="open-profile-modal"><img src="https://autovias.com.mx/gho-test/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>` : 
-            `<a id="open-login-modal" href="#"><img src="https://autovias.com.mx/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
+            `<a href="#" id="open-profile-modal"><img src="../assets/img/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>` : 
+            `<a id="open-login-modal" href="#"><img src="../assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
 
         document.getElementById(profileData ? 'open-profile-modal' : 'open-login-modal')?.addEventListener('click', function (event) {
             event.preventDefault();
