@@ -10,7 +10,7 @@ class AppFooter extends HTMLElement {
         <h2 id="footer-title" class="visually-hidden">Información del pie de página</h2>
         <div class="footer__content main-container">
           <div class="footer__content__footer-logo">
-            <a href="/" aria-label="Ir a página de inicio de NombreDeLaEmpresa">
+            <a href="https://www.autovias.com.mx/" aria-label="Ir a página de inicio de NombreDeLaEmpresa">
               <img src="../src/assets/img/logos/logo.svg" alt="Logo de [Nombre de la empresa]" class="footer__logo" width="922" height="143" loading="lazy"/>
             </a>
           </div>
@@ -41,7 +41,7 @@ class AppFooter extends HTMLElement {
       {
         title: "Legales",
         links: [
-          { text: "Avisos de privacidad", href: "#" },
+          { text: "Avisos de privacidad", href: "../aviso-de-privacidad.html" },
           { text: "Términos y condiciones", href: "../terminos-condiciones.html" },
         ],
       },
@@ -80,10 +80,10 @@ class AppFooter extends HTMLElement {
           {
             title: "Síguenos",
             links: [
-              { text: "Facebook", href: "#", type: "icon-fb" },
-              { text: "Instagram", href: "#", type: "icon-ig" },
-              { text: "X", href: "#", type: "icon-x" },
-              { text: "YouTube", href: "#", type: "icon-yt" },
+              { text: "Facebook", href: "https://www.facebook.com/Autobuses.Autovias", type: "icon-fb" },
+              { text: "Instagram", href: "https://www.instagram.com/autovias/", type: "icon-ig" },
+              { text: "X", href: "https://twitter.com/autovias_", type: "icon-x" },
+              { text: "YouTube", href: "https://www.youtube.com/channel/UCOMVpctqR_Q2x__5b3iHDDQ", type: "icon-yt" },
             ],
           },
         ],
