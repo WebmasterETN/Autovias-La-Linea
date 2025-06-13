@@ -47,8 +47,8 @@ class AppHeader extends HTMLElement {
           </ul>
         </nav>
           
-        <button id="login-icon" class="btn-travelpass btn-travelpass-active">
-          <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
+        <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass-active js-open-travelpass-login-modal">
+          <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
         </button>
         <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
             <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
@@ -96,8 +96,8 @@ class AppHeader extends HTMLElement {
                     </ul>
                 </li>
                 <li>
-                  <button id="login-icon" class="btn-travelpass btn-travelpass__submenu">
-                    <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
+                  <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal">
+                    <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
                   </button>
                 </li>
                 <li>
@@ -118,11 +118,19 @@ class AppHeader extends HTMLElement {
     this.openDesktopSubmenuInstance = null;
     this.desktopSubmenuHideTimeout = null;
 
+    // Bind methods for event listeners
+    this.boundHandleResizeForMobileMenu = this._handleResizeForMobileMenu.bind(this);
+    this.boundHamburgerClickHandler = this._handleHamburgerClick.bind(this);
+
     this._initDesktopSubmenus();
     this._initMobileMenu();
     this._initDotersModals();
     this._initScrollBehavior();
+
+    window.addEventListener('resize', this.boundHandleResizeForMobileMenu);
   }
+
+
 
   _initMobileMenu() {
     const hamburgerIcon = this.querySelector("#hamburger-icon");
@@ -137,33 +145,15 @@ class AppHeader extends HTMLElement {
         <line x1="6" y1="6" x2="18" y2="18"/>
      </svg>
       `;
+    // Store references and SVGs on the instance
+    this.hamburgerIcon = hamburgerIcon;
+    this.dropdownMenu = dropdownMenu;
+    this.originalHamburgerSvg = originalSvg;
+    this.closeMenuSvg = closeSvg;
 
-    dropdownMenu.classList.remove("show");
-    hamburgerIcon.addEventListener("click", (event) => {
-      dropdownMenu.classList.toggle("show");
-      const isMenuOpen = dropdownMenu.classList.contains("show");
+    this._closeMobileMenu(); // Ensure it's closed initially and ARIA attributes are set
+    this.hamburgerIcon.addEventListener("click", this.boundHamburgerClickHandler);
 
-      if (isMenuOpen) {
-        hamburgerIcon.innerHTML = closeSvg; // Cambiar al ícono de "X"
-        this.dispatchEvent(
-          new CustomEvent("mobile-menu-opened", {
-            bubbles: true,
-            composed: true,
-          })
-        );
-      } else {
-        hamburgerIcon.innerHTML = originalSvg; // Volver al ícono de hamburguesa
-        this.dispatchEvent(
-          new CustomEvent("mobile-menu-closed", {
-            bubbles: true,
-            composed: true,
-          })
-        );
-      }
-      event.stopPropagation();
-    });
-
-    // Mobile submenus
     const mobileSubmenuTriggers = this.querySelectorAll(
       ".submenu__media-queries > a"
     );
@@ -172,6 +162,7 @@ class AppHeader extends HTMLElement {
       const submenuList = trigger.nextElementSibling;
       if (!submenuList || submenuList.tagName !== "UL") return;
 
+      // Initialize ARIA attributes and state for submenus
       trigger.setAttribute("aria-expanded", "false");
       submenuList.style.display = "none";
 
@@ -217,6 +208,52 @@ class AppHeader extends HTMLElement {
         });
       });
     });
+  }
+
+  _handleHamburgerClick(event) {
+    const isMenuOpen = this.dropdownMenu.classList.contains("show");
+    if (isMenuOpen) {
+      this._closeMobileMenu();
+    } else {
+      this._openMobileMenu();
+    }
+    event.stopPropagation();
+  }
+
+  _openMobileMenu() {
+    if (!this.dropdownMenu || !this.hamburgerIcon) return;
+    this.dropdownMenu.classList.add("show");
+    this.hamburgerIcon.innerHTML = this.closeMenuSvg;
+    this.hamburgerIcon.setAttribute('aria-expanded', 'true');
+    this.dispatchEvent(
+      new CustomEvent("mobile-menu-opened", {
+        bubbles: true,
+        composed: true,
+      })
+    );
+  }
+
+  _closeMobileMenu() {
+    if (!this.dropdownMenu || !this.hamburgerIcon) return;
+    this.dropdownMenu.classList.remove("show");
+    this.hamburgerIcon.innerHTML = this.originalHamburgerSvg;
+    this.hamburgerIcon.setAttribute('aria-expanded', 'false');
+
+    // Reset mobile submenus inside dropdownMenu
+    const mobileSubmenuTriggers = this.dropdownMenu.querySelectorAll(
+      ".submenu__media-queries > a"
+    );
+    mobileSubmenuTriggers.forEach(trigger => {
+      const submenuList = trigger.nextElementSibling;
+      if (submenuList && submenuList.tagName === "UL") {
+        submenuList.style.display = "none";
+        trigger.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    this.dispatchEvent(
+      new CustomEvent("mobile-menu-closed", { bubbles: true, composed: true })
+    );
   }
 
   _animateSubmenu(submenuList, show) {
@@ -460,6 +497,24 @@ class AppHeader extends HTMLElement {
         lastScrollY = currentScrollY;
       }
     });
+  }
+
+  _handleResizeForMobileMenu() {
+    const MOBILE_BREAKPOINT = 990;
+    if (!this.dropdownMenu || !this.hamburgerIcon) return;
+
+    if (window.innerWidth > MOBILE_BREAKPOINT) { // Desktop view
+      if (this.dropdownMenu.classList.contains("show")) {
+        this._closeMobileMenu();
+      }
+    }
+  }
+
+  disconnectedCallback() {
+    window.removeEventListener('resize', this.boundHandleResizeForMobileMenu);
+    if (this.hamburgerIcon && this.boundHamburgerClickHandler) {
+      this.hamburgerIcon.removeEventListener('click', this.boundHamburgerClickHandler);
+    }
   }
 }
 customElements.define("app-header", AppHeader);

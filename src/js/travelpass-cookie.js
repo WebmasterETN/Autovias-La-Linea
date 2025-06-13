@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const loginIcon = document.getElementById('login-icon');
+    const loginIconDesktop = document.getElementById('login-icon'); // Botón de escritorio para actualización visual
     const loginModal = document.getElementById('modalTravelPass');
+    const openLoginModalTriggers = document.querySelectorAll('.js-open-travelpass-login-modal'); // Todos los botones que abren el modal
     const profileModal = document.getElementById('modalTravelPassLogueado');
     const loginForm = document.getElementById('login-form');
     const message = document.getElementById('message');
@@ -63,18 +64,27 @@ document.addEventListener('DOMContentLoaded', function () {
         profileModal.style.display = 'none';
     }
 
+    // Manejadores de eventos para abrir los modales
+    const openLoginModalStatic = function (event) {
+        event.preventDefault();
+        closeModals();
+        if (loginModal) loginModal.style.display = 'flex';
+    };
+
+    const openProfileModalStatic = function (event) {
+        event.preventDefault();
+        closeModals();
+        if (profileModal) profileModal.style.display = 'flex';
+    };
+
     function updateLoginIcon(profileData) {
-        loginIcon.innerHTML = profileData ?
-						`<a href="#" id="open-profile-modal"><img src="https://autovias.com.mx/gho-test/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>` :
-            `<a id="open-login-modal" href="#"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
-
-        document.getElementById(profileData ? 'open-profile-modal' : 'open-login-modal')?.addEventListener('click', function (event) {
-            event.preventDefault();
-            closeModals();
-            (profileData ? profileModal : loginModal).style.display = 'flex';
-        });
+        // Esta función solo actualiza el HTML interno del botón de escritorio
+        if (loginIconDesktop) {
+            loginIconDesktop.innerHTML = profileData ?
+                `<a href="#" id="open-profile-modal-link"><img src="https://autovias.com.mx/gho-test/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>` :
+                `<a href="#" id="open-login-modal-link"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
+        }
     }
-
     function checkSession() {
         const token = getToken();
         if (token) {
@@ -84,14 +94,41 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (profileData.name) {
                         updateLoginIcon(profileData);
                         userNameElement.textContent = `Nombre: ${profileData.name}`;
-                        userBalanceElement.textContent = `Saldo: ${profileData.balance} MXN`;
+                        userBalanceElement.textContent = `Saldo: ${profileData.balance !== undefined ? profileData.balance : 'N/A'} MXN`;
+                        // Adjuntar el manejador para abrir el modal de perfil a todos los triggers
+                        openLoginModalTriggers.forEach(trigger => {
+                            trigger.removeEventListener('click', openLoginModalStatic); // Limpiar listener anterior
+                            trigger.removeEventListener('click', openProfileModalStatic); // Limpiar listener anterior
+                            trigger.addEventListener('click', openProfileModalStatic);
+                        });
                     } else {
+                        removeToken(); // Si los datos del perfil no son válidos, limpiar el token
                         updateLoginIcon(null);
+                        // Adjuntar el manejador para abrir el modal de login a todos los triggers
+                        openLoginModalTriggers.forEach(trigger => {
+                            trigger.removeEventListener('click', openProfileModalStatic); // Limpiar listener anterior
+                            trigger.removeEventListener('click', openLoginModalStatic); // Limpiar listener anterior
+                            trigger.addEventListener('click', openLoginModalStatic);
+                        });
                     }
                 })
-                .catch(() => updateLoginIcon(null));
+                .catch(() => {
+                    updateLoginIcon(null);
+                    // Adjuntar el manejador para abrir el modal de login a todos los triggers en caso de error
+                    openLoginModalTriggers.forEach(trigger => {
+                        trigger.removeEventListener('click', openProfileModalStatic);
+                        trigger.removeEventListener('click', openLoginModalStatic);
+                        trigger.addEventListener('click', openLoginModalStatic);
+                    });
+                });
         } else {
             updateLoginIcon(null);
+            // Adjuntar el manejador para abrir el modal de login a todos los triggers
+            openLoginModalTriggers.forEach(trigger => {
+                trigger.removeEventListener('click', openProfileModalStatic);
+                trigger.removeEventListener('click', openLoginModalStatic);
+                trigger.addEventListener('click', openLoginModalStatic);
+            });
         }
     }
 
