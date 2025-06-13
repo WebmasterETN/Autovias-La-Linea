@@ -17,9 +17,9 @@ class AppHeader extends HTMLElement {
             <li class="submenu">
               <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
               <ul>
-                    <li><a href="https://venta.www.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                    <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
-                </ul>
+                <li><a href="https://venta.www.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
+                <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
+              </ul>
             </li>
             <li><a href="https://venta.www.autovias.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
             <li><a href="https://viaje.www.autovias.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
@@ -96,7 +96,7 @@ class AppHeader extends HTMLElement {
                     </ul>
                 </li>
                 <li>
-                  <button id="login-icon" class="btn-travelpass">
+                  <button id="login-icon" class="btn-travelpass btn-travelpass__submenu">
                     <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
                   </button>
                 </li>

@@ -35,6 +35,15 @@
   }
 }
 
+.btn-travelpass__submenu {
+  width: 6rem;
+  height: auto;
+  a img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .ModalTravelPs {
   display: none;
   position: fixed;
