@@ -39,7 +39,7 @@ class AppModalTravelpass extends HTMLElement {
 
               <div class="__card-footer">
                 <a class="w-modal-link color-1 center" href="https://autovias.com.mx/sur-de-jalisco/travel-pass.html">Conoce aquí&nbsp; <span class="bold"> ¿Qué es Travel Pass?</span></a>
-                <a class="w-modal-link color-1" href="https://travelpass-sur-de-jalisco.autovias.com.mx/signup"> ¿No tienes cuenta?&nbsp; <span class="bold"> Regístrate</span></a>
+                <a id="register-link" class="w-modal-link color-1" href="#">¿No tienes cuenta? <span class="bold"> Regístrate</span></a>
                 <div id="message" class="message"></div>
               </div>
             </div>
