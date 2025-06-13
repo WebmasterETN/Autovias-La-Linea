@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	const dashboardUrls = {
 		surdejalisco: "https://travelpass-sur-de-jalisco.autovias.com.mx/dashboard",
-		viajero: "https://travelpass-viajero.autovias.com.mx/dashboard",
+		pegasso: "https://travelpass-pegasso.autovias.com.mx/dashboard",
 	};
 
 	// Funciones para manejo de cookies

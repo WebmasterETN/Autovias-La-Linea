@@ -1,4 +1,4 @@
-class AppButtonTravelpass extends HTMLElement {
+class AppModalTravelpass extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       
@@ -21,8 +21,8 @@ class AppButtonTravelpass extends HTMLElement {
                   <button type="button" class="brand-btn" data-brand="surdejalisco">
                       <img src="https://rsrvms-vanda-prod.s3.us-east-1.amazonaws.com/funnel/test/surdejalisco.png" class="__image__button-size" alt="Sur de Jalisco">
                   </button>
-                  <button type="button" class="brand-btn" data-brand="viajero">
-                      <img src="https://gho-prod.s3.amazonaws.com/uploads/line/logo/7/logo_viajero.png" class="__image__button-size" alt="Viajero">
+                  <button type="button" class="brand-btn" data-brand="pegasso">
+                      <img src="../src/assets/img/gho-img/logos/logo_Pegasso.webp" class="__image__button-size" alt="Viajero">
                   </button>
               </div>
               
@@ -68,4 +68,4 @@ class AppButtonTravelpass extends HTMLElement {
   }
 }
 
-customElements.define('app-button-travelpass', AppButtonTravelpass);
+customElements.define('app-modal-travelpass', AppModalTravelpass);

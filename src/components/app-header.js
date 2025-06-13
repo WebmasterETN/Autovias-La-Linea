@@ -1,5 +1,3 @@
-import "./app-button-travelpass.js";
-
 class AppHeader extends HTMLElement {
   connectedCallback() {
     const logoData = JSON.parse(this.getAttribute("logo"));
@@ -52,7 +50,6 @@ class AppHeader extends HTMLElement {
         <button id="login-icon" class="btn-travelpass btn-travelpass-active">
           <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
         </button>
-        <app-button-travelpass></app-button-travelpass>
         <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
             <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
         </button>
