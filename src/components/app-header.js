@@ -17,12 +17,13 @@ class AppHeader extends HTMLElement {
             <li class="submenu">
               <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
               <ul>
-                <li><a href="https://venta.www.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
+                <li><a href="https://venta.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
                 <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
               </ul>
             </li>
-            <li><a href="https://venta.www.autovias.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
-            <li><a href="https://viaje.www.autovias.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
+            <li><a href="https://viajes.autovias.com.mx/exchange/openTicket" aria-label="Imprimir pase de abordar" tabindex="0">Confirmar boleto abierto</a></li> 
+            <li><a href="https://viajes.autovias.com.mx/download-tickets" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
+            <li><a href="https://viajes.autovias.com.mx/exchange/itinerary" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
             <li class="submenu">
                 <a href="#" role="button" aria-label="Mas opciones" tabindex="0" aria-haspopup="true" aria-expanded="false">Mas<span class="icon-arrow-down"></span></a>
                 <ul class="submenu__media-items"> 
@@ -69,12 +70,13 @@ class AppHeader extends HTMLElement {
                 <li class="submenu__media-queries">
                     <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
                     <ul>
-                        <li><a href="https://venta.www.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
+                        <li><a href="https://venta.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
                         <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
                     </ul>
                 </li>
-                <li><a href="https://venta.www.autovias.com.mx/MiViaje/loginMiItinerario.html" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li>
-                <li><a href="https://viaje.www.autovias.com.mx/exchange/openTicket" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li>
+                <li><a href="https://viajes.autovias.com.mx/exchange/openTicket" aria-label="Imprimir pase de abordar" tabindex="0">Confirmar boleto abierto</a></li> 
+                <li><a href="https://viajes.autovias.com.mx/download-tickets" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li>
+                <li><a href="https://viajes.autovias.com.mx/exchange/itinerary" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li>
                 <li class="submenu__media-queries">
                     <a href="#" aria-label="Mas opciones" aria-haspopup="true" aria-expanded="false">Mas <span class="icon-arrow-down"></span></a>
                     <ul>

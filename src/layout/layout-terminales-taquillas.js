@@ -26,18 +26,18 @@ class LayoutTerminalesTaquillas extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section __section__encuentra-taquilla">
-                <app-section-title section-title="Encuentra tu taquilla ETN Turistar: ubicaciones y horarios"></app-section-title>
+                <app-section-title section-title="Encuentra tu taquilla Autovías La Línea: ubicaciones y horarios"></app-section-title>
                 <p class="__paragraph">El sector de renta de autobuses en la Ciudad de México ha experimentado un crecimiento significativo, reflejando la creciente demanda de soluciones de transporte cómodas y seguras para grupos. Desde excursiones escolares hasta viajes corporativos, la renta de autobuses se ha consolidado como una opción ideal para facilitar la movilidad de grupos grandes, ofreciendo un equilibrio entre eficiencia, seguridad y confort.</p>
                 <article class="__grid-cards-container">
                     <!-- app-card-image elements will be inserted here by loadAndRenderImageCards -->
                 </article>
-                <p class="__section-paragraph-xl">Explora más rutas y destinos de ETN Turistar para planificar tu viaje.</>
+                <p class="__section-paragraph-xl">Explora más rutas y destinos de Autovías La Línea para planificar tu viaje.</>
             </section>
 
             <section class="__section __section__FATQs">
-                <app-section-title section-title="Preguntas frecuentes sobre las taquillas ETN"></app-section-title>
-                <h3 class="__subtitle-center-xl">¿Por qué comprar en las taquillas ETN Turistar?</h3>
-                <p class="__paragraph-left">Comprar tus boletos en las taquillas de ETN Turistar ofrece múltiples ventajas. Además de contar con un servicio rápido y eficiente, nuestras taquillas están estratégicamente ubicadas para facilitarte el acceso desde cualquier punto de la ciudad. Al comprar en taquilla, tienes la posibilidad de recibir asesoría personalizada, resolver cualquier duda sobre tu viaje y asegurarte de que todos los detalles están perfectamente organizados antes de tu salida. Además, en nuestras taquillas también puedes acceder a promociones exclusivas y obtener información actualizada sobre los horarios ETN y los destinos más populares. Ya sea que estés buscando ETN cerca de mí o prefieras comprar tus boletos directamente en una central de ETN, nuestras taquillas son la opción más confiable y conveniente.</p>
+                <app-section-title section-title="Preguntas frecuentes sobre las taquillas Autovías La Línea"></app-section-title>
+                <h3 class="__subtitle-center-xl">¿Por qué comprar en las taquillas Autovías La Línea?</h3>
+                <p class="__paragraph-left">Comprar tus boletos en las taquillas de Autovías La Línea ofrece múltiples ventajas. Además de contar con un servicio rápido y eficiente, nuestras taquillas están estratégicamente ubicadas para facilitarte el acceso desde cualquier punto de la ciudad. Al comprar en taquilla, tienes la posibilidad de recibir asesoría personalizada, resolver cualquier duda sobre tu viaje y asegurarte de que todos los detalles están perfectamente organizados antes de tu salida. Además, en nuestras taquillas también puedes acceder a promociones exclusivas y obtener información actualizada sobre los horarios Autovías La Línea y los destinos más populares. Ya sea que estés buscando Autovías La Línea cerca de mí o prefieras comprar tus boletos directamente en una central de Autovías La Línea, nuestras taquillas son la opción más confiable y conveniente.</p>
                 <article class="__grid-cards-container__dropdown" id="dropdowns-container">
                     <!-- Contenedor para los dropdowns -->
                 </article>
@@ -80,7 +80,7 @@ class LayoutTerminalesTaquillas extends HTMLElement {
       // Añadir el div "center-botton" después de las tarjetas
       const centerButtonDiv = document.createElement("div");
       centerButtonDiv.classList.add("center-botton");
-      centerButtonDiv.innerHTML = "<p>Taquillas de autobuses ETN: ubicaciones principales</p>";
+      centerButtonDiv.innerHTML = "<p>Taquillas de autobuses Autovías La Línea: ubicaciones principales</p>";
       imageCardContainer.appendChild(centerButtonDiv);
     } catch (error) {
       console.error("Error al cargar o renderizar app-card-image:", error);
