@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Tacos al Pastor",
+      "description": "Tortillas de maíz con cerdo marinado en achiote y especias, cocido en trompo vertical. Se sirven con piña, cebolla y cilantro.",
+      "imageSrc": "src/assets/img/platillos/tacos_al_pastor.webp",
+      "imageModal":"src/assets/img/platillos/tacos_al__pastor_01.webp",
+      "altText": "Tacos al Pastor",
+      "linkText": "Ver..."
+      },
+    {
+      "title": "Tamales",
+      "description": "Masa de maíz rellena de carne, chiles o dulces, envuelta en hoja de maíz o plátano y cocida al vapor.",
+      "imageSrc": "src/assets/img/platillos/tamales.webp",
+      "imageModal":"src/assets/img/platillos/tamales_01.webp",
+      "altText": "- Corundas",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Quesadillas",
+      "description": "Tortillas rellenas de hongos, flor de calabaza, huitlacoche o chicharrón prensado, con o sin queso.",
+      "imageSrc": "src/assets/img/platillos/quesadillas.webp",
+      "imageModal":"src/assets/img/platillos/quesadillas_01.webp",
+      "altText": "Quesadillas",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Esquites",
+      "description": " Elotes hervidos o asados con mayonesa, queso y chile, o granos de elote cocidos con epazote y servidos en vaso",
+      "imageSrc": "src/assets/img/platillos/esquites.webp",
+      "imageModal":"src/assets/img/platillos/esquites_01.webp",
+      "altText": "Esquites",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Tlacoyos",
+      "description": "Tortillas gruesas de maíz rellenas de frijol, haba o chicharrón, servidas con nopales, queso y salsa.",
+      "imageSrc": "src/assets/img/platillos/tlacoyos.webp",
+      "imageModal":"src/assets/img/platillos/tlacoyos_01.webp",
+      "altText": "Tlacoyos",
+      "linkText": "Ver..."
+    }
+   
+  ]
