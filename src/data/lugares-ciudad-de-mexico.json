@@ -1,0 +1,49 @@
+[
+    {
+      "id": "palacio-de-bellas-artes",
+      "text": "Palacio de Bellas Artes",
+      "className": "card-wide",
+      "backgroundImage": "src/assets/img/destinos-img/bellas-artes-1.webp",
+      "image2":"src/assets/img/destinos-img/bellas-artes-2.webp",
+      "image3":"src/assets/img/destinos-img/bellas-artes-3.webp",
+      "image4":"src/assets/img/destinos-img/bellas-artes-4.webp",
+      "title": "Palacio de Bellas Artes",
+      "description": "¿Por qué visitarlo? El Palacio de Bellas Artes es una joya arquitectónica y cultural de México, famoso por su imponente diseño art nouveau y art déco. Los visitantes pueden admirar sus impresionantes murales de artistas como Diego Rivera y Siqueiros, recorrer exposiciones de arte, disfrutar espectáculos de ópera y ballet, y maravillarse con su icónica cúpula de tonos dorados y brillantes. Este recinto es sede de importantes eventos culturales y es un símbolo del arte en México."
+    },
+    {
+      "id": "castillo-de-chapultepec",
+      "text": "Castillo de Chapultepec",
+      "className": "card-tall",
+      "backgroundImage": "src/assets/img/destinos-img/castillo-de-chapultepec-01.webp",
+      "image2":"src/assets/img/destinos-img/castillo-de-chapultepec-02.webp",
+      "image3":"src/assets/img/destinos-img/castillo-de-chapultepec-03.webp",
+      "image4":"src/assets/img/destinos-img/castillo-de-chapultepec-04.webp",
+      "title": "Castillo de Chapultepec",
+      "description": "¿Por qué visitarlo? El Castillo de Chapultepec es un símbolo de la historia y cultura de México, ubicado en lo alto del bosque de Chapultepec. Fue residencia de emperadores y presidentes, y hoy alberga el Museo Nacional de Historia, con valiosas exposiciones. Su arquitectura elegante, jardines y vistas panorámicas de la Ciudad de México lo convierten en un destino imperdible para conocer el pasado y admirar su belleza."
+    },
+    {
+      "id": "xochimilco",
+      "text": "Xochimilco",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/xochimilco-01.webp",
+      "image2":"src/assets/img/destinos-img/xochimilco-04.webp",
+      "image3":"src/assets/img/destinos-img/xochimilco-02.webp",
+      "image4":"src/assets/img/destinos-img/xochimilco-03.webp",
+      "title": "Xochimilco",
+      "description": "¿Por qué visitarlo? Xochimilco es un lugar único en la Ciudad de México, famoso por sus canales y coloridas trajineras. Los visitantes pueden disfrutar de paseos en bote, acompañados de música de mariachis y una vibrante atmósfera. Además, Xochimilco alberga mercados de flores, chinampas con historia prehispánica y una rica tradición gastronómica, convirtiéndolo en un destino lleno de cultura y encanto."
+    },
+    {
+      "id": "museo-arte-popupar",
+      "text": "Museo de Arte Popular",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/museo-de-arte-popular-01.webp",
+      "image2":"src/assets/img/destinos-img/museo-de-arte-popular-02.webp",
+      "image3":"src/assets/img/destinos-img/museo-de-arte-popular-03.webp",
+      "image4":"src/assets/img/destinos-img/museo-de-arte-popular-04.webp",
+      "title": "Museo de Arte Popular",
+      "description": "Por qué visitarlo? El Museo de Arte Popular es un espacio dedicado a preservar y promover el arte popular mexicano. Ubicado en el Centro Histórico de la Ciudad de México, alberga una colección diversa de textiles, cerámica, alebrijes y más. Sus exposiciones, talleres y eventos destacan la riqueza artesanal del país, convirtiéndolo en un destino imperdible para conocer la creatividad y tradición mexicana."
+    }
+  ]
+
+
+  

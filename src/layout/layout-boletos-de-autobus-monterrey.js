@@ -35,7 +35,7 @@ class AppBoletosAutobusMonterrey extends HTMLElement {
                     <!-- Los elementos del grid se cargarán aquí -->
                 </article>
              </section>
-
+              <p class="__subtitle__destinos">Gastronomía</p>
               <section class="__section __section__monterrey__food">
                 <p class="__paragraph__xl">Morelia, la encantadora capital de Michoacán, destaca por su exquisita tradición culinaria. Su gastronomía es una fusión de influencias indígenas y españolas, dando como resultado una riqueza de sabores auténticos. Desde las tradicionales carnitas y uchepos hasta los deliciosos gazpachos morelianos, cada platillo refleja la identidad cultural de la ciudad con una mezcla única de historia y sabor.</p>
                  <article class="container-cards__food">

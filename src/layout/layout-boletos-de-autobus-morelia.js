@@ -78,7 +78,7 @@ class AppBoletosAutobusMorelia extends HTMLElement {
     }
 
     try {
-      const response = await fetch("../src/data/lugares-morelia.json");
+      const response = await fetch("../src/data/lugares-morelia.json"); 
       if (!response.ok) {
         throw new Error(`Error HTTP: ${response.status}`);
       }

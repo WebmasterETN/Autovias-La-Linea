@@ -1,0 +1,49 @@
+[
+    {
+      "id": "escultura-perros-colimotes",
+      "text": "Escultura Perros Colimotes",
+      "className": "card-wide",
+      "backgroundImage": "src/assets/img/destinos-img/escultura_01.webp",
+      "image2":"src/assets/img/destinos-img/escultura_03.webp",
+      "image3":"src/assets/img/destinos-img/escultura_02.webp",
+      "image4":"src/assets/img/destinos-img/escultura.webp",
+      "title": "Escultura Perros Colimotes",
+      "description": "¿Por qué visitarlo? La escultura de los Perros Colimotes es un homenaje a la tradición prehispánica de Colima. Inspirada en los tlalchichis, antiguos perros rituales, esta obra de bronce pesa dos toneladas y mide tres metros de alto. Ubicada en una glorieta de Colima, representa la conexión entre el pasado y el presente, destacando la importancia de estos canes en la cultura mexicana. Es un símbolo de identidad y legado histórico."
+    },
+    {
+      "id": "museo-regional-de-historia",
+      "text": "Museo Regional de Historia",
+      "className": "card-tall",
+      "backgroundImage": "src/assets/img/destinos-img/museo_de_colima_02.webp",
+      "image2":"src/assets/img/destinos-img/museo_de_colima_ 0_1.webp",
+      "image3":"src/assets/img/destinos-img/museo_de_colima.webp",
+      "image4":"src/assets/img/destinos-img/museo_de_colima_03.webp",
+      "title": "Museo Regional de Historia",
+      "description": "¿Por qué visitarlo? El Museo Regional de Historia de Colima es un espacio que preserva la riqueza histórica y cultural del estado. Ubicado en una casona del siglo XIX, alberga seis salas de arqueología y ocho de historia, con piezas prehispánicas, arte popular y exposiciones sobre la evolución de la región. Su arquitectura colonial y su acervo lo convierten en un destino imperdible para conocer el pasado de Colima."
+    },
+    {
+      "id": "zona-arqueologica-la-campana",
+      "text": "Zona Arqueológica La Campana",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/zona-la-campana.webp",
+      "image2":"src/assets/img/destinos-img/zona-la-campana-01.webp",
+      "image3":"src/assets/img/destinos-img/zona-la-cambana-04.webp",
+      "image4":"src/assets/img/destinos-img/zona-la-cambana-03.webp",
+      "title": "Zona Arqueológica La Campana",
+      "description": "¿Por qué visitarlo? La Campana es la zona arqueológica más importante de Colima, destacada por su legado prehispánico y su conexión con la tradición Tehuchitlán. Este sitio alberga estructuras ceremoniales, tumbas de tiro y un antiguo sistema de drenaje. Sus plazas y petroglifos revelan la sofisticación de sus habitantes, convirtiéndolo en un destino clave para explorar la historia mesoamericana."
+    },
+    {
+      "id": "comala",
+      "text": "Comala",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/Comala_03.webp",
+      "image2":"src/assets/img/destinos-img/Comala_01.webp",
+      "image3":"src/assets/img/destinos-img/Comala.webp",
+      "image4":"src/assets/img/destinos-img/Comala_02.webp",
+      "title": "Comala",
+      "description": "¿Por qué visitarlo? Comala, conocido como el 'Pueblo Blanco de América', es un destino lleno de encanto y tradición. Sus calles empedradas y casas blancas evocan la atmósfera de la novela Pedro Páramo de Juan Rulfo. Los visitantes pueden disfrutar de su gastronomía, recorrer sus plazas y jardines, y explorar su riqueza cultural en lugares como la Parroquia de San Miguel y el Museo Universitario Alejandro Rangel Hidalgo."
+    }
+  ]
+
+
+  
