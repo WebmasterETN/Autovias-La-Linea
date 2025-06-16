@@ -4,7 +4,7 @@
       "description": "Los sopitos son un antojito típico de Colima, pequeños sopes de tortilla delgada frita, cubiertos con carne molida, col, cebolla y queso rallado. Se bañan en una salsa ligera de jitomate y orégano, creando un equilibrio perfecto de sabores. Su textura suave y su presentación en órdenes de varias piezas los hacen irresistibles.",
       "imageSrc": "src/assets/img/platillos/sopitos.webp",
       "imageModal":"src/assets/img/platillos/sopitos_01.webp",
-      "altText": "Tacos al Pastor",
+      "altText": "Sopitos",
       "linkText": "Ver..."
       },
     {
@@ -24,18 +24,18 @@
       "linkText": "Ver..."
     },
     {
-      "title": "Esquites",
-      "description": "Los esquites son un clásico antojito mexicano que se disfruta en todo el país. Se preparan con granos de elote cocidos con epazote y se sirven en vaso con mayonesa, queso y chile en polvo. También pueden elaborarse con elote asado o hervido, ofreciendo una combinación irresistible de cremosidad, acidez y un toque picante",
-      "imageSrc": "src/assets/img/platillos/esquites.webp",
-      "imageModal":"src/assets/img/platillos/esquites_01.webp",
+      "title": "Tamales de Ceniza",
+      "description": "Los tamales de ceniza son una especialidad tradicional de Colima y Michoacán, elaborados con masa de maíz nixtamalizado mezclada con ceniza de encino, lo que les da un sabor y textura únicos. Se envuelven en hojas de acelga o maíz y se cuecen al vapor, resultando en tamales suaves y ligeramente ahumados. Se disfrutan con crema, queso fresco y una salsa roja intensa.",
+      "imageSrc": "src/assets/img/platillos/Tamales_de_ceniza.webp",
+      "imageModal":"src/assets/img/platillos/Tamales_de_ceniza_01.webp",
       "altText": "Esquites",
       "linkText": "Ver..."
     },
     {
-      "title": "Tlacoyos",
-      "description": "Los tlacoyos son una joya de la gastronomía mexicana. Se preparan con masa de maíz rellena de ingredientes como frijoles, haba o requesón, y se cocinan en el comal hasta quedar dorados por fuera y suaves por dentro. Tradicionalmente se acompañan con nopales, salsa y queso, creando un equilibrio delicioso de sabores y texturas.",
-      "imageSrc": "src/assets/img/platillos/tlacoyos.webp",
-      "imageModal":"src/assets/img/platillos/tlacoyos_01.webp",
+      "title": "Tejuino",
+      "description": "El Tejuino es una bebida fermentada de maíz, originaria del occidente de México. Se elabora con masa de maíz y piloncillo, fermentada por 24 a 48 horas, lo que le da un sabor ligeramente ácido y dulce. Se sirve frío con jugo de limón, sal y hielo, y en algunas regiones se acompaña con nieve de limón. Su consumo es popular en Colima por su frescura y tradición.",
+      "imageSrc": "src/assets/img/platillos/tejuino.webp",
+      "imageModal":"src/assets/img/platillos/Tejuino_01.webp",
       "altText": "Tlacoyos",
       "linkText": "Ver..."
     }
