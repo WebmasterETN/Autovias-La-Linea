@@ -23,10 +23,10 @@ class AppBoletosAutobusEstadoDeMexico extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section __section__monterrey__destinations">
-                <app-section-title section-title="Viaja a Uruapan en autobús con Autovías La Línea"></app-section-title>
-                <p class="__subtitle__destinos">Uruapan</p>
-                <p class="__paragraph">Uruapan, corazón de la Meseta Purépecha y puerta al Parque Nacional Barranca del Cupatitzio, te invita a descubrir un destino lleno de historia, naturaleza exuberante y una identidad cultural que late en cada rincón. Con Autovías La Línea, llegar a esta joya de Michoacán es tan cómodo como inspirador. Disfruta de un viaje seguro, relajado y con todo el confort que mereces.</p>
-                <p class="__paragraph">Bienvenido a Uruapan, donde la tradición y la naturaleza se abrazan en una experiencia única. Esta ciudad michoacana te cautiva con sus cascadas cristalinas, arquitectura virreinal y el legado ancestral de la cultura purépecha. Recorre el emblemático Parque Nacional Barranca del Cupatitzio, donde el río nace entre manantiales y senderos frondosos. Admira el arte del maque en el Museo La Huatápera, pasea por el pintoresco centro histórico y sumérgete en la espiritualidad del Antiguo Templo de San Juan Bautista. Además, si visitas en Semana Santa, no te pierdas el Tianguis Artesanal más grande de América Latina.</p>
+                <app-section-title section-title="Viaja a Estado de México en autobús con Autovías La Línea"></app-section-title>
+                <p class="__subtitle__destinos">Estado de México</p>
+                <p class="__paragraph">El Estado de México, diverso en paisajes y rico en tradiciones, es un destino que lo tiene todo: pueblos mágicos, zonas arqueológicas, volcanes majestuosos y una cocina llena de identidad. Con Autovías La Línea, viajar a esta región es sinónimo de seguridad y confort, para que cada trayecto sea tan especial como el destino al que te diriges.</p>
+                <p class="__paragraph">Desde su historia prehispánica hasta sus encantadoras calles coloniales, el Estado de México ofrece una experiencia que despierta todos los sentidos. Recorre las pirámides de Teotihuacán, camina entre volcanes en el Parque Nacional Nevado de Toluca, o maravíllate con los colores de Valle de Bravo, ideal para deportes extremos o un retiro de descanso. Descubre el sabor tradicional en los pueblos mágicos de Metepec, Aculco o El Oro, donde la artesanía y la arquitectura se combinan para contar historias.</p>
              </section>
 
              <section class="__section __section__grid" id="monterrey-grid-section">
@@ -36,7 +36,7 @@ class AppBoletosAutobusEstadoDeMexico extends HTMLElement {
              </section>
                 <p class="__subtitle__destinos">Gastronomía</p>
               <section class="__section __section__monterrey__food">
-                <p class="__paragraph__xl">Uruapan deleita al paladar con sabores que son herencia viva de la cocina purépecha. Prueba las tradicionales corundas con crema y queso, los uchepos recién salidos del vapor, las carnitas michoacanas y la emblemática sopa tarasca. En sus mercados y fondas, la autenticidad es la protagonista, y cada platillo es un viaje por los sabores del alma michoacana.</p>
+                <p class="__paragraph__xl">El corazón mexiquense late con sabores auténticos. Desde un buen chorizo verde de Toluca, hasta un tazón humeante de sopa de médula o mixiotes de carnero, la gastronomía local es cálida, poderosa y rica en matices. No olvides probar los dulces cristalizados, los tamales o los tradicionales antojitos en los tianguis y mercados que llenan de vida sus comunidades.</p>
                  <article class="container-cards__food">
                     <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
                 </article>
