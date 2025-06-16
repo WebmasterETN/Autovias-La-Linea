@@ -23,10 +23,10 @@ class AppBoletosAutobusQueretaro extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section __section__monterrey__destinations">
-                <app-section-title section-title="Viaja a Uruapan en autobús con Autovías La Línea"></app-section-title>
-                <p class="__subtitle__destinos">Uruapan</p>
-                <p class="__paragraph">Uruapan, corazón de la Meseta Purépecha y puerta al Parque Nacional Barranca del Cupatitzio, te invita a descubrir un destino lleno de historia, naturaleza exuberante y una identidad cultural que late en cada rincón. Con Autovías La Línea, llegar a esta joya de Michoacán es tan cómodo como inspirador. Disfruta de un viaje seguro, relajado y con todo el confort que mereces.</p>
-                <p class="__paragraph">Bienvenido a Uruapan, donde la tradición y la naturaleza se abrazan en una experiencia única. Esta ciudad michoacana te cautiva con sus cascadas cristalinas, arquitectura virreinal y el legado ancestral de la cultura purépecha. Recorre el emblemático Parque Nacional Barranca del Cupatitzio, donde el río nace entre manantiales y senderos frondosos. Admira el arte del maque en el Museo La Huatápera, pasea por el pintoresco centro histórico y sumérgete en la espiritualidad del Antiguo Templo de San Juan Bautista. Además, si visitas en Semana Santa, no te pierdas el Tianguis Artesanal más grande de América Latina.</p>
+                <app-section-title section-title="Viaja a Querétaro en autobús con Autovías La Línea"></app-section-title>
+                <p class="__subtitle__destinos">Querétaro</p>
+                <p class="__paragraph">Querétaro, tierra de historia, encanto colonial y crecimiento vibrante, te recibe con los brazos abiertos. Esta ciudad Patrimonio Mundial cautiva con su arquitectura barroca, calles empedradas y una escena cultural en constante evolución. Con Autovías La Línea, llegar a Querétaro es cómodo, seguro y sin preocupaciones, para que tú solo te concentres en disfrutar cada rincón.</p>
+                <p class="__paragraph">Querétaro es una joya del Bajío mexicano, donde el pasado y el presente conviven en perfecta armonía. Pasea por su Centro Histórico, declarado Patrimonio de la Humanidad por la UNESCO, y admira el majestuoso Templo de Santa Rosa de Viterbo. Camina bajo los arcos del icónico Acueducto de Querétaro, descubre leyendas en el Cerro de las Campanas y sumérgete en el arte y diseño local en museos y galerías. Además, no dejes pasar una escapada a los Pueblos Mágicos cercanos como Bernal o Tequisquiapan, ideales para degustar vino, queso y paisajes inolvidables.</p>
              </section>
 
              <section class="__section __section__grid" id="monterrey-grid-section">
@@ -36,7 +36,7 @@ class AppBoletosAutobusQueretaro extends HTMLElement {
              </section>
                 <p class="__subtitle__destinos">Gastronomía</p>
               <section class="__section __section__monterrey__food">
-                <p class="__paragraph__xl">Uruapan deleita al paladar con sabores que son herencia viva de la cocina purépecha. Prueba las tradicionales corundas con crema y queso, los uchepos recién salidos del vapor, las carnitas michoacanas y la emblemática sopa tarasca. En sus mercados y fondas, la autenticidad es la protagonista, y cada platillo es un viaje por los sabores del alma michoacana.</p>
+                <p class="__paragraph__xl">Querétaro también conquista por el estómago. Su cocina fusiona sabores criollos, otomíes y contemporáneos, creando una escena gastronómica diversa y en expansión. Prueba enchiladas queretanas con cecina, gorditas martajadas y nieves artesanales en los portales. Para los paladares curiosos, hay cavas, viñedos y queserías que convierten a la región en un verdadero paraíso gourmet.</p>
                  <article class="container-cards__food">
                     <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
                 </article>

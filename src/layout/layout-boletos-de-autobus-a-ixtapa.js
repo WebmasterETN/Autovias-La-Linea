@@ -23,10 +23,10 @@ class AppBoletosAutobusIxtapa extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section __section__monterrey__destinations">
-                <app-section-title section-title="Viaja a Uruapan en autobús con Autovías La Línea"></app-section-title>
-                <p class="__subtitle__destinos">Uruapan</p>
-                <p class="__paragraph">Uruapan, corazón de la Meseta Purépecha y puerta al Parque Nacional Barranca del Cupatitzio, te invita a descubrir un destino lleno de historia, naturaleza exuberante y una identidad cultural que late en cada rincón. Con Autovías La Línea, llegar a esta joya de Michoacán es tan cómodo como inspirador. Disfruta de un viaje seguro, relajado y con todo el confort que mereces.</p>
-                <p class="__paragraph">Bienvenido a Uruapan, donde la tradición y la naturaleza se abrazan en una experiencia única. Esta ciudad michoacana te cautiva con sus cascadas cristalinas, arquitectura virreinal y el legado ancestral de la cultura purépecha. Recorre el emblemático Parque Nacional Barranca del Cupatitzio, donde el río nace entre manantiales y senderos frondosos. Admira el arte del maque en el Museo La Huatápera, pasea por el pintoresco centro histórico y sumérgete en la espiritualidad del Antiguo Templo de San Juan Bautista. Además, si visitas en Semana Santa, no te pierdas el Tianguis Artesanal más grande de América Latina.</p>
+                <app-section-title section-title="Viaja a Ixtapa en autobús con Autovías La Línea"></app-section-title>
+                <p class="__subtitle__destinos">Ixtapa</p>
+                <p class="__paragraph">Sol, mar y una atmósfera de serenidad te esperan en Ixtapa, uno de los destinos de playa más encantadores del Pacífico mexicano. Con Autovías La Línea, tu viaje hacia este paraíso costero será tan placentero como tu estadía. Disfruta de un transporte seguro, cómodo y relajado rumbo a tus merecidas vacaciones bajo el sol.</p>
+                <p class="__paragraph">Bienvenido a Ixtapa, donde el azul del océano se mezcla con paisajes tropicales y experiencias inolvidables. Este destino combina la tranquilidad de playas vírgenes con una infraestructura moderna ideal para el descanso. Relájate en Playa el Palmar, considerada una de las mejores playas urbanas del país. Explora la cercana Isla Ixtapa, un santuario de aguas cristalinas perfecto para el snorkel. Pasea en bicicleta por la ciclopista escénica, degusta pescados frescos en el Mercado de Zihuatanejo o recorre el malecón al atardecer.</p>
              </section>
 
              <section class="__section __section__grid" id="monterrey-grid-section">
@@ -36,7 +36,7 @@ class AppBoletosAutobusIxtapa extends HTMLElement {
              </section>
                 <p class="__subtitle__destinos">Gastronomía</p>
               <section class="__section __section__monterrey__food">
-                <p class="__paragraph__xl">Uruapan deleita al paladar con sabores que son herencia viva de la cocina purépecha. Prueba las tradicionales corundas con crema y queso, los uchepos recién salidos del vapor, las carnitas michoacanas y la emblemática sopa tarasca. En sus mercados y fondas, la autenticidad es la protagonista, y cada platillo es un viaje por los sabores del alma michoacana.</p>
+                <p class="__paragraph__xl">Ixtapa es un paraíso también para los sentidos. Su cocina destaca por mariscos frescos, sabores tropicales y preparaciones tradicionales de la costa guerrerense. Disfruta de ceviches, tiritas de pescado, camarones al mojo de ajo y pescados a la talla en restaurantes junto al mar o en las fondas locales que rebosan autenticidad. Cada platillo refleja la riqueza de un destino donde el sabor del mar se siente en cada bocado.</p>
                  <article class="container-cards__food">
                     <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
                 </article>

@@ -23,10 +23,10 @@ class AppBoletosAutobusAtlacomulco extends HTMLElement {
             <app-payments></app-payments>
 
             <section class="__section __section__monterrey__destinations">
-                <app-section-title section-title="Viaja a Uruapan en autobús con Autovías La Línea"></app-section-title>
-                <p class="__subtitle__destinos">Uruapan</p>
-                <p class="__paragraph">Uruapan, corazón de la Meseta Purépecha y puerta al Parque Nacional Barranca del Cupatitzio, te invita a descubrir un destino lleno de historia, naturaleza exuberante y una identidad cultural que late en cada rincón. Con Autovías La Línea, llegar a esta joya de Michoacán es tan cómodo como inspirador. Disfruta de un viaje seguro, relajado y con todo el confort que mereces.</p>
-                <p class="__paragraph">Bienvenido a Uruapan, donde la tradición y la naturaleza se abrazan en una experiencia única. Esta ciudad michoacana te cautiva con sus cascadas cristalinas, arquitectura virreinal y el legado ancestral de la cultura purépecha. Recorre el emblemático Parque Nacional Barranca del Cupatitzio, donde el río nace entre manantiales y senderos frondosos. Admira el arte del maque en el Museo La Huatápera, pasea por el pintoresco centro histórico y sumérgete en la espiritualidad del Antiguo Templo de San Juan Bautista. Además, si visitas en Semana Santa, no te pierdas el Tianguis Artesanal más grande de América Latina.</p>
+                <app-section-title section-title="Viaja a Atlacomulco en autobús con Autovías La Línea"></app-section-title>
+                <p class="__subtitle__destinos">Atlacomulco</p>
+                <p class="__paragraph">Atlacomulco, un rincón con encanto en el norte del Estado de México, te espera con su aire provincial, paisajes naturales y una profunda herencia cultural. Con Autovías La Línea, llegar es cómodo, seguro y sin complicaciones. Descubre este destino ideal para una escapada tranquila, donde la historia, la fe y la naturaleza conviven en armonía.</p>
+                <p class="__paragraph">Bienvenido a Atlacomulco, tierra de tradición, rodeada de montañas y verdes parajes. Aquí podrás caminar por su centro histórico, lleno de arquitectura colonial, y visitar la Parroquia de la Divina Providencia, ícono local. Disfruta del aire puro en el Parque Ecológico Xinatla, un pulmón natural perfecto para un paseo en familia. No dejes de visitar el Santuario de la Virgen de Guadalupe en San Lorenzo Octeyuco y déjate sorprender por la tranquilidad de las comunidades cercanas, donde la cultura otomí sigue viva.</p>
              </section>
 
              <section class="__section __section__grid" id="monterrey-grid-section">
@@ -36,7 +36,7 @@ class AppBoletosAutobusAtlacomulco extends HTMLElement {
              </section>
                 <p class="__subtitle__destinos">Gastronomía</p>
               <section class="__section __section__monterrey__food">
-                <p class="__paragraph__xl">Uruapan deleita al paladar con sabores que son herencia viva de la cocina purépecha. Prueba las tradicionales corundas con crema y queso, los uchepos recién salidos del vapor, las carnitas michoacanas y la emblemática sopa tarasca. En sus mercados y fondas, la autenticidad es la protagonista, y cada platillo es un viaje por los sabores del alma michoacana.</p>
+                <p class="__paragraph__xl">La cocina de Atlacomulco refleja su espíritu rural y acogedor. Deléitate con barbacoa tradicional, tamales de diferentes sabores, y antojitos como tlacoyos y quesadillas de comal. En sus mercados y puestos callejeros encontrarás platillos que nutren el alma y te conectan con la tierra. Todo con ese sazón casero que solo los pueblos mexiquenses saben ofrecer.</p>
                  <article class="container-cards__food">
                     <!-- Las tarjetas de comida se cargarán aquí dinámicamente -->
                 </article>
