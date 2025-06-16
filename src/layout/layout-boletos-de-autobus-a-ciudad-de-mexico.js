@@ -35,7 +35,7 @@ class AppBoletosAutobusCiudadDeMexico extends HTMLElement {
                     <!-- Los elementos del grid se cargarán aquí -->
                 </article>
              </section>
-
+                <p class="__subtitle__destinos">Gastronomía</p>
               <section class="__section __section__monterrey__food">
                 <p class="__paragraph__xl">Ciudad de México, la vibrante capital del país, es un epicentro gastronómico donde convergen tradición e innovación. Su cocina es el resultado de una fusión de raíces prehispánicas y europeas, creando una diversidad de sabores únicos. Desde los icónicos tacos al pastor y los tradicionales tamales hasta los irresistibles chiles en nogada, cada platillo es un reflejo de la riqueza cultural de la ciudad. Entre mercados, fondas y restaurantes de alta cocina, la capital ofrece una experiencia culinaria inigualable que deleita a locales y visitantes.</p>
                  <article class="container-cards__food">
@@ -78,7 +78,7 @@ class AppBoletosAutobusCiudadDeMexico extends HTMLElement {
     }
 
     try {
-      const response = await fetch("../src/data/lugares-morelia.json");
+      const response = await fetch("../src/data/lugares-ciudad-de-mexico.json");
       if (!response.ok) {
         throw new Error(`Error HTTP: ${response.status}`);
       }

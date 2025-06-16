@@ -1,7 +1,7 @@
 [
     {
       "title": "Tacos al Pastor",
-      "description": "Tortillas de maíz con cerdo marinado en achiote y especias, cocido en trompo vertical. Se sirven con piña, cebolla y cilantro.",
+      "description": "Los tacos al pastor son una delicia emblemática de México. Se preparan con tortillas de maíz y cerdo marinado en achiote y especias, cocido en un trompo vertical. Se sirven con piña, cebolla y cilantro, ofreciendo una combinación perfecta de sabores dulces, ácidos y especiados que los hacen irresistibles",
       "imageSrc": "src/assets/img/platillos/tacos_al_pastor.webp",
       "imageModal":"src/assets/img/platillos/tacos_al__pastor_01.webp",
       "altText": "Tacos al Pastor",
@@ -9,7 +9,7 @@
       },
     {
       "title": "Tamales",
-      "description": "Masa de maíz rellena de carne, chiles o dulces, envuelta en hoja de maíz o plátano y cocida al vapor.",
+      "description": "Los tamales son un platillo tradicional mexicano, elaborados con masa de maíz rellena de carne, chiles o ingredientes dulces. Se envuelven en hojas de maíz o plátano y se cocinan al vapor, adquiriendo una textura suave y un sabor auténtico. Son una delicia versátil, perfecta para cualquier ocasión.",
       "imageSrc": "src/assets/img/platillos/tamales.webp",
       "imageModal":"src/assets/img/platillos/tamales_01.webp",
       "altText": "- Corundas",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Quesadillas",
-      "description": "Tortillas rellenas de hongos, flor de calabaza, huitlacoche o chicharrón prensado, con o sin queso.",
+      "description": "Las quesadillas son un antojito mexicano versátil y delicioso. Se preparan con tortillas rellenas de hongos, flor de calabaza, huitlacoche o chicharrón prensado, y pueden llevar queso o no, según la preferencia. Se cocinan a la plancha o fritas, logrando un exterior dorado y crujiente con un relleno suave y lleno de sabor.",
       "imageSrc": "src/assets/img/platillos/quesadillas.webp",
       "imageModal":"src/assets/img/platillos/quesadillas_01.webp",
       "altText": "Quesadillas",
@@ -25,7 +25,7 @@
     },
     {
       "title": "Esquites",
-      "description": " Elotes hervidos o asados con mayonesa, queso y chile, o granos de elote cocidos con epazote y servidos en vaso",
+      "description": "Los esquites son un clásico antojito mexicano que se disfruta en todo el país. Se preparan con granos de elote cocidos con epazote y se sirven en vaso con mayonesa, queso y chile en polvo. También pueden elaborarse con elote asado o hervido, ofreciendo una combinación irresistible de cremosidad, acidez y un toque picante",
       "imageSrc": "src/assets/img/platillos/esquites.webp",
       "imageModal":"src/assets/img/platillos/esquites_01.webp",
       "altText": "Esquites",
@@ -33,7 +33,7 @@
     },
     {
       "title": "Tlacoyos",
-      "description": "Tortillas gruesas de maíz rellenas de frijol, haba o chicharrón, servidas con nopales, queso y salsa.",
+      "description": "Los tlacoyos son una joya de la gastronomía mexicana. Se preparan con masa de maíz rellena de ingredientes como frijoles, haba o requesón, y se cocinan en el comal hasta quedar dorados por fuera y suaves por dentro. Tradicionalmente se acompañan con nopales, salsa y queso, creando un equilibrio delicioso de sabores y texturas.",
       "imageSrc": "src/assets/img/platillos/tlacoyos.webp",
       "imageModal":"src/assets/img/platillos/tlacoyos_01.webp",
       "altText": "Tlacoyos",
