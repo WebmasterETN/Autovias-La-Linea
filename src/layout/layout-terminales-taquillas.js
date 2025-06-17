@@ -5,6 +5,7 @@ import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-dropdown.js"; // Importar el componente dropdown
+import "../js/slick.js?v=1.0.0";
 
 class LayoutTerminalesTaquillas extends HTMLElement {
   connectedCallback() {

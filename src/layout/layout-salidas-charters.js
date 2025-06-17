@@ -5,6 +5,7 @@ import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-card-text-bg-white.js";
+import "../js/slick.js?v=1.0.0";
 
 class LayoutSalidasCharters extends HTMLElement {
     async connectedCallback() {
