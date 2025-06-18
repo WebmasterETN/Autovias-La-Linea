@@ -52,7 +52,7 @@ class AppModalTravelpass extends HTMLElement {
                 <button class="close" id="close-profile-modal"><span>&times;</span></button>
                 <div class="card-modal">
                     <div class="modal-header">
-                        <img src="../assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Logo Travel Pass" width="100" height="32" class="modal-logo">
+                        <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Logo Travel Pass" width="100" height="32" class="modal-logo">
                     </div>
                     <div class="modalContenido">
                         <h2>Información del Usuario</h2>
@@ -62,7 +62,7 @@ class AppModalTravelpass extends HTMLElement {
                         <a href="#" id="logout-link" class="btn-logout" title="cerrar sesion">Cerrar sesión</a>
                     </div>
                 </div>
-            </div>
+            </div>  
       </div>
     `;
   }

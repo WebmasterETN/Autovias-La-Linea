@@ -45,5 +45,4 @@ import "../components/app-footer.js?v=1.0.0";
 
 /*-------------------------SCRIPTS---------------------------*/
 
-import "../js/slick.js?v=1.0.0";
 import "../js/travelpass-cookie.js?v=1.0.0";
