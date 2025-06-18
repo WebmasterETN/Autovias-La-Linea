@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Torta Ahogada",
+      "description": "La torta ahogada es el platillo más emblemático de Guadalajara. Se prepara con birote salado, relleno de carnitas de cerdo, y se baña en una salsa de chile de árbol. Puede servirse con cebolla desflemada y unas gotas de limón. Su nombre proviene de estar literalmente “ahogada” en salsa, lo que le da su sabor picante y característico. Es un antojo imperdible para los amantes del picante.",
+      "imageSrc": "src/assets/img/platillos/Torta_ahogada.webp",
+      "imageModal":"src/assets/img/platillos/Torta_ahogada_01.webp",
+      "altText": "Torta ahogada",
+      "linkText": "Ver..."
+      },
+    {
+      "title": "Birria de Chivo",
+      "description": "La birria es un platillo emblemático de Guadalajara, preparado con carne de chivo cocida lentamente en un caldo de chiles y especias. Se sirve con tortillas, cebolla, cilantro y limón, acompañado de su consomé. Su sabor profundo y especiado lo convierte en una experiencia gastronómica única, ideal para disfrutar en mercados y restaurantes tradicionales.",
+      "imageSrc": "src/assets/img/platillos/Birria_de_chivo.webp",
+      "imageModal":"src/assets/img/platillos/Birria_de_chivo_01.webp",
+      "altText": "Birria de Chivo",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Lonche Bañado",
+      "description": "El lonche bañado es una versión más suave de la torta ahogada, preparado con pan birote relleno de pierna de cerdo y bañado en una salsa de jitomate con crema. Se sirve con aguacate y cebolla, ofreciendo un sabor menos picante pero igual de delicioso. Es una opción perfecta para quienes buscan un antojito tapatío más ligero.",
+      "imageSrc": "src/assets/img/platillos/Lonche_banado.webp",
+      "imageModal":"src/assets/img/platillos/Lonche_banado_01.webp",
+      "altText": "Lonche Bañado",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Frijoles charros",
+      "description": "Los frijoles charros son un platillo sustancioso, preparado con frijoles de la olla cocidos con tocino, chorizo, jamón y salchicha. Se sazonan con jitomate, cebolla y chile, creando un caldo espeso y lleno de sabor. Son el acompañamiento ideal para carnes asadas y comidas típicas de Guadalajara.",
+      "imageSrc": "src/assets/img/platillos/Frijoles_charros.webp",
+      "imageModal":"src/assets/img/platillos/Frijoles_charros_01.webp",
+      "altText": "Frijoles charros",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Tejuino",
+      "description": "El Tejuino es una bebida fermentada de maíz, originaria del occidente de México. Se elabora con masa de maíz y piloncillo, fermentada por 24 a 48 horas, lo que le da un sabor ligeramente ácido y dulce. Se sirve frío con jugo de limón, sal y hielo, y en algunas regiones se acompaña con nieve de limón. Su consumo es popular en Colima por su frescura y tradición.",
+      "imageSrc": "src/assets/img/platillos/Tejuino_03.webp",
+      "imageModal":"src/assets/img/platillos/Tejuino_04.webp",
+      "altText": "Tlacoyos",
+      "linkText": "Ver..."
+    }
+   
+  ]

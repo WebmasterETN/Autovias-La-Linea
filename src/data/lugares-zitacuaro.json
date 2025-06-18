@@ -1,0 +1,49 @@
+[
+    {
+      "id": "Santuario_de_la_Mariposa_Monarca_El_Rosario",
+      "text": "Santuario de la Mariposa Monarca El Rosario",
+      "className": "card-wide",
+      "backgroundImage": "src/assets/img/destinos-img/mariposa_monarca.webp",
+      "image2":"src/assets/img/destinos-img/mariposa_monarca_01.webp",
+      "image3":"src/assets/img/destinos-img/mariposa_monarca_02.webp",
+      "image4":"src/assets/img/destinos-img/mariposa_monarca_03.webp",
+      "title": "Santuario de la Mariposa Monarca El Rosario",
+      "description": "¿Por qué visitarlo? El Santuario de la Mariposa Monarca El Rosario es el refugio más grande de esta especie en México, rodeado de pinos y oyameles. Cada año, millones de mariposas llegan tras un viaje de miles de kilómetros, creando un espectáculo natural impresionante. Con senderos ecológicos y vistas espectaculares, es un destino ideal para conectar con la naturaleza y admirar la belleza de la migración monarca."
+    },
+    {
+      "id": "museo-regional-de-historia",
+      "text": "Museo Regional de Historia",
+      "className": "card-tall",
+      "backgroundImage": "src/assets/img/destinos-img/museo_de_colima_02.webp",
+      "image2":"src/assets/img/destinos-img/museo_de_colima_ 0_1.webp",
+      "image3":"src/assets/img/destinos-img/museo_de_colima.webp",
+      "image4":"src/assets/img/destinos-img/museo_de_colima_03.webp",
+      "title": "Museo Regional de Historia",
+      "description": "¿Por qué visitarlo? El Museo Regional de Historia de Colima es un espacio que preserva la riqueza histórica y cultural del estado. Ubicado en una casona del siglo XIX, alberga seis salas de arqueología y ocho de historia, con piezas prehispánicas, arte popular y exposiciones sobre la evolución de la región. Su arquitectura colonial y su acervo lo convierten en un destino imperdible para conocer el pasado de Colima."
+    },
+    {
+      "id": "zona-arqueologica-la-campana",
+      "text": "Zona Arqueológica La Campana",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/zona-la-campana.webp",
+      "image2":"src/assets/img/destinos-img/zona-la-campana-01.webp",
+      "image3":"src/assets/img/destinos-img/zona-la-cambana-04.webp",
+      "image4":"src/assets/img/destinos-img/zona-la-cambana-03.webp",
+      "title": "Zona Arqueológica La Campana",
+      "description": "¿Por qué visitarlo? La Campana es la zona arqueológica más importante de Colima, destacada por su legado prehispánico y su conexión con la tradición Tehuchitlán. Este sitio alberga estructuras ceremoniales, tumbas de tiro y un antiguo sistema de drenaje. Sus plazas y petroglifos revelan la sofisticación de sus habitantes, convirtiéndolo en un destino clave para explorar la historia mesoamericana."
+    },
+    {
+      "id": "comala",
+      "text": "Comala",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/Comala_03.webp",
+      "image2":"src/assets/img/destinos-img/Comala_01.webp",
+      "image3":"src/assets/img/destinos-img/Comala.webp",
+      "image4":"src/assets/img/destinos-img/Comala_02.webp",
+      "title": "Comala",
+      "description": "¿Por qué visitarlo? Comala, conocido como el 'Pueblo Blanco de América', es un destino lleno de encanto y tradición. Sus calles empedradas y casas blancas evocan la atmósfera de la novela Pedro Páramo de Juan Rulfo. Los visitantes pueden disfrutar de su gastronomía, recorrer sus plazas y jardines, y explorar su riqueza cultural en lugares como la Parroquia de San Miguel y el Museo Universitario Alejandro Rangel Hidalgo."
+    }
+  ]
+
+
+  

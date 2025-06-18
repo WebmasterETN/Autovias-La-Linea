@@ -1,0 +1,49 @@
+[
+    {
+      "id": "teatro-degollado",
+      "text": "Teatro Degollado",
+      "className": "card-wide",
+      "backgroundImage": "src/assets/img/destinos-img/teatro_degollado.webp",
+      "image2":"src/assets/img/destinos-img/teatro_degollado_01.webp",
+      "image3":"src/assets/img/destinos-img/teatro_degollado_02.webp",
+      "image4":"src/assets/img/destinos-img/teatro_degollado_03.webp",
+      "title": "Teatro Degollado",
+      "description": "¿Por qué visitarlo? El Teatro Degollado, joya neoclásica de Guadalajara, es un recinto emblemático de la cultura mexicana. Inaugurado en 1866, su imponente fachada y su interior adornado con murales de la Divina Comedia cautivan a los visitantes. Es sede de la Orquesta Filarmónica de Jalisco y alberga ópera, ballet y teatro, ofreciendo una experiencia artística única en un entorno majestuoso."
+    },
+    {
+      "id": "rotonda-de-los-jaliscienses-ilustres",
+      "text": "Rotonda de los Jaliscienses Ilustres",
+      "className": "card-tall",
+      "backgroundImage": "src/assets/img/destinos-img/rotonda.webp",
+      "image2":"src/assets/img/destinos-img/rotonda_01.webp",
+      "image3":"src/assets/img/destinos-img/rotonda_02.webp",
+      "image4":"src/assets/img/destinos-img/rotonda_03.webp",
+      "title": "Rotonda de los Jaliscienses Ilustres",
+      "description": "¿Por qué visitarlo? La Rotonda de los Jaliscienses Ilustres es un monumento emblemático de Guadalajara, dedicado a honrar a las figuras más destacadas del estado. Su imponente diseño neoclásico, con 17 columnas que rodean un anillo de cantera, resguarda los restos de personajes ilustres. Los visitantes pueden recorrer sus esculturas, conocer su historia y admirar la inscripción Jalisco a sus hijos esclarecidos, símbolo del orgullo jalisciense."
+    },
+    {
+      "id": "Instituto Cultural Cabañas",
+      "text": "Instituto Cultural Cabañas",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/Instituto_cultural.webp",
+      "image2":"src/assets/img/destinos-img/Instituto_cultural_01.webp",
+      "image3":"src/assets/img/destinos-img/Instituto_cultural_02.webp",
+      "image4":"src/assets/img/destinos-img/Instituto_cultural_03.webp",
+      "title": "Instituto cultural Cabañas",
+      "description": "¿Por qué visitarlo? El Instituto Cultural Cabañas, Patrimonio de la Humanidad, es una joya arquitectónica de estilo neoclásico en el corazón de Guadalajara. Alberga los impactantes murales de José Clemente Orozco, incluido El hombre de fuego, y ofrece exposiciones de arte contemporáneo. Su historia, belleza y riqueza cultural lo convierten en un imperdible del occidente mexicano."
+    },
+    {
+      "id": "Tlaquepaque",
+      "text": "Tlaquepaque",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/Tlaquepaque.webp",
+      "image2":"src/assets/img/destinos-img/Tlaquepaque_01.webp",
+      "image3":"src/assets/img/destinos-img/Tlaquepaque_02.webp",
+      "image4":"src/assets/img/destinos-img/Tlaquepaque_03.webp",
+      "title": "Tlaquepaque",
+      "description": "¿Por qué visitarlo? Tlaquepaque, Pueblo Mágico de Jalisco, es un destino lleno de color, arte y tradición. Famoso por sus artesanías de barro y vidrio soplado, ofrece calles peatonales con galerías, música de mariachi en El Parián y una vibrante escena gastronómica. Su ambiente festivo y su riqueza cultural lo convierten en un lugar imperdible para vivir el alma tapatía."
+    }
+  ]
+
+
+  
