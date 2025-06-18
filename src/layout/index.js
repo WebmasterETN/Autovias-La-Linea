@@ -46,3 +46,4 @@ import "../components/app-footer.js?v=1.0.0";
 /*-------------------------SCRIPTS---------------------------*/
 
 import "../js/travelpass-cookie.js?v=1.0.0";
+import "../js/doters-cookies.js?v=1.0.0";
