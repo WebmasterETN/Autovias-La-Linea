@@ -7,6 +7,7 @@ import "../components/app-section-title.js";
 import "../components/app-card-text.js";
 import "../components/app-map.js";
 import "../components/app-card-title-icon.js"; 
+import "../js/slick.js?v=1.0.0";
 
 class LayoutDestinos extends HTMLElement {
   connectedCallback() {

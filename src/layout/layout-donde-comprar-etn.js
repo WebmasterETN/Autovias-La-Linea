@@ -6,6 +6,7 @@ import "../components/app-img-shop-left.js";
 import "../components/app-img-shop-right.js";
 import "../components/app-section-title.js";
 import "../components/app-card-image.js";
+import "../js/slick.js?v=1.0.0";
 
 class LayoutDondeComprar extends HTMLElement {
   connectedCallback() {

@@ -9,6 +9,7 @@ import "../components/app-other-services.js";
 import "../components/app-blog.js";
 import "../components/app-img-shop-left.js";
 import "../components/app-section-title.js";
+import "../js/slick.js?v=1.0.0";
 
 class AppHome extends HTMLElement {
     connectedCallback() {

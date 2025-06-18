@@ -6,6 +6,7 @@ import "../components/app-payments.js";
 import "../components/app-section-title.js";
 import "../components/app-card-text.js";
 import "../components/app-card-text-bg-blue-gray.js";
+import "../js/slick.js?v=1.0.0";
 
 class LayoutServiciosABordo extends HTMLElement {
   connectedCallback() {
