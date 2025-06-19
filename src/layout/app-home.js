@@ -34,11 +34,11 @@ class AppHome extends HTMLElement {
         
                 {"id": "destination2", "title": "Colima", "content": "Explora la serenidad y riqueza natural de Colima.", "image": "./src/assets/img/destinos-img/Colima.webp", "link": "../boletos-de-autobus-a-colima.html"},
         
-                {"id": "destination3", "title": "Guadalajara", "content": "Déjate envolver por la energía y el sabor vibrante de Guadalajara.", "image": "./src/assets/img/destinos-img/guadalajara.webp", "link": "../boletos-de-autobus-a-ciudad-de-mexico.html"},
+                {"id": "destination3", "title": "Guadalajara", "content": "Déjate envolver por la energía y el sabor vibrante de Guadalajara.", "image": "./src/assets/img/destinos-img/guadalajara.webp", "link": "../boletos-de-autobus-a-guadalajara.html"},
                 
                 {"id": "destination5", "title": "Morelia", "content": "Descubre el encanto colonial y la riqueza histórica de Morelia.", "image": "./src/assets/img/destinos-img/Morelia.webp", "link": "../boletos-de-autobus-a-morelia.html"},
         
-                {"id": "destination4", "title": "Zitácuaro", "content": "Descubre la esencia natural y cultural de Zitácuaro.", "image": "./src/assets/img/destinos-img/Zitacuaro.webp", "link": "../boletos-de-autobus-a-ciudad-de-mexico.html"}
+                {"id": "destination4", "title": "Zitácuaro", "content": "Descubre la esencia natural y cultural de Zitácuaro.", "image": "./src/assets/img/destinos-img/Zitacuaro.webp", "link": "../boletos-de-autobus-a-zitacuaro.html"}
                 ]'
             >
             </app-destinations-grid>
