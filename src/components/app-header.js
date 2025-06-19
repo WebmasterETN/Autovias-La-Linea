@@ -80,21 +80,21 @@ class AppHeader extends HTMLElement {
                 <li class="submenu__media-queries">
                     <a href="#" aria-label="Mas opciones" aria-haspopup="true" aria-expanded="false">Mas <span class="icon-arrow-down"></span></a>
                     <ul>
-                        <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
-                        <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
-                        <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li>
-                        <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
-                        <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
-                        <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
-                        <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
-                        <li><a href="../salidas-charters.html" tabindex="0">Salidas charters</a></li>
-                        <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
-                        <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
-                        <li><a href="../index.html" tabindex="0">Agencias</a></li>
-                        <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                        <li><a href="https://www.autovias.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                        <li><a href="https://www.autovias.com.mx/blog/" tabindex="0">Blog</a></li>
-                        <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
+                      <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
+                      <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
+                      <!-- <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li> -->
+                      <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
+                      <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
+                      <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
+                      <!-- <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
+                      <li><a href="../salidas-charters.html" tabindex="0">Salidas charters</a></li> -->
+                      <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
+                      <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
+                      <li><a href="https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES" tabindex="0">Agencias</a></li>
+                      <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
+                      <li><a href="https://www.autovias.com.mx/viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
+                      <li><a href="https://www.autovias.com.mx/blog/" tabindex="0">Blog</a></li>
+                      <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                     </ul>
                 </li>
                 <li>
