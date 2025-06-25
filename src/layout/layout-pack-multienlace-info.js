@@ -12,9 +12,10 @@ class LayoutPackMultienlaceInfo extends HTMLElement {
     this.innerHTML = `
             <app-cotiza-pack></app-cotiza-pack>
 
+            
             <app-banner-slider
                 slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/banner-pm.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
+                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/pack-banner-home.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
                
                 ]'
             >

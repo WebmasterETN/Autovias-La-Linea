@@ -34,6 +34,18 @@ import "./layout-boletos-de-autobus-a-estado-de-mexico.js?v=1.0.0";
 import "./layout-boletos-de-autobus-a-guadalajara.js?v=1.0.0";
 import "./layout-boletos-de-autobus-a-zitacuaro.js?v=1.0.0";
 
+/*------------------------------- PACK MULTIENLACE---------------------------------*/
+
+import "./layout-pack-multienlace.js?v=1.3.3";
+import "./layout-cotizador-pack.js?v=1.3.3";
+import "./layout-restricciones-pack.js?v=1.3.3";
+import "./layout-proceso-envio.js?v=1.3.3";
+import "./layout-como-funciona.js?v=1.3.3";
+import "./layout-pack-multienlace-info.js?v=1.3.3";
+import "./layout-servicios-corporativos-pack.js?v=1.3.3";
+import "./layout-cotizador-datos-pack.js?v=1.3.3";
+
+import "./layout-terminales-pack.js?v=1.3.3";
 
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
 
