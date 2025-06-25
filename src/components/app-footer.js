@@ -33,9 +33,8 @@ class AppFooter extends HTMLElement {
       {
         title: "Sobre la empresa",
         links: [
-          { text: "¿Quiénes somos?", href: "#" },
-          { text: "Certificaciones", href: "#" },
-          { text: "Bolsa de trabajo", href: "#" },
+          { text: "¿Quiénes somos?", href: "../quienes-somos.html" },
+          { text: "Bolsa de trabajo", href: "https://etn.com.mx/bolsa-de-trabajo/" },
         ],
       },
       {
@@ -50,23 +49,23 @@ class AppFooter extends HTMLElement {
           {
             title: "Servicio al cliente",
             links: [
-              { text: "Viaje protegido MAX", href: "#" },
-              { text: "Agencias", href: "#" },
+              { text: "Viajero protegido", href: "../viajero-protegido.html" },
+              { text: "Agencias", href: "https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES" },
             ],
           },
           {
             title: "Ubicaciones",
-            links: [{ text: "Terminales en destinos", href: "#" }],
+            links: [{ text: "Terminales en destinos", href: "../destinos.html" }],
           },
         ],
       },
       {
         title: "Ayuda",
         links: [
-          { text: "Preguntas frecuentes", href: "#" },
-          { text: "Tipos de boletos", href: "#" },
-          { text: "Dónde comprar", href: "#" },
-          { text: "Formas de pago", href: "#" },
+          { text: "Preguntas frecuentes", href: "../preguntas-frecuentes.html" },
+          { text: "Tipos de boletos", href: "../boletos-de-autobus.html" },
+          { text: "Dónde comprar", href: "../donde-comprar.html" },
+          { text: "Formas de pago", href: "#payment-methods" },
         ],
       },
       {

@@ -1,6 +1,6 @@
 class AppPayments extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<section class="payment-slider-container main-container"><div class="payment-slider" role="region"></div></section>`;
+    this.innerHTML = `<section id="payment-methods" class="payment-slider-container main-container"><div class="payment-slider" role="region"></div></section>`;
 
     const paymentLogos = [
       {
