@@ -1,0 +1,49 @@
+[
+    {
+      "id": "Teatro-Morelos",
+      "text": "Teatro Morelos",
+      "className": "card-wide",
+      "backgroundImage": "src/assets/img/destinos-img/Teatro_Morelos.webp",
+      "image2":"src/assets/img/destinos-img/Teatro_Morelos_01.webp",
+      "image3":"src/assets/img/destinos-img/Teatro_Morelos_02.webp",
+      "image4":"src/assets/img/destinos-img/Teatro_Morelos_03.webp",
+      "title": "Teatro Morelos",
+      "description": "¿Por qué visitarlo? El Teatro Morelos de Maravatío es una joya arquitectónica del siglo XIX con estilo neoclásico francés, diseñado por Rafael Guerrero Torres. Inaugurado en 1879 con la soprano Ángela Peralta, ha sido escenario de ópera, teatro y celebraciones históricas. Restaurado en los años 90, hoy sigue vivo como centro cultural. Su historia, elegancia y legado lo convierten en un emblema que conecta el arte con la identidad de Maravatío."
+    },
+    {
+      "id": "Ojo-de-Agua-de-Tziritzícuaro",
+      "text": "Ojo de Agua de Tziritzícuaro",
+      "className": "card-tall",
+      "backgroundImage": "src/assets/img/destinos-img/Ojo_de_Agua_de_Tziritzícuaro.webp",
+      "image2":"src/assets/img/destinos-img/Ojo_de_Agua_de_Tziritzícuaro_01.webp",
+      "image3":"src/assets/img/destinos-img/Ojo_de_Agua_de_Tziritzícuaro_02.webp",
+      "image4":"src/assets/img/destinos-img/Ojo_de_Agua_de_Tziritzícuaro_03.webp",
+      "title": "Castillo de Chapultepec",
+      "description": "¿Por qué visitarlo? El Ojo de Agua de Tziritzícuaro es un manantial natural que abastece a Maravatío y ofrece un entorno sereno rodeado de vegetación. Este espacio es ideal para conectar con la naturaleza, disfrutar de caminatas tranquilas y conocer una fuente vital para la región. Su nombre purépecha significa “lugar donde brota el agua”, y su belleza discreta lo convierte en un rincón perfecto para el descanso y la contemplación."
+    },
+    {
+      "id": "Alameda_Vasco_de_Quiroga",
+      "text": "Alameda Vasco de Quiroga",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/Alameda_Vasco.webp",
+      "image2":"src/assets/img/destinos-img/Alameda_Vasco_01.webp",
+      "image3":"src/assets/img/destinos-img/Alameda_Vasco_02.webp",
+      "image4":"src/assets/img/destinos-img/Alameda_Vasco_03.webp",
+      "title": "Alameda Vasco de Quiroga",
+      "description": "¿Por qué visitarla? La Alameda Vasco de Quiroga es uno de los espacios verdes más emblemáticos de Maravatío, ideal para disfrutar de un día tranquilo en contacto con la naturaleza. Con árboles centenarios, senderos sombreados y una atmósfera serena, es un punto de encuentro para familias, caminantes y quienes buscan relajarse. Su fuente central, rodeada de leyendas locales, añade un toque histórico y simbólico a este pulmón urbano que honra el legado humanista de Vasco de Quiroga."
+    },
+    {
+      "id": "Torre-del-Mirador",
+      "text": "Torre del Mirador",
+      "className": "",
+      "backgroundImage": "src/assets/img/destinos-img/Torre_Mirador.webp",
+      "image2":"src/assets/img/destinos-img/Torre_Mirador_01.webp",
+      "image3":"src/assets/img/destinos-img/Torre_Mirador_02.webp",
+      "image4":"src/assets/img/destinos-img/Torre_Mirador_03.webp",
+      "title": "Torre del Mirador",
+      "description": "¿Por qué visitarla? La Torre del Mirador es uno de los puntos más distintivos del paisaje urbano de Maravatío. Esta estructura ofrece vistas panorámicas del centro histórico y sus alrededores, permitiendo apreciar la belleza arquitectónica y natural del municipio desde las alturas. Aunque su acceso puede ser limitado, su silueta se ha convertido en un símbolo visual de la ciudad, ideal para fotografías y momentos de contemplación. Es un lugar que invita a detenerse, mirar y redescubrir Maravatío desde otra perspectiva."
+    }
+  ]
+
+
+  

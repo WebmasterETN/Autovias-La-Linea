@@ -32,6 +32,7 @@ import "./layout-boletos-de-autobus-a-queretaro.js?v=1.0.0";
 import "./layout-boletos-de-autobus-a-estado-de-mexico.js?v=1.0.0";
 import "./layout-boletos-de-autobus-a-guadalajara.js?v=1.0.0";
 import "./layout-boletos-de-autobus-a-zitacuaro.js?v=1.0.0";
+import "./layout-boletos-de-autobus-a-maravatio.js?v=1.0.0";
 
 
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
