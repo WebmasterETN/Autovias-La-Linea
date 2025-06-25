@@ -1,0 +1,43 @@
+[
+    {
+      "title": "Uchepos",
+      "description": "Los uchepos son tamales suaves y dulces elaborados con maíz tierno, típicos de Michoacán. Su textura esponjosa y su sabor natural los hacen únicos entre los tamales mexicanos. Se cocinan al vapor envueltos en hojas de elote y suelen servirse con crema, queso y salsa. Este platillo, originario de la región purépecha, representa una tradición culinaria que celebra la frescura del campo y el ingenio de la cocina local. Son un antojo reconfortante y lleno de historia.",
+      "imageSrc": "src/assets/img/platillos/Uchepos.webp",
+      "imageModal":"src/assets/img/platillos/Uchepos_01.webp",
+      "altText": "Uchepos",
+      "linkText": "Ver..."
+      },
+    {
+      "title": "Sopa tarasca",
+      "description": "La sopa tarasca es un platillo tradicional de Michoacán, creado en Pátzcuaro en 1966 como homenaje a la cultura purépecha. Se elabora con una base espesa de frijoles, jitomate, ajo y chiles secos como el pasilla o el ancho, todo sazonado con epazote y orégano. Se sirve caliente, acompañada de tiras de tortilla frita, crema, queso Cotija y, opcionalmente, aguacate. Su sabor profundo y reconfortante la ha convertido en un ícono de la cocina michoacana, ideal para los días frescos y para quienes buscan una experiencia auténtica.",
+      "imageSrc": "src/assets/img/platillos/Sopa_tarasca_01.webp",
+      "imageModal":"src/assets/img/platillos/Sopa_tarasca_.webp",
+      "altText": "Sopa tarasca",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Enchiladas placeras",
+      "description": "Las enchiladas placeras son un platillo tradicional de Morelia, Michoacán, que combina sencillez y sabor con raíces populares. Se preparan con tortillas de maíz bañadas en salsa de chile guajillo, rellenas de papa y zanahoria fritas, y se sirven sobre hojas de lechuga con queso fresco, crema, cebolla y chiles en vinagre. A menudo se acompañan con piezas de pollo frito. Su nombre proviene de las plazas donde solían venderse, y hoy son un ícono de la cocina callejera michoacana.",
+      "imageSrc": "src/assets/img/platillos/Enchiladas_placeras.webp",
+      "imageModal":"src/assets/img/platillos/Enchiladas_placeras_01.webp",
+      "altText": "Enchiladas placeras",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Charales fritos",
+      "description": "Charales fritos son una botana tradicional del altiplano mexicano, especialmente popular en Michoacán. Se trata de pequeños peces de lago, como los del Pátzcuaro o Chapala, que se limpian, se secan y se fríen hasta quedar crujientes. Se sirven con limón, sal y salsa picante, aunque también pueden acompañarse con tortillas o en tacos. Además de su sabor intenso y textura crocante, son ricos en calcio, hierro y omega 3, lo que los convierte en un alimento nutritivo con raíces prehispánicas.",
+      "imageSrc": "src/assets/img/platillos/charales_fritos.webp",
+      "imageModal":"src/assets/img/platillos/charales_fritos_01.webp",
+      "altText": "Charales fritos",
+      "linkText": "Ver..."
+    },
+    {
+      "title": "Pan artesanal",
+      "description": "El pan artesanal de Michoacán es una expresión viva de tradición y sabor. Elaborado en hornos de leña y con recetas transmitidas por generaciones, destaca por su variedad y simbolismo. Entre sus formas más representativas están las toqueras (pan de canela), los rollos de chilacayote, las huácatas o semitas de piloncillo, y el emblemático pan de ofrenda, que adopta figuras antropomorfas, fitomorfas y zoomorfas durante el Día de Muertos.",
+      "imageSrc": "src/assets/img/platillos/Pan_artesanal.webp",
+      "imageModal":"src/assets/img/platillos/Pan_artesanal_01.webp",
+      "altText": "Pan Artesanal",
+      "linkText": "Ver..."
+    }
+   
+  ]
