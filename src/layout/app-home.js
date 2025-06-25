@@ -58,7 +58,7 @@ class AppHome extends HTMLElement {
 
                 {"id": "destination4", "title": "Querétaro", "content": "Déjate sorprender por la historia y el encanto de Querétaro.", "image": "./src/assets/img/destinos-img/Queretaro.webp", "link": "../boletos-de-autobus-a-queretaro.html"},
 
-                {"id": "destination5", "title": "Estado de México", "content": "Descubre los maravillosos lugares del Estado de México.", "image": "./src/assets/img/destinos-img/Toluca.webp", "link": "../boletos-de-autobus-a-estado-de-mexico.html"}
+                {"id": "destination5", "title": "Maravatío", "content": "Descubre los maravillosos lugares de Maravatío.", "image": "./src/assets/img/destinos-img/maravatio.webp", "link": "../boletos-de-autobus-a-maravatio.html"}
                 ]'
             >
             </app-destinations-grid>
