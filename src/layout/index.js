@@ -5,7 +5,7 @@ import "./app-home.js?v=1.0.0";
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 
 import "./layout-boletos-de-autobus.js?v=1.0.0";
-import "./layout-donde-comprar-etn.js?v=1.0.0";
+import "./layout-donde-comprar.js?v=1.0.0";
 import "./layout-renta-de-autobuses.js?v=1.0.0";
 import "./layout-destinos.js?v=1.0.0";
 import "./layout-terminales-taquillas.js?v=1.0.0";
