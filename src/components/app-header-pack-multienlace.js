@@ -4,8 +4,8 @@ class AppHeaderPackMultienlace extends HTMLElement {
     const { src, alt, href } = logoData;
 
     this.innerHTML = `
-        <header aria-label="Encabezado ETN Turistar Lujo" >
-            <a href="${href}" class="main-header__container-logo" aria-label="ETN Turistar Lujo" tabindex="0">
+        <header aria-label="Encabezado Pack Multienlace" >
+            <a href="${href}" class="main-header__container-logo" aria-label="Pack multienlace" tabindex="0">
             <img src="${src}"
               alt="${alt}" 
               class="header__logo" width="922" height="143" loading="lazy"/>
@@ -14,7 +14,7 @@ class AppHeaderPackMultienlace extends HTMLElement {
             <nav aria-label="Menu de navegacion" >
                 
                     <ul>
-                        <li><a href="../index.html" aria-label="Ir a inicio" tabindex="0">ETN</a></li>
+                        <li><a href="../index.html" aria-label="Ir a inicio" tabindex="0">Autovías</a></li>
                         <li><a href="../../packmultienlace/terminales-paqueteria.html" aria-label="Imprimir pase de abordar" tabindex="0">Terminales</a></li> 
                         <li class="submenu">
                           <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Detalles del servicio <span class="icon-arrow-down"></span></a>
@@ -41,7 +41,7 @@ class AppHeaderPackMultienlace extends HTMLElement {
             
             <div id="dropdown-menu" class="show">
                 <ul>
-                    <li><a href="../index.html" aria-label="Ir a inicio">ETN</a></li>
+                    <li><a href="../index.html" aria-label="Regresar al sitio de Autovías">Autovías</a></li>
                     <li class="submenu__media-queries">
                         <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">DETAILS DEL SERVICIO <span class="icon-arrow-down"></span></a>
                         <ul>
