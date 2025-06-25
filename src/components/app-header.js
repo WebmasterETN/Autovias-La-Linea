@@ -29,7 +29,7 @@ class AppHeader extends HTMLElement {
                 <ul class="submenu__media-items"> 
 
                     <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
-                    <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
+                    <li><a href="../donde-comprar.html" tabindex="0">¿Donde comprar?</a></li>
                     <!-- <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li> -->
                     <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
                     <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
@@ -81,7 +81,7 @@ class AppHeader extends HTMLElement {
                     <a href="#" aria-label="Mas opciones" aria-haspopup="true" aria-expanded="false">Mas <span class="icon-arrow-down"></span></a>
                     <ul>
                       <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
-                      <li><a href="../donde-comprar-etn.html" tabindex="0">¿Donde comprar?</a></li>
+                      <li><a href="../donde-comprar.html" tabindex="0">¿Donde comprar?</a></li>
                       <!-- <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li> -->
                       <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
                       <li><a href="../destinos.html" tabindex="0">Destinos</a></li>

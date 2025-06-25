@@ -3,12 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Renta de Autobuses Autovías | Autobuses Autovías La Línea</title>
+		<title>Document</title>
 
 		<!-- Scripts -->
 
-		<script src="../src/js/jquery.min.js?v=1.0.0"></script>
-		<script type="module" src="../app.js?v=1.0.0"></script>
+		<script src="./src/js/jquery.min.js?v=1.0.0"></script>
+		<script type="module" src="./app.js?v=1.0.0"></script>
 
 		<!-- Stylesheets -->
 
@@ -16,7 +16,8 @@
 
 		<link
 			rel="stylesheet"
-			href="../src/styles/css/css-components/layout-renta-de-autobuses.min.css?v=1.0.7"
+			href="./src/styles/css/css-components/layout-terminos-condiciones.min.css?v=1.0.7"
+			type="text/css"
 		/>
 
 		<!-- CSS widget de reservamos -->
@@ -25,20 +26,19 @@
 			href="https://widgets.reservamos.mx/search/5.16.8/search.css?v=1.0.7"
 		/>
 	</head>
-
 	<body>
 		<app-header
 			logo='{
-      "src": "../src/assets/img/logos/logo.svg", 
-      "alt": "Logo de Autovías La Línea",
-      "href": "https://etn.com.mx/"
-    }'
+        "src": "./src/assets/img/logos/logo.svg", 
+        "alt": "Logo de Autovías La Línea",
+        "href": "https://www.autovias.com.mx/"
+      }'
 		>
 		</app-header>
 		<app-modal-travelpass></app-modal-travelpass>
 		<app-modal-doters></app-modal-doters>
 		<main>
-			<layout-renta-de-autobuses></layout-renta-de-autobuses>
+			<layout-preguntas-frecuentes></layout-preguntas-frecuentes>
 		</main>
 		<app-footer></app-footer>
 		<app-cookies-policy></app-cookies-policy>
