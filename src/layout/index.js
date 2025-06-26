@@ -47,7 +47,7 @@ import "./layout-como-funciona.js?v=1.3.3";
 import "./layout-pack-multienlace-info.js?v=1.3.3";
 import "./layout-servicios-corporativos-pack.js?v=1.3.3";
 import "./layout-cotizador-datos-pack.js?v=1.3.3";
-
+import "./layout-facturacion-pack.js?v=1.3.3";
 import "./layout-terminales-pack.js?v=1.3.3";
 
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
