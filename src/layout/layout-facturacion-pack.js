@@ -14,7 +14,7 @@ class LayoutFacturacionPack extends HTMLElement {
 
             <app-banner-slider
             slides-data='[
-              {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/banner/web/pack-facturacion-web.webp","mediumImage": "../src/assets/img/paqueteria/banner/tablet/pack-facturacion-tablet.webp", "smallImage": "../src/assets/img/paqueteria/banner/movil/pack-facturacion-mobile.webp", "link": "#index.html/banner1"}
+              {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/banner/pack-banner-facturacion.webp","mediumImage": "../src/assets/img/paqueteria/banner/tablet/pack-facturacion-tablet.webp", "smallImage": "../src/assets/img/paqueteria/banner/movil/pack-facturacion-mobile.webp", "link": "#index.html/banner1"}
             ]'
         >
         </app-banner-slider>
