@@ -1,7 +1,7 @@
 [
     {
-      "image": "../../../src/assets/img/autobuses/asiento-etn.webp",
-      "alt": "Asiento confortable de autobús ETN para renta",
+      "image": "../../../src/assets/img/autobuses/Asiento_Autovias.webp",
+      "alt": "Asiento confortable de autobús Autovías La Línea para renta",
       "title": "El valor estratégico de la renta de autobuses en el turismo",
       "content": "La renta de autobuses en turismo es clave para viajes sin contratiempos, reduciendo costos y mejorando la experiencia grupal. Diseñados para confort, ofrecen asientos reclinables, aire acondicionado, amplio espacio y entretenimiento. Además, la logística centralizada garantiza seguridad y puntualidad."
     },
@@ -13,14 +13,14 @@
     },
     {
       "image": "../../../src/assets/img/autobuses/autobus.webp",
-      "alt": "Autobús ETN Turistar disponible para renta",
-      "title": "Ventajas competitivas de ETN Turistar en la renta de autobuses",
+      "alt": "Autobús Autovías La Línea disponible para renta",
+      "title": "Ventajas competitivas de Autovías La Línea en la renta de autobuses",
       "content": "ETN Turistar destaca en la renta de autobuses por su calidad y enfoque en la satisfacción del cliente. Con una flota moderna, garantiza viajes seguros y cómodos. Su plataforma en línea permite reservar fácilmente autobuses estándar o de lujo, adaptándose a distintas necesidades de transporte."
     },
     {
-      "image": "../../../src/assets/img/autobuses/asiento-etn.webp",
-      "alt": "Detalle de asiento en autobús ETN Turistar para la mejor experiencia de renta",
-      "title": "La mejor experiencia de renta de autobuses con ETN Turistar",
-      "content": "La renta de autobuses con ETN Turistar es la opción ideal para grupos que buscan transporte cómodo y confiable. Con autobuses estándar y de lujo, garantiza una experiencia superior respaldada por su trayectoria y compromiso con la satisfacción del cliente."
+      "image": "../../../src/assets/img/autobuses/asientos_cerca_autovias.webp",
+      "alt": "Detalle de asiento en autobús Autovías La Línea para la mejor experiencia de renta",
+      "title": "La mejor experiencia de renta de autobuses con Autovías La Línea",
+      "content": "La renta de autobuses con Autovías La Línea es la opción ideal para grupos que buscan transporte cómodo y confiable. Con autobuses estándar y de lujo, garantiza una experiencia superior respaldada por su trayectoria y compromiso con la satisfacción del cliente."
     }
 ]

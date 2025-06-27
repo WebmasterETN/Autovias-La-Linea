@@ -32,7 +32,7 @@ class LayoutRentaDeAutobuses extends HTMLElement {
 
 
             <section class="__section__renta-autobuses">
-                <app-section-title section-title="Renta de autobuses: soluciones para viajes y turismo en CDMX"></app-section-title>
+                <app-section-title section-title="Renta de autobuses: Soluciones para viajes y turismo en CDMX"></app-section-title>
                 <p class="__paragraph">El sector de renta de autobuses en la Ciudad de México ha experimentado un crecimiento significativo, reflejando la creciente demanda de soluciones de transporte cómodas y seguras para grupos. Desde excursiones escolares hasta viajes corporativos, la renta de autobuses se ha consolidado como una opción ideal para facilitar la movilidad de grupos grandes, ofreciendo un equilibrio entre eficiencia, seguridad y confort.</p>
                 <article class="__grid-cards-container">
                     <!-- app-card-image elements will be inserted here by loadAndRenderImageCards -->
@@ -46,7 +46,7 @@ class LayoutRentaDeAutobuses extends HTMLElement {
                 <article class="__icons-cards-container" id="icons-cards-container">
                     <!-- Las cards se insertarán aquí dinámicamente -->
                 </article>
-                <p class="__paragraph">El servicio de Turismo Gran Clase de ETN y Turistar, cuenta con dos opciones de capacidad para su comodidad y necesidades de transporte.</p>
+                <p class="__paragraph">El servicio de Turismo Gran Clase de Autovías La Línea, cuenta con dos opciones de capacidad para su comodidad y necesidades de transporte.</p>
             </section>
 
 
@@ -71,8 +71,8 @@ class LayoutRentaDeAutobuses extends HTMLElement {
 
             <section class="__section__quote-bus-rental">
                 <app-section-title section-title="Cotiza la renta de autobús"></app-section-title>
-                <p class="__paragraph">¡Cotiza tu autobús con ETN y viaja con comodidad y exclusividad!</p>
-                <p class="__paragraph">Encuentra la mejor opción para tu grupo, ajusta detalles a tu medida y disfruta de un viaje con el servicio exclusivo de ETN.</p>
+                <p class="__paragraph">¡Cotiza tu autobús con Autovías La Línea y viaja con comodidad y exclusividad!</p>
+                <p class="__paragraph">Encuentra la mejor opción para tu grupo, ajusta detalles a tu medida y disfruta de un viaje con el servicio exclusivo de Autovías La Línea.</p>
                 <div class="__quote-contact-container">
                     <div class="__form-container">
                        <app-forms></app-forms>
