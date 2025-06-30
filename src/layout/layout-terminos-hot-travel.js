@@ -16,7 +16,7 @@ class LayoutTerminosHotTravel extends HTMLElement {
 
         <app-banner-slider
             slides-data='[
-            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/banner-hot-sale.jpg","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
+            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Hot_Travel_web.webp","mediumImage": "../src/assets/img/banner/tablet/Hot_Travel_tablet.webp", "smallImage": "../src/assets/img/banner/mobile/Hot_Travel_mobile.webp", "link": "#index.html/banner1"}
             ]'
         >
         </app-banner-slider>

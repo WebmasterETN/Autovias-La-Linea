@@ -41,12 +41,12 @@ class LayoutPromociones extends HTMLElement {
               <app-section-title section-title="Descuentos de Temporadas"></app-section-title>
                   <article class="__article__banner">
                       <h3 class="__article-title">Buen fin </h3>
-                      <a class="__article-banner-link" href="../../../buen-fin/index.html">  <img src="src/assets/img/banner/banner-buen-fin.png" alt="Atencion a clientes"> </a>
+                      <a class="__article-banner-link" href="../../../buen-fin/">  <img src="src/assets/img/banner/Buen_Fin_web.webp" alt="Atencion a clientes"> </a>
                   </article>
               <app-section-title section-title="Convenios"></app-section-title>
                   <article class="__article__guide">
                       <h3 class="__article-title">Guía de Descuentos</h3>
-                      <div class="__article-guide"> </div>
+                      <div class="__article-guide"></div>
                   </article>
             </section>
         `;

@@ -15,7 +15,7 @@ class LayoutTerminosBuenFin extends HTMLElement {
 
         <app-banner-slider
             slides-data='[
-            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/banner-buen-fin.png","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
+            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Buen_Fin_web.webp","mediumImage": "../src/assets/img/banner/tablet/Buen_Fin_tablet.webp", "smallImage": "../src/assets/img/banner/mobile/Buen_Fin_mobile.webp", "link": "#index.html/banner1"}
             ]'
         >
         </app-banner-slider>
