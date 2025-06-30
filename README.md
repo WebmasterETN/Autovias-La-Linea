@@ -1,4 +1,4 @@
-# Web ETN Turistar Lujo
+# Web Autovías La Línea
 
 ## Índice / Index
 
@@ -38,16 +38,16 @@
 
 ## 📌 Descripción General
 
-**Web ETN Turistar Lujo** es una solución web moderna orientada a promover destinos turísticos de forma atractiva e interactiva. Este proyecto ha sido desarrollado con tecnologías actuales como **HTML5**, **SCSS**, y metodologías de arquitectura CSS como **BEM** e **ITCSS**, garantizando un diseño escalable, mantenible y completamente *responsive*.
+**Web Autovías La Línea** es una solución web moderna orientada a promover destinos turísticos de forma atractiva e interactiva. Este proyecto ha sido desarrollado con tecnologías actuales como **HTML5**, **SCSS**, y metodologías de arquitectura CSS como **BEM** e **ITCSS**, garantizando un diseño escalable, mantenible y completamente _responsive_.
 
 ---
 
 ## 🎯 Objetivos del Proyecto
 
 - Brindar una experiencia visual inmersiva en la exploración de destinos turísticos.
-- Asegurar compatibilidad entre dispositivos mediante diseño *responsive*.
+- Asegurar compatibilidad entre dispositivos mediante diseño _responsive_.
 - Permitir la personalización modular de componentes y estilos.
-- Fomentar buenas prácticas de desarrollo *frontend* escalable.
+- Fomentar buenas prácticas de desarrollo _frontend_ escalable.
 
 ---
 
@@ -74,7 +74,7 @@ Para compilar archivos `.scss` a `.css` automáticamente, se utiliza la extensi�
 
 ### Configuración recomendada
 
-Modifica tu archivo `settings.json` en la configuración de VS Code  del compilador SASS con el siguiente fragmento:
+Modifica tu archivo `settings.json` en la configuración de VS Code del compilador SASS con el siguiente fragmento:
 
 ```json
   //"liveSassCompile.settings.forceBaseDirectory": "/d:/Documents/Proyects/WebIAMSA/src/styles",
@@ -90,8 +90,8 @@ Modifica tu archivo `settings.json` en la configuración de VS Code  del compila
   ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": [
-  
-  
+
+
     "> 1%",
     "last 2 versions"
   ],
@@ -163,7 +163,7 @@ WEBIAMSA/
 
 ```html
 <head>
-  <script type="module" src="./app.js?v=1.2.0"></script>
+	<script type="module" src="./app.js?v=1.2.0"></script>
 </head>
 ```
 
@@ -180,7 +180,10 @@ WEBIAMSA/
 - **Carga completa (solo en **`home`**)**
 
   ```html
-  <link rel="stylesheet" href="./src/styles/css/_css-components/home.min.css?v=1.0.6"/>
+  <link
+  	rel="stylesheet"
+  	href="./src/styles/css/_css-components/home.min.css?v=1.0.6"
+  />
   ```
 
 > **IMPORTANTE**: Las rutas deben estar actualizadas. Este archivo de estilos solo se recomienda para la página **`home`**. Si deseas usar los componentes en otras páginas, deben cargarse los estilos de manera modular.
@@ -188,10 +191,22 @@ WEBIAMSA/
 - **Carga modular (ejemplo)**
 
   ```html
-  <link rel="stylesheet" href="/src/styles/css/_css-components/header.min.css" />
-  <link rel="stylesheet" href="/src/styles/css/_css-components/payments-logos.min.css" />
-  <link rel="stylesheet" href="/src/styles/css/_css-components/destinations-grid.min.css" />
-  <link rel="stylesheet" href="/src/styles/css/_css-components/list-destinations.min.css" />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/header.min.css"
+  />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/payments-logos.min.css"
+  />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/destinations-grid.min.css"
+  />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/list-destinations.min.css"
+  />
   ```
 
 > **IMPORTANTE**: Las rutas deben estar actualizadas o los estilos no se cargarán correctamente.
@@ -202,7 +217,7 @@ WEBIAMSA/
 
 ### `app-destinations-etn-grid`
 
-Este componente permite la visualización dinámica de destinos turísticos mediante una grilla adaptable y cambiando a un *slider* en dispositivos móviles utilizando la librería Slick Slider.
+Este componente permite la visualización dinámica de destinos turísticos mediante una grilla adaptable y cambiando a un _slider_ en dispositivos móviles utilizando la librería Slick Slider.
 
 #### Requisitos:
 
@@ -218,10 +233,10 @@ Este componente permite la visualización dinámica de destinos turísticos medi
 
 ```html
 <app-destinations-etn-grid
-  titlesText='[
+	titlesText='[
     {"id": "title1, 2, 3...", "title": "título de la sección", "text": "texto del parráfo de la sección"}
   ]'
-  destinations='[
+	destinations='[
     {
       "title": "título para el destino",
       "content": "texto descriptivo para los destinos",
@@ -260,10 +275,10 @@ Componente para mostrar programas de lealtad y otros servicios clave.
 
 ```json
 {
-  "title": "Nombre del servicio",
-  "imageSrc": "ruta/de/imagen.webp",
-  "imageAlt": "descripción alternativa",
-  "href": "https://url-del-servicio.com"
+	"title": "Nombre del servicio",
+	"imageSrc": "ruta/de/imagen.webp",
+	"imageAlt": "descripción alternativa",
+	"href": "https://url-del-servicio.com"
 }
 ```
 
@@ -271,10 +286,10 @@ Componente para mostrar programas de lealtad y otros servicios clave.
 
 ```html
 <app-other-services
-  title-data='[
+	title-data='[
     {"title": "Título de la sección"}
   ]'
-  cards-data='[
+	cards-data='[
     {
       "title": "título del elemento",
       "imageSrc": "(url relativa de la imagen)./assets/other-services-img/seguro-viajero.webp",
@@ -303,20 +318,20 @@ Componente para mostrar programas de lealtad y otros servicios clave.
 
 ### `app-blog.js`
 
-Componente que consume la API REST de WordPress y visualiza los últimos *posts* en un *slider* vertical.
+Componente que consume la API REST de WordPress y visualiza los últimos _posts_ en un _slider_ vertical.
 
 #### Funcionalidades clave:
 
 - `fetchLatestPosts()`: Obtiene datos de WordPress.
 - `render()`: Renderiza HTML dinámico.
-- `initializeSlider()`: Inicializa el *slider* con Slick.
-- Soporte para *fallback* en caso de datos vacíos.
+- `initializeSlider()`: Inicializa el _slider_ con Slick.
+- Soporte para _fallback_ en caso de datos vacíos.
 
 #### Requisitos:
 
 - Incluir jQuery y Slick en el proyecto.
 - Agregar `<app-blog></app-blog>` donde se desea renderizar.
-- Personalizar *endpoint* en `fetchLatestPosts()` según la fuente deseada.
+- Personalizar _endpoint_ en `fetchLatestPosts()` según la fuente deseada.
 
 ---
 
@@ -332,18 +347,18 @@ Componente que consume la API REST de WordPress y visualiza los últimos *posts*
 
 ```css
 .icon-class:before {
-  content: "\e900";
+	content: "\e900";
 }
 ```
 
 ### Actualización de Íconos
 
-1. Solicita el archivo `selection.json`.  
-2. Optimiza los SVGs en [svgviewer.dev](https://www.svgviewer.dev/).  
-3. Importa todo en [icomoon.io](https://icomoon.io/app).  
-4. Genera y descarga el nuevo paquete.  
-5. Sustituye archivos en `src/assets/icons/`.  
-6. Copia clases CSS a `_icons.scss`.  
+1. Solicita el archivo `selection.json`.
+2. Optimiza los SVGs en [svgviewer.dev](https://www.svgviewer.dev/).
+3. Importa todo en [icomoon.io](https://icomoon.io/app).
+4. Genera y descarga el nuevo paquete.
+5. Sustituye archivos en `src/assets/icons/`.
+6. Copia clases CSS a `_icons.scss`.
 7. Actualiza `demo.html` y `demo-files/`.
 
 > **IMPORTANTE**: El archivo `selection.json` debe estar actualizado y debe ser solicitado a tu líder de proyecto para su actualización si lo requieres.
@@ -361,8 +376,8 @@ $fs-h1: clamp(2em, 5vw, 3em);
 $lh-default: 1.5;
 
 h1 {
-  font-size: $fs-h1;
-  line-height: $lh-default;
+	font-size: $fs-h1;
+	line-height: $lh-default;
 }
 ```
 
@@ -378,7 +393,7 @@ git commit -m "Descripción"
 git push origin feature-[nombre]
 ```
 
-Haz *Pull Request* a la rama `dev`.
+Haz _Pull Request_ a la rama `dev`.
 
 ---
 
@@ -392,54 +407,54 @@ Este proyecto se encuentra bajo **licencia propietaria**. Consulta el archivo `L
 
 ### Index
 
-1. [📘 Documentation in Spanish](#documentación-en-español)  
-   - [📌 General Description](#📌-general-description)  
-   - [🎯 Project Objectives](#🎯-project-objectives)  
-   - [🧰 Technologies and Tools](#🧰-technologies-and-tools)  
-   - [🛠️ Installation and Configuration](#🛠️-installation-and-configuration)  
-     - [Extension Configuration: Live Sass Compiler](#extension-configuration-live-sass-compiler)  
-     - [Installation Steps](#installation-steps)  
-   - [📁 Project Structure](#📁-project-structure)  
-   - [🚀 Usage and Execution](#🚀-usage-and-execution)  
-     - [Integration of app.js file](#integration-of-the-appjs-file-that-imports-the-components)  
-     - [Import local dependencies](#import-local-dependencies)  
-     - [Styles Inclusion](#styles-inclusion)  
-   - [🧩 Use of Custom Components](#🧩-use-of-custom-components)  
-     - [`app-destinations-etn-grid`](#app-destinations-etn-grid)  
-     - [`app-other-services`](#app-other-services)  
-     - [`app-blog.js`](#app-blogjs)  
-   - [🔡 Typography and Icons](#🔡-typography-and-icons)  
-     - [Insert Icons](#insert-icons)  
-     - [Icon Update](#icon-update)  
-   - [🧱 Typography and Spacing Guide](#🧱-typography-and-spacing-guide)  
-   - [How to Contribute](#how-to-contribute)  
-   - [License](#license)  
+1. [📘 Documentation in Spanish](#documentación-en-español)
+   - [📌 General Description](#📌-general-description)
+   - [🎯 Project Objectives](#🎯-project-objectives)
+   - [🧰 Technologies and Tools](#🧰-technologies-and-tools)
+   - [🛠️ Installation and Configuration](#🛠️-installation-and-configuration)
+     - [Extension Configuration: Live Sass Compiler](#extension-configuration-live-sass-compiler)
+     - [Installation Steps](#installation-steps)
+   - [📁 Project Structure](#📁-project-structure)
+   - [🚀 Usage and Execution](#🚀-usage-and-execution)
+     - [Integration of app.js file](#integration-of-the-appjs-file-that-imports-the-components)
+     - [Import local dependencies](#import-local-dependencies)
+     - [Styles Inclusion](#styles-inclusion)
+   - [🧩 Use of Custom Components](#🧩-use-of-custom-components)
+     - [`app-destinations-etn-grid`](#app-destinations-etn-grid)
+     - [`app-other-services`](#app-other-services)
+     - [`app-blog.js`](#app-blogjs)
+   - [🔡 Typography and Icons](#🔡-typography-and-icons)
+     - [Insert Icons](#insert-icons)
+     - [Icon Update](#icon-update)
+   - [🧱 Typography and Spacing Guide](#🧱-typography-and-spacing-guide)
+   - [How to Contribute](#how-to-contribute)
+   - [License](#license)
 
 ---
 
 ## 📌 General Description
 
-**Web ETN Turistar Lujo** is a modern web solution aimed at promoting tourist destinations in an attractive and interactive way. This project was developed using current technologies such as **HTML5**, **SCSS**, and CSS architecture methodologies like **BEM** and **ITCSS**, ensuring a scalable, maintainable, and fully responsive design.
+**Web Autovías La Línea** is a modern web solution aimed at promoting tourist destinations in an attractive and interactive way. This project was developed using current technologies such as **HTML5**, **SCSS**, and CSS architecture methodologies like **BEM** and **ITCSS**, ensuring a scalable, maintainable, and fully responsive design.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Deliver an immersive visual experience when exploring tourist destinations.  
-- Ensure device compatibility through responsive design.  
-- Enable modular customization of components and styles.  
-- Encourage best practices for scalable frontend development.  
+- Deliver an immersive visual experience when exploring tourist destinations.
+- Ensure device compatibility through responsive design.
+- Enable modular customization of components and styles.
+- Encourage best practices for scalable frontend development.
 
 ---
 
 ## 🧰 Technologies and Tools
 
-- **HTML5**: Semantic content structure.  
-- **CSS3 + SCSS**: Advanced styling with Sass preprocessor.  
-- **Browserslist**: Controls compatibility with modern browsers.  
-- **CSS Methodologies**:  
-  - BEM (Block Element Modifier)  
-  - ITCSS (Inverted Triangle CSS)  
+- **HTML5**: Semantic content structure.
+- **CSS3 + SCSS**: Advanced styling with Sass preprocessor.
+- **Browserslist**: Controls compatibility with modern browsers.
+- **CSS Methodologies**:
+  - BEM (Block Element Modifier)
+  - ITCSS (Inverted Triangle CSS)
 
 ---
 
@@ -471,8 +486,8 @@ Modify your `settings.json` file in VS Code with the following snippet:
   ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": [
-  
-  
+
+
     "> 1%",
     "last 2 versions"
   ],
@@ -480,9 +495,9 @@ Modify your `settings.json` file in VS Code with the following snippet:
 
 ### Steps to Apply the Configuration
 
-1. Open **Command Palette** with `Ctrl + Shift + P`.  
-2. Type `Preferences: Open Settings (JSON)` and select it.  
-3. Add or replace the indicated snippet.  
+1. Open **Command Palette** with `Ctrl + Shift + P`.
+2. Type `Preferences: Open Settings (JSON)` and select it.
+3. Add or replace the indicated snippet.
 4. Save and restart Visual Studio Code if necessary.
 
 This setup allows for automatic style compilation on `.scss` file save, generating the corresponding `.min.css` in the defined path.
@@ -544,7 +559,7 @@ WEBIAMSA/
 
 ```html
 <head>
-  <script type="module" src="./app.js?v=1.2.0"></script>
+	<script type="module" src="./app.js?v=1.2.0"></script>
 </head>
 ```
 
@@ -561,7 +576,10 @@ WEBIAMSA/
 - **Full load (only for `home`)**
 
   ```html
-  <link rel="stylesheet" href="./src/styles/css/_css-components/home.min.css?v=1.0.6"/>
+  <link
+  	rel="stylesheet"
+  	href="./src/styles/css/_css-components/home.min.css?v=1.0.6"
+  />
   ```
 
 > **IMPORTANT**: Paths must be up to date. This style file is recommended only for the **`home`** page. To use components on other pages, styles must be loaded modularly.
@@ -569,10 +587,22 @@ WEBIAMSA/
 - **Modular load (example)**
 
   ```html
-  <link rel="stylesheet" href="/src/styles/css/_css-components/header.min.css" />
-  <link rel="stylesheet" href="/src/styles/css/_css-components/payments-logos.min.css" />
-  <link rel="stylesheet" href="/src/styles/css/_css-components/destinations-grid.min.css" />
-  <link rel="stylesheet" href="/src/styles/css/_css-components/list-destinations.min.css" />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/header.min.css"
+  />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/payments-logos.min.css"
+  />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/destinations-grid.min.css"
+  />
+  <link
+  	rel="stylesheet"
+  	href="/src/styles/css/_css-components/list-destinations.min.css"
+  />
   ```
 
 > **IMPORTANT**: Paths must be up to date or styles will not load properly.
@@ -587,22 +617,22 @@ This component enables dynamic display of tourist destinations using a responsiv
 
 #### Requirements:
 
-- Between **1 and 5 items** per instance.  
-- Each destination must include:  
-  - `title` (Destination name)  
-  - `content` (Description)  
-  - `image` (Image URL)  
-  - `link` (Optional URL)  
-  - `titleText` (Section title)  
+- Between **1 and 5 items** per instance.
+- Each destination must include:
+  - `title` (Destination name)
+  - `content` (Description)
+  - `image` (Image URL)
+  - `link` (Optional URL)
+  - `titleText` (Section title)
 
 #### Implementation:
 
 ```html
 <app-destinations-etn-grid
-  titlesText='[
+	titlesText='[
     {"id": "title1, 2, 3...", "title": "section title", "text": "paragraph text for the section"}
   ]'
-  destinations='[
+	destinations='[
     {
       "title": "title for the destination",
       "content": "descriptive text for the destination",
@@ -623,7 +653,6 @@ This component enables dynamic display of tourist destinations using a responsiv
     }
   ]'
 ></app-destinations-etn-grid>
-
 ```
 
 > **IMPORTANT**: Link and image paths must be up to date.
@@ -642,10 +671,10 @@ Component to display loyalty programs and other key services.
 
 ```json
 {
-  "title": "Service name",
-  "imageSrc": "image/path.webp",
-  "imageAlt": "alt description",
-  "href": "https://service-url.com"
+	"title": "Service name",
+	"imageSrc": "image/path.webp",
+	"imageAlt": "alt description",
+	"href": "https://service-url.com"
 }
 ```
 
@@ -653,10 +682,10 @@ Component to display loyalty programs and other key services.
 
 ```html
 <app-other-services
-  title-data='[
+	title-data='[
     {"title": "Section title"}
   ]'
-  cards-data='[
+	cards-data='[
     {
       "title": "item title",
       "imageSrc": "(relative image URL)./assets/other-services-img/seguro-viajero.webp",
@@ -689,15 +718,15 @@ Component that consumes the WordPress REST API and displays the latest posts in 
 
 #### Key Features:
 
-- `fetchLatestPosts()`: Fetches data from WordPress.  
-- `render()`: Renders dynamic HTML.  
-- `initializeSlider()`: Initializes Slick slider.  
+- `fetchLatestPosts()`: Fetches data from WordPress.
+- `render()`: Renders dynamic HTML.
+- `initializeSlider()`: Initializes Slick slider.
 - Fallback support if data is empty.
 
 #### Requirements:
 
-- Include jQuery and Slick in the project.  
-- Add `<app-blog></app-blog>` where the component should render.  
+- Include jQuery and Slick in the project.
+- Add `<app-blog></app-blog>` where the component should render.
 - Customize endpoint in `fetchLatestPosts()` to match desired source.
 
 ---
@@ -714,18 +743,18 @@ Component that consumes the WordPress REST API and displays the latest posts in 
 
 ```css
 .icon-class:before {
-  content: "\e900";
+	content: "\e900";
 }
 ```
 
 ### Icon Update
 
-1. Request the `selection.json` file  
-2. Optimize SVGs at [svgviewer.dev](https://www.svgviewer.dev/)  
-3. Import everything into [icomoon.io](https://icomoon.io/app)  
-4. Generate and download the new package  
-5. Replace files in `src/assets/icons/`  
-6. Copy CSS classes to `_icons.scss`  
+1. Request the `selection.json` file
+2. Optimize SVGs at [svgviewer.dev](https://www.svgviewer.dev/)
+3. Import everything into [icomoon.io](https://icomoon.io/app)
+4. Generate and download the new package
+5. Replace files in `src/assets/icons/`
+6. Copy CSS classes to `_icons.scss`
 7. Update `demo.html` and `demo-files/`
 
 > **IMPORTANT**: The `selection.json` file must be up to date and should be requested from your project lead if needed.
@@ -743,8 +772,8 @@ $fs-h1: clamp(2em, 5vw, 3em);
 $lh-default: 1.5;
 
 h1 {
-  font-size: $fs-h1;
-  line-height: $lh-default;
+	font-size: $fs-h1;
+	line-height: $lh-default;
 }
 ```
 

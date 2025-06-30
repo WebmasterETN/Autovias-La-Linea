@@ -35,7 +35,7 @@ class LayoutPromociones extends HTMLElement {
                     </article>
                     <article class="__article__promo">
                         <h3 class="__article-title">Acumula Puntos Doters</h3>
-                       <a class="__article-link" href="https://etn.com.mx/doters/"> <img src="src/assets/img/programs/Mosaico_Doters_ETN_small.jpg" alt="Atencion a clientes">  </a>
+                       <a class="__article-link" href="https://Autovías.com.mx/doters/"> <img src="src/assets/img/programs/Mosaico_Doters_ETN_small.jpg" alt="Atencion a clientes">  </a>
                     </article>
                 </div>
               <app-section-title section-title="Descuentos de Temporadas"></app-section-title>

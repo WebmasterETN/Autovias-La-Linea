@@ -36,12 +36,12 @@ class LayoutOfertasClick extends HTMLElement {
                         
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                 Ofertas en 1 Click aplica para venta en línea (App ETN y sitio web) y centro de contacto telefónico y se puede realizar la compra con cualquier forma de pago.
+                                 Ofertas en 1 Click aplica para venta en línea (App Autovías y sitio web) y centro de contacto telefónico y se puede realizar la compra con cualquier forma de pago.
                             </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                 No aplica venta en taquillas, puntos de venta propios ETN ni canales o puntos de venta externos. </p>
+                                 No aplica venta en taquillas, puntos de venta propios Autovías ni canales o puntos de venta externos. </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
@@ -131,7 +131,7 @@ class LayoutOfertasClick extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                 El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.etn.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta ETN presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto. </p>
+                                 El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.Autovías.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta Autovías presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto. </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
@@ -152,7 +152,7 @@ class LayoutOfertasClick extends HTMLElement {
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">
-                                 Asientos sujetos a disponibilidad, consúltalos en www.etn.com.mx y App ETN </p>
+                                 Asientos sujetos a disponibilidad, consúltalos en www.Autovías.com.mx y App Autovías </p>
                         </li>
                         <li class="__terms-purchase-item">
                             <p class="__terms-purchase-text">

@@ -35,12 +35,12 @@ class LayoutTerminosHotTravel extends HTMLElement {
                 <ol type="numeric" class="__order-list-column">
                     <li class="__terms-purchase-item">
                         <p class="__terms-purchase-text">
-                            <b>Hot Travel</b> aplica para venta en línea <b>(App ETN y sitio web)</b> y centro de contacto telefónico y se puede realizar la compra con cualquier forma de pago.
+                            <b>Hot Travel</b> aplica para venta en línea <b>(App Autovías y sitio web)</b> y centro de contacto telefónico y se puede realizar la compra con cualquier forma de pago.
                         </p>
                     </li>
                     <li class="__terms-purchase-item">
                         <p class="__terms-purchase-text">
-                            No aplica venta en taquillas, puntos de venta propios <b>ETN</b> ni canales o puntos de venta externos.
+                            No aplica venta en taquillas, puntos de venta propios <b>Autovías</b> ni canales o puntos de venta externos.
                         </p>
                     </li>
                     <li class="__terms-purchase-item">
@@ -138,7 +138,7 @@ class LayoutTerminosHotTravel extends HTMLElement {
                     </li>
                     <li class="__terms-purchase-item">
                         <p class="__terms-purchase-text">
-                            El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.etn.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta <b>ETN</b> presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto.
+                            El cambio de itinerario de viaje (fecha u hora) se puede realizar directamente desde la página de internet (www.Autovías.com.mx) en la sección “modifique su itinerario” o también podrán ser realizados en taquillas y/o puntos de venta <b>Autovías</b> presentando el pase de abordar y una identificación oficial vigente. Cada operación está limitada a un máximo de dos cambios por boleto.
                         </p>
                     </li>
                     <li class="__terms-purchase-item">
@@ -163,7 +163,7 @@ class LayoutTerminosHotTravel extends HTMLElement {
                     </li>
                     <li class="__terms-purchase-item">
                         <p class="__terms-purchase-text">
-                            Asientos sujetos a disponibilidad, consúltalos en <b>www.etn.com.mx</b> y <b>App ETN</b>
+                            Asientos sujetos a disponibilidad, consúltalos en <b>www.Autovías.com.mx</b> y <b>App Autovías</b>
                         </p>
                     </li>
                     <li class="__terms-purchase-item">

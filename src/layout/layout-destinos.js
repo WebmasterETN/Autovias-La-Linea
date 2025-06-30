@@ -30,7 +30,7 @@ class LayoutDestinos extends HTMLElement {
         <app-map></app-map>
 
         <section class="__section __section__quest-shop-tickets">
-            <app-section-title section-title="¿Dónde puedo comprar Boletos de autobús en ETN Turistar?"></app-section-title>
+            <app-section-title section-title="¿Dónde puedo comprar Boletos de autobús en Autovías La Línea?"></app-section-title>
             <p class="__paragraph">El sector de renta de autobuses en la Ciudad de México ha experimentado un crecimiento significativo, reflejando la creciente demanda de soluciones de transporte cómodas y seguras para grupos. Desde excursiones escolares hasta viajes corporativos, la renta de autobuses se ha consolidado como una opción ideal para facilitar la movilidad de grupos grandes, ofreciendo un equilibrio entre eficiencia, seguridad y confort.</p>
             <article class="__cards-text-container" id="grid-cards-container">
                 <!-- generate the cards dynamically here -->
@@ -38,7 +38,7 @@ class LayoutDestinos extends HTMLElement {
         </section>
         
         <section class="__section __section__main-destinations">
-            <app-section-title section-title="Principales destinos de ETN Turistar"></app-section-title>
+            <app-section-title section-title="Principales destinos de Autovías La Línea"></app-section-title>
             <p class="__paragraph">El sector de renta de autobuses en la Ciudad de México ha experimentado un crecimiento significativo, reflejando la creciente demanda de soluciones de transporte cómodas y seguras para grupos. Desde excursiones escolares hasta viajes corporativos, la renta de autobuses se ha consolidado como una opción ideal para facilitar la movilidad de grupos grandes, ofreciendo un equilibrio entre eficiencia, seguridad y confort.</p>
             <article class="__icons-title-cards-container" id="title-icon-cards-container">
                       <!-- Contenedor para las nuevas tarjetas con título e icono -->

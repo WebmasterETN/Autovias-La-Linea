@@ -8,8 +8,8 @@ import "../components/app-card-small-list.js";
 import "../components/app-header-pack-multienlace.js";
 
 class LayoutFacturacionPack extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza-pack></app-cotiza-pack>
 
             <app-banner-slider
@@ -21,7 +21,7 @@ class LayoutFacturacionPack extends HTMLElement {
         <app-section-title section-title="Políticas de envío, entrega y facturación  "></app-section-title>
 
         <section class="envio-info">
-            <h2 class="empresa">ETN</h2>
+            <h2 class="empresa">Autovías</h2>
 
             <h3>FACTURACIÓN</h3>
             <p>Para facturación de sus envíos y de acuerdo a la versión de <strong>4.0</strong> del SAT, deberá proporcionar la siguiente información:</p>
@@ -172,9 +172,6 @@ class LayoutFacturacionPack extends HTMLElement {
         </section>
 
         `;
-  }
+	}
 }
-customElements.define(
-  "layout-facturacion-pack",
-  LayoutFacturacionPack
-);
+customElements.define("layout-facturacion-pack", LayoutFacturacionPack);

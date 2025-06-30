@@ -29,7 +29,7 @@ class LayoutSalidasCharters extends HTMLElement {
             <section class="__section __section--salidas-charters">
                 <app-section-title section-title="Salidas Charters"></app-section-title>
                 <article class="__article-grid">
-                    <p class="__paragraph">Para tu comodidad ETN yTuristar te ofrece un servicio de autobuses de lujo con salidas exclusivas en hoteles y centros comerciales de la Ciudad de México y Guadalajara.</p>
+                    <p class="__paragraph">Para tu comodidad Autovías te ofrece un servicio de autobuses de lujo con salidas exclusivas en hoteles y centros comerciales de la Ciudad de México y Guadalajara.</p>
                     <div class="__grid-container" id="grid-cards-container"></div>
                 </article>
             </section>
