@@ -8,10 +8,10 @@
     },
     {
       "type": "right",
-      "imageSrc": "../../../src/assets/img/sales-location/taquilla.jpg",
-      "altText": "Taquillas ETN",
+      "imageSrc": "../../../src/assets/img/sales-location/taquilla_autovias.webp",
+      "altText": "Taquillas Autovías La Linea",
       "cardTitle": "Taquillas",
-      "linkUrl": "../../src/assets/img/sales-location/call-center.jpg"
+      "linkUrl": "../../src/assets/img/sales-location/taquilla_autovias.webp"
     },
     {
       "type": "left",
