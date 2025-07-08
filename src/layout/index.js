@@ -4,6 +4,7 @@ import "./app-home.js?v=1.0.0";
 
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 
+import "./layout-site-map.js?v=1.3.3";
 import "./layout-boletos-de-autobus.js?v=1.0.0";
 import "./layout-donde-comprar.js?v=1.0.0";
 import "./layout-renta-de-autobuses.js?v=1.0.0";

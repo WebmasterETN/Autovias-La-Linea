@@ -80,6 +80,7 @@ class AppFooter extends HTMLElement {
 					{ text: "Tipos de boletos", href: "../boletos-de-autobus.html" },
 					{ text: "Dónde comprar", href: "../donde-comprar.html" },
 					{ text: "Formas de pago", href: "#payment-methods" },
+          { text: "Mapa del sitio", href: "../sitemap.html" },
 				],
 			},
 			{
