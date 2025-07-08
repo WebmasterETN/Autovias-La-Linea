@@ -9,21 +9,21 @@
       "categoria": "Rutas y Destinos",
       "landings": [
         { "nombre": "Destinos", "url": "../../destinos.html" },
-        { "nombre": "Aguascalientes", "url": "../../boletos-de-autobus-a-aguascalientes.html" },
-        { "nombre": "Chilpancingo", "url": "../../boletos-de-autobus-a-chilpancingo.html" },
         { "nombre": "Ciudad de México", "url": "../../boletos-de-autobus-a-ciudad-de-mexico.html" },
-        { "nombre": "Culiacán", "url": "../../boletos-de-autobus-a-culiacan.html" },
+        { "nombre": "Colima", "url": "../../boletos-de-autobus-a-colima.html" },
         { "nombre": "Guadalajara", "url": "../../boletos-de-autobus-a-guadalajara.html" },
-        { "nombre": "Guanajuato", "url": "../../boletos-de-autobus-a-guanajuato.html" },
-        { "nombre": "Leon", "url": "../../boletos-de-autobus-a-leon.html" },
-        { "nombre": "Monterrey", "url": "../../boletos-de-autobus-a-monterrey.html" }
+        { "nombre": "Morelia", "url": "../../boletos-de-autobus-a-morelia.html" },
+        { "nombre": "Zitacuaro", "url": "../../boletos-de-autobus-a-zitacuaro.html" },
+        { "nombre": "Uruapan", "url": "../../boletos-de-autobus-a-uruapan.html" },
+        { "nombre": "Ixtapa", "url": "../../boletos-de-autobus-a-ixtapa.html" },
+        { "nombre": "Maravatío", "url": "../../boletos-de-autobus-a-maravatio.html" }
       ]
     },
     {
         "categoria": "Comprar Boletos",
         "landings": [
             { "nombre": "Boletos de Autobus", "url": "../../boletos-de-autobus.html" },
-            { "nombre": "¿Dónde comprar boletos?", "url": "../../donde-comprar-etn.html" },
+            { "nombre": "¿Dónde comprar boletos?", "url": "../../donde-comprar.html" },
             { "nombre": "Promociones", "url": "../../promociones.html" },
             { "nombre": "Terminales y Taquillas", "url": "../../taquillas.html" }
         ]
@@ -32,12 +32,11 @@
         "categoria": "Servicios",
         "landings": [
           { "nombre": "Renta de Autobuses", "url": "../../turismo/index.html" },
-          { "nombre": "Salas de espera", "url": "../../salas-de-espera-vip.html" },
           { "nombre": "Servicios a bordo", "url": "../../servicio-a-bordo.html" },
           { "nombre": "Paquetería", "url": "../../paqueteria.html" }
         ]
       },{
-        "categoria": "ETN",
+        "categoria": "Autovías",
         "landings": [
           { "nombre": "¿Quienes somos?", "url": "../../quienes-somos.html" },
           { "nombre": "Contacto", "url": "../../atencion-a-clientes.html" },
@@ -71,7 +70,7 @@
       {
         "categoria": "Otros",
         "landings": [
-          { "nombre": "Blog", "url": "https://etn.com.mx/blog/" },
+          { "nombre": "Blog", "url": "https://www.autovias.com.mx/blog/" },
           { "nombre": "Atencion a Clientes", "url": "../../atencion-a-clientes.html" }
         ]
       },

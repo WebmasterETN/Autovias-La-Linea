@@ -15,7 +15,7 @@ class LayoutComoFunciona extends HTMLElement {
 
         <app-banner-slider
             slides-data='[
-            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/pack-banner-home.webp","mediumImage": "../src/assets/img/banner/Tablet-1.png", "smallImage": "../src/assets/img/banner/Movil-1.webp", "link": "#index.html/banner1"}
+            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/paqueteria/banner/pack-banner-como-funciona.webp","mediumImage": "../src/assets/img/paqueteria/banner/tablet/pack-banner-como-funciona.webp", "smallImage": "../src/assets/img/paqueteria/banner/movil/pack-banner-como-funciona.webp", "link": "#index.html/banner1"}
             
             ]'
         >
