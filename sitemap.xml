@@ -3,7 +3,7 @@
   <!-- Página Home -->
   <url>
     <loc>https://www.autovias.com.mx/</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2025-07-08</lastmod>
     <priority>1.0</priority>
   </url>
   <!-- Páginas principales -->
@@ -11,68 +11,80 @@
   <!-- Página Boletos de autobus-->
   <url>
     <loc>https://www.autovias.com.mx/boletos-de-autobus.html</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2025-07-08</lastmod>
     <priority>0.9</priority>
   </url>
   <!-- Página Dónde comprar -->
   <url>
     <loc>https://www.autovias.com.mx/donde-comprar.html</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2025-07-08</lastmod>
     <priority>0.9</priority>
+  </url>
+  <!-- Página Servicios -->
+  <url>
+    <loc>https://www.autovias.com.mx/servicios.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Página GHO -->
+  <url>
+    <loc>https://www.autovias.com.mx/gho.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <!-- Página Renta de autobuses-->
   <url>
     <loc>https://www.autovias.com.mx/turismo/</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2025-07-08</lastmod>
     <priority>0.9</priority>
   </url>
   <!-- Página Destinos-->
   <url>
     <loc>https://www.autovias.com.mx/destinos.html</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2025-07-08</lastmod>
     <priority>0.9</priority>
   </url>
   <!-- Página Terminales y taquillas-->
   <url>
     <loc>https://www.autovias.com.mx/taquillas.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.7</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.80</priority>
   </url>
   <!-- Página Servicios a bordo-->
   <url>
     <loc>https://www.autovias.com.mx/servicio-a-bordo.html</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2025-07-08</lastmod>
     <priority>0.8</priority>
   </url>
   <!-- Página Promociones-->
   <url>
     <loc>https://www.autovias.com.mx/promociones.html</loc>
-    <lastmod>2025-06-11</lastmod>
+    <lastmod>2025-07-08</lastmod>
     <priority>0.8</priority>
   </url>
   <!-- Página Pagos OXXO Pay-->
   <url>
     <loc>https://www.autovias.com.mx/pago-referenciado-oxxo.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <!-- Página Viajero Protegido-->
   <url>
     <loc>https://www.autovias.com.mx/viajero-protegido.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <!-- Página Blog-->
   <url>
     <loc>https://www.autovias.com.mx/blog/</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <!-- Página Atencion a clientes-->
   <url>
     <loc>https://www.autovias.com.mx/atencion-a-clientes.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
 
   <!-- Páginas Footer -->
@@ -82,14 +94,14 @@
   <!-- Páginas Quiénes somos -->
   <url>
     <loc>https://www.autovias.com.mx/quienes-somos.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <!-- Páginas Bolsa de trabajo -->
   <url>
     <loc>https://www.autovias.com.mx/bolsa-de-trabajo/</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
 
   <!-- Páginas Legales -->
@@ -97,37 +109,89 @@
   <!-- Páginas Avisos de privacidad -->
   <url>
     <loc>https://www.autovias.com.mx/aviso-de-privacidad.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
   <!-- Páginas Términos y condiciones -->
   <url>
     <loc>https://www.autovias.com.mx/terminos-condiciones.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Documentos PDF -->
+  <url>
+    <loc>https://www.autovias.com.mx/aviso-privacidad.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/servicio-plus.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/bus-protect.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/politicas-comerciales.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
   </url>
 
   <!-- Páginas Servicios al cliente -->
-
-  <!-- Páginas Agencias -->
-  <url>
-    <loc>https://www.autovias.com.mx/</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
-  </url>
 
   <!-- Páginas Ayuda -->
 
   <!-- Páginas Preguntas frecuentes -->
   <url>
     <loc>https://www.autovias.com.mx/preguntas-frecuentes.html</loc>
-    <lastmod>2025-06-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.8</priority>
   </url>
-  <!-- Páginas  -->
+
+  <!-- Páginas en Inglés -->
   <url>
-    <loc>https://www.autovias.com.mx/aviso-de-privacidad</loc>
-    <lastmod>2025-06-11</lastmod>
+    <loc>https://www.autovias.com.mx/english/index.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/english/servicios.html</loc>
+    <lastmod>2025-07-08</lastmod>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.autovias.com.mx/english/taquillas.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/english/gho.html</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/english/aviso-privacidad.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/english/servicio-plus.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/english/bus-protect.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.autovias.com.mx/english/politicas-comerciales.pdf</loc>
+    <lastmod>2025-07-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
 </urlset>
