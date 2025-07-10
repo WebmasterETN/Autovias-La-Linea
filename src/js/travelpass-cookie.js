@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const userNameElement = document.getElementById('user-name');
     const userBalanceElement = document.getElementById('user-balance');
     const logoutLink = document.getElementById('logout-link');
-    const brandButtons = document.querySelectorAll('.brand-btn');
-    const brandInput = document.getElementById('brand');
     const miCuentaBtn = document.getElementById('miCuentaBtn');
     const registerLink = document.getElementById('register-link');
     const infoLink = document.getElementById('info-link');
@@ -17,20 +15,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const loginUrl = 'https://one-api.autovias.com.mx/api/v2/ewallet/login';
     const profileUrl = 'https://one-api.autovias.com.mx/api/v2/ewallet/profile';
 
-    const dashboardUrls = {
-        'surdejalisco': 'https://travelpass-sur-de-jalisco.autovias.com.mx/dashboard',
-        'pegasso': 'https://travelpass-pegasso.autovias.com.mx/dashboard'
-    };
+    // Solo Pegasso
+    const dashboardUrl = 'https://travelpass-pegasso.autovias.com.mx/dashboard';
+    const registerUrl = 'https://travelpass-pegasso.autovias.com.mx/signup';
+    const infoUrl = 'https://www.autovias.com.mx/pegasso/travel-pass.html';
 
-    const registerUrls = {
-        'surdejalisco': 'https://travelpass-sur-de-jalisco.autovias.com.mx/signup',
-        'pegasso': 'https://travelpass-pegasso.autovias.com.mx/signup'
-    };
-
-    const infoUrls = {
-        'surdejalisco': 'https://www.autovias.com.mx/sur-de-jalisco/travel-pass.html',
-        'pegasso': 'https://www.autovias.com.mx/pegasso/travel-pass.html'
-    };
 
     // Funciones para manejo de cookies
     function setCookie(name, value, days = 7) {
@@ -64,27 +53,60 @@ document.addEventListener('DOMContentLoaded', function () {
         profileModal.style.display = 'none';
     }
 
-    // Manejadores de eventos para abrir los modales
-    const openLoginModalStatic = function (event) {
-        event.preventDefault();
+    
+    // Función para abrir el modal de login
+    function openLoginModal(event) {
+        event?.preventDefault();
         closeModals();
-        if (loginModal) loginModal.style.display = 'flex';
-    };
+        loginModal.style.display = 'flex';
+        message.textContent = '';
+    }
 
-    const openProfileModalStatic = function (event) {
-        event.preventDefault();
+    // Función para abrir el modal de perfil
+    function openProfileModal(event) {
+        event?.preventDefault();
         closeModals();
-        if (profileModal) profileModal.style.display = 'flex';
-    };
+        profileModal.style.display = 'flex';
+    }
+
+    // Adjunta listeners a todos los triggers
+    function attachLoginModalListeners() {
+        const triggers = document.querySelectorAll('.js-open-travelpass-login-modal');
+        triggers.forEach(trigger => {
+            trigger.removeEventListener('click', openLoginModal);
+            trigger.addEventListener('click', openLoginModal);
+        });
+    }
+
+    function attachProfileModalListeners() {
+        const triggers = document.querySelectorAll('.js-open-travelpass-login-modal');
+        triggers.forEach(trigger => {
+            trigger.removeEventListener('click', openProfileModal);
+            trigger.addEventListener('click', openProfileModal);
+        });
+    }
 
     function updateLoginIcon(profileData) {
-        // Esta función solo actualiza el HTML interno del botón de escritorio
+        // Solo actualiza el botón de escritorio
+        const loginIconDesktop = document.getElementById('login-icon');
         if (loginIconDesktop) {
             loginIconDesktop.innerHTML = profileData ?
-                `<a href="#" id="open-profile-modal-link"><img src="https://autovias.com.mx/gho-test/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>` :
-                `<a href="#" id="open-login-modal-link"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
+                `<a href="#" class="js-open-travelpass-login-modal"><img src="https://autovias.com.mx/gho-test/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>` :
+                `<a href="#" class="js-open-travelpass-login-modal"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
+        }
+        // Re-atachea los listeners después de actualizar el DOM
+        checkSessionTriggers();
+    }
+
+    function checkSessionTriggers() {
+        const token = getToken();
+        if (token) {
+            attachProfileModalListeners();
+        } else {
+            attachLoginModalListeners();
         }
     }
+
     function checkSession() {
         const token = getToken();
         if (token) {
@@ -95,77 +117,35 @@ document.addEventListener('DOMContentLoaded', function () {
                         updateLoginIcon(profileData);
                         userNameElement.textContent = `Nombre: ${profileData.name}`;
                         userBalanceElement.textContent = `Saldo: ${profileData.balance !== undefined ? profileData.balance : 'N/A'} MXN`;
-                        // Adjuntar el manejador para abrir el modal de perfil a todos los triggers
-                        openLoginModalTriggers.forEach(trigger => {
-                            trigger.removeEventListener('click', openLoginModalStatic); // Limpiar listener anterior
-                            trigger.removeEventListener('click', openProfileModalStatic); // Limpiar listener anterior
-                            trigger.addEventListener('click', openProfileModalStatic);
-                        });
                     } else {
-                        removeToken(); // Si los datos del perfil no son válidos, limpiar el token
+                        removeToken();
                         updateLoginIcon(null);
-                        // Adjuntar el manejador para abrir el modal de login a todos los triggers
-                        openLoginModalTriggers.forEach(trigger => {
-                            trigger.removeEventListener('click', openProfileModalStatic); // Limpiar listener anterior
-                            trigger.removeEventListener('click', openLoginModalStatic); // Limpiar listener anterior
-                            trigger.addEventListener('click', openLoginModalStatic);
-                        });
                     }
                 })
                 .catch(() => {
                     updateLoginIcon(null);
-                    // Adjuntar el manejador para abrir el modal de login a todos los triggers en caso de error
-                    openLoginModalTriggers.forEach(trigger => {
-                        trigger.removeEventListener('click', openProfileModalStatic);
-                        trigger.removeEventListener('click', openLoginModalStatic);
-                        trigger.addEventListener('click', openLoginModalStatic);
-                    });
                 });
         } else {
             updateLoginIcon(null);
-            // Adjuntar el manejador para abrir el modal de login a todos los triggers
-            openLoginModalTriggers.forEach(trigger => {
-                trigger.removeEventListener('click', openProfileModalStatic);
-                trigger.removeEventListener('click', openLoginModalStatic);
-                trigger.addEventListener('click', openLoginModalStatic);
-            });
         }
     }
 
     // Actualiza enlace de registro
     function updateRegisterLink() {
-        const selectedBrand = brandInput.value;
-        if (registerUrls[selectedBrand]) {
-            registerLink.href = registerUrls[selectedBrand];
-        }
+        registerLink.href = registerUrl;
     }
 
     // Actualiza enlace de "¿Qué es Travel Pass?"
     function updateInfoLink() {
-        const selectedBrand = brandInput.value;
-        if (infoUrls[selectedBrand]) {
-            infoLink.href = infoUrls[selectedBrand];
-        }
+        infoLink.href = infoUrl;
     }
-
-    // Selector de marca
-    brandButtons.forEach(button => {
-        button.addEventListener('click', function () {
-            brandButtons.forEach(btn => btn.classList.remove('selected'));
-            this.classList.add('selected');
-            brandInput.value = this.dataset.brand;
-
-            updateRegisterLink();
-            updateInfoLink();
-        });
-    });
 
     // Envío del formulario de login
     loginForm.addEventListener('submit', function (event) {
         event.preventDefault();
         const email = document.getElementById('email').value.trim();
         const password = document.getElementById('password').value.trim();
-        const brand = brandInput.value;
+        const brand = 'pegasso'; //fijo pegasso
 
         fetch(loginUrl, {
             method: 'POST',
@@ -202,10 +182,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (miCuentaBtn) {
         miCuentaBtn.addEventListener('click', function (event) {
             event.preventDefault();
-            const userBrand = localStorage.getItem('userBrand');
-            if (userBrand && dashboardUrls[userBrand]) {
-                window.open(dashboardUrls[userBrand], '_blank');
-            }
+            window.open(dashboardUrl, '_blank'); // <-- corregido
         });
     }
 
@@ -220,4 +197,5 @@ document.addEventListener('DOMContentLoaded', function () {
     updateRegisterLink();
     updateInfoLink();
     checkSession();
+    checkSessionTriggers(); // <-- asegúrate de llamar esto al final
 });

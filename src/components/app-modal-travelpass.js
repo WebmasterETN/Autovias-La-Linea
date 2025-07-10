@@ -8,7 +8,9 @@ class AppModalTravelpass extends HTMLElement {
             <button class="close" class="close" id="close-login-modal"><span>&times;</span></button>
             <div class="card-modal">
               <div class="modal-header">
-                  <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Travel Pass Formulario" width="100" height="32" class="modal-logo"> 
+                  <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Travel Pass Formulario" width="100" height="32" class="modal-logo">
+                  <hr class="__line-separador"/>
+                  <img src="../src/assets/img/gho-img/logos/logo_Pegasso.webp" class="modal-logo" alt="Viajero">
               </div>
 
               <div>
@@ -16,7 +18,7 @@ class AppModalTravelpass extends HTMLElement {
                 <h3 class="subtitle">Ingresa tu cuenta a Travelpass</h3>
               </div>
 
-              <!-- Selector de marca -->
+              <!-- Selector de marca 
               <div id="brand-selector" class="brand-selector">
                   <button type="button" class="brand-btn" data-brand="surdejalisco">
                       <img src="https://rsrvms-vanda-prod.s3.us-east-1.amazonaws.com/funnel/test/surdejalisco.png" class="__image__button-size" alt="Sur de Jalisco">
@@ -24,7 +26,7 @@ class AppModalTravelpass extends HTMLElement {
                   <button type="button" class="brand-btn" data-brand="pegasso">
                       <img src="../src/assets/img/gho-img/logos/logo_Pegasso.webp" class="__image__button-size" alt="Viajero">
                   </button>
-              </div>
+              </div>-->
               
               <form id="login-form" class="__login-form">
                 <fieldset class="__section-inputs">
@@ -38,7 +40,7 @@ class AppModalTravelpass extends HTMLElement {
               </form>
 
               <div class="__card-footer">
-                <a class="w-modal-link color-1 center" href="https://autovias.com.mx/sur-de-jalisco/travel-pass.html">Conoce aquí&nbsp; <span class="bold"> ¿Qué es Travel Pass?</span></a>
+                <a id="info-link" class="w-modal-link color-1 center" href="https://autovias.com.mx/pegasso/travel-pass.html">Conoce aquí&nbsp; <span class="bold"> ¿Qué es Travel Pass?</span></a>
                 <a id="register-link" class="w-modal-link color-1" href="#">¿No tienes cuenta? <span class="bold"> Regístrate</span></a>
                 <div id="message" class="message"></div>
               </div>

@@ -104,6 +104,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+  .__line-separador {
+    display: block;
+    width: 2.5px;
+    height: 100%;
+    background-color: #0057D6;
+  }
 }
 
 .modal-logo {
