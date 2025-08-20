@@ -1,0 +1,27 @@
+[
+  
+  {
+    "imageSrc": "../src/assets/img/autobuses/asiento.webp",
+    "imageAlt": "Asientos reclinables",
+    "title": "Reclining seats designed for the rest you truly deserve.",
+    "description": "Comfort that travels with you—our seats turn every journey into a relaxing experience."
+  },
+  {
+    "imageSrc": "../src/assets/img/autobuses/pantalla-autobus.webp",
+    "imageAlt": "Pantallas individuales",
+    "title": "Individual screens",
+    "description": "Individual screens with onboard entertainment to keep you company along the way."
+  },
+  {
+    "imageSrc": "../src/assets/img/autobuses/banos.webp",
+    "imageAlt": "Baño en el autobús",
+    "title": "Separate restrooms for men and women",
+    "description": "Always clean, well-maintained, and available throughout your journey."
+  },
+  {
+    "imageSrc": "../src/assets/img/autobuses/enchufe.webp",
+    "imageAlt": "Enchufes individuales",
+    "title": "Individual power outlets available at every seat",
+    "description": "Keep your devices charged throughout the journey. Whether you're sharing photos, staying connected, or simply enjoying your favorite playlist—your energy never runs out."
+  }
+]
