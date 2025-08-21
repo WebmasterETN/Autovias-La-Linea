@@ -45,10 +45,13 @@ class AppHomeEnglish extends HTMLElement {
         <!-- Banner promotional "viajero protegido" here-->
         
         <app-banner-promotional
-          image-src="../../src/assets/img/banner/english/viajero/banner-viajero-protegido.webp"
-          image-alt="Promotional banner for viajero protegido"
           link-href="#"
+          image-alt="Banner promocional de Viajero Protegido"
+          image-src="../../src/assets/img/banner/english/viajero/banner-viajero-protegido.webp"
+          image-src-tablet="../../src/assets/img/banner/english/viajero/banner-viajero-protegido-tablet.webp"
+          image-src-mobile="../../src/assets/img/banner/english/viajero/banner-viajero-protegido-mobile.webp"
         ></app-banner-promotional>
+        
       </section>
 
       <section class="__section">

@@ -5,14 +5,18 @@ class AppDestinationsGridEnglish extends HTMLElement {
 		const titleTextData = this.getAttribute("titlesText") || "[]";
 		const titleTexts = JSON.parse(titleTextData);
 
+
 		this.innerHTML = `
+
       <article class="__section__destinations">
+
         <ul class="__destinations__list-grid">
           ${this.renderDestinations(destinations)}
         </ul>
       </article>
     `;
 	}
+
 	renderText(titleTexts) {
 		return titleTexts
 			.map(
