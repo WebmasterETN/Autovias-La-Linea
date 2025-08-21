@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>
+			Viajero Protegido Servicio Básico | Autovías, La Línea, Pegasso y Sur de
+			Jalisco
+		</title>
+
+		<meta name="language" content="Español" />
+		<link rel="canonical" href="https://autovias.com.mx/english" />
+		<link rel="alternate" href="https://autovias.com.mx/" hreflang="es-MX" />
+		<link
+			rel="alternate"
+			href="https://autovias.com.mx/english/"
+			hreflang="en-US"
+		/>
+		<meta
+			name="description"
+			content="Compra tus boletos de autobús y viaja con Autovías, La Línea, Pegasso y Sur de Jalisco. Adquiere tus boletos de Guadalajara a México desde $712."
+		/>
+		<meta
+			name="keywords"
+			content="boletos de autobús, boletos de camión, autovias..."
+		/>
+
+		<meta name="theme-color" content="#06255b" />
+		<link rel="manifest" href="../manifest.json?0.1.4" />
+		<link rel="icon" type="image/png" sizes="512x512" href="../favicon.ico" />
+
+		<!-- Preconexión para acelerar la carga de recursos -->
+		<link rel="preconnect" href="https://autovias.com.mx" crossorigin="" />
+
+		<script type="application/ld+json">
+			{
+			  "@context": "https://schema.org",
+			  "@type": "LocalBusiness",
+			  "name": "Autivías La Línea",
+			  "url": "https://autovias.com.mx",
+			  "logo": "https://autovias.com.mx/gho-etn/webp/logo-autovias-la-linea.webp",
+			  ...
+			}
+		</script>
+
+		<meta
+			property="og:title"
+			content="Compra Tus Boletos de Autobús aquí | Autovías La Línea"
+		/>
+		<meta
+			property="og:description"
+			content="Somos tu mejor opción de viaje en autobús ¡Vive la experiencia con Autovías La Línea!."
+		/>
+
+		<!-- Scripts -->
+
+		<script src="../src/js/jquery.min.js?v=1.0.0"></script>
+		<script type="module" src="../app.js?v=1.0.0"></script>
+
+		<!-- Stylesheets -->
+
+		<!-- CSS All Components -->
+
+		<link
+			rel="stylesheet"
+			href="../src/styles/css/css-components/layout-terminos-condiciones.min.css?v=1.0.7"
+			type="text/css"
+		/>
+
+		<!-- CSS widget de reservamos -->
+		<link
+			rel="stylesheet"
+			href="https://widgets.reservamos.mx/search/5.18.0/search.css?v=5.18.0"
+		/>
+	</head>
+	<body>
+		<app-header
+			logo='{
+        "src": "../src/assets/img/logos/logo.svg", 
+        "alt": "Logo de Autovías La Línea",
+        "href": "https://www.autovias.com.mx/"
+      }'
+		>
+		</app-header>
+		<app-modal-travelpass></app-modal-travelpass>
+		<app-modal-doters></app-modal-doters>
+		<main>
+			<layout-viajero-protegido-english></layout-viajero-protegido-english>
+		</main>
+		<app-footer></app-footer>
+		<app-cookies-policy></app-cookies-policy>
+		<!--<app-button-whats></app-button-whats> -->
+		<app-button-eva-trip></app-button-eva-trip>
+		<!-- JS widget de reservamos -->
+		<script src="https://widgets.reservamos.mx/search/5.18.0/search.js?v=5.18.0"></script>
+	</body>
+</html>

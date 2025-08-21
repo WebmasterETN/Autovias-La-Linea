@@ -42,6 +42,12 @@ import "./layout-boletos-de-autobus-a-maravatio.js?v=1.0.0";
 
 import "./english/app-home-english.js?v=1.3.3";
 import "./english/destinations/layout-boletos-de-autobus-aguascalientes.js?v=1.3.3";
+import "./english/legal/layout-viajero-protegido.js?v=1.0.0";
+import "./english/legal/layout-terminos-hot-travel.js?v=1.0.0";
+import "./english/legal/layout-terminos-buen-fin.js?v=1.0.0";
+import "./english/legal/layout-terminos-condiciones.js?v=1.0.0";
+import "./english/legal/layout-aviso-de-privacidad.js?v=1.0.0";
+import "./english/legal/layout-ofertas-en-1-click.js?v=1.0.0";
 
 /*------------------------------- PACK MULTIENLACE---------------------------------*/
 

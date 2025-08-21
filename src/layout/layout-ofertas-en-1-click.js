@@ -220,6 +220,7 @@ class LayoutOfertasClick extends HTMLElement {
                         </li>
                           
                     </ol>
+                </article>
             </section>
         `;
 	}
