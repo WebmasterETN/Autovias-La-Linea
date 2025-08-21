@@ -1,27 +1,27 @@
 [
   
   {
-    "imageSrc": "../src/assets/img/autobuses/asiento.webp",
-    "imageAlt": "Asientos reclinables",
-    "title": "Reclining seats designed for the rest you truly deserve.",
-    "description": "Comfort that travels with you—our seats turn every journey into a relaxing experience."
+    "imageSrc": "../src/assets/img/autobuses/asiento-english.webp",
+    "imageAlt": "Seats that invite you to relax. Views that turn the ride into an experience.",
+    "title": "Seats that invite you to relax. Views that turn the ride into an experience.",
+    "description": "Whether you're traveling long distances or exploring new horizons, our ergonomic seats offer the comfort that turns the journey into part of the experience"
   },
   {
-    "imageSrc": "../src/assets/img/autobuses/pantalla-autobus.webp",
-    "imageAlt": "Pantallas individuales",
-    "title": "Individual screens",
-    "description": "Individual screens with onboard entertainment to keep you company along the way."
+    "imageSrc": "../src/assets/img/autobuses/pantalla-autobus-english.webp",
+    "imageAlt": "Your space. Your screen. Your choice.",
+    "title": "Your space. Your screen. Your choice.",
+    "description": "Individual screens with onboard content: series, movies, and more to enjoy every kilometer."
   },
   {
-    "imageSrc": "../src/assets/img/autobuses/banos.webp",
-    "imageAlt": "Baño en el autobús",
-    "title": "Separate restrooms for men and women",
-    "description": "Always clean, well-maintained, and available throughout your journey."
+    "imageSrc": "../src/assets/img/autobuses/banos-english.webp",
+    "imageAlt": "Separate restrooms for men and women—always clean and available throughout your journey.",
+    "title": "Separate restrooms for men and women—always clean and available throughout your journey.",
+    "description": "Hygiene, maintenance, and availability at all times. Every space is carefully maintained to offer you a safe and comfortable travel experience."
   },
   {
-    "imageSrc": "../src/assets/img/autobuses/enchufe.webp",
-    "imageAlt": "Enchufes individuales",
-    "title": "Individual power outlets available at every seat",
-    "description": "Keep your devices charged throughout the journey. Whether you're sharing photos, staying connected, or simply enjoying your favorite playlist—your energy never runs out."
+    "imageSrc": "../src/assets/img/autobuses/enchufe-english.webp",
+    "imageAlt": "Comfortable travel, connected travel.",
+    "title": "Comfortable travel, connected travel.",
+    "description": "Every seat comes with its own power outlet, so you can charge your phone, laptop, or any device without worrying about running out of battery. Whether you're traveling for work or leisure, your energy is guaranteed from start to finish."
   }
 ]

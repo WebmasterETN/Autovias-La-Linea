@@ -1,34 +1,34 @@
 {
   "cards": [
     {
-      "imageSrc": "../src/assets/img/destinos-img/casa-PA.webp",
-      "alt": "Puebla",
-      "href": "https://www.etn.com.mx/destinos/puebla",
-      "text": "Puebla"
+      "imageSrc": "../src/assets/img/destinos-img/english/other-destinations-grid/bg-atlacomulco-english.webp",
+      "alt": "Atlacomulco",
+      "href": "https://www.etn.com.mx/destinos/atlacomulco",
+      "text": "Atlacomulco"
     },
     {
-      "imageSrc": "../src/assets/img/destinos-img/lago-MY.webp",
-      "alt": "Monterrey",
-      "href": "https://www.etn.com.mx/destinos/monterrey",
-      "text": "Monterrey"
+      "imageSrc": "../src/assets/img/destinos-img/english/other-destinations-grid/bg-edomex-english.webp",
+      "alt": "Estado de México",
+      "href": "https://www.etn.com.mx/destinos/estado-de-mexico",
+      "text": "Estado de México"
     },
     {
-      "imageSrc": "../src/assets/img/destinos-img/rio-SL.webp",
-      "alt": "San Luis Potosí",
-      "href": "https://www.etn.com.mx/destinos/san-luis-potosi",
-      "text": "San Luis Potosí"
+      "imageSrc": "../src/assets/img/destinos-img/english/other-destinations-grid/bg-ixtapa-guerrero-english.webp",
+      "alt": "Ixtapa, Guerrero",
+      "href": "https://www.etn.com.mx/destinos/ixtapa",
+      "text": "Ixtapa, Guerrero"
     },
     {
-      "imageSrc": "../src/assets/img/destinos-img/palacio-CDMX.webp",
-      "alt": "Ciudad de México",
-      "href": "https://www.etn.com.mx/destinos/ciudad-de-mexico",
-      "text": "Ciudad de México"
+      "imageSrc": "../src/assets/img/destinos-img/english/other-destinations-grid/bg-queretaro-english.webp",
+      "alt": "Querétaro",
+      "href": "https://www.etn.com.mx/destinos/queretaro",
+      "text": "Querétaro"
     }
   ],
   "textSection": {
     "paragraphs": [
-      "With <strong>ETN</strong>, every destination is an experience designed for you. Travel in the comfort of our luxury coaches and discover routes that connect you to the most authentic corners of Mexico. Because discovering Mexico isn’t just about arriving—it’s about enjoying the journey, feeling every landscape, and being surprised at every stop.",
-      "Explore all the destinations we’ve prepared for you and choose the next chapter of your journey through Mexico. Because when you travel in comfort, every destination feels richer—and every ride becomes part of your story."
+      "Traveling with Autovías means discovering that every destination holds more than just landscapes—it holds stories, encounters, and moments that stay with you. Our buses offer the comfort you deserve, so you can enjoy the journey as much as the place you're headed to.",
+      "Because traveling through Mexico isn’t just about arriving—it’s about letting the road guide you, taking in the view, and feeling that every stop has a story to tell. Your next journey doesn’t begin on a map—it begins with what you feel when you move."
     ]
   }
 }
