@@ -48,6 +48,7 @@ import "./english/legal/layout-terminos-buen-fin.js?v=1.0.0";
 import "./english/legal/layout-terminos-condiciones.js?v=1.0.0";
 import "./english/legal/layout-aviso-de-privacidad.js?v=1.0.0";
 import "./english/legal/layout-ofertas-en-1-click.js?v=1.0.0";
+import "./english/legal/layout-pago-oxxo.js?v=1.0.0";
 
 /*------------------------------- PACK MULTIENLACE---------------------------------*/
 

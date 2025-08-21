@@ -32,19 +32,29 @@ class AppBoletosAutobusAguascalientesEnglish extends HTMLElement {
             <app-explore-section></app-explore-section>
           </section>
             
+            
           <section class="__section">
             <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
-            
+            <app-banner-multi-image></app-banner-multi-image>
+            <p class="text-description">The cuisine of Aguascalientes is a living expression of its history, its roots, and its people. Influenced by the Bajío and central Mexico, its gastronomy blends local ingredients, traditional techniques, and a homemade touch that wins over every palate. Each recipe reflects the region’s warm and authentic character, offering a culinary experience that goes beyond flavor—it’s a way to discover its culture, share its identity, and enjoy Mexican hospitality in every meal.</p>
+            <app-card-image-tag-text data-src="../../src/data/english/destinations/aguascalientes/aguascalientes-food.json"></app-card-image-tag-text>
           </section>
             
           <section class="__section">
             <app-section-title section-title="Travel Mexico in style with ETN Turistar—luxury and reliability from start to finish"></app-section-title>
-            
+            <p class="text-description-list">Traveling through Mexico doesn’t have to be complicated with ETN Turistar, every journey becomes part of the experience.</p>
+
+            <ul class="text-list">
+              <li class="item-list">🛋️  Luxury comfort: unwind in lie-flat reclining seats, enjoy onboard entertainment, and stay connected with free Wi-Fi.</li>
+              <li class="item-list">🛡️ Superior safety: our drivers are certified, and every vehicle is monitored in real time.</li>
+              <li class="item-list">⏱️ Reliability and punctuality: frequent departures, accurate schedules, and service that delivers on its promise.</li>
+              <li class="item-list">🧳 Hassle-free luggage: generous onboard allowance and spacious storage compartments.</li>
+            </ul>
           </section>
             
           <section class="__section">
             <app-section-title section-title="Explore more destinations with ETN Turistar Mexico is waiting for you."></app-section-title>
-            
+            <app-destiny-slider src="../../src/data/english/home/grid-text-data.json"></app-destiny-slider>
           </section>
         `;
     this._loadExploreSectionData();
@@ -53,7 +63,7 @@ class AppBoletosAutobusAguascalientesEnglish extends HTMLElement {
   async _loadExploreSectionData() {
     try {
       const response = await fetch(
-        "../../src/data/english/destinations/aguascalientes/cards-explore-section.json"
+        "../../src/data/english/home/cards-explore-section.json"
       );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
