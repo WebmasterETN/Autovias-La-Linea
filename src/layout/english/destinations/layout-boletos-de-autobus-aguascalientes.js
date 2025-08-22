@@ -1,5 +1,7 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
 import "../../../components/app-cotiza.js";
+import "../../../components/english/app-modal-doters.js";
+import "../../../components/english/app-modal-travelpass.js";
 import "../../../components/app-section-title.js";
 import "../../../components/app-banner-image.js";
 import "../../../components/app-description-destination.js";
