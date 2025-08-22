@@ -1,3 +1,7 @@
+/*-------------------------SCRIPTS---------------------------*/
+
+import "../js/travelpass-cookie.js?v=1.0.0";
+
 class AppModalTravelpass extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -8,7 +12,7 @@ class AppModalTravelpass extends HTMLElement {
             <button class="close" class="close" id="close-login-modal"><span>&times;</span></button>
             <div class="card-modal">
               <div class="modal-header">
-                  <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Travel Pass Formulario" width="100" height="32" class="modal-logo">
+                  <img src="../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Logotipo TravelPass" title="Travel Pass Formulario" width="100" height="32" class="modal-logo">
                   <hr class="__line-separador"/>
                   <img src="../src/assets/img/gho-img/logos/logo_Pegasso.webp" class="modal-logo" alt="Viajero">
               </div>
@@ -54,7 +58,7 @@ class AppModalTravelpass extends HTMLElement {
                 <button class="close" id="close-profile-modal"><span>&times;</span></button>
                 <div class="card-modal">
                     <div class="modal-header">
-                        <img src="../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Logotipo TravelPass" title="Logo Travel Pass" width="100" height="32" class="modal-logo">
+                        <img src="../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Logotipo TravelPass" title="Logo Travel Pass" width="100" height="32" class="modal-logo">
                     </div>
                     <div class="modalContenido">
                         <h2>Información del Usuario</h2>

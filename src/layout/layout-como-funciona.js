@@ -9,8 +9,9 @@ import "../components/app-time-line-packm.js";
 import "../js/slick.js?v=1.0.0";
 
 class LayoutComoFunciona extends HTMLElement {
-  async connectedCallback() { // Make connectedCallback async
-    this.innerHTML = `
+	async connectedCallback() {
+		// Make connectedCallback async
+		this.innerHTML = `
         <app-cotiza></app-cotiza>
 
         <app-banner-slider
@@ -28,23 +29,28 @@ class LayoutComoFunciona extends HTMLElement {
         </section>
       `;
 
-    // Fetch data and pass it to the custom element
-    const dropdownQuestServicesElement = this.querySelector('app-dropdown-quest-services');
-    if (dropdownQuestServicesElement) {
-      try {
-        const response = await fetch('/src/data/pack-multienlace/dropdown-quest-services.json'); // Path to the new JSON file
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const dropdownData = await response.json();
-        dropdownQuestServicesElement.setDropdownData(dropdownData);
-      } catch (error) {
-        console.error('Error loading dropdown data:', error);
-        // Optionally display an error message in the component
-        dropdownQuestServicesElement.innerHTML = '<p>Error al cargar las preguntas frecuentes.</p>';
-      }
-    }
-  }
+		// Fetch data and pass it to the custom element
+		const dropdownQuestServicesElement = this.querySelector(
+			"app-dropdown-quest-services"
+		);
+		if (dropdownQuestServicesElement) {
+			try {
+				const response = await fetch(
+					"/src/data/pack-multienlace/dropdown-quest-services.json"
+				); // Path to the new JSON file
+				if (!response.ok) {
+					throw new Error(`HTTP error! status: ${response.status}`);
+				}
+				const dropdownData = await response.json();
+				dropdownQuestServicesElement.setDropdownData(dropdownData);
+			} catch (error) {
+				console.error("Error loading dropdown data:", error);
+				// Optionally display an error message in the component
+				dropdownQuestServicesElement.innerHTML =
+					"<p>Error al cargar las preguntas frecuentes.</p>";
+			}
+		}
+	}
 }
 
 customElements.define("layout-como-funciona", LayoutComoFunciona);

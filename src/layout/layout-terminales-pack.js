@@ -7,9 +7,9 @@ import "../components/app-map-pack.js";
 import "../components/app-footer-pack-multienlace.js";
 import "../js/slick.js?v=1.0.0";
 
-class LayoutTerminalesPack extends HTMLElement{
-  connectedCallback() {
-    this.innerHTML = `
+class LayoutTerminalesPack extends HTMLElement {
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza-pack></app-cotiza-pack>
 
             <app-banner-slider
@@ -23,7 +23,7 @@ class LayoutTerminalesPack extends HTMLElement{
 
         <app-map-pack></app-map-pack>
     `;
-  }
+	}
 }
 
 customElements.define("layout-terminales-pack", LayoutTerminalesPack);

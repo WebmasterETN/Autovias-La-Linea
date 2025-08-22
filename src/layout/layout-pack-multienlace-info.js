@@ -8,8 +8,8 @@ import "../components/app-card-small-list.js";
 import "../components/app-header-pack-multienlace.js";
 
 class LayoutPackMultienlaceInfo extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza-pack></app-cotiza-pack>
 
             
@@ -83,6 +83,9 @@ class LayoutPackMultienlaceInfo extends HTMLElement {
 
 
         `;
-  }
+	}
 }
-customElements.define("layout-pack-multienlace-info", LayoutPackMultienlaceInfo);
+customElements.define(
+	"layout-pack-multienlace-info",
+	LayoutPackMultienlaceInfo
+);

@@ -1,122 +1,68 @@
 
 
-class AppHeader extends HTMLElement {
+class AppHeaderEnglish extends HTMLElement {
 	connectedCallback() {
 		const logoData = JSON.parse(this.getAttribute("logo"));
 		const { src, alt, href } = logoData;
 
 		this.innerHTML = `
-      <header aria-label="Encabezado Autovías La Línea" >
-        <a href="${href}" class="main-header__container-logo" aria-label="Autovías La Línea" tabindex="0">
-          <img src="${src}"
-            alt="${alt}" 
-            class="header__logo" width="922" height="143" loading="lazy"/>
-        </a>
-        
-        <nav aria-label="Menu de navegacion" >
-          <ul>
-            <li><a href="../index.html" aria-label="Ir a inicio" tabindex="0">Inicio</a></li>
-            <li class="submenu">
-              <a href="#" role="button" aria-label="Facturar su viaje" tabindex="0" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
-              <ul>
-                <li><a href="https://venta.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
-              </ul>
-            </li>
-            <li><a href="https://viajes.autovias.com.mx/exchange/openTicket" aria-label="Imprimir pase de abordar" tabindex="0">Confirmar boleto abierto</a></li> 
-            <li><a href="https://viajes.autovias.com.mx/download-tickets" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li> 
-            <li><a href="https://viajes.autovias.com.mx/exchange/itinerary" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li> 
-            <li class="submenu">
-                <a href="#" role="button" aria-label="Mas opciones" tabindex="0" aria-haspopup="true" aria-expanded="false">Mas<span class="icon-arrow-down"></span></a>
-                <ul class="submenu__media-items"> 
+      <header aria-label="Autovías La Línea Header">
+				<a href="${href}" class="main-header__container-logo" aria-label="Autovías La Línea" tabindex="0">
+					<img src="${src}"
+						alt="${alt}" 
+						class="header__logo" width="922" height="143" loading="lazy"/>
+				</a>
 
-                    <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
-                    <li><a href="../donde-comprar.html" tabindex="0">¿Donde comprar?</a></li>
-                    <!-- <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li> -->
-                    <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
-                    <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
-                    <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
-                    <!-- <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
-                    <li><a href="../salidas-charters.html" tabindex="0">Salidas charters</a></li> -->
-                    <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
-                    <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
-                    <li><a href="https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES" tabindex="0">Agencias</a></li>
-                    <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                    <li><a href="../viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                    <li><a href="https://www.autovias.com.mx/blog/" tabindex="0">Blog</a></li>
-                    <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
-                </ul>
-            </li>
-          </ul>
-        </nav>
-          
-        <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass-active js-open-travelpass-login-modal">
-          <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
-        </button>
-        <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
-            <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
-        </button>
-        <a class="li__languaje" href="../index.html" aria-label="Cambiar idioma" tabindex="0"><img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Descripción de la imagen" loading="lazy"></a>
+				<nav aria-label="Navigation Menu">
+					<ul>
+						<li><a href="../index.html" aria-label="Go to homepage" tabindex="0">Home</a></li>
+					</ul>
+				</nav>
+				<button id="login-icon" aria-label="Open TravelPass login modal" title="Log in to Travel Pass" class="btn-travelpass btn-travelpass-active js-open-travelpass-login-modal">
+					<a href="#" id="open-login-modal" title="Open login modal" class="btn-travelpass-icon">
+						<img src="../../../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Log in to Travel Pass" width="100" height="32" style="cursor: pointer;">
+					</a>
+				</button>
+				<button id="openDotersModal" class="btn btn-doters" aria-label="Log in with Doters" tabindex="0">
+					<img src='../../../src/assets/img/logos/doters.svg' alt="Doters Button" loading="lazy">
+				</button>
+				<a class="li__languaje" href="../index.html" aria-label="Change language" tabindex="0">
+					<img src='../../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Image description" loading="lazy">
+				</a>
 
-        <button class="container-menu-hamburguer" aria-label="Menu" id="hamburger-icon" aria-label="Abrir menu desplegable">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 72 72">
-                <path d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z"></path>
-            </svg>
-        </button>
+				<button class="container-menu-hamburguer" aria-label="Menu" id="hamburger-icon" aria-label="Open dropdown menu">
+					<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 72 72">
+						<path d="M56 48c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 48 54.798 48 56 48zM56 32c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 32 54.798 32 56 32zM56 16c2.209 0 4 1.791 4 4 0 2.209-1.791 4-4 4-1.202 0-38.798 0-40 0-2.209 0-4-1.791-4-4 0-2.209 1.791-4 4-4C17.202 16 54.798 16 56 16z"></path>
+					</svg>
+				</button>
 
-        <!-- Menú desplegable -->
-        
-        <div id="dropdown-menu" class="show">
-            <ul>
-                <li><a href="../index.html" aria-label="Ir a inicio">INICIO</a></li>
-                <li class="submenu__media-queries">
-                    <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
-                    <ul>
-                        <li><a href="https://venta.autovias.com.mx/request.aspx?PRGNAME=Facturacion" tabindex="0">Facture aqui</a></li>
-                        <li><a href="https://www.autovias.com.mx/CFDI-datos-receptor.html" tabindex="0">¿Qué datos necesito?</a></li>
-                    </ul>
-                </li>
-                <li><a href="https://viajes.autovias.com.mx/exchange/openTicket" aria-label="Imprimir pase de abordar" tabindex="0">Confirmar boleto abierto</a></li> 
-                <li><a href="https://viajes.autovias.com.mx/download-tickets" aria-label="Imprimir pase de abordar" tabindex="0">Imprimir pase de abordar</a></li>
-                <li><a href="https://viajes.autovias.com.mx/exchange/itinerary" aria-label="Modificar itinerario" tabindex="0">Modificar itinerario</a></li>
-                <li class="submenu__media-queries">
-                    <a href="#" aria-label="Mas opciones" aria-haspopup="true" aria-expanded="false">Mas <span class="icon-arrow-down"></span></a>
-                    <ul>
-                      <li><a href="../boletos-de-autobus.html" tabindex="0">Boletos de autobus</a></li>
-                      <li><a href="../donde-comprar.html" tabindex="0">¿Donde comprar?</a></li>
-                      <!-- <li><a href="../index.html" tabindex="0">Mascotas a bordo</a></li> -->
-                      <li><a href="../turismo/index.html" tabindex="0">Renta de autobuses</a></li>
-                      <li><a href="../destinos.html" tabindex="0">Destinos</a></li>
-                      <li><a href="../taquillas.html" tabindex="0">Terminales y taquillas</a></li>
-                      <!-- <li><a href="../salas-de-espera-vip.html" tabindex="0">Salas de espera</a></li>
-                      <li><a href="../salidas-charters.html" tabindex="0">Salidas charters</a></li> -->
-                      <li><a href="../servicio-a-bordo.html" tabindex="0">Servicios a bordo</a></li>
-                      <li><a href="../promociones.html" tabindex="0">Promociones</a></li>
-                      <li><a href="https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES" tabindex="0">Agencias</a></li>
-                      <li><a href="../pago-referenciado-oxxo.html" tabindex="0">Pagos OXXO Pay</a></li>
-                      <li><a href="../viajero-protegido.html" tabindex="0">Viajero protegido</a></li>
-                      <li><a href="https://www.autovias.com.mx/blog/" tabindex="0">Blog</a></li>
-                      <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
-                    </ul>
-                </li>
-                <li>
-                  <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal">
-                    <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
-                  </button>
-                </li>
-                <li>
-                    <button id="openDotersModalMovil" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
-                        <img src="../../src/assets/img/logos/doters.svg" loading="lazy" alt="Doters Logo">
-                    </button>
-                </li>
-                <li>
-                    <a href="../index.html" aria-label="Cambiar idioma">
-                        <img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem; height:2rem;" alt="Descripción de la imagen"  width="800" height="416" loading="lazy">
-                    </a>
-                </li>
-            </ul>
-        </div>
-      </header>
+				<!-- Dropdown Menu -->
+
+				<div id="dropdown-menu" class="show">
+					<ul>
+						<li>
+							<a href="../../index.html" aria-label="Go to homepage">HOME</a>
+						</li>
+						<li>
+							<button id="login-icon" aria-label="Open TravelPass login modal" title="Log in to Travel Pass" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal">
+								<a href="#" id="open-login-modal" title="Open login modal" class="btn-travelpass-icon">
+									<img src="../../../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Log in to Travel Pass" width="100" height="32" style="cursor: pointer;">
+								</a>
+							</button>
+						</li>
+						<li>
+							<button id="openDotersModalMovil" class="btn btn-doters" aria-label="Log in with Doters" tabindex="0">
+								<img src="../../../src/assets/img/logos/doters.svg" loading="lazy" alt="Doters Logo">
+							</button>
+						</li>
+						<li>
+							<a href="../index.html" aria-label="Change language">
+								<img src='../../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem; height:2rem;" alt="Image description"  width="800" height="416" loading="lazy">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</header>
     `;
 
 		this.openDesktopSubmenuInstance = null;
@@ -449,7 +395,7 @@ class AppHeader extends HTMLElement {
 
 		// Asumimos que solo hay UNA instancia de app-modal-doters en la página.
 		// Si tienes más, necesitarás una forma más específica de seleccionarlo (ej. por un ID único en el tag <app-modal-doters id="miModalUnico">).
-		const dotersModalElement = document.querySelector("app-modal-doters");
+		const dotersModalElement = document.querySelector("app-modal-doters-english");
 
 		if (dotersModalElement) {
 			const openAction = () => {
@@ -457,7 +403,7 @@ class AppHeader extends HTMLElement {
 					dotersModalElement.open();
 				} else {
 					console.error(
-						"El método open() no está disponible en el elemento app-modal-doters.",
+						"El método open() no está disponible en el elemento app-modal-doters-english.",
 						dotersModalElement
 					);
 				}
@@ -527,4 +473,4 @@ class AppHeader extends HTMLElement {
 		}
 	}
 }
-customElements.define("app-header", AppHeader);
+customElements.define("app-header-english", AppHeaderEnglish);

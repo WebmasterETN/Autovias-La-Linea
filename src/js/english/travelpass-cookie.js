@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (loginIconDesktop) {
             loginIconDesktop.innerHTML = profileData ?
                 `<a href="#" class="js-open-travelpass-login-modal"><img src="https://autovias.com.mx/gho-test/gho-img-web/iconos/icono-travel-pass.webp" class="icono-travel" alt="Travel Pass" title="Perfil Travel Pass"> Hola, ${profileData.name}</a>` :
-                `<a href="#" class="js-open-travelpass-login-modal"><img src="../../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
+                `<a href="#" class="js-open-travelpass-login-modal"><img src="../../../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Iniciar sesión en Travel Pass" title="Ingresa a Travel Pass" width="100" height="32" style="cursor: pointer;"></a>`;
         }
         // Re-atachea los listeners después de actualizar el DOM
         checkSessionTriggers();

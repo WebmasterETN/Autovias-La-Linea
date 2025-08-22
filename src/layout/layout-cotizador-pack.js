@@ -8,8 +8,8 @@ import "../components/app-footer-pack-multienlace.js";
 import "../js/slick.js?v=1.0.0";
 
 class LayoutCotizadorPack extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza-pack></app-cotiza-pack>
 
         
@@ -25,7 +25,7 @@ class LayoutCotizadorPack extends HTMLElement {
             <app-cotizador-pack></app-cotizador-pack>
             
         `;
-  }
+	}
 }
 
 customElements.define("layout-cotizador-pack", LayoutCotizadorPack);

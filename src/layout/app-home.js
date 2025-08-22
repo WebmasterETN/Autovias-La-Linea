@@ -1,5 +1,7 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
 import "../components/app-cotiza.js";
+import "../components/app-modal-doters.js";
+import "../components/app-modal-travelpass.js";
 import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-destinations-grid.js";
@@ -12,8 +14,8 @@ import "../components/app-section-title.js";
 import "../js/slick.js?v=1.0.0";
 
 class AppHome extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza></app-cotiza>
             <app-modal-doters></app-modal-doters>
             <app-banner-slider
@@ -76,6 +78,6 @@ class AppHome extends HTMLElement {
             </app-other-services>
             <app-blog></app-blog>
         `;
-    }
+	}
 }
 customElements.define("app-home", AppHome);

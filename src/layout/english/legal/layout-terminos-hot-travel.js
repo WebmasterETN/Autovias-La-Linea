@@ -1,6 +1,6 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
 import "../../../components/app-cotiza.js";
-import "../../../components/app-modal-doters.js";
+import "../../../components/english/app-modal-doters.js";
 import "../../../components/app-banner-slider.js";
 import "../../../components/app-payments.js";
 import "../../../components/app-section-title.js";
@@ -11,12 +11,12 @@ class LayoutTerminosHotTravelEnglish extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
         <app-cotiza></app-cotiza>
-
-        <app-modal-doters></app-modal-doters>
+		<app-modal-travelpass-english></app-modal-travelpass-english>
+		<app-modal-doters-english></app-modal-doters-english>
 
         <app-banner-slider
             slides-data='[
-            {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Hot_Travel_web.webp","mediumImage": "../src/assets/img/banner/tablet/Hot_Travel_tablet.webp", "smallImage": "../src/assets/img/banner/mobile/Hot_Travel_mobile.webp", "link": "#index.html/banner1"}
+            {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/Hot_Travel_web.webp","mediumImage": "../../src/assets/img/banner/tablet/Hot_Travel_tablet.webp", "smallImage": "../../src/assets/img/banner/mobile/Hot_Travel_mobile.webp", "link": "#index.html/banner1"}
             ]'
         >
         </app-banner-slider>
@@ -204,4 +204,7 @@ class LayoutTerminosHotTravelEnglish extends HTMLElement {
     `;
 	}
 }
-customElements.define("layout-terminos-hot-travel-english", LayoutTerminosHotTravelEnglish);
+customElements.define(
+	"layout-terminos-hot-travel-english",
+	LayoutTerminosHotTravelEnglish
+);

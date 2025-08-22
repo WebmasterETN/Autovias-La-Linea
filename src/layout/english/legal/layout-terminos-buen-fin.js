@@ -10,12 +10,12 @@ class LayoutTerminosBuenFinEnglish extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
         <app-cotiza></app-cotiza>
-
-        <app-modal-doters></app-modal-doters>
+		<app-modal-travelpass-english></app-modal-travelpass-english>
+		<app-modal-doters-english></app-modal-doters-english>
 
         <app-banner-slider
             slides-data='[
-                {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/Buen_Fin_web.webp","mediumImage": "../src/assets/img/banner/tablet/Buen_Fin_tablet.webp", "smallImage": "../src/assets/img/banner/mobile/Buen_Fin_mobile.webp", "link": "#index.html/banner1"}
+                {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/Buen_Fin_web.webp","mediumImage": "../../src/assets/img/banner/tablet/Buen_Fin_tablet.webp", "smallImage": "../../src/assets/img/banner/mobile/Buen_Fin_mobile.webp", "link": "#index.html/banner1"}
             ]'
         >
         </app-banner-slider>
@@ -198,4 +198,7 @@ class LayoutTerminosBuenFinEnglish extends HTMLElement {
 	}
 }
 
-customElements.define("layout-terminos-buen-fin-english", LayoutTerminosBuenFinEnglish);
+customElements.define(
+	"layout-terminos-buen-fin-english",
+	LayoutTerminosBuenFinEnglish
+);

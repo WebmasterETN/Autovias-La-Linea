@@ -10,8 +10,8 @@ class LayoutAvisoDePrivacidadEnglish extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
       <app-cotiza></app-cotiza>
-
-      <app-modal-doters></app-modal-doters>
+      <app-modal-travelpass-english></app-modal-travelpass-english>
+      <app-modal-doters-english></app-modal-doters-english>
       <app-banner-slider
         slides-data='[
           {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/metodos_pago_web.webp","mediumImage": "../src/assets/img/banner/tablet/metodos_pago_tablet.webp", "smallImage": "../src/assets/img/banner/mobile/metodos_pago_mobile.webp", "link": "#index.html/banner1"},
@@ -112,4 +112,7 @@ class LayoutAvisoDePrivacidadEnglish extends HTMLElement {
     `;
 	}
 }
-customElements.define("layout-aviso-de-privacidad-english", LayoutAvisoDePrivacidadEnglish);
+customElements.define(
+	"layout-aviso-de-privacidad-english",
+	LayoutAvisoDePrivacidadEnglish
+);

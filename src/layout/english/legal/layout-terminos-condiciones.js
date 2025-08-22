@@ -10,8 +10,8 @@ class LayoutTerminosCondicionesEnglish extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
             <app-cotiza></app-cotiza>
-
-            <app-modal-doters></app-modal-doters>
+            <app-modal-travelpass-english></app-modal-travelpass-english>
+            <app-modal-doters-english></app-modal-doters-english>
     
             <app-banner-slider
                     slides-data='[
@@ -383,4 +383,7 @@ class LayoutTerminosCondicionesEnglish extends HTMLElement {
         `;
 	}
 }
-customElements.define("layout-terminos-condiciones-english", LayoutTerminosCondicionesEnglish);
+customElements.define(
+	"layout-terminos-condiciones-english",
+	LayoutTerminosCondicionesEnglish
+);

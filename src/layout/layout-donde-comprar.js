@@ -1,5 +1,6 @@
 import "../components/app-cotiza.js";
 import "../components/app-modal-doters.js";
+import "../components/app-modal-travelpass.js";
 import "../components/app-banner-slider.js";
 import "../components/app-payments.js";
 import "../components/app-img-shop-left.js";

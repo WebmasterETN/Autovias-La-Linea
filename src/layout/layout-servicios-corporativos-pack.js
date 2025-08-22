@@ -6,12 +6,11 @@ import "../js/slick.js?v=1.0.0";
 import "../components/app-card-bg-primary.js";
 import "../components/app-card-small-list.js";
 import "../components/app-header-pack-multienlace.js";
-import'../components/app-card-bg-secondary.js';
-
+import "../components/app-card-bg-secondary.js";
 
 class LayoutServiciosCorporativosPack extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `
+	connectedCallback() {
+		this.innerHTML = `
             <app-cotiza-pack></app-cotiza-pack>
 
             <app-banner-slider
@@ -29,9 +28,9 @@ class LayoutServiciosCorporativosPack extends HTMLElement {
             </section>
 
         `;
-  }
+	}
 }
 customElements.define(
-  "layout-servicios-corporativos-pack",
-  LayoutServiciosCorporativosPack
+	"layout-servicios-corporativos-pack",
+	LayoutServiciosCorporativosPack
 );

@@ -1,6 +1,5 @@
 /*--------------IMPORT COMPONENTS FROM LANDING PAGE -----------------*/
 import "../../../components/app-cotiza.js";
-import "../../../components/app-modal-doters.js";
 import "../../../components/app-banner-slider.js";
 import "../../../components/app-payments.js";
 import "../../../components/app-section-title.js";
@@ -10,8 +9,8 @@ class LayoutViajeroProtegidoEnglish extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
             <app-cotiza></app-cotiza>
-
-            <app-modal-doters></app-modal-doters>
+            <app-modal-travelpass-english></app-modal-travelpass-english>
+            <app-modal-doters-english></app-modal-doters-english>
 
             <app-banner-slider
                 slides-data='[
@@ -534,4 +533,7 @@ class LayoutViajeroProtegidoEnglish extends HTMLElement {
         `;
 	}
 }
-customElements.define("layout-viajero-protegido-english", LayoutViajeroProtegidoEnglish);
+customElements.define(
+	"layout-viajero-protegido-english",
+	LayoutViajeroProtegidoEnglish
+);

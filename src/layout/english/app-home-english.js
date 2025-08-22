@@ -1,5 +1,7 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
 import "../../components/app-cotiza.js";
+import "../../components/english/app-modal-doters.js";
+import "../../components/english/app-modal-travelpass.js";
 import "../../components/app-payments.js";
 import "../../components/app-section-title.js";
 import "../../components/app-destinations-grid-english.js";
@@ -12,7 +14,8 @@ class AppHomeEnglish extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
       <app-cotiza></app-cotiza>
-      <app-modal-doters></app-modal-doters>
+      <app-modal-travelpass-english></app-modal-travelpass-english>
+      <app-modal-doters-english></app-modal-doters-english>
       <div class="__first-section">
         <app-payments></app-payments>
       </div>

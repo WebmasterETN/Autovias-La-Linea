@@ -1,8 +1,8 @@
 /*-------------------------SCRIPTS---------------------------*/
 
-import "../js/doters-cookies.js?v=1.0.0";
+import "../../js/english/doters-cookies.js?v=1.0.0";
 
-class AppModalDoters extends HTMLElement {
+class AppModalDotersEnglish extends HTMLElement {
     constructor() {
         super();
         this.modalElement = null;
@@ -26,17 +26,17 @@ class AppModalDoters extends HTMLElement {
         <div id="modalDoters-loginModal" class="modalDoters-modal" style="display: none;" role="dialog" aria-modal="true" aria-labelledby="modalDoters-title">
             <div class="modalDoters-modal-content">
                 <div class="modalHeader">
-                    <img src="https://etn.com.mx/etn-img-web/logos/logo-doters-24-blanc.webp" alt="Logotipo Doters" title="Doters" loading="lazy">
-                    <button class="modalDoters-close" aria-label="Cerrar modal">×</button>
+                    <img src="https://etn.com.mx/etn-img-web/logos/logo-doters-24-blanc.webp" alt="Doters Logo" title="Doters" loading="lazy">
+                    <button class="modalDoters-close" aria-label="Close modal">×</button>
                 </div>
                 <div class="modalContenido">
-                    <h2 id="modalDoters-title" class="titulo-2 center">Únete a Doters</h2>
+                    <h2 id="modalDoters-title" class="titulo-2 center">Join Doters</h2>
                     <hr>
                     <div class="modalContenido__buttons">
-                        <button id="loginButtonDoters">Iniciar sesión</button>
-                        <button id="registerButtonDoters">Únete gratis</button>
+                        <button id="loginButtonDoters">Log in</button>
+                        <button id="registerButtonDoters">Join for free</button>
                     </div>
-                    <p class="parrafo-espacio">¿Quieres saber más del programa? <a href="https://etn.com.mx/doters" class="bold" title="Doters">Da clic aquí</a></p>
+                    <p class="parrafo-espacio">Want to learn more about the program? <a href="https://etn.com.mx/doters" class="bold" title="Doters">Click here</a></p>
                 </div>
             </div>
         </div>
@@ -139,4 +139,4 @@ class AppModalDoters extends HTMLElement {
     }
 }
 
-customElements.define("app-modal-doters", AppModalDoters);
+customElements.define("app-modal-doters-english", AppModalDotersEnglish);
