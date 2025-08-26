@@ -126,9 +126,18 @@ open index.html
 
 ## 📁 Estructura del Proyecto
 
+### La arquitectura del proyecto esta basada en Atomic desing & Features
+
 ```plaintext
-WEBIAMSA/
+AUTOVIAS-LA-LINEA/
 ├── .vscode/
+|    └── settings.json
+├── buen-fin/
+|    └── index.html
+├── hot-travel/
+|    └── index.html
+├── packmultienlace/
+|    └── *files.html
 ├── src/
 │   ├── assets/
 │   │   ├── fonts/
@@ -136,6 +145,7 @@ WEBIAMSA/
 │   │   └── img/
 │   │       ├── banner/
 │   │       ├── destinos-img/
+│   │       ├── english/
 │   │       ├── icons-img/
 │   │       ├── logos/
 │   │       ├── payments_logos/
@@ -143,13 +153,38 @@ WEBIAMSA/
 │   │       ├── sales-location/
 │   │       └── services/
 │   ├── components/
+│   │   ├── english/
+│   │   │   └── *components.js
+│   │   └── *components.js
 │   ├── js/
+│   │   └── *logic.js
+│   ├── pages/
+│   │   ├── destinations/
+│   │   │   └── page-boletos-autobus-name-destiny.js
+│   │   │── english/
+│   │   │    ├── destinations/
+│   │   │    │   └── aguascalientes/page-boletos-autobus-name-destiny.js
+│   │   │    └── legal/
+│   │   │        ├── avisos-privasidad/aviso-privacidad.js
+│   │   │        └── terminos-condiciones/terminos-condiciones.
+│   │   ├── home/
+│   │   │   └── page-home.js
+│   │   └── legal/
+│   │       ├── avisos-privasidad/avisos-privasidad.js
+│   │       └── terminos-condiciones/terminos-condiciones.js
 │   └── styles/
 │       ├── css/
+│       │   ├── lib/*.css
+│       │   └── css-components/
+│       │       └── *min.css
+│       │       └── *min.map
 │       └── scss/
+├── turismo/
+|    └── index.html
 ├── .gitignore
 ├── app.js
 ├── index.html
+├── name-page.html
 ├── manifest.json
 ├── package.json
 └── README.md
@@ -165,14 +200,6 @@ WEBIAMSA/
 <head>
 	<script type="module" src="./app.js?v=1.2.0"></script>
 </head>
-```
-
-### Importar dependencias locales
-
-```html
-<script src="./src/components/doters-cookies.js"></script>
-<script src="./src/js/jquery.min.js?v=1.0.4"></script>
-<script src="./src/js/slick.js?v=1.0.4"></script>
 ```
 
 ## Inclusión de Estilos
@@ -522,9 +549,18 @@ open index.html
 
 ## 📁 Project Structure
 
+### The project architecture is based on Atomic Design & Features
+
 ```plaintext
-WEBIAMSA/
+AUTOVIAS-LA-LINEA/
 ├── .vscode/
+|    └── settings.json
+├── buen-fin/
+|    └── index.html
+├── hot-travel/
+|    └── index.html
+├── packmultienlace/
+|    └── *files.html
 ├── src/
 │   ├── assets/
 │   │   ├── fonts/
@@ -532,6 +568,7 @@ WEBIAMSA/
 │   │   └── img/
 │   │       ├── banner/
 │   │       ├── destinos-img/
+│   │       ├── english/
 │   │       ├── icons-img/
 │   │       ├── logos/
 │   │       ├── payments_logos/
@@ -539,13 +576,38 @@ WEBIAMSA/
 │   │       ├── sales-location/
 │   │       └── services/
 │   ├── components/
+│   │   ├── english/
+│   │   │   └── *components.js
+│   │   └── *components.js
 │   ├── js/
+│   │   └── *logic.js
+│   ├── pages/
+│   │   ├── destinations/
+│   │   │   └── page-boletos-autobus-name-destiny.js
+│   │   │── english/
+│   │   │    ├── destinations/
+│   │   │    │   └── aguascalientes/page-boletos-autobus-name-destiny.js
+│   │   │    └── legal/
+│   │   │        ├── avisos-privasidad/aviso-privacidad.js
+│   │   │        └── terminos-condiciones/terminos-condiciones.
+│   │   ├── home/
+│   │   │   └── page-home.js
+│   │   └── legal/
+│   │       ├── avisos-privasidad/avisos-privasidad.js
+│   │       └── terminos-condiciones/terminos-condiciones.js
 │   └── styles/
 │       ├── css/
+│       │   ├── lib/*.css
+│       │   └── css-components/
+│       │       └── *min.css
+│       │       └── *min.map
 │       └── scss/
+├── turismo/
+|    └── index.html
 ├── .gitignore
 ├── app.js
 ├── index.html
+├── name-page.html
 ├── manifest.json
 ├── package.json
 └── README.md
@@ -561,14 +623,6 @@ WEBIAMSA/
 <head>
 	<script type="module" src="./app.js?v=1.2.0"></script>
 </head>
-```
-
-### Import Local Dependencies
-
-```html
-<script src="./src/components/doters-cookies.js"></script>
-<script src="./src/js/jquery.min.js?v=1.0.4"></script>
-<script src="./src/js/slick.js?v=1.0.4"></script>
 ```
 
 ## Styles Inclusion
