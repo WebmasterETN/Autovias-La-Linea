@@ -27,7 +27,7 @@ class AppHeaderEnglish extends HTMLElement {
 					<img src='../../../src/assets/img/logos/doters.svg' alt="Doters Button" loading="lazy">
 				</button>
 				<a class="li__languaje" href="../../" aria-label="Change language" tabindex="0">
-					<img src='../../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Image description" loading="lazy">
+					<img src='../../../src/assets/img/icons-img/MX_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Image description" loading="lazy">
 				</a>
 
 				<button class="container-menu-hamburguer" aria-label="Menu" id="hamburger-icon" aria-label="Open dropdown menu">
@@ -57,7 +57,7 @@ class AppHeaderEnglish extends HTMLElement {
 						</li>
 						<li>
 							<a href="../../" aria-label="Change language">
-								<img src='../../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem; height:2rem;" alt="Image description"  width="800" height="416" loading="lazy">
+								<img src='../../../src/assets/img/icons-img/MX_Flag.webp' style="width:3.125rem; height:2rem;" alt="Image description"  width="800" height="416" loading="lazy">
 							</a>
 						</li>
 					</ul>
