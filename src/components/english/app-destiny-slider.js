@@ -1,4 +1,4 @@
-class AppGridText extends HTMLElement {
+class AppDestinySlider extends HTMLElement {
   static get observedAttributes() {
     return ["src"];
   }
@@ -28,7 +28,7 @@ class AppGridText extends HTMLElement {
       const data = await response.json();
       this._render(data);
     } catch (error) {
-      console.error("Error loading or rendering app-grid-text:", error);
+      console.error("Error loading or rendering destiny-slider:", error);
       this.innerHTML = "<p>Error loading content.</p>";
     }
   }
@@ -40,7 +40,7 @@ class AppGridText extends HTMLElement {
       !data.textSection ||
       !Array.isArray(data.textSection.paragraphs)
     ) {
-      console.error("Invalid data structure for app-grid-text:", data);
+      console.error("Invalid data structure for destiny-slider:", data);
       this.innerHTML = "<p>Error: Invalid data format.</p>";
       return;
     }
@@ -50,9 +50,9 @@ class AppGridText extends HTMLElement {
     const cardsHtml = cards
       .map(
         (card) => `
-          <div class="card">
+          <div class="destiny-card">
             <img src="${card.imageSrc || ""}" alt="${card.alt || ""}">
-            <a class="button-grid" href="${
+            <a class="destiny-card-btn" href="${
               card.href || "#"
             }" target="_blank" rel="noopener noreferrer">
               ${card.text || ""}
@@ -66,30 +66,36 @@ class AppGridText extends HTMLElement {
       .map((p) => `<p>${p}</p>`)
       .join("");
 
-    // Iconos SVG para los botones del slider
     const prevIcon = `
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="144" viewBox="0 0 24 144" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Contorno blanco -->
   <polyline points="15 108 9 72 15 36" stroke="white" stroke-width="10"></polyline>
+  <!-- Flecha principal -->
   <polyline points="15 108 9 72 15 36" stroke="currentColor" stroke-width="6"></polyline>
 </svg>`;
 
     const nextIcon = `
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="144" viewBox="0 0 24 144" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Contorno blanco -->
   <polyline points="9 108 15 72 9 36" stroke="white" stroke-width="10"></polyline>
+  <!-- Flecha principal -->
   <polyline points="9 108 15 72 9 36" stroke="currentColor" stroke-width="6"></polyline>
 </svg>`;
 
+
+
+
     this.innerHTML = `
-      <div class="app-grid-text">
-        <div class="grid-slider-wrapper">
-          <div class="grid-section">
+      <div class="destiny-slider">
+        <div class="destiny-slider-wrapper">
+          <div class="destiny-slide-track">
             ${cardsHtml}
           </div>
-          <button class="slider-btn prev" aria-label="Anterior">${prevIcon}</button>
-          <button class="slider-btn next" aria-label="Siguiente">${nextIcon}</button>
+          <button class="destiny-slider-btn prev" aria-label="Anterior">${prevIcon}</button>
+          <button class="destiny-slider-btn next" aria-label="Siguiente">${nextIcon}</button>
         </div>
-        
-        <div class="text-section">
+
+        <div class="destiny-text-section" style="display: none;">
           ${paragraphsHtml}
         </div>
       </div>
@@ -99,64 +105,27 @@ class AppGridText extends HTMLElement {
   }
 
   _setupSliderControls() {
-    const gridSection = this.querySelector(".grid-section");
-    const prevBtn = this.querySelector(".slider-btn.prev");
-    const nextBtn = this.querySelector(".slider-btn.next");
+    const track = this.querySelector(".destiny-slide-track");
+    const prevBtn = this.querySelector(".destiny-slider-btn.prev");
+    const nextBtn = this.querySelector(".destiny-slider-btn.next");
 
-    if (!gridSection || !prevBtn || !nextBtn) {
-      return;
-    }
+    if (!track || !prevBtn || !nextBtn) return;
 
-    const updateButtons = () => {
-      const tolerance = 1;
-      const isAtStart = gridSection.scrollLeft <= tolerance;
-      const isAtEnd =
-        gridSection.scrollLeft >=
-        gridSection.scrollWidth - gridSection.clientWidth - tolerance;
-
-      prevBtn.disabled = isAtStart;
-      nextBtn.disabled = isAtEnd;
+    const getScrollAmount = () => {
+      const card = track.querySelector(".destiny-card");
+      if (!card) return 0;
+      const gap = parseFloat(getComputedStyle(track).gap) || 0;
+      return card.offsetWidth + gap;
     };
 
-    gridSection.addEventListener("scroll", updateButtons, { passive: true });
-
     prevBtn.addEventListener("click", () => {
-      const card = gridSection.querySelector(".card");
-      if (!card) return;
-
-      const scrollAmount =
-        card.offsetWidth + parseFloat(getComputedStyle(gridSection).gap);
-      gridSection.scrollBy({
-        left: -scrollAmount,
-        behavior: "smooth",
-      });
+      track.scrollBy({ left: -getScrollAmount(), behavior: "smooth" });
     });
 
     nextBtn.addEventListener("click", () => {
-      const card = gridSection.querySelector(".card");
-      if (!card) return;
-
-      const scrollAmount =
-        card.offsetWidth + parseFloat(getComputedStyle(gridSection).gap);
-      gridSection.scrollBy({
-        left: scrollAmount,
-        behavior: "smooth",
-      });
+      track.scrollBy({ left: getScrollAmount(), behavior: "smooth" });
     });
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          updateButtons();
-          observer.unobserve(this);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    observer.observe(this);
-
-    window.addEventListener("resize", updateButtons);
   }
 }
-customElements.define("app-grid-text", AppGridText);
+
+customElements.define("app-destiny-slider", AppDestinySlider);

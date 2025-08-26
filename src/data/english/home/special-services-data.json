@@ -1,25 +1,25 @@
 [
   
   {
-    "imageSrc": "../src/assets/img/autobuses/asiento-english.webp",
+    "imageSrc": "../src/assets/img/english/home/special-services-data/asiento-english.webp",
     "imageAlt": "Seats that invite you to relax. Views that turn the ride into an experience.",
     "title": "Seats that invite you to relax. Views that turn the ride into an experience.",
     "description": "Whether you're traveling long distances or exploring new horizons, our ergonomic seats offer the comfort that turns the journey into part of the experience"
   },
   {
-    "imageSrc": "../src/assets/img/autobuses/pantalla-autobus-english.webp",
+    "imageSrc": "../src/assets/img/english/home/special-services-data/pantalla-autobus-english.webp",
     "imageAlt": "Your space. Your screen. Your choice.",
     "title": "Your space. Your screen. Your choice.",
     "description": "Individual screens with onboard content: series, movies, and more to enjoy every kilometer."
   },
   {
-    "imageSrc": "../src/assets/img/autobuses/banos-english.webp",
+    "imageSrc": "../src/assets/img/english/home/special-services-data/banos-english.webp",
     "imageAlt": "Separate restrooms for men and women—always clean and available throughout your journey.",
     "title": "Separate restrooms for men and women—always clean and available throughout your journey.",
     "description": "Hygiene, maintenance, and availability at all times. Every space is carefully maintained to offer you a safe and comfortable travel experience."
   },
   {
-    "imageSrc": "../src/assets/img/autobuses/enchufe-english.webp",
+    "imageSrc": "../src/assets/img/english/home/special-services-data/enchufe-english.webp",
     "imageAlt": "Comfortable travel, connected travel.",
     "title": "Comfortable travel, connected travel.",
     "description": "Every seat comes with its own power outlet, so you can charge your phone, laptop, or any device without worrying about running out of battery. Whether you're traveling for work or leisure, your energy is guaranteed from start to finish."
