@@ -6,7 +6,7 @@ import "../../../../components/english/app-destiny-slider.js";
 import "../../../../components/english/app-banner-multi-image.js";
 import "../../../../components/english/app-card-image-tag-text.js";
 import "../../../../components/app-section-title.js";
-import "../../../../components/app-banner-image.js";
+import "../../../../components/english/app-banner-image.js";
 import "../../../../components/app-description-destination.js";
 import "../../../../components/app-explore-section.js";
 import "../../../../js/slick.js?v=1.0.2";
