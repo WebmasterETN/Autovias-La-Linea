@@ -157,7 +157,23 @@ AUTOVIAS-LA-LINEA/
 │   │   │   └── *components.js
 │   │   └── *components.js
 │   ├── js/
+|   |   |── english/
+│   │   |   └── *logic.js
+|   |   |── packmultienlace/
+│   │   |   └── *logic.js
 │   │   └── *logic.js
+│   ├── data/
+│   │   ├── english/
+│   │   │   ├── destinations/
+│   │   │   │   └── aguascalientes/
+|   |   |   |       ├── aguascalientes-food.json
+|   │   │   |       └── cards-explore-section.json
+│   │   │   └── home/
+|   |   |       ├── grid-text-data.json
+|   │   │       └── special-services-data.json
+│   │   ├── packmultienlace/
+│   │   │   └── *all.json
+│   │   └── *other.json/
 │   ├── pages/
 │   │   ├── destinations/
 │   │   │   └── page-boletos-autobus-name-destiny.js
