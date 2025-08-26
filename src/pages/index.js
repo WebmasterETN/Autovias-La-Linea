@@ -1,11 +1,44 @@
 /*-------------PAGINAS PRINCIPALES -------------------------*/
 
-import "./page-home.js?v=1.0.0";
+import "./home/page-home.js?v=1.0.0";
 
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 
+// DESTIONOS
+
+
+import "./destinations/page-boletos-de-autobus-monterrey.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-morelia.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-ciudad-de-mexico.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-colima.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-uruapan.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-ixtapa.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-atlacomulco.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-queretaro.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-estado-de-mexico.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-guadalajara.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-zitacuaro.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus-a-maravatio.js?v=1.0.0";
+import "./destinations/page-boletos-de-autobus.js?v=1.0.0";
+
+
+// LEGAL
+
+// AVISOS
+
+import "./legal/avisos-privacidad/page-aviso-de-privacidad.js?v=1.0.0";
+
+// TERMINOS
+import "./legal/terminos-condiciones/page-ofertas-en-1-click.js?v=1.0.0";
+import "./legal/terminos-condiciones/page-pago-oxxo.js?v=1.0.0";
+import "./legal/terminos-condiciones/page-terminos-buen-fin.js?v=1.0.0";
+import "./legal/terminos-condiciones/page-terminos-condiciones.js?v=1.0.0";
+import "./legal/terminos-condiciones/page-terminos-hot-travel.js?v=1.0.0";
+import "./legal/terminos-condiciones/page-viajero-protegido.js?v=1.0.0";
+
+// OTHERS 
+
 import "./page-site-map.js?v=1.3.3";
-import "./page-boletos-de-autobus.js?v=1.0.0";
 import "./page-donde-comprar.js?v=1.0.0";
 import "./page-renta-de-autobuses.js?v=1.0.0";
 import "./page-destinos.js?v=1.0.0";
@@ -13,42 +46,33 @@ import "./page-terminales-taquillas.js?v=1.0.0";
 import "./page-salas-de-espera-vip.js?v=1.0.0";
 import "./page-salidas-charters.js?v=1.0.0";
 import "./page-servicios-a-bordo.js?v=1.0.0";
-import "./page-pago-oxxo.js?v=1.0.0";
-import "./page-terminos-condiciones.js?v=1.0.0";
-import "./page-aviso-de-privacidad.js?v=1.0.0";
 import "./page-atencion-a-clientes.js?v=1.0.0";
-import "./page-terminos-buen-fin.js?v=1.0.0";
-import "./page-terminos-hot-travel.js?v=1.0.0";
-import "./page-viajero-protegido.js?v=1.0.0";
 import "./page-promociones.js?v=1.0.0";
-import "./page-ofertas-en-1-click.js?v=1.0.0";
 import "./page-festival-de-viajes.js?v=1.0.0";
 import "./page-quienes-somos.js?v=1.0.0";
 import "./page-preguntas-frecuentes.js?v=1.0.0";
-import "./page-boletos-de-autobus-monterrey.js?v=1.0.0";
-import "./page-boletos-de-autobus-morelia.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-ciudad-de-mexico.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-colima.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-uruapan.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-ixtapa.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-atlacomulco.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-queretaro.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-estado-de-mexico.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-guadalajara.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-zitacuaro.js?v=1.0.0";
-import "./page-boletos-de-autobus-a-maravatio.js?v=1.0.0";
 
 // Imports pages for english version
 
 import "./english/page-home-english.js?v=1.3.3";
-import "./english/destinations/page-boletos-de-autobus-aguascalientes.js?v=1.3.3";
-import "./english/legal/page-viajero-protegido.js?v=1.0.0";
-import "./english/legal/page-terminos-hot-travel.js?v=1.0.0";
-import "./english/legal/page-terminos-buen-fin.js?v=1.0.0";
-import "./english/legal/page-terminos-condiciones.js?v=1.0.0";
-import "./english/legal/page-aviso-de-privacidad.js?v=1.0.0";
-import "./english/legal/page-ofertas-en-1-click.js?v=1.0.0";
-import "./english/legal/page-pago-oxxo.js?v=1.0.0";
+
+// Destinations
+
+import "./english/destinations/aguascalientes/page-boletos-de-autobus-aguascalientes.js?v=1.3.3";
+
+// LEGAL
+
+// AVISOS
+
+import "./english/legal/avisos-privacidad/page-aviso-de-privacidad.js?v=1.0.0";
+
+// TERMINOS
+import "./english/legal/terminos-condiciones/page-ofertas-en-1-click.js?v=1.0.0";
+import "./english/legal/terminos-condiciones/page-pago-oxxo.js?v=1.0.0";
+import "./english/legal/terminos-condiciones/page-terminos-buen-fin.js?v=1.0.0";
+import "./english/legal/terminos-condiciones/page-terminos-condiciones.js?v=1.0.0";
+import "./english/legal/terminos-condiciones/page-terminos-hot-travel.js?v=1.0.0";
+import "./english/legal/terminos-condiciones/page-viajero-protegido.js?v=1.0.0";
 
 /*------------------------------- PACK MULTIENLACE---------------------------------*/
 
