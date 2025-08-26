@@ -56,7 +56,7 @@ class AppHeader extends HTMLElement {
         <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
             <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
         </button>
-        <a class="li__languaje" href="../index.html" aria-label="Cambiar idioma" tabindex="0"><img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Descripción de la imagen" loading="lazy"></a>
+        <a class="li__languaje" href="../../english/" aria-label="Cambiar idioma" tabindex="0"><img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Descripción de la imagen" loading="lazy"></a>
 
         <button class="container-menu-hamburguer" aria-label="Menu" id="hamburger-icon" aria-label="Abrir menu desplegable">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 72 72">
@@ -110,7 +110,7 @@ class AppHeader extends HTMLElement {
                     </button>
                 </li>
                 <li>
-                    <a href="../index.html" aria-label="Cambiar idioma">
+                    <a href="../../english/" aria-label="Cambiar idioma">
                         <img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem; height:2rem;" alt="Descripción de la imagen"  width="800" height="416" loading="lazy">
                     </a>
                 </li>

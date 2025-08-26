@@ -15,7 +15,7 @@ class AppHeaderEnglish extends HTMLElement {
 
 				<nav aria-label="Navigation Menu">
 					<ul>
-						<li><a href="../index.html" aria-label="Go to homepage" tabindex="0">Home</a></li>
+						<li><a href="../../english/" aria-label="Go to homepage" tabindex="0">Home</a></li>
 					</ul>
 				</nav>
 				<button id="login-icon" aria-label="Open TravelPass login modal" title="Log in to Travel Pass" class="btn-travelpass btn-travelpass-active js-open-travelpass-login-modal">
@@ -26,7 +26,7 @@ class AppHeaderEnglish extends HTMLElement {
 				<button id="openDotersModal" class="btn btn-doters" aria-label="Log in with Doters" tabindex="0">
 					<img src='../../../src/assets/img/logos/doters.svg' alt="Doters Button" loading="lazy">
 				</button>
-				<a class="li__languaje" href="../index.html" aria-label="Change language" tabindex="0">
+				<a class="li__languaje" href="../../" aria-label="Change language" tabindex="0">
 					<img src='../../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Image description" loading="lazy">
 				</a>
 
@@ -41,7 +41,7 @@ class AppHeaderEnglish extends HTMLElement {
 				<div id="dropdown-menu" class="show">
 					<ul>
 						<li>
-							<a href="../../index.html" aria-label="Go to homepage">HOME</a>
+							<a href="../../english/" aria-label="Go to homepage">HOME</a>
 						</li>
 						<li>
 							<button id="login-icon" aria-label="Open TravelPass login modal" title="Log in to Travel Pass" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal">
@@ -56,7 +56,7 @@ class AppHeaderEnglish extends HTMLElement {
 							</button>
 						</li>
 						<li>
-							<a href="../index.html" aria-label="Change language">
+							<a href="../../" aria-label="Change language">
 								<img src='../../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem; height:2rem;" alt="Image description"  width="800" height="416" loading="lazy">
 							</a>
 						</li>
