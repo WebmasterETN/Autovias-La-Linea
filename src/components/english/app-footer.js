@@ -33,7 +33,7 @@ class AppFooterEnglish extends HTMLElement {
 			{
 				title: "About the Company",
 				links: [
-					{ text: "Who We Are", href: "../quienes-somos.html" },
+					{ text: "Who We Are", href: "../../english/quienes-somos.html" },
 					{
 						text: "Job Opportunities",
 						href: "https://Autovías.com.mx/bolsa-de-trabajo/",
@@ -43,10 +43,10 @@ class AppFooterEnglish extends HTMLElement {
 			{
 				title: "Legal",
 				links: [
-					{ text: "Privacy Notices", href: "../aviso-de-privacidad.html" },
+					{ text: "Privacy Notices", href: "../../english/aviso-de-privacidad.html" },
 					{
 						text: "Terms and Conditions",
-						href: "../terminos-condiciones.html",
+						href: "../../english/terminos-condiciones.html",
 					},
 				],
 			},
@@ -55,7 +55,7 @@ class AppFooterEnglish extends HTMLElement {
 					{
 						title: "Customer Service",
 						links: [
-							{ text: "Protected Traveler", href: "../viajero-protegido.html" },
+							{ text: "Protected Traveler", href: "../../english/viajero-protegido.html" },
 							{
 								text: "Agencies",
 								href: "https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES",
@@ -65,7 +65,7 @@ class AppFooterEnglish extends HTMLElement {
 					{
 						title: "Locations",
 						links: [
-							{ text: "Destination Terminals", href: "../destinos.html" },
+							{ text: "Destination Terminals", href: "../../english/destinos.html" },
 						],
 					},
 				],
@@ -75,12 +75,12 @@ class AppFooterEnglish extends HTMLElement {
 				links: [
 					{
 						text: "Frequently Asked Questions",
-						href: "../preguntas-frecuentes.html",
+						href: "../../english/preguntas-frecuentes.html",
 					},
-					{ text: "Ticket Types", href: "../boletos-de-autobus.html" },
-					{ text: "Where to Buy", href: "../donde-comprar.html" },
+					{ text: "Ticket Types", href: "../../english/boletos-de-autobus.html" },
+					{ text: "Where to Buy", href: "../../english/donde-comprar.html" },
 					{ text: "Payment Methods", href: "#payment-methods" },
-					{ text: "Site Map", href: "../sitemap.html" },
+					{ text: "Site Map", href: "../../english/sitemap.html" },
 				],
 			},
 			{
