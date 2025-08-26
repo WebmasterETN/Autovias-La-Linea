@@ -10,7 +10,7 @@ import "../../components/app-card-left-description.js";
 import "../../components/app-grid-text.js";
 import "../../js/slick.js?v=1.0.0";
 
-class AppHomeEnglish extends HTMLElement {
+class PageHomeEnglish extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
       <app-cotiza></app-cotiza>
@@ -77,4 +77,4 @@ class AppHomeEnglish extends HTMLElement {
     `;
 	}
 }
-customElements.define("app-home-english", AppHomeEnglish);
+customElements.define("page-home-english", PageHomeEnglish);

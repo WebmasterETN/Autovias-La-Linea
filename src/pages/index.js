@@ -1,6 +1,6 @@
 /*-------------PAGINAS PRINCIPALES -------------------------*/
 
-import "./app-home.js?v=1.0.0";
+import "./page-home.js?v=1.0.0";
 
 /*----------------------------PAGINAS-LANDINGS----------------------------------------*/
 
@@ -40,7 +40,7 @@ import "./page-boletos-de-autobus-a-maravatio.js?v=1.0.0";
 
 // Imports pages for english version
 
-import "./english/app-home-english.js?v=1.3.3";
+import "./english/page-home-english.js?v=1.3.3";
 import "./english/destinations/page-boletos-de-autobus-aguascalientes.js?v=1.3.3";
 import "./english/legal/page-viajero-protegido.js?v=1.0.0";
 import "./english/legal/page-terminos-hot-travel.js?v=1.0.0";

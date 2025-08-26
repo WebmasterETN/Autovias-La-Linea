@@ -13,7 +13,7 @@ import "../components/app-img-shop-left.js";
 import "../components/app-section-title.js";
 import "../js/slick.js?v=1.0.0";
 
-class AppHome extends HTMLElement {
+class PageHome extends HTMLElement {
 	connectedCallback() {
 		this.innerHTML = `
             <app-cotiza></app-cotiza>
@@ -80,4 +80,4 @@ class AppHome extends HTMLElement {
         `;
 	}
 }
-customElements.define("app-home", AppHome);
+customElements.define("page-home", PageHome);
