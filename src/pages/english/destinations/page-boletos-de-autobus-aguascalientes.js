@@ -1,15 +1,15 @@
 /*--------------IMPORT COMPONENTS FROM HOME PAGE -----------------*/
-import "../../../../components/app-cotiza.js";
-import "../../../../components/english/app-modal-doters.js";
-import "../../../../components/english/app-modal-travelpass.js";
-import "../../../../components/english/app-destiny-slider.js";
-import "../../../../components/english/app-banner-multi-image.js";
-import "../../../../components/english/app-card-image-tag-text.js";
-import "../../../../components/app-section-title.js";
-import "../../../../components/english/app-banner-image.js";
-import "../../../../components/app-description-destination.js";
-import "../../../../components/app-explore-section.js";
-import "../../../../js/slick.js?v=1.0.2";
+import "../../../components/app-cotiza.js";
+import "../../../components/english/app-modal-doters.js";
+import "../../../components/english/app-modal-travelpass.js";
+import "../../../components/english/app-destiny-slider.js";
+import "../../../components/english/app-banner-multi-image.js";
+import "../../../components/english/app-card-image-tag-text.js";
+import "../../../components/app-section-title.js";
+import "../../../components/english/app-banner-image.js";
+import "../../../components/app-description-destination.js";
+import "../../../components/app-explore-section.js";
+import "../../../js/slick.js?v=1.0.2";
 
 class PageBoletosAutobusAguascalientesEnglish extends HTMLElement {
 	async connectedCallback() {
