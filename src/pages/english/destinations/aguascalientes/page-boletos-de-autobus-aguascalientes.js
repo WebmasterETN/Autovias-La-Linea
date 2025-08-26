@@ -2,10 +2,14 @@
 import "../../../../components/app-cotiza.js";
 import "../../../../components/english/app-modal-doters.js";
 import "../../../../components/english/app-modal-travelpass.js";
+import "../../../../components/english/app-destiny-slider.js";
+import "../../../../components/english/app-banner-multi-image.js";
+import "../../../../components/english/app-card-image-tag-text.js";
 import "../../../../components/app-section-title.js";
-import "../../../../components/app-banner-image.js";
+import "../../../../components/english/app-banner-image.js";
 import "../../../../components/app-description-destination.js";
 import "../../../../components/app-explore-section.js";
+import "../../../../js/slick.js?v=1.0.2";
 
 class PageBoletosAutobusAguascalientesEnglish extends HTMLElement {
 	async connectedCallback() {
@@ -15,7 +19,7 @@ class PageBoletosAutobusAguascalientesEnglish extends HTMLElement {
       <app-modal-doters-english></app-modal-doters-english>
       <div class="__first-section">
         <app-banner-image
-          image-src="../../src/assets/img/banner/english/destinos/aguascalientes/banner-aguascalientes-english.webp"
+          image-src="../../src/assets/img/english/destinations/aguascalientes-english/banner/banner-aguascalientes-english.webp"
           image-alt="Promotional banner for Aguascalientes"
         ></app-banner-image>
       </div>
@@ -23,9 +27,9 @@ class PageBoletosAutobusAguascalientesEnglish extends HTMLElement {
         <app-description-destination
           title-text="Aguascalientes is waiting. ETN will take you there."
           image-data='[
-            {"id": "1", "src": "../../src/assets/img/destinos-img/aguascalientes-english/templo-san-antonio-paduba.webp", "alt": "San Marcos Fair"},
-            {"id": "2", "src": "../../src/assets/img/destinos-img/aguascalientes-english/museo-aguascalientes.webp", "alt": "Cathedral Basilica of Our Lady of the Assumption"},
-            {"id": "3", "src": "../../src/assets/img/destinos-img/aguascalientes-english/templo-san-antonio.webp", "alt": "Tres Centurias Park"}
+            {"id": "1", "src": "../../src/assets/img/english/destinations/aguascalientes-english/overflow-images/templo-san-antonio-paduba.webp", "alt": "San Marcos Fair"},
+            {"id": "2", "src": "../../src/assets/img/english/destinations/aguascalientes-english/overflow-images/museo-aguascalientes.webp", "alt": "Cathedral Basilica of Our Lady of the Assumption"},
+            {"id": "3", "src": "../../src/assets/img/english/destinations/aguascalientes-english/overflow-images/templo-san-antonio.webp", "alt": "Tres Centurias Park"}
           ]'
           paragraph-text="Aguascalientes is a hidden gem in the heart of Mexico. Renowned for its warm hospitality, colonial architecture, vibrant festivals, and one of a kind museums, this destination blends history, culture, and modern charm in every corner. From the iconic San Marcos Fair to its temples, plazas, and cultural spaces, Aguascalientes offers an authentic and safe experience for travelers seeking to explore the soul of Mexico — with style and peace of mind."
         ></app-description-destination>
@@ -57,7 +61,7 @@ class PageBoletosAutobusAguascalientesEnglish extends HTMLElement {
         
       <section class="__section">
         <app-section-title section-title="Explore more destinations with ETN Turistar Mexico is waiting for you."></app-section-title>
-        <app-destiny-slider src="../../src/data/english/home/grid-text-data.json"></app-destiny-slider>
+        <app-destiny-slider src="../../src/data/english/destinations/aguascalientes/grid-text-data.json"></app-destiny-slider>
       </section>
     `;
 		this._loadExploreSectionData();
@@ -66,7 +70,7 @@ class PageBoletosAutobusAguascalientesEnglish extends HTMLElement {
 	async _loadExploreSectionData() {
 		try {
 			const response = await fetch(
-				"../../src/data/english/home/cards-explore-section.json"
+				"../../src/data/english/destinations/aguascalientes/cards-explore-section.json"
 			);
 			if (!response.ok) {
 				throw new Error(`HTTP error! status: ${response.status}`);
