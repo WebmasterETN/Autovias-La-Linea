@@ -1,16 +1,14 @@
-
-
 class AppHeader extends HTMLElement {
-	connectedCallback() {
-		const logoData = JSON.parse(this.getAttribute("logo"));
-		const { src, alt, href } = logoData;
+  connectedCallback() {
+    const logoData = JSON.parse(this.getAttribute("logo"));
+    const { src, alt, href } = logoData;
 
-		this.innerHTML = `
+    this.innerHTML = `
       <header aria-label="Encabezado Autovías La Línea" >
         <a href="${href}" class="main-header__container-logo" aria-label="Autovías La Línea" tabindex="0">
           <img src="${src}"
             alt="${alt}" 
-            class="header__logo" width="922" height="143" loading="lazy"/>
+            class="header__logo" width="160" height="32" loading="lazy"/>
         </a>
         
         <nav aria-label="Menu de navegacion" >
@@ -50,13 +48,15 @@ class AppHeader extends HTMLElement {
           </ul>
         </nav>
           
-        <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass-active js-open-travelpass-login-modal">
-          <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
-        </button>
-        <button id="openDotersModal" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
-            <img src='../../src/assets/img/logos/doters.svg' alt="Boton de Doters" loading="lazy">
-        </button>
-        <a class="li__languaje" href="../../english/" aria-label="Cambiar idioma" tabindex="0"><img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem;" width="800" height="416" alt="Descripción de la imagen" loading="lazy"></a>
+        <button id="login-icon" class="btn-travelpass desktop-travelpass js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
+			<img src="../../src/assets/img/gho-img/logos/logo-travel-pass.png" alt="Travel Pass" loading="lazy">
+		</button>
+		<button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Iniciar sesión Doters">
+			<img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">
+		</button>
+		<a class="li__languaje desktop-languaje" href="../english/index.html" aria-label="Cambiar idioma">
+			<img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
+		</a>
 
         <button class="container-menu-hamburguer" aria-label="Menu" id="hamburger-icon" aria-label="Abrir menu desplegable">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 72 72">
@@ -68,6 +68,11 @@ class AppHeader extends HTMLElement {
         
         <div id="dropdown-menu" class="show">
             <ul>
+				<li class="lili__languaje">
+					<a class="a__languaje" href="../../english/index.html" aria-label="Cambiar idioma">
+						<img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
+					</a>
+				</li>
                 <li><a href="../index.html" aria-label="Ir a inicio">INICIO</a></li>
                 <li class="submenu__media-queries">
                     <a href="#" aria-label="Facturar su viaje" aria-haspopup="true" aria-expanded="false">Facture su viaje <span class="icon-arrow-down"></span></a>
@@ -99,432 +104,362 @@ class AppHeader extends HTMLElement {
                       <li><a href="../atencion-a-clientes.html" tabindex="0">Atención a clientes</a></li>
                     </ul>
                 </li>
-                <li>
-                  <button id="login-icon" aria-label="Abrir modal de inicio de sesión TravelPass" title="Ingresa a Travel Pass" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal">
-                    <a href="#" id="open-login-modal" title="Abrir modal de inicio de sesión" class="btn-travelpass-icon"><img src="../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Iniciar sesión en Travel Pass" width="100" height="32" style="cursor: pointer;"></a>
-                  </button>
-                </li>
-                <li>
-                    <button id="openDotersModalMovil" class="btn btn-doters" aria-label="Iniciar sesion con doters" tabindex="0">
-                        <img src="../../src/assets/img/logos/doters.svg" loading="lazy" alt="Doters Logo">
-                    </button>
-                </li>
-                <li>
-                    <a href="../../english/" aria-label="Cambiar idioma">
-                        <img src='../../src/assets/img/icons-img/USA_Flag.webp' style="width:3.125rem; height:2rem;" alt="Descripción de la imagen"  width="800" height="416" loading="lazy">
-                    </a>
-                </li>
+                <li class="li__login">
+					<button id="login-icon" class="btn-travelpass btn-travelpass__submenu js-open-travelpass-login-modal" aria-label="Iniciar sesión TravelPass">
+						<img src="../../../src/assets/img/gho-img/logos/logo-travel-pass.webp" alt="Travel Pass" loading="lazy">
+					</button>
+					<button id="openDotersModalMovil" class="btn-doters" aria-label="Iniciar sesión Doters">
+						<img src="../../src/assets/img/logos/doters.svg" alt="Doters" loading="lazy">
+					</button>
+				</li>
             </ul>
         </div>
       </header>
     `;
 
-		this.openDesktopSubmenuInstance = null;
-		this.desktopSubmenuHideTimeout = null;
+    this.openDesktopSubmenuInstance = null;
+    this.desktopSubmenuHideTimeout = null;
 
-		// Bind methods for event listeners
-		this.boundHandleResizeForMobileMenu =
-		this._handleResizeForMobileMenu.bind(this);
-		this.boundHamburgerClickHandler = this._handleHamburgerClick.bind(this);
+    this._initDesktopSubmenus();
+    this._initMobileMenu();
+    this._initDotersModals();
+    this._initScrollBehavior();
+  }
 
-		this._initDesktopSubmenus();
-		this._initMobileMenu();
-		this._initDotersModals();
-		this._initScrollBehavior();
+  _initMobileMenu() {
+    const hamburgerIcon = this.querySelector("#hamburger-icon");
+    const dropdownMenu = this.querySelector("#dropdown-menu");
 
-		window.addEventListener("resize", this.boundHandleResizeForMobileMenu);
-	}
-
-	_initMobileMenu() {
-		const hamburgerIcon = this.querySelector("#hamburger-icon");
-		const dropdownMenu = this.querySelector("#dropdown-menu");
-
-		// Guardar el SVG original del ícono de hamburguesa
-		const originalSvg = hamburgerIcon.innerHTML;
-		// Crear el SVG de "X"
-		const closeSvg = `
+    // Guardar el SVG original del ícono de hamburguesa
+    const originalSvg = hamburgerIcon.innerHTML;
+    // Crear el SVG de "X"
+    const closeSvg = `
      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0e385a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <line x1="18" y1="6" x2="6" y2="18"/>
         <line x1="6" y1="6" x2="18" y2="18"/>
      </svg>
       `;
-		// Store references and SVGs on the instance
-		this.hamburgerIcon = hamburgerIcon;
-		this.dropdownMenu = dropdownMenu;
-		this.originalHamburgerSvg = originalSvg;
-		this.closeMenuSvg = closeSvg;
 
-		this._closeMobileMenu(); // Ensure it's closed initially and ARIA attributes are set
-		this.hamburgerIcon.addEventListener(
-			"click",
-			this.boundHamburgerClickHandler
-		);
+    dropdownMenu.classList.remove("show");
+    hamburgerIcon.addEventListener("click", (event) => {
+      dropdownMenu.classList.toggle("show");
+      const isMenuOpen = dropdownMenu.classList.contains("show");
 
-		const mobileSubmenuTriggers = this.querySelectorAll(
-			".submenu__media-queries > a"
-		);
+      if (isMenuOpen) {
+        hamburgerIcon.innerHTML = closeSvg; // Cambiar al ícono de "X"
+        this.dispatchEvent(
+          new CustomEvent("mobile-menu-opened", {
+            bubbles: true,
+            composed: true,
+          })
+        );
+      } else {
+        hamburgerIcon.innerHTML = originalSvg; // Volver al ícono de hamburguesa
+        this.dispatchEvent(
+          new CustomEvent("mobile-menu-closed", {
+            bubbles: true,
+            composed: true,
+          })
+        );
+      }
+      event.stopPropagation();
+    });
 
-		mobileSubmenuTriggers.forEach((trigger) => {
-			const submenuList = trigger.nextElementSibling;
-			if (!submenuList || submenuList.tagName !== "UL") return;
+    // Mobile submenus
+    const mobileSubmenuTriggers = this.querySelectorAll(
+      ".submenu__media-queries > a"
+    );
 
-			// Initialize ARIA attributes and state for submenus
-			trigger.setAttribute("aria-expanded", "false");
-			submenuList.style.display = "none";
+    mobileSubmenuTriggers.forEach((trigger) => {
+      const submenuList = trigger.nextElementSibling;
+      if (!submenuList || submenuList.tagName !== "UL") return;
 
-			trigger.addEventListener("click", (event) => {
-				event.preventDefault();
-				const isOpen = submenuList.style.display === "block";
-				this.querySelectorAll(".submenu__media-queries > ul").forEach((ul) => {
-					if (ul !== submenuList && ul.style.display === "block") {
-						ul.style.display = "none";
-						ul.previousElementSibling.setAttribute("aria-expanded", "false");
-					}
-				});
+      trigger.setAttribute("aria-expanded", "false");
 
-				if (isOpen) {
-					submenuList.style.display = "none";
-					trigger.setAttribute("aria-expanded", "false");
-				} else {
-					submenuList.style.display = "block";
-					trigger.setAttribute("aria-expanded", "true");
-				}
-				event.stopPropagation();
-			});
+      trigger.addEventListener("click", (event) => {
+        event.preventDefault();
+        const isOpen = submenuList.classList.contains("is-open");
 
-			trigger.addEventListener("keydown", (event) => {
-				if (event.key === "Enter" || event.key === " ") {
-					event.preventDefault();
-					trigger.click();
-					if (submenuList.style.display === "block") {
-						submenuList.querySelector("a")?.focus();
-					}
-				}
-			});
+        // Cierra otros submenús que estén abiertos
+        this.querySelectorAll(".submenu__media-queries > ul").forEach((ul) => {
+          if (ul !== submenuList && ul.classList.contains("is-open")) {
+            ul.classList.remove("is-open");
+            ul.previousElementSibling.setAttribute("aria-expanded", "false");
+          }
+        });
 
-			const mobileSubmenuItems = Array.from(submenuList.querySelectorAll("a"));
-			mobileSubmenuItems.forEach((subItem) => {
-				subItem.addEventListener("keydown", (e) => {
-					if (e.key === "Escape") {
-						e.preventDefault();
-						submenuList.style.display = "none";
-						trigger.setAttribute("aria-expanded", "false");
-						trigger.focus();
-					}
-				});
-			});
-		});
-	}
+        // Alterna el estado del submenú actual
+        submenuList.classList.toggle("is-open");
+        trigger.setAttribute("aria-expanded", String(!isOpen));
 
-	_handleHamburgerClick(event) {
-		const isMenuOpen = this.dropdownMenu.classList.contains("show");
-		if (isMenuOpen) {
-			this._closeMobileMenu();
-		} else {
-			this._openMobileMenu();
-		}
-		event.stopPropagation();
-	}
+        event.stopPropagation();
+      });
 
-	_openMobileMenu() {
-		if (!this.dropdownMenu || !this.hamburgerIcon) return;
-		this.dropdownMenu.classList.add("show");
-		this.hamburgerIcon.innerHTML = this.closeMenuSvg;
-		this.hamburgerIcon.setAttribute("aria-expanded", "true");
-		this.dispatchEvent(
-			new CustomEvent("mobile-menu-opened", {
-				bubbles: true,
-				composed: true,
-			})
-		);
-	}
+      trigger.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          trigger.click();
+          if (submenuList.classList.contains("is-open")) {
+            submenuList.querySelector("a")?.focus();
+          }
+        }
+      });
 
-	_closeMobileMenu() {
-		if (!this.dropdownMenu || !this.hamburgerIcon) return;
-		this.dropdownMenu.classList.remove("show");
-		this.hamburgerIcon.innerHTML = this.originalHamburgerSvg;
-		this.hamburgerIcon.setAttribute("aria-expanded", "false");
+      const mobileSubmenuItems = Array.from(submenuList.querySelectorAll("a"));
+      mobileSubmenuItems.forEach((subItem) => {
+        subItem.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            e.preventDefault();
+            submenuList.classList.remove("is-open");
+            trigger.setAttribute("aria-expanded", "false");
+            trigger.focus();
+          }
+        });
+      });
+    });
+  }
 
-		// Reset mobile submenus inside dropdownMenu
-		const mobileSubmenuTriggers = this.dropdownMenu.querySelectorAll(
-			".submenu__media-queries > a"
-		);
-		mobileSubmenuTriggers.forEach((trigger) => {
-			const submenuList = trigger.nextElementSibling;
-			if (submenuList && submenuList.tagName === "UL") {
-				submenuList.style.display = "none";
-				trigger.setAttribute("aria-expanded", "false");
-			}
-		});
+  _animateSubmenu(submenuList, show) {
+    if (show) {
+      submenuList.style.display = "block";
+      submenuList.style.overflow = "hidden";
+      submenuList.style.maxHeight = "0";
+      submenuList.style.opacity = "0";
+      submenuList.style.transition =
+        "max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s";
+      setTimeout(() => {
+        submenuList.style.maxHeight = submenuList.scrollHeight + "px";
+        submenuList.style.opacity = "1";
+      }, 10);
+    } else {
+      submenuList.style.overflow = "hidden";
+      submenuList.style.maxHeight = submenuList.scrollHeight + "px";
+      submenuList.style.opacity = "1";
+      submenuList.style.transition =
+        "max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s";
+      setTimeout(() => {
+        submenuList.style.maxHeight = "0";
+        submenuList.style.opacity = "0";
+      }, 10);
+      setTimeout(() => {
+        submenuList.style.display = "none";
+      }, 410);
+    }
+  }
 
-		this.dispatchEvent(
-			new CustomEvent("mobile-menu-closed", { bubbles: true, composed: true })
-		);
-	}
+  _isDesktopSubmenuOpen(submenuList) {
+    return (
+      submenuList.style.display === "block" &&
+      submenuList.style.maxHeight !== "0px" &&
+      parseFloat(submenuList.style.opacity) === 1
+    );
+  }
 
-	_animateSubmenu(submenuList, show) {
-		if (show) {
-			submenuList.style.display = "block";
-			submenuList.style.overflow = "hidden";
-			submenuList.style.maxHeight = "0";
-			submenuList.style.opacity = "0";
-			submenuList.style.transition =
-				"max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s";
-			setTimeout(() => {
-				submenuList.style.maxHeight = submenuList.scrollHeight + "px";
-				submenuList.style.opacity = "1";
-			}, 10);
-		} else {
-			submenuList.style.overflow = "hidden";
-			submenuList.style.maxHeight = submenuList.scrollHeight + "px";
-			submenuList.style.opacity = "1";
-			submenuList.style.transition =
-				"max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s";
-			setTimeout(() => {
-				submenuList.style.maxHeight = "0";
-				submenuList.style.opacity = "0";
-			}, 10);
-			setTimeout(() => {
-				submenuList.style.display = "none";
-			}, 410);
-		}
-	}
+  _openDesktopSubmenu(submenuList, triggerLink) {
+    if (this._isDesktopSubmenuOpen(submenuList)) return;
+    this._animateSubmenu(submenuList, true);
+    triggerLink.setAttribute("aria-expanded", "true");
+  }
 
-	_isDesktopSubmenuOpen(submenuList) {
-		return (
-			submenuList.style.display === "block" &&
-			submenuList.style.maxHeight !== "0px" &&
-			parseFloat(submenuList.style.opacity) === 1
-		);
-	}
+  _closeDesktopSubmenu(submenuList, triggerLink) {
+    if (!this._isDesktopSubmenuOpen(submenuList)) return;
+    this._animateSubmenu(submenuList, false);
+    if (triggerLink) triggerLink.setAttribute("aria-expanded", "false");
+  }
 
-	_openDesktopSubmenu(submenuList, triggerLink) {
-		if (this._isDesktopSubmenuOpen(submenuList)) return;
-		this._animateSubmenu(submenuList, true);
-		triggerLink.setAttribute("aria-expanded", "true");
-	}
+  _toggleDesktopSubmenu(submenuList, triggerLink) {
+    if (this._isDesktopSubmenuOpen(submenuList)) {
+      this._closeDesktopSubmenu(submenuList, triggerLink);
+      if (this.openDesktopSubmenuInstance === submenuList) {
+        this.openDesktopSubmenuInstance = null;
+      }
+    } else {
+      if (
+        this.openDesktopSubmenuInstance &&
+        this.openDesktopSubmenuInstance !== submenuList
+      ) {
+        const prevTrigger =
+          this.openDesktopSubmenuInstance.previousElementSibling;
+        this._closeDesktopSubmenu(
+          this.openDesktopSubmenuInstance,
+          prevTrigger && prevTrigger.matches("a") ? prevTrigger : null
+        );
+      }
+      this._openDesktopSubmenu(submenuList, triggerLink);
+      this.openDesktopSubmenuInstance = submenuList;
+    }
+  }
 
-	_closeDesktopSubmenu(submenuList, triggerLink) {
-		if (!this._isDesktopSubmenuOpen(submenuList)) return;
-		this._animateSubmenu(submenuList, false);
-		if (triggerLink) triggerLink.setAttribute("aria-expanded", "false");
-	}
+  _initDesktopSubmenus() {
+    const submenuContainers = this.querySelectorAll(".submenu");
 
-	_toggleDesktopSubmenu(submenuList, triggerLink) {
-		if (this._isDesktopSubmenuOpen(submenuList)) {
-			this._closeDesktopSubmenu(submenuList, triggerLink);
-			if (this.openDesktopSubmenuInstance === submenuList) {
-				this.openDesktopSubmenuInstance = null;
-			}
-		} else {
-			if (
-				this.openDesktopSubmenuInstance &&
-				this.openDesktopSubmenuInstance !== submenuList
-			) {
-				const prevTrigger =
-					this.openDesktopSubmenuInstance.previousElementSibling;
-				this._closeDesktopSubmenu(
-					this.openDesktopSubmenuInstance,
-					prevTrigger && prevTrigger.matches("a") ? prevTrigger : null
-				);
-			}
-			this._openDesktopSubmenu(submenuList, triggerLink);
-			this.openDesktopSubmenuInstance = submenuList;
-		}
-	}
+    submenuContainers.forEach((container) => {
+      const link = container.querySelector("a");
+      const list = container.querySelector("ul");
 
-	_initDesktopSubmenus() {
-		const submenuContainers = this.querySelectorAll(".submenu");
+      if (!link || !list) return;
 
-		submenuContainers.forEach((container) => {
-			const link = container.querySelector("a");
-			const list = container.querySelector("ul");
+      link.setAttribute("aria-expanded", "false");
+      list.style.display = "none";
+      list.style.overflow = "hidden";
+      list.style.maxHeight = "0";
+      list.style.opacity = "0";
 
-			if (!link || !list) return;
+      link.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          this._toggleDesktopSubmenu(list, link);
+          if (this._isDesktopSubmenuOpen(list)) {
+            list.querySelector("a")?.focus();
+          }
+        } else if (event.key === "ArrowDown") {
+          event.preventDefault();
+          if (!this._isDesktopSubmenuOpen(list)) {
+            this._toggleDesktopSubmenu(list, link); // Opens it
+          }
+          list.querySelector("a")?.focus();
+        } else if (event.key === "Escape") {
+          if (this._isDesktopSubmenuOpen(list)) {
+            event.preventDefault();
+            this._closeDesktopSubmenu(list, link);
+            link.focus();
+            this.openDesktopSubmenuInstance = null;
+          }
+        }
+      });
 
-			link.setAttribute("aria-expanded", "false");
-			list.style.display = "none";
-			list.style.overflow = "hidden";
-			list.style.maxHeight = "0";
-			list.style.opacity = "0";
+      container.addEventListener("mouseenter", () => {
+        if (this.desktopSubmenuHideTimeout)
+          clearTimeout(this.desktopSubmenuHideTimeout);
+        if (
+          this.openDesktopSubmenuInstance &&
+          this.openDesktopSubmenuInstance !== list
+        ) {
+          const prevTrigger =
+            this.openDesktopSubmenuInstance.previousElementSibling;
+          this._closeDesktopSubmenu(
+            this.openDesktopSubmenuInstance,
+            prevTrigger && prevTrigger.matches("a") ? prevTrigger : null
+          );
+        }
+        this._openDesktopSubmenu(list, link);
+        this.openDesktopSubmenuInstance = list;
+      });
 
-			link.addEventListener("keydown", (event) => {
-				if (event.key === "Enter" || event.key === " ") {
-					event.preventDefault();
-					this._toggleDesktopSubmenu(list, link);
-					if (this._isDesktopSubmenuOpen(list)) {
-						list.querySelector("a")?.focus();
-					}
-				} else if (event.key === "ArrowDown") {
-					event.preventDefault();
-					if (!this._isDesktopSubmenuOpen(list)) {
-						this._toggleDesktopSubmenu(list, link); // Opens it
-					}
-					list.querySelector("a")?.focus();
-				} else if (event.key === "Escape") {
-					if (this._isDesktopSubmenuOpen(list)) {
-						event.preventDefault();
-						this._closeDesktopSubmenu(list, link);
-						link.focus();
-						this.openDesktopSubmenuInstance = null;
-					}
-				}
-			});
+      container.addEventListener("mouseleave", () => {
+        this.desktopSubmenuHideTimeout = setTimeout(() => {
+          this._closeDesktopSubmenu(list, link);
+          if (this.openDesktopSubmenuInstance === list) {
+            this.openDesktopSubmenuInstance = null;
+          }
+        }, 300);
+      });
 
-			container.addEventListener("mouseenter", () => {
-				if (this.desktopSubmenuHideTimeout)
-					clearTimeout(this.desktopSubmenuHideTimeout);
-				if (
-					this.openDesktopSubmenuInstance &&
-					this.openDesktopSubmenuInstance !== list
-				) {
-					const prevTrigger =
-						this.openDesktopSubmenuInstance.previousElementSibling;
-					this._closeDesktopSubmenu(
-						this.openDesktopSubmenuInstance,
-						prevTrigger && prevTrigger.matches("a") ? prevTrigger : null
-					);
-				}
-				this._openDesktopSubmenu(list, link);
-				this.openDesktopSubmenuInstance = list;
-			});
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        this._toggleDesktopSubmenu(list, link);
+        event.stopPropagation();
+      });
 
-			container.addEventListener("mouseleave", () => {
-				this.desktopSubmenuHideTimeout = setTimeout(() => {
-					this._closeDesktopSubmenu(list, link);
-					if (this.openDesktopSubmenuInstance === list) {
-						this.openDesktopSubmenuInstance = null;
-					}
-				}, 300);
-			});
+      const submenuItems = Array.from(list.querySelectorAll("a"));
+      submenuItems.forEach((subItem, index) => {
+        subItem.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") {
+            e.preventDefault();
+            this._closeDesktopSubmenu(list, link);
+            link.focus();
+            this.openDesktopSubmenuInstance = null;
+          } else if (
+            e.key === "Tab" &&
+            !e.shiftKey &&
+            index === submenuItems.length - 1
+          ) {
+            this._closeDesktopSubmenu(list, link);
+            this.openDesktopSubmenuInstance = null;
+          } else if (e.key === "Tab" && e.shiftKey && index === 0) {
+            this._closeDesktopSubmenu(list, link);
+            this.openDesktopSubmenuInstance = null;
+          }
+        });
+      });
+    });
 
-			link.addEventListener("click", (event) => {
-				event.preventDefault();
-				this._toggleDesktopSubmenu(list, link);
-				event.stopPropagation();
-			});
+    document.addEventListener("click", (event) => {
+      if (
+        this.openDesktopSubmenuInstance &&
+        !this.openDesktopSubmenuInstance.parentElement.contains(event.target)
+      ) {
+        const trigger = this.openDesktopSubmenuInstance.previousElementSibling;
+        this._closeDesktopSubmenu(
+          this.openDesktopSubmenuInstance,
+          trigger && trigger.matches("a") ? trigger : null
+        );
+        this.openDesktopSubmenuInstance = null;
+      }
+    });
+  }
 
-			const submenuItems = Array.from(list.querySelectorAll("a"));
-			submenuItems.forEach((subItem, index) => {
-				subItem.addEventListener("keydown", (e) => {
-					if (e.key === "Escape") {
-						e.preventDefault();
-						this._closeDesktopSubmenu(list, link);
-						link.focus();
-						this.openDesktopSubmenuInstance = null;
-					} else if (
-						e.key === "Tab" &&
-						!e.shiftKey &&
-						index === submenuItems.length - 1
-					) {
-						this._closeDesktopSubmenu(list, link);
-						this.openDesktopSubmenuInstance = null;
-					} else if (e.key === "Tab" && e.shiftKey && index === 0) {
-						this._closeDesktopSubmenu(list, link);
-						this.openDesktopSubmenuInstance = null;
-					}
-				});
-			});
-		});
+  // Ejemplo conceptual de cómo se usaría en app-header.js
+  _initDotersModals() {
+    const openModalButtonDesktop = this.querySelector("#openDotersModal"); // Botón en el header para desktop
+    const openModalButtonMovil = this.querySelector("#openDotersModalMovil"); // Botón en el header para móvil
 
-		document.addEventListener("click", (event) => {
-			if (
-				this.openDesktopSubmenuInstance &&
-				!this.openDesktopSubmenuInstance.parentElement.contains(event.target)
-			) {
-				const trigger = this.openDesktopSubmenuInstance.previousElementSibling;
-				this._closeDesktopSubmenu(
-					this.openDesktopSubmenuInstance,
-					trigger && trigger.matches("a") ? trigger : null
-				);
-				this.openDesktopSubmenuInstance = null;
-			}
-		});
-	}
+    // Asumimos que solo hay UNA instancia de app-modal-doters en la página.
+    // Si tienes más, necesitarás una forma más específica de seleccionarlo (ej. por un ID único en el tag <app-modal-doters id="miModalUnico">).
+    const dotersModalElement = document.querySelector("app-modal-doters");
 
-	// Ejemplo conceptual de cómo se usaría en app-header.js
-	_initDotersModals() {
-		const openModalButtonDesktop = this.querySelector("#openDotersModal"); // Botón en el header para desktop
-		const openModalButtonMovil = this.querySelector("#openDotersModalMovil"); // Botón en el header para móvil
+    if (dotersModalElement) {
+      const openAction = () => {
+        if (typeof dotersModalElement.open === "function") {
+          dotersModalElement.open();
+        } else {
+          console.error(
+            "El método open() no está disponible en el elemento app-modal-doters.",
+            dotersModalElement
+          );
+        }
+      };
 
-		// Asumimos que solo hay UNA instancia de app-modal-doters en la página.
-		// Si tienes más, necesitarás una forma más específica de seleccionarlo (ej. por un ID único en el tag <app-modal-doters id="miModalUnico">).
-		const dotersModalElement = document.querySelector("app-modal-doters");
+      if (openModalButtonDesktop) {
+        openModalButtonDesktop.addEventListener("click", openAction);
+      }
+      if (openModalButtonMovil) {
+        openModalButtonMovil.addEventListener("click", openAction);
+      }
+    } else {
+      console.warn("Elemento <app-modal-doters> no encontrado en el DOM.");
+    }
+  }
 
-		if (dotersModalElement) {
-			const openAction = () => {
-				if (typeof dotersModalElement.open === "function") {
-					dotersModalElement.open();
-				} else {
-					console.error(
-						"El método open() no está disponible en el elemento app-modal-doters.",
-						dotersModalElement
-					);
-				}
-			};
+  _initScrollBehavior() {
+    window.addEventListener("scroll", function (event) {
+      // Detectar si se está en el tope superior o inferior
+      if (window.scrollY < 0) {
+        // Evitar el rebote (ejemplo: deteniendo el scroll)
+        window.scrollTo(0, 0);
+      }
+    });
 
-			if (openModalButtonDesktop) {
-				openModalButtonDesktop.addEventListener("click", openAction);
-			}
-			if (openModalButtonMovil) {
-				openModalButtonMovil.addEventListener("click", openAction);
-			}
-		} else {
-			console.warn("Elemento <app-modal-doters> no encontrado en el DOM.");
-		}
-	}
+    // Evento para manejar el scroll
+    const header = this.querySelector("header");
+    let lastScrollY = window.scrollY;
 
-	_initScrollBehavior() {
-		window.addEventListener("scroll", function (event) {
-			// Detectar si se está en el tope superior o inferior
-			if (window.scrollY < 0) {
-				// Evitar el rebote (ejemplo: deteniendo el scroll)
-				window.scrollTo(0, 0);
-			}
-		});
+    // Evento para manejar el scroll
+    window.addEventListener("scroll", () => {
+      if (window.innerWidth >= 990) {
+        const currentScrollY = window.scrollY;
 
-		// Evento para manejar el scroll
-		const header = this.querySelector("header");
-		let lastScrollY = window.scrollY;
+        if (currentScrollY > lastScrollY) {
+          // Scroll hacia abajo: ocultar el header
+          header.classList.add("hidden");
+        } else {
+          // Scroll hacia arriba: mostrar el header
+          header.classList.remove("hidden");
+        }
 
-		// Evento para manejar el scroll
-		window.addEventListener("scroll", () => {
-			if (window.innerWidth >= 990) {
-				const currentScrollY = window.scrollY;
-
-				if (currentScrollY > lastScrollY) {
-					// Scroll hacia abajo: ocultar el header
-					header.classList.add("hidden");
-				} else {
-					// Scroll hacia arriba: mostrar el header
-					header.classList.remove("hidden");
-				}
-
-				lastScrollY = currentScrollY;
-			}
-		});
-	}
-
-	_handleResizeForMobileMenu() {
-		const MOBILE_BREAKPOINT = 990;
-		if (!this.dropdownMenu || !this.hamburgerIcon) return;
-
-		if (window.innerWidth > MOBILE_BREAKPOINT) {
-			// Desktop view
-			if (this.dropdownMenu.classList.contains("show")) {
-				this._closeMobileMenu();
-			}
-		}
-	}
-
-	disconnectedCallback() {
-		window.removeEventListener("resize", this.boundHandleResizeForMobileMenu);
-		if (this.hamburgerIcon && this.boundHamburgerClickHandler) {
-			this.hamburgerIcon.removeEventListener(
-				"click",
-				this.boundHamburgerClickHandler
-			);
-		}
-	}
+        lastScrollY = currentScrollY;
+      }
+    });
+  }
 }
 customElements.define("app-header", AppHeader);
