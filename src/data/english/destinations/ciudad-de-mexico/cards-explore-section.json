@@ -1,17 +1,17 @@
 [
   {
-    "image": "../../src/assets/img/english/destinations/mexico-norte/cards-explore-section/san-marcos-garden.webp",
-    "title": "San Marcos Garden",
-    "description": "Visit the heart of Aguascalientes. Surrounded by pink quarry stone and century-old trees, San Marcos Garden is the perfect place to stroll, take photos, and connect with local culture. A charming corner full of history  ideal for relaxing and experiencing the authentic spirit of Mexico."
+    "image": "../../src/assets/img/english/destinations/ciudad-de-mexico/cards-explore-section/frida-calo-museum.webp",
+    "title": "Frida Kahlo Museum",
+    "description": "Step into the world of one of Mexico’s most iconic artists. Located in the heart of Coyoacán, the Casa Azul preserves Frida Kahlo’s life, art, and spirit. From her personal diaries to her vibrant paintings and intimate spaces, this museum offers a deeply emotional and cultural journey."
   },
   {
-    "image": "../../src/assets/img/english/destinations/mexico-norte/cards-explore-section/adventure-park.webp",
-    "title": "Boca de Túnel Adventure Park",
-    "description": "Boca de Túnel is an adventure park nestled among rocky canyons and a crystal-clear reservoir. It’s one of central Mexico’s best-kept secrets a place where wild nature, adrenaline, and breathtaking views come together in perfect harmony."
+    "image": "../../src/assets/img/english/destinations/ciudad-de-mexico/cards-explore-section/chapultepec-castle.webp",
+    "title": "Chapultepec Castle",
+    "description": "Perched atop Chapultepec Hill, this historic castle offers panoramic views of the city and a glimpse into Mexico’s imperial past. Once home to Emperor Maximilian, it now houses the National History Museum and showcases stunning architecture, gardens, and murals."
   },
   {
-    "image": "../../src/assets/img/english/destinations/mexico-norte/cards-explore-section/railway-workers-museum.webp",
-    "title": "Railway Workers Museum",
-    "description": "Housed in a former train station built in 1911, the Museo Ferrocarrilero de Aguascalientes is a time capsule that brings Mexico’s golden age of railroads back to life. This museum doesn’t just showcase original locomotives, railcars, and tools — it tells the human stories behind the progress: the workers, the travelers, and the dreams that once crossed the country on steel tracks."
+    "image": "../../src/assets/img/english/destinations/ciudad-de-mexico/cards-explore-section/templo-mayor.webp",
+    "title": "Templo Mayor",
+    "description": "Discover the ruins of the ancient Aztec capital, Tenochtitlán, just steps from the Zócalo. The Templo Mayor archaeological site and museum reveal layers of Mexico’s indigenous history, featuring sacred relics, ceremonial platforms, and the legendary Coyolxauhqui stone."
   }
 ]

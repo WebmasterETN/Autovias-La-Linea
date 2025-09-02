@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/guadalajara/food/birria.webp",
+    "imageAlt": "Birria",
+    "tag": "Birria",
+    "text": "A rich, slow-cooked stew made from goat or beef, seasoned with chiles and spices. Served with consommé and fresh tortillas, birria is a signature dish that captures the soul of Jalisco."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/guadalajara/food/jericalla.webp",
+    "imageAlt": "Jericalla",
+    "tag": "Jericalla",
+    "text": "This creamy dessert, similar to flan, is made with milk, eggs, vanilla, and cinnamon. Baked until golden on top, it’s a sweet treat born in Guadalajara and beloved across generations."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/guadalajara/food/carne-jugo.webp",
+    "imageAlt": "Carne en su jugo",
+    "tag": "Carne en su jugo",
+    "text": "Thin slices of beef simmered in their own juices with beans, bacon, and green salsa. Served hot with radishes and tortillas, it’s a hearty dish that brings comfort and flavor in every spoonful."
+  }
+]

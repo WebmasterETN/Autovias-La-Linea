@@ -11,7 +11,7 @@ import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 import "../../../js/slick.js?v=1.0.2";
 
-class PageBoletosAutobusCdmxEnglish extends HTMLElement {
+class PageBoletosAutobusGuadalajaraEnglish extends HTMLElement {
 	async connectedCallback() {
 		this.innerHTML = `
       <app-cotiza></app-cotiza>
@@ -19,23 +19,23 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
       <app-modal-doters-english></app-modal-doters-english>
       <div class="__first-section">
         <app-banner-image
-          image-src="../../src/assets/img/english/destinations/ciudad-de-mexico/banner/CiudadDeMexico.webp"
-          image-alt="Promotional banner for Ciudad de Mexico"
+          image-src="../../src/assets/img/english/destinations/guadalajara/banner/guadalajara.webp"
+          image-alt="Promotional banner for guadalajara"
         ></app-banner-image>
       </div>
       <section class="__section">
         <app-description-destination
-          title-text="Mexico City is waiting. Autovías La Línea will take you there."
+          title-text="Guadalajara is waiting. Autovías La Línea will take you there."
           image-data='[
-            {"id": "1", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/overflow-images/zocalo-main-square.webp", "alt": "Zócalo Main Square"},
-            {"id": "2", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/overflow-images/chapultepec-forest.webp", "alt": "Chapultepec Forest"},
-            {"id": "3", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/overflow-images/national-museum-anthropology.webp", "alt": "National Museum of Anthropology"}
+            {"id": "1", "src": "../../src/assets/img/english/destinations/guadalajara/overflow-images/parade-ground.webp", "alt": "Plaza de Armas"},
+            {"id": "2", "src": "../../src/assets/img/english/destinations/guadalajara/overflow-images/catedral.webp", "alt": "Guadalajara Cathedral"},
+            {"id": "3", "src": "../../src/assets/img/english/destinations/guadalajara/overflow-images/teatro-degollado.webp", "alt": "Teatro Degollado"}
           ]'
-          paragraph-text="Mexico City is a vibrant mosaic of history, art, and modern life. As the capital of Mexico, it offers a dynamic blend of pre-Hispanic heritage, colonial architecture, and contemporary culture. From the iconic Zócalo to world-class museums, lush parks, and bohemian neighborhoods, this city invites travelers to explore its soul with curiosity and confidence. Whether you're drawn to ancient ruins or avant-garde galleries, Mexico City delivers an unforgettable experience — with style and peace of mind."
+          paragraph-text="Guadalajara is the cultural heartbeat of western Mexico. Known as the birthplace of mariachi and tequila, this city blends colonial elegance with modern energy. From its historic plazas and cathedrals to its thriving arts scene and culinary traditions, Guadalajara offers a rich and authentic experience. Whether you're exploring its iconic architecture or enjoying local festivals, this destination invites you to discover the soul of Jalisco — with style and peace of mind."
         ></app-description-destination>
       </section>
       <section class="__section">
-        <app-section-title section-title="Explore the Highlights of Mexico City"></app-section-title>
+        <app-section-title section-title="Explore the Highlights of Guadalajara"></app-section-title>
         <app-explore-section></app-explore-section>
       </section>
         
@@ -43,8 +43,11 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
       <section class="__section">
         <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
         <app-banner-multi-image></app-banner-multi-image>
-        <p class="text-description">The cuisine of Mexico City is a celebration of flavor, tradition, and creativity. Influenced by indigenous roots and colonial fusion, its dishes reflect the diversity and richness of Mexican identity. From street food to gourmet experiences, every bite tells a story — one of warmth, pride, and culinary excellence.</p>
-        <app-card-image-tag-text data-src="../../src/data/english/destinations/ciudad-de-mexico/food.json"></app-card-image-tag-text>
+        <p class="text-description">
+          Savor the essence of Mexico in every bite.</br>
+          Guadalajara’s cuisine is bold, comforting, and deeply rooted in tradition. From street food to family recipes, every dish reflects the warmth and pride of the Tapatío culture. It’s a city where flavor tells stories — and every bite feels like home.
+        </p>
+        <app-card-image-tag-text data-src="../../src/data/english/destinations/guadalajara/food.json"></app-card-image-tag-text>
       </section>
         
       <section class="__section">
@@ -60,8 +63,8 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
       </section>
         
       <section class="__section">
-        <app-section-title section-title="Explore more destinations with Autovías La Línea — Mexico is waiting for you."></app-section-title>
-        <app-destiny-slider src="../../src/data/english/destinations/ciudad-de-mexico/grid-text-data.json"></app-destiny-slider>
+        <app-section-title section-title="Explore more destinations with ETN Turistar Mexico is waiting for you."></app-section-title>
+        <app-destiny-slider src="../../src/data/english/destinations/guadalajara/grid-text-data.json"></app-destiny-slider>
       </section>
     `;
 		this._loadExploreSectionData();
@@ -70,7 +73,7 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
 	async _loadExploreSectionData() {
 		try {
 			const response = await fetch(
-				"../../src/data/english/destinations/ciudad-de-mexico/cards-explore-section.json"
+				"../../src/data/english/destinations/guadalajara/cards-explore-section.json"
 			);
 			if (!response.ok) {
 				throw new Error(`HTTP error! status: ${response.status}`);
@@ -86,6 +89,6 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
 	}
 }
 customElements.define(
-	"page-boletos-de-autobus-cdmx-english",
-	PageBoletosAutobusCdmxEnglish
+	"page-boletos-de-autobus-guadalajara-english",
+	PageBoletosAutobusGuadalajaraEnglish
 );

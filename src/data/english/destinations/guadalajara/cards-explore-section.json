@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/guadalajara/cards-explore-section/tlaquepaque-centro.webp",
+    "title": "Tlaquepaque Arts District",
+    "description": "Step into a world of color, craftsmanship, and tradition. Tlaquepaque is a charming neighborhood filled with artisan galleries, colonial streets, and vibrant plazas. It’s the perfect place to shop for handmade ceramics, enjoy live mariachi, and experience the artistic spirit of Guadalajara."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/guadalajara/cards-explore-section/instituto-cabañas.webp",
+    "title": "Instituto Cultural Cabañas",
+    "description": "A UNESCO World Heritage Site, this neoclassical building houses powerful murals by José Clemente Orozco and rotating exhibitions of contemporary art. It’s a cultural landmark that bridges Mexico’s past and present through visual storytelling."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/guadalajara/cards-explore-section/basilica.webp",
+    "title": "Zapopan Basilica",
+    "description": "Located in the neighboring city of Zapopan, this stunning basilica is a pilgrimage site and architectural gem. Its baroque façade and peaceful gardens make it a serene escape from the urban buzz — and a testament to Jalisco’s spiritual heritage."
+  }
+]

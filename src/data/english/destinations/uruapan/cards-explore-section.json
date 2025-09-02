@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/uruapan/cards-explore-section/park-camelina.webp",
+    "title": "La Camelina Linear Park",
+    "description": "A serene green corridor filled with crystal-clear waterfalls, scenic viewpoints, and peaceful walking paths. Locals come here to unwind, listen to birdsong, and enjoy the soothing rhythm of nature. It’s a hidden gem perfect for quiet reflection or a family picnic."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/uruapan/cards-explore-section/casa-angosta.webp",
+    "title": "Casa más Angosta del Mundo",
+    "description": "Step inside one of the quirkiest landmarks in Mexico — the narrowest house in the world. Despite its tiny footprint, this space is cleverly designed and full of charm. A short but memorable visit that sparks curiosity and conversation."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/uruapan/cards-explore-section/artisan-market.webp",
+    "title": "Artisan Market of Uruapan",
+    "description": "Located near the national park, this open-air market showcases Michoacán’s finest crafts: lacquerware, textiles, wood carvings, and pottery. With over 100 stalls, it’s a vibrant celebration of local talent and a perfect spot to find one-of-a-kind souvenirs."
+  }
+]

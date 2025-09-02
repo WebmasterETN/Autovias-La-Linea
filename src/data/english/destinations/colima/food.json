@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/colima/food/tatemado.webp",
+    "imageAlt": "Tatemado",
+    "tag": "Tatemado",
+    "text": "A signature dish of Colima, tatemado features pork marinated in vinegar and spices, then slow-cooked until tender. Rich, aromatic, and deeply satisfying, it’s a celebration of traditional cooking techniques and bold flavors."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/colima/food/caldo-chacales.webp",
+    "imageAlt": "Caldo de Chacales",
+    "tag": "Caldo de Chacales",
+    "text": "This hearty soup is made with freshwater shrimp, tomatoes, garlic, and local spices. Served hot and fragrant, it’s a beloved comfort food that connects diners to Colima’s rivers and culinary heritage."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/colima/food/cocadas.webp",
+    "imageAlt": "Cocadas",
+    "tag": "Cocadas",
+    "text": "Sweet coconut treats made with piloncillo and baked to golden perfection. These chewy delights are popular in local markets and festivals — a simple yet irresistible taste of Colima’s sweeter side."
+  }
+]

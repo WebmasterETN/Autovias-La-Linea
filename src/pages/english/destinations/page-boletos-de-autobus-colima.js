@@ -11,7 +11,7 @@ import "../../../components/app-description-destination.js";
 import "../../../components/app-explore-section.js";
 import "../../../js/slick.js?v=1.0.2";
 
-class PageBoletosAutobusCdmxEnglish extends HTMLElement {
+class PageBoletosAutobusColimaEnglish extends HTMLElement {
 	async connectedCallback() {
 		this.innerHTML = `
       <app-cotiza></app-cotiza>
@@ -19,23 +19,23 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
       <app-modal-doters-english></app-modal-doters-english>
       <div class="__first-section">
         <app-banner-image
-          image-src="../../src/assets/img/english/destinations/ciudad-de-mexico/banner/CiudadDeMexico.webp"
-          image-alt="Promotional banner for Ciudad de Mexico"
+          image-src="../../src/assets/img/english/destinations/colima/banner/colima.webp"
+          image-alt="Promotional banner for Colima"
         ></app-banner-image>
       </div>
       <section class="__section">
         <app-description-destination
-          title-text="Mexico City is waiting. Autovías La Línea will take you there."
+          title-text="Colima is waiting. Autovías La Línea will take you there."
           image-data='[
-            {"id": "1", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/overflow-images/zocalo-main-square.webp", "alt": "Zócalo Main Square"},
-            {"id": "2", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/overflow-images/chapultepec-forest.webp", "alt": "Chapultepec Forest"},
-            {"id": "3", "src": "../../src/assets/img/english/destinations/ciudad-de-mexico/overflow-images/national-museum-anthropology.webp", "alt": "National Museum of Anthropology"}
+            {"id": "1", "src": "../../src/assets/img/english/destinations/colima/overflow-images/comala.webp", "alt": "Comala"},
+            {"id": "2", "src": "../../src/assets/img/english/destinations/colima/overflow-images/volcan-colima.webp", "alt": "Colima Volcano"},
+            {"id": "3", "src": "../../src/assets/img/english/destinations/colima/overflow-images/la-campana-archaeological.webp", "alt": "La Campana Archaeological Zone"}
           ]'
-          paragraph-text="Mexico City is a vibrant mosaic of history, art, and modern life. As the capital of Mexico, it offers a dynamic blend of pre-Hispanic heritage, colonial architecture, and contemporary culture. From the iconic Zócalo to world-class museums, lush parks, and bohemian neighborhoods, this city invites travelers to explore its soul with curiosity and confidence. Whether you're drawn to ancient ruins or avant-garde galleries, Mexico City delivers an unforgettable experience — with style and peace of mind."
+          paragraph-text="Colima is a coastal treasure tucked between the Pacific Ocean and the Sierra Madre mountains. Known for its whitewashed towns, volcanic landscapes, and rich cultural heritage, this small state offers a peaceful yet vibrant escape. From the literary charm of Comala to the awe-inspiring Colima Volcano and ancient ruins of La Campana, Colima invites travelers to explore Mexico’s quieter side — full of warmth, tradition, and natural beauty."
         ></app-description-destination>
       </section>
       <section class="__section">
-        <app-section-title section-title="Explore the Highlights of Mexico City"></app-section-title>
+        <app-section-title section-title="Explore the Highlights of Colima"></app-section-title>
         <app-explore-section></app-explore-section>
       </section>
         
@@ -43,8 +43,11 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
       <section class="__section">
         <app-section-title section-title="Hungry for Mexico? Start here."></app-section-title>
         <app-banner-multi-image></app-banner-multi-image>
-        <p class="text-description">The cuisine of Mexico City is a celebration of flavor, tradition, and creativity. Influenced by indigenous roots and colonial fusion, its dishes reflect the diversity and richness of Mexican identity. From street food to gourmet experiences, every bite tells a story — one of warmth, pride, and culinary excellence.</p>
-        <app-card-image-tag-text data-src="../../src/data/english/destinations/ciudad-de-mexico/food.json"></app-card-image-tag-text>
+        <p class="text-description">
+          Savor the essence of Mexico in every bite.</br>
+          Colima’s cuisine is a flavorful fusion of coastal freshness, mountain ingredients, and deep-rooted traditions. From seafood to slow-cooked stews, every dish reflects the state’s generous spirit and culinary pride. Eating in Colima isn’t just a pleasure — it’s a cultural experience.
+        </p>
+        <app-card-image-tag-text data-src="../../src/data/english/destinations/colima/food.json"></app-card-image-tag-text>
       </section>
         
       <section class="__section">
@@ -60,8 +63,8 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
       </section>
         
       <section class="__section">
-        <app-section-title section-title="Explore more destinations with Autovías La Línea — Mexico is waiting for you."></app-section-title>
-        <app-destiny-slider src="../../src/data/english/destinations/ciudad-de-mexico/grid-text-data.json"></app-destiny-slider>
+        <app-section-title section-title="Explore more destinations with ETN Turistar Mexico is waiting for you."></app-section-title>
+        <app-destiny-slider src="../../src/data/english/destinations/colima/grid-text-data.json"></app-destiny-slider>
       </section>
     `;
 		this._loadExploreSectionData();
@@ -70,7 +73,7 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
 	async _loadExploreSectionData() {
 		try {
 			const response = await fetch(
-				"../../src/data/english/destinations/ciudad-de-mexico/cards-explore-section.json"
+				"../../src/data/english/destinations/colima/cards-explore-section.json"
 			);
 			if (!response.ok) {
 				throw new Error(`HTTP error! status: ${response.status}`);
@@ -86,6 +89,6 @@ class PageBoletosAutobusCdmxEnglish extends HTMLElement {
 	}
 }
 customElements.define(
-	"page-boletos-de-autobus-cdmx-english",
-	PageBoletosAutobusCdmxEnglish
+	"page-boletos-de-autobus-colima-english",
+	PageBoletosAutobusColimaEnglish
 );
