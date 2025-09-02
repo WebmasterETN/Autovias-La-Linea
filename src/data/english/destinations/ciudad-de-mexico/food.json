@@ -1,20 +1,20 @@
 [
   {
-    "imageSrc": "../../src/assets/img/english/destinations/mexico-norte/food/cabrito-english.webp",
-    "imageAlt": "Cabrito",
-    "tag": "Cabrito al horno",
-    "text": "Tender, juicy goat meat, marinated and slow-roasted to perfection, served with traditional side dishes from the Bajío region."
+    "imageSrc": "../../src/assets/img/english/destinations/ciudad-de-mexico/food/tacos-pastor.webp",
+    "imageAlt": "Tacos al Pastor",
+    "tag": "Tacos al Pastor",
+    "text": "Marinated pork cooked on a vertical spit, served with pineapple, onion, cilantro, and salsa on a warm corn tortilla. A true street food classic that captures the heart of Mexico City."
   },
   {
-    "imageSrc": "../../src/assets/img/english/destinations/mexico-norte/food/sopa-campesina-english.webp",
-    "imageAlt": "Sopa Campesina",
-    "tag": "Sopa Campesina",
-    "text": "A comforting broth with vegetables, meat, and spices perfect for cool days. It’s a reflection of traditional, homemade Mexican cooking"
+    "imageSrc": "../../src/assets/img/english/destinations/ciudad-de-mexico/food/chilaquiles-verdes.webp",
+    "imageAlt": "Chilaquiles Verdes",
+    "tag": "Chilaquiles Verdes",
+    "text": "Crispy tortilla chips drenched in green salsa, topped with crema, cheese, and shredded chicken or eggs. A comforting breakfast favorite that blends crunch, spice, and soul."
   },
   {
-    "imageSrc": "../../src/assets/img/english/destinations/mexico-norte/food/flan-english.webp",
-    "imageAlt": "Flan de queso y guayaba",
-    "tag": "Flan de queso y guayaba",
-    "text": "A smooth, creamy dessert that blends the rich flavor of cheese with the sweetness of guava—a festive favorite in local celebrations."
+    "imageSrc": "../../src/assets/img/english/destinations/ciudad-de-mexico/food/tamales-elote.webp",
+    "imageAlt": "Tamales de Elote",
+    "tag": "Tamales de Elote",
+    "text": "Sweet corn tamales wrapped in husks and steamed to perfection. Soft, fragrant, and beloved during festivals and family gatherings."
   }
 ]
