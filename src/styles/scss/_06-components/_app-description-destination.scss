@@ -34,14 +34,15 @@ app-description-destination {
 
       .__item-image {
         flex: 0 0 auto;
-        width: clamp(24rem, 80vw, 30rem);
-        aspect-ratio: 427 / 285;
+        width: 550px; // ancho fijo
+        height: 355px; // alto fijo
         position: relative;
+        border-radius: 8px;
+        overflow: hidden;
 
         .__img-destination {
-          display: block;
           width: 100%;
-          height: auto;
+          height: 100%;
           object-fit: cover;
           border-radius: 8px;
         }
@@ -72,5 +73,20 @@ app-description-destination {
     color: $primary-color;
     text-align: left;
     font-size: 1.25rem;
+  }
+}
+
+// Media query para móviles menores a 480px
+@media screen and (max-width: 480px) {
+  .__list__destinations-images {
+    .__item-image {
+      width: 100%;
+      max-width: 100%;
+      height: auto; // mantiene proporción automática
+    }
+
+    .__img-destination {
+      height: auto; // se ajusta al contenedor
+    }
   }
 }
