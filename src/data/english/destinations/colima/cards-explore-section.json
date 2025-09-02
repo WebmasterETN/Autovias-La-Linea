@@ -1,0 +1,17 @@
+[
+  {
+    "image": "../../src/assets/img/english/destinations/colima/cards-explore-section/comala.webp",
+    "title": "Comala",
+    "description": "Often called the “White Town of America,” Comala enchants visitors with its colonial architecture, cobblestone streets, and artistic soul. Immortalized in Juan Rulfo’s novel Pedro Páramo, this Pueblo Mágico is a place to sip ponche, stroll through plazas, and soak in the literary and cultural legacy of western Mexico."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/colima/cards-explore-section/volcan-colima.webp",
+    "title": "Colima Volcano",
+    "description": "One of Mexico’s most active volcanoes, the Colima Volcano (also known as the Fire Volcano) towers over the region with dramatic beauty. Surrounded by lush forests and hiking trails, it offers breathtaking views and a chance to connect with nature’s raw power — safely and memorably."
+  },
+  {
+    "image": "../../src/assets/img/english/destinations/colima/cards-explore-section/la-campana-archaeological.webp",
+    "title": "La Campana Archaeological Zone",
+    "description": "Step back in time at La Campana, a pre-Hispanic city with ceremonial plazas, pyramids, and ancient water systems. This archaeological site reveals the engineering and spiritual life of early civilizations, making it a must-see for history lovers and curious explorers."
+  }
+]

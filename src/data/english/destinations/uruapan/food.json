@@ -1,0 +1,20 @@
+[
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/uruapan/food/churipo.webp",
+    "imageAlt": "Churipo",
+    "tag": "Churipo",
+    "text": "A rich beef stew simmered with red chile and vegetables, traditionally served with corundas — savory corn dumplings wrapped in leaves. It’s a soulful dish that warms both body and spirit."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/uruapan/food/morisqueta.webp",
+    "imageAlt": "Morisqueta",
+    "tag": "Morisqueta",
+    "text": "A comforting plate of white rice and beans topped with tomato sauce, cheese, and sometimes shredded meat. Simple, satisfying, and deeply rooted in local home cooking."
+  },
+  {
+    "imageSrc": "../../src/assets/img/english/destinations/uruapan/food/uchepos.webp",
+    "imageAlt": "Uchepos",
+    "tag": "Uchepos",
+    "text": "Tender corn tamales made from fresh maize, often served with cream and cheese. Their soft texture and subtle sweetness make them a beloved treat across Michoacán."
+  }
+]
