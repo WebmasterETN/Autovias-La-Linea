@@ -59,6 +59,7 @@ import "./english/page-home-english.js?v=1.3.3";
 // Destinations
 
 import "./english/destinations/page-boletos-de-autobus-aguascalientes.js?v=1.3.3";
+import "./english/destinations/page-boletos-de-autobus-cdmx.js?v=1.3.3";
 
 // LEGAL
 

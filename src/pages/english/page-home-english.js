@@ -34,7 +34,7 @@ class PageHomeEnglish extends HTMLElement {
 
             {"id": "destination3", "title": "Guadalajara", "content": "Culture, tequila, and rhythm on every corner.", "image": "../../src/assets/img/english/home/grid-english/bg-guadalajara-english.webp", "link": "../english/destinations/boletos-de-autobus-a-guadalajara.html"},
 
-            {"id": "destination4", "title": "Ciudad de México", "content": "The beating heart of Mexico.", "image": "../../src/assets/img/english/home/grid-english/bg-cdmx-english.webp", "link": "../english/destinations/boletos-de-autobus-a-leon.html"},
+            {"id": "destination4", "title": "Ciudad de México", "content": "The beating heart of Mexico.", "image": "../../src/assets/img/english/home/grid-english/bg-cdmx-english.webp", "link": "../english/destinations/boletos-de-autobus-a-cdmx.html"},
 
             {"id": "destination5", "title": "Zitácuaro", "content": "The magical gateway to the monarch butterflies.", "image": "../../src/assets/img/english/home/grid-english/bg-zitacuaro-english.webp", "link": "../english/destinations/boletos-de-autobus-a-guanajuato.html"},
 
