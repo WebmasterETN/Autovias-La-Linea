@@ -1,17 +1,17 @@
 [
   {
-    "image": "../../src/assets/img/english/destinations/atlacomulco/cards-explore-section/san-marcos-garden.webp",
-    "title": "San Marcos Garden",
-    "description": "Visit the heart of Aguascalientes. Surrounded by pink quarry stone and century-old trees, San Marcos Garden is the perfect place to stroll, take photos, and connect with local culture. A charming corner full of history  ideal for relaxing and experiencing the authentic spirit of Mexico."
+    "image": "../../src/assets/img/english/destinations/atlacomulco/cards-explore-section/park.webp",
+    "title": "El Ocotal Forest Park",
+    "description": "Spread across 122 hectares, this pine-covered park is a haven for hikers, cyclists, and nature lovers. With its fresh mountain air, picnic areas, and scenic trails, El Ocotal is ideal for outdoor adventures and peaceful retreats."
   },
   {
-    "image": "../../src/assets/img/english/destinations/atlacomulco/cards-explore-section/adventure-park.webp",
-    "title": "Boca de Túnel Adventure Park",
-    "description": "Boca de Túnel is an adventure park nestled among rocky canyons and a crystal-clear reservoir. It’s one of central Mexico’s best-kept secrets a place where wild nature, adrenaline, and breathtaking views come together in perfect harmony."
+    "image": "../../src/assets/img/english/destinations/atlacomulco/cards-explore-section/centro.webp",
+    "title": "Centro Cultural Isidro Fabela",
+    "description": "Located in the former home of a prominent Mexican intellectual, this cultural center features exhibitions, a library, and personal artifacts. It’s a space that celebrates literature, history, and the legacy of Atlacomulco’s most influential figures."
   },
   {
-    "image": "../../src/assets/img/english/destinations/atlacomulco/cards-explore-section/railway-workers-museum.webp",
-    "title": "Railway Workers Museum",
-    "description": "Housed in a former train station built in 1911, the Museo Ferrocarrilero de Aguascalientes is a time capsule that brings Mexico’s golden age of railroads back to life. This museum doesn’t just showcase original locomotives, railcars, and tools — it tells the human stories behind the progress: the workers, the travelers, and the dreams that once crossed the country on steel tracks."
+    "image": "../../src/assets/img/english/destinations/atlacomulco/cards-explore-section/market.webp",
+    "title": "Atlacomulco Artisan Market",
+    "description": "A colorful hub of local creativity, this market showcases handcrafted textiles, pottery, and regional delicacies. It’s the perfect place to discover unique souvenirs and connect with the town’s artistic soul."
   }
 ]

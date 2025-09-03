@@ -1,20 +1,20 @@
 [
   {
     "imageSrc": "../../src/assets/img/english/destinations/atlacomulco/food/cabrito-english.webp",
-    "imageAlt": "Cabrito",
-    "tag": "Cabrito al horno",
-    "text": "Tender, juicy goat meat, marinated and slow-roasted to perfection, served with traditional side dishes from the Bajío region."
+    "imageAlt": "Mole de olla",
+    "tag": "Mole de olla",
+    "text": "A rich, rustic soup made with beef, corn, squash, and aromatic herbs. Slow-cooked and deeply flavorful, it’s a comforting dish that brings families together around the table."
   },
   {
     "imageSrc": "../../src/assets/img/english/destinations/atlacomulco/food/sopa-campesina-english.webp",
-    "imageAlt": "Sopa Campesina",
-    "tag": "Sopa Campesina",
-    "text": "A comforting broth with vegetables, meat, and spices perfect for cool days. It’s a reflection of traditional, homemade Mexican cooking"
+    "imageAlt": "Quesadillas de flor de calabaza",
+    "tag": "Quesadillas de flor de calabaza",
+    "text": "Handmade tortillas filled with squash blossoms, cheese, and epazote. Light, fragrant, and full of regional character — a vegetarian favorite with deep cultural roots."
   },
   {
     "imageSrc": "../../src/assets/img/english/destinations/atlacomulco/food/flan-english.webp",
-    "imageAlt": "Flan de queso y guayaba",
-    "tag": "Flan de queso y guayaba",
-    "text": "A smooth, creamy dessert that blends the rich flavor of cheese with the sweetness of guava—a festive favorite in local celebrations."
+    "imageAlt": "Alegrías de amaranto",
+    "tag": "Alegrías de amaranto",
+    "text": "Sweet bars made from puffed amaranth and honey, often mixed with nuts or dried fruit. Nutritious and festive, they’re a traditional snack enjoyed during fairs and celebrations."
   }
 ]
