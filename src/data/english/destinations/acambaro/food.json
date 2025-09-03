@@ -1,20 +1,20 @@
 [
   {
-    "imageSrc": "../../src/assets/img/english/destinations/acambaro/food/cabrito-english.webp",
-    "imageAlt": "Cabrito",
-    "tag": "Cabrito al horno",
-    "text": "Tender, juicy goat meat, marinated and slow-roasted to perfection, served with traditional side dishes from the Bajío region."
+    "imageSrc": "../../src/assets/img/english/destinations/acambaro/food/pan.webp",
+    "imageAlt": "Pan de Acámbaro",
+    "tag": "Pan de Acámbaro",
+    "text": "This iconic bread is soft, fragrant, and beautifully shaped — often adorned with dried fruits or sugar. Handmade using traditional techniques, it’s a symbol of local pride and a must-try for every visitor."
   },
   {
-    "imageSrc": "../../src/assets/img/english/destinations/acambaro/food/sopa-campesina-english.webp",
-    "imageAlt": "Sopa Campesina",
-    "tag": "Sopa Campesina",
-    "text": "A comforting broth with vegetables, meat, and spices perfect for cool days. It’s a reflection of traditional, homemade Mexican cooking"
+    "imageSrc": "../../src/assets/img/english/destinations/acambaro/food/salsa.webp",
+    "imageAlt": "Charales with Lime and Salsa",
+    "tag": "Charales with Lime and Salsa",
+    "text": "Tiny freshwater fish from nearby lakes, fried until crispy and served with lime and spicy salsa. A bold, crunchy snack that captures the essence of regional flavor."
   },
   {
-    "imageSrc": "../../src/assets/img/english/destinations/acambaro/food/flan-english.webp",
-    "imageAlt": "Flan de queso y guayaba",
-    "tag": "Flan de queso y guayaba",
-    "text": "A smooth, creamy dessert that blends the rich flavor of cheese with the sweetness of guava—a festive favorite in local celebrations."
+    "imageSrc": "../../src/assets/img/english/destinations/acambaro/food/huchepos.webp",
+    "imageAlt": "Huchepos",
+    "tag": "Huchepos",
+    "text": "Sweet corn tamales made from fresh maize, steamed in husks and served with cream or cheese. Their delicate texture and subtle sweetness make them a beloved comfort food across the Bajío."
   }
 ]

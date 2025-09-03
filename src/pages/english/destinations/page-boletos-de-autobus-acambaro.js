@@ -19,17 +19,17 @@ class PageBoletosAutobusAcambaroEnglish extends HTMLElement {
       <app-modal-doters-english></app-modal-doters-english>
       <div class="__first-section">
         <app-banner-image
-          image-src="../../src/assets/img/english/destinations/colima/banner/colima.webp"
-          image-alt="Promotional banner for Colima"
+          image-src="../../src/assets/img/english/destinations/acambaro/banner/acambaro.webp"
+          image-alt="Promotional banner for Acámbaro"
         ></app-banner-image>
       </div>
       <section class="__section">
         <app-description-destination
           title-text="Acámbaro is waiting. Autovías La Línea will take you there."
           image-data='[
-            {"id": "1", "src": "../../src/assets/img/english/destinations/acambaro/overflow-images/comala.webp", "alt": "Comala"},
-            {"id": "2", "src": "../../src/assets/img/english/destinations/acambaro/overflow-images/volcan-colima.webp", "alt": "Colima Volcano"},
-            {"id": "3", "src": "../../src/assets/img/english/destinations/acambaro/overflow-images/la-campana-archaeological.webp", "alt": "La Campana Archaeological Zone"}
+            {"id": "1", "src": "../../src/assets/img/english/destinations/acambaro/overflow-images/fuente.webp", "alt": "Fuente Taurina"},
+            {"id": "2", "src": "../../src/assets/img/english/destinations/acambaro/overflow-images/chupicuaro.webp", "alt": "Chupícuaro Archaeological Zone"},
+            {"id": "3", "src": "../../src/assets/img/english/destinations/acambaro/overflow-images/solis.webp", "alt": "Solís Dam"}
           ]'
           paragraph-text="Acámbaro is a cultural crossroads in southern Guanajuato, where ancient civilizations, artisan traditions, and natural beauty converge. Known as the “City of Bread,” this destination offers a unique blend of history, creativity, and outdoor adventure. From its archaeological roots to its scenic dam and iconic monuments, Acámbaro invites travelers to explore a lesser-known side of Mexico — full of flavor, character, and quiet charm."
         ></app-description-destination>
@@ -45,9 +45,9 @@ class PageBoletosAutobusAcambaroEnglish extends HTMLElement {
         <app-banner-multi-image></app-banner-multi-image>
         <p class="text-description">
           Savor the essence of Mexico in every bite.</br>
-          Colima’s cuisine is a flavorful fusion of coastal freshness, mountain ingredients, and deep-rooted traditions. From seafood to slow-cooked stews, every dish reflects the state’s generous spirit and culinary pride. Eating in Colima isn’t just a pleasure — it’s a cultural experience.
+          Acámbaro’s culinary heritage is rooted in tradition and craftsmanship. From its legendary bread to its lakeside flavors, every dish reflects the warmth and creativity of its people. Eating here is more than a meal — it’s a taste of history..
         </p>
-        <app-card-image-tag-text data-src="../../src/data/english/destinations/colima/food.json"></app-card-image-tag-text>
+        <app-card-image-tag-text data-src="../../src/data/english/destinations/acambaro/food.json"></app-card-image-tag-text>
       </section>
         
       <section class="__section">
@@ -64,7 +64,7 @@ class PageBoletosAutobusAcambaroEnglish extends HTMLElement {
         
       <section class="__section">
         <app-section-title section-title="Explore more destinations with ETN Turistar Mexico is waiting for you."></app-section-title>
-        <app-destiny-slider src="../../src/data/english/destinations/colima/grid-text-data.json"></app-destiny-slider>
+        <app-destiny-slider src="../../src/data/english/destinations/acambaro/grid-text-data.json"></app-destiny-slider>
       </section>
     `;
 		this._loadExploreSectionData();
@@ -73,7 +73,7 @@ class PageBoletosAutobusAcambaroEnglish extends HTMLElement {
 	async _loadExploreSectionData() {
 		try {
 			const response = await fetch(
-				"../../src/data/english/destinations/colima/cards-explore-section.json"
+				"../../src/data/english/destinations/acambaro/cards-explore-section.json"
 			);
 			if (!response.ok) {
 				throw new Error(`HTTP error! status: ${response.status}`);
