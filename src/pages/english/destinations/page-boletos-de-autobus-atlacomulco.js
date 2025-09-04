@@ -45,7 +45,7 @@ class PageBoletosAutobusAtlacomulcoEnglish extends HTMLElement {
         <app-banner-multi-image></app-banner-multi-image>
         <p class="text-description">
           Savor the essence of Mexico in every bite.</br>
-          Acámbaro’s culinary heritage is rooted in tradition and craftsmanship. From its legendary bread to its lakeside flavors, every dish reflects the warmth and creativity of its people. Eating here is more than a meal — it’s a taste of history..
+          Atlacomulco’s cuisine is rooted in mountain flavors and homemade traditions. From hearty stews to sweet treats, every dish reflects the warmth and pride of its people — offering a taste of rural Mexico with every bite.
         </p>
         <app-card-image-tag-text data-src="../../src/data/english/destinations/atlacomulco/food.json"></app-card-image-tag-text>
       </section>
