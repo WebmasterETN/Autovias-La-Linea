@@ -1,18 +1,18 @@
 [
   {
-    "href": "./turismo/",
+    "href": "./servicios/renta-de-autobuses.html",
     "imageSrc": "../src/assets/img/services/renta-de-autobuses-autovias.webp",
     "imageAlt": "Flayer del servicio de Renta de autobuses",
     "title": "Renta de autobuses"
   },
   {
-    "href": "./viajero-protegido.html",
+    "href": "./servicios/viajero-protegido.html",
     "imageSrc": "../src/assets/img/services/mosaico-viajero-protegido.webp",
     "imageAlt": "Flayer del servicio de Viajero Protegido",
     "title": "Seguro viajero protegido"
   },
   {
-    "href": "./paqueteria.html",
+    "href": "./servicios/packmultienlace/",
     "imageSrc": "../src/assets/img/programs/mosaico-multienlace-autovias.webp",
     "imageAlt": "Enlace de servicios de paquetería a Pack Multienlace",
     "title": "Servicio Pack Multienlace"
