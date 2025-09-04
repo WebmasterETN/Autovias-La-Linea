@@ -11,7 +11,7 @@ class AppFooter extends HTMLElement {
         <div class="footer__content main-container">
           <div class="footer__content__footer-logo">
             <a href="https://www.autovias.com.mx/" aria-label="Ir a página de inicio de NombreDeLaEmpresa">
-              <img src="../src/assets/img/logos/logo.svg" alt="Logo de [Nombre de la empresa]" class="footer__logo" width="922" height="143" loading="lazy"/>
+              <img src="../../src/assets/img/logos/logo.svg" alt="Logo de [Nombre de la empresa]" class="footer__logo" width="922" height="143" loading="lazy"/>
             </a>
           </div>
           <div class="footer__content__columns"></div>
@@ -33,7 +33,7 @@ class AppFooter extends HTMLElement {
 			{
 				title: "Sobre la empresa",
 				links: [
-					{ text: "¿Quiénes somos?", href: "../quienes-somos.html" },
+					{ text: "¿Quiénes somos?", href: "../../nosotros/quienes-somos.html" },
 					{
 						text: "Bolsa de trabajo",
 						href: "https://Autovías.com.mx/bolsa-de-trabajo/",
@@ -43,10 +43,10 @@ class AppFooter extends HTMLElement {
 			{
 				title: "Legales",
 				links: [
-					{ text: "Avisos de privacidad", href: "../aviso-de-privacidad.html" },
+					{ text: "Avisos de privacidad", href: "../../nosotros/aviso-de-privacidad.html" },
 					{
 						text: "Términos y condiciones",
-						href: "../terminos-condiciones.html",
+						href: "../../nosotros/terminos-condiciones.html",
 					},
 				],
 			},
@@ -55,7 +55,7 @@ class AppFooter extends HTMLElement {
 					{
 						title: "Servicio al cliente",
 						links: [
-							{ text: "Viajero protegido", href: "../viajero-protegido.html" },
+							{ text: "Viajero protegido", href: "../../servicios/viajero-protegido.html" },
 							{
 								text: "Agencias",
 								href: "https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES",
@@ -65,7 +65,7 @@ class AppFooter extends HTMLElement {
 					{
 						title: "Ubicaciones",
 						links: [
-							{ text: "Terminales en destinos", href: "../destinos.html" },
+							{ text: "Terminales en destinos", href: "../../destinos/" },
 						],
 					},
 				],
@@ -75,12 +75,12 @@ class AppFooter extends HTMLElement {
 				links: [
 					{
 						text: "Preguntas frecuentes",
-						href: "../preguntas-frecuentes.html",
+						href: "../../nosotros/preguntas-frecuentes.html",
 					},
-					{ text: "Tipos de boletos", href: "../boletos-de-autobus.html" },
-					{ text: "Dónde comprar", href: "../donde-comprar.html" },
+					{ text: "Tipos de boletos", href: "../../boletos-autobus/" },
+					{ text: "Dónde comprar", href: "../../boletos-autobus/donde-comprar.html" },
 					{ text: "Formas de pago", href: "#payment-methods" },
-          { text: "Mapa del sitio", href: "../sitemap.html" },
+          { text: "Mapa del sitio", href: "../../sitemap.html" },
 				],
 			},
 			{

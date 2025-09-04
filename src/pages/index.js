@@ -19,8 +19,23 @@ import "./destinations/page-boletos-de-autobus-a-estado-de-mexico.js?v=1.0.0";
 import "./destinations/page-boletos-de-autobus-a-guadalajara.js?v=1.0.0";
 import "./destinations/page-boletos-de-autobus-a-zitacuaro.js?v=1.0.0";
 import "./destinations/page-boletos-de-autobus-a-maravatio.js?v=1.0.0";
-import "./destinations/page-boletos-de-autobus.js?v=1.0.0";
 
+// BOLETOS DE AUTOBUS
+
+import "./boletos-autobus/page-boletos-de-autobus.js?v=1.0.0";
+
+// DESTINOS
+import "./destinos/page-destinos.js?v=1.0.0";
+
+// SERVICIOS
+import "./servicios/page-pago-oxxo.js?v=1.0.0";
+import "./servicios/page-renta-de-autobuses.js?v=1.0.0";
+import "./servicios/page-salas-de-espera-vip.js?v=1.0.0";
+import "./servicios/page-servicios-a-bordo.js?v=1.0.0";
+
+//  PROMOCIONES
+
+import "./promociones/page-promociones.js?v=1.0.0";
 
 // LEGAL
 
@@ -30,24 +45,20 @@ import "./legal/avisos-privacidad/page-aviso-de-privacidad.js?v=1.0.0";
 
 // TERMINOS
 import "./legal/terminos-condiciones/page-ofertas-en-1-click.js?v=1.0.0";
-import "./legal/terminos-condiciones/page-pago-oxxo.js?v=1.0.0";
 import "./legal/terminos-condiciones/page-terminos-buen-fin.js?v=1.0.0";
 import "./legal/terminos-condiciones/page-terminos-condiciones.js?v=1.0.0";
 import "./legal/terminos-condiciones/page-terminos-hot-travel.js?v=1.0.0";
 import "./legal/terminos-condiciones/page-viajero-protegido.js?v=1.0.0";
 
+// ATC
+import "./legal/page-atencion-a-clientes.js?v=1.0.0";
+
 // OTHERS 
 
+import "./page-salidas-charters.js?v=1.0.0";
 import "./page-site-map.js?v=1.3.3";
 import "./page-donde-comprar.js?v=1.0.0";
-import "./page-renta-de-autobuses.js?v=1.0.0";
-import "./page-destinos.js?v=1.0.0";
 import "./page-terminales-taquillas.js?v=1.0.0";
-import "./page-salas-de-espera-vip.js?v=1.0.0";
-import "./page-salidas-charters.js?v=1.0.0";
-import "./page-servicios-a-bordo.js?v=1.0.0";
-import "./page-atencion-a-clientes.js?v=1.0.0";
-import "./page-promociones.js?v=1.0.0";
 import "./page-festival-de-viajes.js?v=1.0.0";
 import "./page-quienes-somos.js?v=1.0.0";
 import "./page-preguntas-frecuentes.js?v=1.0.0";
@@ -81,16 +92,16 @@ import "./english/legal/terminos-condiciones/page-viajero-protegido.js?v=1.0.0";
 
 /*------------------------------- PACK MULTIENLACE---------------------------------*/
 
-import "./page-pack-multienlace.js?v=1.3.3";
-import "./page-cotizador-pack.js?v=1.3.3";
-import "./page-restricciones-pack.js?v=1.3.3";
-import "./page-proceso-envio.js?v=1.3.3";
-import "./page-como-funciona.js?v=1.3.3";
-import "./page-pack-multienlace-info.js?v=1.3.3";
-import "./page-servicios-corporativos-pack.js?v=1.3.3";
-import "./page-cotizador-datos-pack.js?v=1.3.3";
-import "./page-facturacion-pack.js?v=1.3.3";
-import "./page-terminales-pack.js?v=1.3.3";
+import "./packmultienlace/page-pack-multienlace.js?v=1.3.3";
+import "./packmultienlace/page-cotizador-pack.js?v=1.3.3";
+import "./packmultienlace/page-restricciones-pack.js?v=1.3.3";
+import "./packmultienlace/page-proceso-envio.js?v=1.3.3";
+import "./packmultienlace/page-como-funciona.js?v=1.3.3";
+import "./packmultienlace/page-pack-multienlace-info.js?v=1.3.3";
+import "./packmultienlace/page-servicios-corporativos-pack.js?v=1.3.3";
+import "./packmultienlace/page-cotizador-datos-pack.js?v=1.3.3";
+import "./packmultienlace/page-facturacion-pack.js?v=1.3.3";
+import "./packmultienlace/page-terminales-pack.js?v=1.3.3";
 
 /*-------------COMPONENTES PRINCIPALES ------------------------- */
 

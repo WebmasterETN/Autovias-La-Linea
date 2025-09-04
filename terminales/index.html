@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Terminales y Taquillas | Autovías, La Línea, Pegasso y Sur de Jalisco</title>
+
+		<meta
+			name="description"
+			content="Ubicación de nuestras terminales en los estados de Jalisco, Michoacán, Colima, Guerrero, Estado de México, Guanajuato y la Ciudad de México"
+		/>
+		<meta
+			name="keywords"
+			content="Terminales Autovías La Línea, Terminales Sur de Jalisco, Terminales Pegasso, donde comprar boletos La Linea, donde comprar boletos autovías "
+		/>
+
+		<!-- Multi-language support -->
+		<link rel="canonical" href="https://www.autovias.com.mx/taquillas.html" />
+		<link
+			rel="alternate"
+			href="https://www.autovias.com.mx/terminales/"
+			hreflang="es-mx"
+		/>
+		<link
+			rel="alternate"
+			href="https://www.autovias.com.mx/english/terminales/"
+			hreflang="en-us"
+		/>
+
+		<!-- multiple icons for IE -->
+		<meta name="msapplication-square310x310logo" content="favicon.jpg" />
+		
+		<link media="all" rel="icon" href="favicon.jpg" sizes="192x192" />
+
+		<!-- Scripts -->
+
+		<script src="../src/js/jquery.min.js?v=1.0.0"></script>
+		<script type="module" src="../app.js?v=1.0.0"></script>
+
+		<!-- Stylesheets -->
+
+		<!-- CSS All Components -->
+
+		<link
+			rel="stylesheet"
+			href="../src/styles/css/css-components/page-terminales-taquillas.min.css?v=1.0.7"
+			type="text/css"
+		/>
+
+		<!-- CSS widget de reservamos -->
+		<link
+			rel="stylesheet"
+			href="https://widgets.reservamos.mx/search/5.18.0/search.css?v=5.18.0"
+		/>
+	</head>
+	<body>
+		<app-header
+			logo='{
+        "src": "../src/assets/img/logos/logo.svg", 
+        "alt": "Logo de Autovías La Línea",
+        "href": "https://www.autovias.com.mx/"
+      }'
+		>
+		</app-header>
+		<app-modal-travelpass></app-modal-travelpass>
+		<app-modal-doters></app-modal-doters>
+		<main>
+			<page-terminales-taquillas></page-terminales-taquillas>
+		</main>
+		<app-footer></app-footer>
+		<app-cookies-policy></app-cookies-policy>
+		<!--<app-button-whats></app-button-whats> -->
+		<app-button-eva-trip></app-button-eva-trip>
+		<!-- JS widget de reservamos -->
+		<script src="https://widgets.reservamos.mx/search/5.18.0/search.js?v=5.18.0"></script>
+	</body>
+</html>
