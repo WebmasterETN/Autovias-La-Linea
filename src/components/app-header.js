@@ -54,7 +54,7 @@ class AppHeader extends HTMLElement {
 		<button id="openDotersModal" class="btn btn-doters desktop-doters" aria-label="Iniciar sesión Doters">
 			<img src='../../src/assets/img/logos/doters.svg' alt="Doters" loading="lazy">
 		</button>
-		<a class="li__languaje desktop-languaje" href="../english/index.html" aria-label="Cambiar idioma">
+		<a class="li__languaje desktop-languaje" href="../../english/" aria-label="Cambiar idioma">
 			<img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
 		</a>
 
@@ -69,7 +69,7 @@ class AppHeader extends HTMLElement {
         <div id="dropdown-menu" class="show">
             <ul>
 				<li class="lili__languaje">
-					<a class="a__languaje" href="../../english/index.html" aria-label="Cambiar idioma">
+					<a class="a__languaje" href="../../english/" aria-label="Cambiar idioma">
 						<img src='../../src/assets/img/icons-img/USA_Flag.webp' alt="English" loading="lazy">
 					</a>
 				</li>
