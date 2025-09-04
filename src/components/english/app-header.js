@@ -351,7 +351,7 @@ class AppHeaderEnglish extends HTMLElement {
 
     // Asumimos que solo hay UNA instancia de app-modal-doters en la página.
     // Si tienes más, necesitarás una forma más específica de seleccionarlo (ej. por un ID único en el tag <app-modal-doters id="miModalUnico">).
-    const dotersModalElement = document.querySelector("app-modal-doters");
+    const dotersModalElement = document.querySelector("app-modal-doters-english");
 
     if (dotersModalElement) {
       const openAction = () => {
