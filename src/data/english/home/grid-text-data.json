@@ -3,25 +3,25 @@
     {
       "imageSrc": "../src/assets/img/english/home/other-destinations-grid/bg-atlacomulco-english.webp",
       "alt": "Atlacomulco",
-      "href": "https://www.etn.com.mx/destinos/atlacomulco",
+      "href": "./destinations/boletos-de-autobus-a-atlacomulco.html",
       "text": "Atlacomulco"
     },
     {
       "imageSrc": "../src/assets/img/english/home/other-destinations-grid/bg-edomex-english.webp",
       "alt": "Estado de México",
-      "href": "https://www.etn.com.mx/destinos/estado-de-mexico",
+      "href": "./destinations/boletos-de-autobus-a-estado-de-mexico.html",
       "text": "Estado de México"
     },
     {
       "imageSrc": "../src/assets/img/english/home/other-destinations-grid/bg-ixtapa-guerrero-english.webp",
       "alt": "Ixtapa, Guerrero",
-      "href": "https://www.etn.com.mx/destinos/ixtapa",
+      "href": "./destinations/boletos-de-autobus-a-ixtapa.html",
       "text": "Ixtapa, Guerrero"
     },
     {
       "imageSrc": "../src/assets/img/english/home/other-destinations-grid/bg-queretaro-english.webp",
       "alt": "Querétaro",
-      "href": "https://www.etn.com.mx/destinos/queretaro",
+      "href": "./destinations/boletos-de-autobus-a-queretaro.html",
       "text": "Querétaro"
     }
   ],

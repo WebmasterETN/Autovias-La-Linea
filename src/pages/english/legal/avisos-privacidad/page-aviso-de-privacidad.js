@@ -15,9 +15,9 @@ class PageAvisoDePrivacidadEnglish extends HTMLElement {
       <app-modal-doters-english></app-modal-doters-english>
       <app-banner-slider
         slides-data='[
-          {"id": "slide1", "title": "Banner 1", "image": "../src/assets/img/banner/metodos_pago_web.webp","mediumImage": "../src/assets/img/banner/tablet/metodos_pago_tablet.webp", "smallImage": "../src/assets/img/banner/mobile/metodos_pago_mobile.webp", "link": "#index.html/banner1"},
-          {"id": "slide2", "title": "Banner 2", "image": "../src/assets/img/banner/Doters_web.webp", "mediumImage": "../src/assets/img/banner/tablet/doters_tablet.webp","smallImage": "../src/assets/img/banner/mobile/Doters_mobile.webp", "link": "#index.html/banner2"},
-          {"id": "slide3", "title": "Banner 3", "image": "../src/assets/img/banner/verano_web.webp", "mediumImage": "../src/assets/img/banner/tablet/verano_tablet.webp","smallImage": "../src/assets/img/banner/mobile/Verano_mobile.webp", "link": "#index.html/banner3"}
+          {"id": "slide1", "title": "Banner 1", "image": "../../src/assets/img/banner/metodos_pago_web.webp","mediumImage": "../../src/assets/img/banner/tablet/metodos_pago_tablet.webp", "smallImage": "../../src/assets/img/banner/mobile/metodos_pago_mobile.webp", "link": "#index.html/banner1"},
+          {"id": "slide2", "title": "Banner 2", "image": "../../src/assets/img/banner/Doters_web.webp", "mediumImage": "../../src/assets/img/banner/tablet/doters_tablet.webp","smallImage": "../../src/assets/img/banner/mobile/Doters_mobile.webp", "link": "#index.html/banner2"},
+          {"id": "slide3", "title": "Banner 3", "image": "../../src/assets/img/banner/verano_web.webp", "mediumImage": "../../src/assets/img/banner/tablet/verano_tablet.webp","smallImage": "../../src/assets/img/banner/mobile/Verano_mobile.webp", "link": "#index.html/banner3"}
         ]'
       >
       </app-banner-slider>

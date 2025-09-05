@@ -76,6 +76,10 @@ import "./english/destinations/page-boletos-de-autobus-guadalajara.js?v=1.3.3";
 import "./english/destinations/page-boletos-de-autobus-cdmx.js?v=1.3.3";
 import "./english/destinations/page-boletos-de-autobus-uruapan.js?v=1.3.3";
 
+// WHO ARE WE
+
+import "./english/about/page-quienes-somos.js?v=1.0.0";
+
 // LEGAL
 
 // AVISOS

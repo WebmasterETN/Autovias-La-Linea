@@ -33,7 +33,7 @@ class AppFooterEnglish extends HTMLElement {
 			{
 				title: "About the Company",
 				links: [
-					{ text: "Who We Are", href: "../../english/quienes-somos.html" },
+					{ text: "Who We Are", href: "../../english/about/quienes-somos.html" },
 					{
 						text: "Job Opportunities",
 						href: "https://Autovías.com.mx/bolsa-de-trabajo/",
@@ -45,11 +45,11 @@ class AppFooterEnglish extends HTMLElement {
 				links: [
 					{
 						text: "Privacy Notices",
-						href: "../../english/aviso-de-privacidad.html",
+						href: "../../english/about/aviso-de-privacidad.html",
 					},
 					{
 						text: "Terms and Conditions",
-						href: "../../english/terminos-condiciones.html",
+						href: "../../english/about/terminos-condiciones.html",
 					},
 				],
 			},
