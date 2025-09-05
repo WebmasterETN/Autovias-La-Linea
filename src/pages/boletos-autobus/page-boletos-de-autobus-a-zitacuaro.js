@@ -208,15 +208,46 @@ class AppBoletosAutobusZitacuaro extends HTMLElement {
 		}
 		container.innerHTML = "";
 
+		const faqQuestions = [];
+
 		dropdownsData.forEach((data) => {
 			const dropdownElement = document.createElement("app-dropdown");
 			dropdownElement.setAttribute("title-dropdown", data["title-dropdown"]);
+			const questionText = data["title-dropdown"];
+			const answerText = data["content-dropdown"];
+
+			dropdownElement.setAttribute("title-dropdown", questionText);
 			dropdownElement.setAttribute(
 				"content-dropdown",
 				data["content-dropdown"]
+				answerText
 			);
 			container.appendChild(dropdownElement);
+
+			// Add to our schema object
+			faqQuestions.push({
+				"@type": "Question",
+				name: questionText,
+				acceptedAnswer: {
+					"@type": "Answer",
+					text: answerText,
+				},
+			});
 		});
+
+		// Create and inject the FAQPage schema
+		if (faqQuestions.length > 0) {
+			const faqSchema = {
+				"@context": "https://schema.org",
+				"@type": "FAQPage",
+				mainEntity: faqQuestions,
+			};
+
+			const script = document.createElement("script");
+			script.type = "application/ld+json";
+			script.textContent = JSON.stringify(faqSchema, null, 2);
+			document.head.appendChild(script);
+		}
 	}
 
 	async _configureDestinationSlider() {

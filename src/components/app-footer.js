@@ -33,7 +33,10 @@ class AppFooter extends HTMLElement {
 			{
 				title: "Sobre la empresa",
 				links: [
-					{ text: "¿Quiénes somos?", href: "../../nosotros/quienes-somos.html" },
+					{
+						text: "¿Quiénes somos?",
+						href: "../../nosotros/quienes-somos.html",
+					},
 					{
 						text: "Bolsa de trabajo",
 						href: "https://Autovías.com.mx/bolsa-de-trabajo/",
@@ -43,7 +46,10 @@ class AppFooter extends HTMLElement {
 			{
 				title: "Legales",
 				links: [
-					{ text: "Avisos de privacidad", href: "../../nosotros/aviso-de-privacidad.html" },
+					{
+						text: "Avisos de privacidad",
+						href: "../../nosotros/aviso-de-privacidad.html",
+					},
 					{
 						text: "Términos y condiciones",
 						href: "../../nosotros/terminos-condiciones.html",
@@ -55,7 +61,10 @@ class AppFooter extends HTMLElement {
 					{
 						title: "Servicio al cliente",
 						links: [
-							{ text: "Viajero protegido", href: "../../servicios/viajero-protegido.html" },
+							{
+								text: "Viajero protegido",
+								href: "../../servicios/viajero-protegido.html",
+							},
 							{
 								text: "Agencias",
 								href: "https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES",
@@ -78,9 +87,12 @@ class AppFooter extends HTMLElement {
 						href: "../../nosotros/preguntas-frecuentes.html",
 					},
 					{ text: "Tipos de boletos", href: "../../boletos-autobus/" },
-					{ text: "Dónde comprar", href: "../../boletos-autobus/donde-comprar.html" },
+					{
+						text: "Dónde comprar",
+						href: "../../boletos-autobus/donde-comprar.html",
+					},
 					{ text: "Formas de pago", href: "#payment-methods" },
-          { text: "Mapa del sitio", href: "../../sitemap.html" },
+					{ text: "Mapa del sitio", href: "../../sitemap.html" },
 				],
 			},
 			{
@@ -113,6 +125,11 @@ class AppFooter extends HTMLElement {
 								text: "YouTube",
 								href: "https://www.youtube.com/channel/UCOMVpctqR_Q2x__5b3iHDDQ",
 								type: "icon-yt",
+							},
+							{
+								text: "TikTok",
+								href: "https://www.tiktok.com/@autovias",
+								type: "icon-tk",
 							},
 						],
 					},

@@ -43,7 +43,10 @@ class AppFooterEnglish extends HTMLElement {
 			{
 				title: "Legal",
 				links: [
-					{ text: "Privacy Notices", href: "../../english/aviso-de-privacidad.html" },
+					{
+						text: "Privacy Notices",
+						href: "../../english/aviso-de-privacidad.html",
+					},
 					{
 						text: "Terms and Conditions",
 						href: "../../english/terminos-condiciones.html",
@@ -55,7 +58,10 @@ class AppFooterEnglish extends HTMLElement {
 					{
 						title: "Customer Service",
 						links: [
-							{ text: "Protected Traveler", href: "../../english/viajero-protegido.html" },
+							{
+								text: "Protected Traveler",
+								href: "../../english/viajero-protegido.html",
+							},
 							{
 								text: "Agencies",
 								href: "https://venta.autovias.com.mx/request.aspx?PRGNAME=AccesoEx&ARGUMENTS=-AAG,-AH,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-A,-AES",
@@ -65,7 +71,10 @@ class AppFooterEnglish extends HTMLElement {
 					{
 						title: "Locations",
 						links: [
-							{ text: "Destination Terminals", href: "../../english/destinos.html" },
+							{
+								text: "Destination Terminals",
+								href: "../../english/destinos.html",
+							},
 						],
 					},
 				],
@@ -77,7 +86,10 @@ class AppFooterEnglish extends HTMLElement {
 						text: "Frequently Asked Questions",
 						href: "../../english/preguntas-frecuentes.html",
 					},
-					{ text: "Ticket Types", href: "../../english/boletos-de-autobus.html" },
+					{
+						text: "Ticket Types",
+						href: "../../english/boletos-de-autobus.html",
+					},
 					{ text: "Where to Buy", href: "../../english/donde-comprar.html" },
 					{ text: "Payment Methods", href: "#payment-methods" },
 					{ text: "Site Map", href: "../../english/sitemap.html" },
@@ -113,6 +125,11 @@ class AppFooterEnglish extends HTMLElement {
 								text: "YouTube",
 								href: "https://www.youtube.com/channel/UCOMVpctqR_Q2x__5b3iHDDQ",
 								type: "icon-yt",
+							},
+							{
+								text: "TikTok",
+								href: "https://www.tiktok.com/@autovias",
+								type: "icon-tiktok",
 							},
 						],
 					},
